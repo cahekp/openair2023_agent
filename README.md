@@ -2,9 +2,8 @@
 # Приложение к докладу на [Unigine OpenAir 2023](https://openair-2023.unigine.com/)
 
 ![](data/images/logo.jpg)<br>
-<br><br><br>
-
-Видео тизер: https://youtu.be/WFsqbSRuhwI
+<br>
+Видео тизер: https://youtu.be/WFsqbSRuhwI<br>
 Видео геймплея: https://youtu.be/_Itraj5hwNg
 
 # Инструкция по запуску
