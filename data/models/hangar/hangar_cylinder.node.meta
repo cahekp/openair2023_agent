@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>928d7710ab9e5f2f58fd82c28859e3392a193344</guid>
+	<type>node</type>
+	<hash>e582263c</hash>
+	<runtimes>
+		<runtime id="928d7710ab9e5f2f58fd82c28859e3392a193344" name="hangar_cylinder.node" link="0" type="3"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>a38daf5c1e7b830bcafdfcee71599f7545f1aa50</guid>
+	<type>texture</type>
+	<hash>d5874f6d</hash>
+	<runtimes>
+		<runtime id="a38daf5c1e7b830bcafdfcee71599f7545f1aa50" name="avatar_agent_x.jpg" link="0" type="6"/>
+		<runtime id="b560796fbe8e580238ec3779a958fa84c0a84413" name="avatar_agent_x.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

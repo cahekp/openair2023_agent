@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="1791490613" name="walkietalkie">
+		<mesh_name>guid://773e98b324ef0676faab4b5d933dd51828d25597</mesh_name>
+		<surface name="survivalpropsMAT" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+		<transform>0.99999988 8.7422798e-08 -8.7422769e-08 0.0 8.7422791e-08 -2.5034117e-07 0.99999994 0.0 8.7422769e-08 -0.99999988 -2.5034117e-07 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

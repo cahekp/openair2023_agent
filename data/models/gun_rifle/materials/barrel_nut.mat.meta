@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>396e9fd8d6d5215752094ecace066fa129f5c48c</guid>
+	<type>material</type>
+	<hash>e53a0aeb</hash>
+	<runtimes>
+		<runtime id="396e9fd8d6d5215752094ecace066fa129f5c48c" name="barrel_nut" link="0" type="5"/>
+	</runtimes>
+</asset>

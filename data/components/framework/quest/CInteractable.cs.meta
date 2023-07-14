@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>e979bd100f81ed2ff41fb8c2509aa139af16d944</guid>
+	<type>component</type>
+	<hash>42bf73b6</hash>
+	<runtimes>
+		<runtime id="e979bd100f81ed2ff41fb8c2509aa139af16d944" name="CInteractable.cs" link="0"/>
+		<runtime id="2e87e946881dafed282e506894fa78a761889dda" name="CInteractable.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

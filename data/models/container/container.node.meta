@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>58886b5f926b4132c5bd2ee93c7c2b340007dd03</guid>
+	<type>node</type>
+	<hash>4f87ba42</hash>
+	<runtimes>
+		<runtime id="58886b5f926b4132c5bd2ee93c7c2b340007dd03" name="container.node" link="0" type="3"/>
+	</runtimes>
+</asset>

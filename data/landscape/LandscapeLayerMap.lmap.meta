@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>b1b6945a7e9a57f1bfd8709c3686d34b5bca902e</guid>
+	<type>lmap</type>
+	<hash>8ae40bda</hash>
+	<runtimes>
+		<runtime id="b1b6945a7e9a57f1bfd8709c3686d34b5bca902e" name="LandscapeLayerMap.lmap" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="float" name="albedo_attenuation_distance_x">0</parameter>
+		<parameter type="float" name="albedo_attenuation_distance_y">0</parameter>
+		<parameter type="int" name="albedo_blending">0</parameter>
+		<parameter type="int" name="albedo_data">2</parameter>
+		<parameter type="bool" name="albedo_lossy_compression">0</parameter>
+		<parameter type="int" name="albedo_opacity_channel">0</parameter>
+		<parameter type="string" name="albedo_opacity_path"/>
+		<parameter type="string" name="albedo_path"/>
+		<parameter type="int" name="column_order">0</parameter>
+		<parameter type="int" name="compression_method">1</parameter>
+		<parameter type="int" name="compression_type">1</parameter>
+		<parameter type="int" name="data_filling_type">1</parameter>
+		<parameter type="int" name="data_sources_type">0</parameter>
+		<parameter type="float" name="height_max">100</parameter>
+		<parameter type="float" name="height_min">0</parameter>
+		<parameter type="float" name="heightmap_attenuation_distance_x">0</parameter>
+		<parameter type="float" name="heightmap_attenuation_distance_y">0</parameter>
+		<parameter type="int" name="heightmap_blending">0</parameter>
+		<parameter type="int" name="heightmap_data">1</parameter>
+		<parameter type="int" name="heightmap_opacity_channel">0</parameter>
+		<parameter type="bool" name="heightmap_opacity_lossy_compression">0</parameter>
+		<parameter type="string" name="heightmap_opacity_path"/>
+		<parameter type="string" name="heightmap_path">guid://36e376a83daae9e74eddde1a54bb96b1ff49205c</parameter>
+		<parameter type="int" name="heightmap_type">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_0">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_1">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_10">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_11">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_12">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_13">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_14">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_15">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_16">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_17">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_18">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_19">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_2">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_3">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_4">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_5">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_6">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_7">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_8">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_x_9">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_0">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_1">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_10">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_11">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_12">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_13">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_14">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_15">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_16">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_17">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_18">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_19">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_2">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_3">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_4">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_5">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_6">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_7">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_8">0</parameter>
+		<parameter type="float" name="mask_attenuation_distance_y_9">0</parameter>
+		<parameter type="int" name="mask_blending_0">0</parameter>
+		<parameter type="int" name="mask_blending_1">0</parameter>
+		<parameter type="int" name="mask_blending_10">0</parameter>
+		<parameter type="int" name="mask_blending_11">0</parameter>
+		<parameter type="int" name="mask_blending_12">0</parameter>
+		<parameter type="int" name="mask_blending_13">0</parameter>
+		<parameter type="int" name="mask_blending_14">0</parameter>
+		<parameter type="int" name="mask_blending_15">0</parameter>
+		<parameter type="int" name="mask_blending_16">0</parameter>
+		<parameter type="int" name="mask_blending_17">0</parameter>
+		<parameter type="int" name="mask_blending_18">0</parameter>
+		<parameter type="int" name="mask_blending_19">0</parameter>
+		<parameter type="int" name="mask_blending_2">0</parameter>
+		<parameter type="int" name="mask_blending_3">0</parameter>
+		<parameter type="int" name="mask_blending_4">0</parameter>
+		<parameter type="int" name="mask_blending_5">0</parameter>
+		<parameter type="int" name="mask_blending_6">0</parameter>
+		<parameter type="int" name="mask_blending_7">0</parameter>
+		<parameter type="int" name="mask_blending_8">0</parameter>
+		<parameter type="int" name="mask_blending_9">0</parameter>
+		<parameter type="int" name="mask_channel_0">0</parameter>
+		<parameter type="int" name="mask_channel_1">0</parameter>
+		<parameter type="int" name="mask_channel_10">0</parameter>
+		<parameter type="int" name="mask_channel_11">0</parameter>
+		<parameter type="int" name="mask_channel_12">0</parameter>
+		<parameter type="int" name="mask_channel_13">0</parameter>
+		<parameter type="int" name="mask_channel_14">0</parameter>
+		<parameter type="int" name="mask_channel_15">0</parameter>
+		<parameter type="int" name="mask_channel_16">0</parameter>
+		<parameter type="int" name="mask_channel_17">0</parameter>
+		<parameter type="int" name="mask_channel_18">0</parameter>
+		<parameter type="int" name="mask_channel_19">0</parameter>
+		<parameter type="int" name="mask_channel_2">0</parameter>
+		<parameter type="int" name="mask_channel_3">0</parameter>
+		<parameter type="int" name="mask_channel_4">0</parameter>
+		<parameter type="int" name="mask_channel_5">0</parameter>
+		<parameter type="int" name="mask_channel_6">0</parameter>
+		<parameter type="int" name="mask_channel_7">0</parameter>
+		<parameter type="int" name="mask_channel_8">0</parameter>
+		<parameter type="int" name="mask_channel_9">0</parameter>
+		<parameter type="int" name="mask_data_0">2</parameter>
+		<parameter type="int" name="mask_data_1">2</parameter>
+		<parameter type="int" name="mask_data_10">2</parameter>
+		<parameter type="int" name="mask_data_11">2</parameter>
+		<parameter type="int" name="mask_data_12">2</parameter>
+		<parameter type="int" name="mask_data_13">2</parameter>
+		<parameter type="int" name="mask_data_14">2</parameter>
+		<parameter type="int" name="mask_data_15">2</parameter>
+		<parameter type="int" name="mask_data_16">2</parameter>
+		<parameter type="int" name="mask_data_17">2</parameter>
+		<parameter type="int" name="mask_data_18">2</parameter>
+		<parameter type="int" name="mask_data_19">2</parameter>
+		<parameter type="int" name="mask_data_2">2</parameter>
+		<parameter type="int" name="mask_data_3">2</parameter>
+		<parameter type="int" name="mask_data_4">2</parameter>
+		<parameter type="int" name="mask_data_5">2</parameter>
+		<parameter type="int" name="mask_data_6">2</parameter>
+		<parameter type="int" name="mask_data_7">2</parameter>
+		<parameter type="int" name="mask_data_8">2</parameter>
+		<parameter type="int" name="mask_data_9">2</parameter>
+		<parameter type="string" name="mask_name_0">Mask 0</parameter>
+		<parameter type="string" name="mask_name_1">Mask 1</parameter>
+		<parameter type="string" name="mask_name_10">Mask 10</parameter>
+		<parameter type="string" name="mask_name_11">Mask 11</parameter>
+		<parameter type="string" name="mask_name_12">Mask 12</parameter>
+		<parameter type="string" name="mask_name_13">Mask 13</parameter>
+		<parameter type="string" name="mask_name_14">Mask 14</parameter>
+		<parameter type="string" name="mask_name_15">Mask 15</parameter>
+		<parameter type="string" name="mask_name_16">Mask 16</parameter>
+		<parameter type="string" name="mask_name_17">Mask 17</parameter>
+		<parameter type="string" name="mask_name_18">Mask 18</parameter>
+		<parameter type="string" name="mask_name_19">Mask 19</parameter>
+		<parameter type="string" name="mask_name_2">Mask 2</parameter>
+		<parameter type="string" name="mask_name_3">Mask 3</parameter>
+		<parameter type="string" name="mask_name_4">Mask 4</parameter>
+		<parameter type="string" name="mask_name_5">Mask 5</parameter>
+		<parameter type="string" name="mask_name_6">Mask 6</parameter>
+		<parameter type="string" name="mask_name_7">Mask 7</parameter>
+		<parameter type="string" name="mask_name_8">Mask 8</parameter>
+		<parameter type="string" name="mask_name_9">Mask 9</parameter>
+		<parameter type="int" name="mask_opacity_channel_0">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_1">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_10">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_11">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_12">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_13">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_14">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_15">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_16">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_17">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_18">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_19">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_2">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_3">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_4">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_5">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_6">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_7">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_8">0</parameter>
+		<parameter type="int" name="mask_opacity_channel_9">0</parameter>
+		<parameter type="string" name="mask_opacity_path_0"/>
+		<parameter type="string" name="mask_opacity_path_1"/>
+		<parameter type="string" name="mask_opacity_path_10"/>
+		<parameter type="string" name="mask_opacity_path_11"/>
+		<parameter type="string" name="mask_opacity_path_12"/>
+		<parameter type="string" name="mask_opacity_path_13"/>
+		<parameter type="string" name="mask_opacity_path_14"/>
+		<parameter type="string" name="mask_opacity_path_15"/>
+		<parameter type="string" name="mask_opacity_path_16"/>
+		<parameter type="string" name="mask_opacity_path_17"/>
+		<parameter type="string" name="mask_opacity_path_18"/>
+		<parameter type="string" name="mask_opacity_path_19"/>
+		<parameter type="string" name="mask_opacity_path_2"/>
+		<parameter type="string" name="mask_opacity_path_3"/>
+		<parameter type="string" name="mask_opacity_path_4"/>
+		<parameter type="string" name="mask_opacity_path_5"/>
+		<parameter type="string" name="mask_opacity_path_6"/>
+		<parameter type="string" name="mask_opacity_path_7"/>
+		<parameter type="string" name="mask_opacity_path_8"/>
+		<parameter type="string" name="mask_opacity_path_9"/>
+		<parameter type="string" name="mask_path_0">core/textures/common/white.texture</parameter>
+		<parameter type="string" name="mask_path_1"/>
+		<parameter type="string" name="mask_path_10"/>
+		<parameter type="string" name="mask_path_11"/>
+		<parameter type="string" name="mask_path_12"/>
+		<parameter type="string" name="mask_path_13"/>
+		<parameter type="string" name="mask_path_14"/>
+		<parameter type="string" name="mask_path_15"/>
+		<parameter type="string" name="mask_path_16"/>
+		<parameter type="string" name="mask_path_17"/>
+		<parameter type="string" name="mask_path_18"/>
+		<parameter type="string" name="mask_path_19"/>
+		<parameter type="string" name="mask_path_2"/>
+		<parameter type="string" name="mask_path_3"/>
+		<parameter type="string" name="mask_path_4"/>
+		<parameter type="string" name="mask_path_5"/>
+		<parameter type="string" name="mask_path_6"/>
+		<parameter type="string" name="mask_path_7"/>
+		<parameter type="string" name="mask_path_8"/>
+		<parameter type="string" name="mask_path_9"/>
+		<parameter type="bool" name="masks_lossy_compression">0</parameter>
+		<parameter type="int" name="naming_type">0</parameter>
+		<parameter type="bool" name="need_flip_y">1</parameter>
+		<parameter type="int" name="number_of_columns">1</parameter>
+		<parameter type="string" name="pattern">_%X_%Y</parameter>
+		<parameter type="int" name="pattern_type">0</parameter>
+		<parameter type="int" name="resolution_type">0</parameter>
+		<parameter type="int" name="resolution_x">2048</parameter>
+		<parameter type="int" name="resolution_y">2048</parameter>
+		<parameter type="int" name="row_column_order">0</parameter>
+		<parameter type="int" name="row_order">0</parameter>
+	</parameters>
+</asset>

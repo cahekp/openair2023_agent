@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>e3b7f74b3fa1642e8e095db554ebd3902bc411af</guid>
+	<type>component</type>
+	<hash>ea359bbd</hash>
+	<runtimes>
+		<runtime id="e3b7f74b3fa1642e8e095db554ebd3902bc411af" name="CBullet.cs" link="0"/>
+		<runtime id="8f3797296b7cf6748d4daf437ac08bc6d63cf06d" name="CBullet.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

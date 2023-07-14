@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>bcbccd5d19ed6f18011927972e3b200a452d8fe1</guid>
+	<type>component</type>
+	<hash>f7d04d27</hash>
+	<runtimes>
+		<runtime id="bcbccd5d19ed6f18011927972e3b200a452d8fe1" name="CEnemy.cs" link="0"/>
+		<runtime id="57e035ab45e6cf0ef8050b15ec27e1702238060f" name="CEnemy.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

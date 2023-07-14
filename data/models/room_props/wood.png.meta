@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>b9eec3ddf02df39887aae2174a70988ac667ae61</guid>
+	<type>texture</type>
+	<hash>5f1e4b58</hash>
+	<runtimes>
+		<runtime id="b9eec3ddf02df39887aae2174a70988ac667ae61" name="wood.png" link="0" type="6"/>
+		<runtime id="a6a6744c60a5233b619e3f5e6ee59f25e61dc640" name="wood.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">RGBA16</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

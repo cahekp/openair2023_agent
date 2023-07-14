@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="NodeDummy" id="1342910768" name="bullet">
+		<properties>
+			<property parent="8f3797296b7cf6748d4daf437ac08bc6d63cf06d" guid="ca8482690d6068b48d9ffc83d4f5f8064654efad">
+				<parameter name="damage">5</parameter>
+				<parameter name="bullet_hole_file">guid://89f958843c410a13319b08565706a3bd4a7791f8</parameter>
+				<parameter name="mode">1</parameter>
+				<parameter name="speed">300</parameter>
+			</property>
+		</properties>
+		<transform>0.99999988 5.6843419e-14 1.1641532e-10 0.0 -5.6843419e-14 1 -4.3655746e-11 0.0 -2.3283064e-10 4.3655746e-11 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="269725248" name="mesh">
+			<mesh_name>guid://ac38bf033eb6d8866b13562dcb2541a8cee438e7</mesh_name>
+			<surface name="capsule" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="6499f0be30b9e105bf045ea0eafb817f063420d2"/>
+			<transform>0.30000007 8.5528015e-11 -5.8207647e-11 0.0 -5.8207637e-11 1.7881394e-08 -0.29999998 0.0 -2.8509331e-10 0.99999994 5.9604645e-08 0.0 0 0 -1.5050173e-06 1.0</transform>
+		</node>
+	</node>
+</nodes>

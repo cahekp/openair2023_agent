@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>8b80b8b0a4be744fd8295562051f555950b8bee4</guid>
+	<type>material</type>
+	<hash>73ddbc9a</hash>
+	<runtimes>
+		<runtime id="8b80b8b0a4be744fd8295562051f555950b8bee4" name="light_blue" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

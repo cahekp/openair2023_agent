@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>3c4d5739a1ae1744152f39d3c679f516d76d297d</guid>
+	<type>node</type>
+	<hash>0608f3c3</hash>
+	<runtimes>
+		<runtime id="3c4d5739a1ae1744152f39d3c679f516d76d297d" name="dead_enemy.node" link="0" type="3"/>
+	</runtimes>
+</asset>

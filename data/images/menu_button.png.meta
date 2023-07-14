@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>42649168e0a1c5a766b586daf2aba871674c871c</guid>
+	<type>texture</type>
+	<hash>820e9f38</hash>
+	<runtimes>
+		<runtime id="42649168e0a1c5a766b586daf2aba871674c871c" name="menu_button.png" link="0" type="6"/>
+		<runtime id="2ae2f7cb0b836aae999ab23513781e100512da2f" name="menu_button.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

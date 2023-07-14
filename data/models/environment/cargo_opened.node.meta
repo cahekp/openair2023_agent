@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>dd96f63caf115c6b119646ceeb649fd5e406ef30</guid>
+	<type>node</type>
+	<hash>82325b98</hash>
+	<runtimes>
+		<runtime id="dd96f63caf115c6b119646ceeb649fd5e406ef30" name="cargo_opened.node" link="0" type="3"/>
+	</runtimes>
+</asset>

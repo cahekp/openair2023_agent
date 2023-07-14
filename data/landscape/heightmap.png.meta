@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>9af1f9e9ec0c7a3420d5e003fed7858616aa1f2d</guid>
+	<type>texture</type>
+	<hash>bfe6d6e8</hash>
+	<runtimes>
+		<runtime id="9af1f9e9ec0c7a3420d5e003fed7858616aa1f2d" name="heightmap.png" link="0" type="6"/>
+		<runtime id="36e376a83daae9e74eddde1a54bb96b1ff49205c" name="heightmap.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>2ef87da0e5bb147f718097d20ff655097fb3dad4</guid>
+	<type>texture</type>
+	<hash>663cf192</hash>
+	<runtimes>
+		<runtime id="2ef87da0e5bb147f718097d20ff655097fb3dad4" name="soldier_skin.png" link="0" type="6"/>
+		<runtime id="c0758823220fcf267e7b9c4d2c8191484eee0407" name="soldier_skin.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

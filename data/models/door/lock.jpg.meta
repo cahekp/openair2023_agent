@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>baffc3e1c4708bccb4c554bb5079c2deddf04ca5</guid>
+	<type>texture</type>
+	<hash>d7f3e05b</hash>
+	<runtimes>
+		<runtime id="baffc3e1c4708bccb4c554bb5079c2deddf04ca5" name="lock.jpg" link="0" type="6"/>
+		<runtime id="bc4995c0bd960e1f07b504f23c3a9fa93e8764f4" name="lock.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

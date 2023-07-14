@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202</guid>
+	<type>texture</type>
+	<hash>0fc3adb1</hash>
+	<runtimes>
+		<runtime id="efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202" name="wall_rusty.png" link="0" type="6"/>
+		<runtime id="a22ccdf86ffe38f7c72941ea39a48841066cc4ac" name="wall_rusty.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

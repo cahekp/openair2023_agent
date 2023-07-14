@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>7f2affcecea804d525b11030478fe5cfa58518e2</guid>
+	<type>component</type>
+	<hash>3058187f</hash>
+	<runtimes>
+		<runtime id="7f2affcecea804d525b11030478fe5cfa58518e2" name="CWeaponRanged.cs" link="0"/>
+		<runtime id="1baa85149411ad63bb15336633f3338dcf17bf88" name="CWeaponRanged.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

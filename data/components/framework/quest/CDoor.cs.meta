@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>acb32d2fcf1ff8c2c91de139594119442c7253d3</guid>
+	<type>component</type>
+	<hash>fc775fb6</hash>
+	<runtimes>
+		<runtime id="acb32d2fcf1ff8c2c91de139594119442c7253d3" name="CDoor.cs" link="0"/>
+		<runtime id="4a64efeda94c90687103b8a77d80ddda9ea91371" name="CDoor.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

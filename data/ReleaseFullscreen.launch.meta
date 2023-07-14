@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>d51544c63f40556d6c61b7e8a253ba2704a9f15a</guid>
+	<type>launch_settings</type>
+	<hash>a5dc7a4</hash>
+	<runtimes>
+		<runtime id="d51544c63f40556d6c61b7e8a253ba2704a9f15a" name="ReleaseFullscreen.launch" link="0"/>
+	</runtimes>
+</asset>

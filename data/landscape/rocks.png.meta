@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>ae52e36c52cd87db99631b7e32b98cc57d2e9760</guid>
+	<type>texture</type>
+	<hash>687aba12</hash>
+	<runtimes>
+		<runtime id="ae52e36c52cd87db99631b7e32b98cc57d2e9760" name="rocks.png" link="0" type="6"/>
+		<runtime id="f07ce33f667897924a34d1c98954b094328ae2e3" name="rocks.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

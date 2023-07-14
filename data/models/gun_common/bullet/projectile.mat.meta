@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>6499f0be30b9e105bf045ea0eafb817f063420d2</guid>
+	<type>material</type>
+	<hash>4da86e4d</hash>
+	<runtimes>
+		<runtime id="6499f0be30b9e105bf045ea0eafb817f063420d2" name="projectile" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

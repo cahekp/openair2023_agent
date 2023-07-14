@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="NodeDummy" id="837874179" name="airplane">
+		<transform>1.7881389e-07 0.9999997 8.7422755e-08 0.0 -0.9999997 1.7881389e-07 1.0658138e-14 0.0 -3.552713e-15 -8.7422762e-08 0.99999982 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1376024297" name="body">
+			<mesh_name>guid://b2e8373d3d310f7866ce8c7778827f6acb2da7c1</mesh_name>
+			<surface name="Material_010" material="8b80b8b0a4be744fd8295562051f555950b8bee4"/>
+			<transform>0.6876815 1.7556111e-22 -4.5388608e-15 0.0 1.7464174e-22 0.6876815 5.1918512e-08 0.0 4.5388608e-15 -5.1918512e-08 0.6876815 0.0 -0.017928151 -0.00047279135 -0.0082758972 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1748747430" name="window">
+			<mesh_name>guid://5e7971287897a267a2e63c9a294f6331a6c582dc</mesh_name>
+			<surface name="Material_010" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+			<transform>0.6876815 1.7556111e-22 -4.5388608e-15 0.0 1.7464174e-22 0.6876815 5.1918512e-08 0.0 4.5388608e-15 -5.1918512e-08 0.6876815 0.0 -0.017928151 -0.00047279135 -0.0082758972 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="199325216" name="wheels">
+			<mesh_name>guid://2e16408bbeda9c6e4e9ab8f5efe8f5d03e844eef</mesh_name>
+			<surface name="Material_010" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+			<transform>0.6876815 1.7556111e-22 -4.5388608e-15 0.0 1.7464174e-22 0.6876815 5.1918512e-08 0.0 4.5388608e-15 -5.1918512e-08 0.6876815 0.0 -0.017928151 -0.00047279135 -0.0082758972 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="884067705" name="screw">
+			<mesh_name>guid://d5f12f82d64e28f9430b3e042d1ab19380e589d6</mesh_name>
+			<surface name="Material_008" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+			<transform>0.20962694 0.0058295336 0.0098514883 0.0 0.0096299043 0.0078724949 -0.20957036 0.0 -0.0061887107 0.20971057 0.007593378 0.0 5.3187599 0.05748789 0.23741247 1.0</transform>
+		</node>
+	</node>
+</nodes>

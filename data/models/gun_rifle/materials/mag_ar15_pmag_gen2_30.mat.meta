@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>942645a4cf23d4b3cd7b1276828fe75dcc01c118</guid>
+	<type>material</type>
+	<hash>ea7be3ce</hash>
+	<runtimes>
+		<runtime id="942645a4cf23d4b3cd7b1276828fe75dcc01c118" name="mag_ar15_pmag_gen2_30" link="0" type="5"/>
+	</runtimes>
+</asset>

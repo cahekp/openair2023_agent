@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="556751767" name="hangar_cylinder">
+		<mesh_name>guid://b78229e582195200f0641d5f337f4b32e9bdb0e9</mesh_name>
+		<surface name="unnamed" material="7788cc3ec1d00685999546205c1442ff870ef452"/>
+		<transform>1 8.7422798e-08 -8.7422784e-08 0.0 8.7422791e-08 -1.6291843e-07 1 0.0 8.7422777e-08 -1 -1.6291843e-07 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

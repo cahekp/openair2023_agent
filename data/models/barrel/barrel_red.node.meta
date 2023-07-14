@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>4b08341666c05c7d214273b8b3e223b7f604adaa</guid>
+	<type>node</type>
+	<hash>8fc120e4</hash>
+	<runtimes>
+		<runtime id="4b08341666c05c7d214273b8b3e223b7f604adaa" name="barrel_red.node" link="0" type="3"/>
+	</runtimes>
+</asset>

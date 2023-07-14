@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>99cbbaec794d795b1d9b5efeebf9fa45429526e0</guid>
+	<type>component</type>
+	<hash>7adde8d</hash>
+	<runtimes>
+		<runtime id="99cbbaec794d795b1d9b5efeebf9fa45429526e0" name="CSwitchPlayer.cs" link="0"/>
+		<runtime id="0d3a0642a35190b9294e02c4afa32f53cbae6c96" name="CSwitchPlayer.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

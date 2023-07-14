@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>5b6513df1742cfb251f66b6911ff3db4df8ecd83</guid>
+	<type>texture</type>
+	<hash>f90959fc</hash>
+	<runtimes>
+		<runtime id="5b6513df1742cfb251f66b6911ff3db4df8ecd83" name="wall_concrete2.jpg" link="0" type="6"/>
+		<runtime id="8e5c9506e818e8adab4cb228e437ef677db8259a" name="wall_concrete2.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

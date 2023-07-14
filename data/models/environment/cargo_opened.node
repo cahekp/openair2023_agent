@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="1972526827" name="cargo_opened">
+		<mesh_name>guid://7cf25ca8321097e7395bb41a466374b1d543665c</mesh_name>
+		<surface name="None__cargo_wood_jpg" material="b2534a7ac04057912fc02bbc7ffa13eb5204984e"/>
+		<body type="BodyDummy" id="153512589" frozen="0">
+			<shape type="ShapeBox" id="640062469" transform="1 5.68434189e-13 -2.28027298e-12 0 -5.68434189e-13 1 0 0 2.26720053e-12 0 1 0 0.0819015503 0.50000006 0.192565918 1">
+				<size>1.16383338 1.00000024 1.38513088</size>
+			</shape>
+		</body>
+		<transform>1 8.7422798e-08 -8.7422784e-08 0.0 8.7422791e-08 -1.6291843e-07 1 0.0 8.7422777e-08 -1 -1.6291843e-07 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

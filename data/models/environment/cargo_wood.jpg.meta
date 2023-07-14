@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>56c5791d268ca7d8a08b895765bc96ca44d117a1</guid>
+	<type>texture</type>
+	<hash>4fec5758</hash>
+	<runtimes>
+		<runtime id="56c5791d268ca7d8a08b895765bc96ca44d117a1" name="cargo_wood.jpg" link="0" type="6"/>
+		<runtime id="a9ce3831831453dc2e5cdd8b39fe956e35a45df5" name="cargo_wood.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

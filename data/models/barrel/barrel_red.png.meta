@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>951599b56c72df905867adaffefd7f429d74b5b9</guid>
+	<type>texture</type>
+	<hash>414857ae</hash>
+	<runtimes>
+		<runtime id="951599b56c72df905867adaffefd7f429d74b5b9" name="barrel_red.png" link="0" type="6"/>
+		<runtime id="7ad4e3c48a229c534e94f5968f7f2ffde2b83138" name="barrel_red.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">128</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">128</parameter>
+	</parameters>
+</asset>

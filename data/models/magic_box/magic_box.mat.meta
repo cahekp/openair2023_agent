@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>6848db22f5c3a0194b990aa41775d5b33f0b1f76</guid>
+	<type>material</type>
+	<hash>56445a12</hash>
+	<runtimes>
+		<runtime id="6848db22f5c3a0194b990aa41775d5b33f0b1f76" name="magic_box" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

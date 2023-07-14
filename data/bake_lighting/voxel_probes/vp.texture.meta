@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>ef22c5ac89c1851b55ee77be4ecebc05f8557da0</guid>
+	<type>texture</type>
+	<hash>fa114997</hash>
+	<runtimes>
+		<runtime id="ef22c5ac89c1851b55ee77be4ecebc05f8557da0" name="vp.texture" link="0" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">RGBA16F</parameter>
+		<parameter type="string" name="image_type">3d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

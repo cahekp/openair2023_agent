@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>5bca75fe1688254543ef55e06ead8fbf0c2c5a12</guid>
+	<type>texture</type>
+	<hash>13164543</hash>
+	<runtimes>
+		<runtime id="5bca75fe1688254543ef55e06ead8fbf0c2c5a12" name="asphalt_damaged.jpg" link="0" type="6"/>
+		<runtime id="5254b24992e61714a0441763c9e095668f532d8d" name="asphalt_damaged.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

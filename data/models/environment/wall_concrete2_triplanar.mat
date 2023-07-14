@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="978993371f72572ae7121c81f84ecbec27bb565b" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<state name="base_mapping">3</state>
+	<texture name="albedo">guid://8e5c9506e818e8adab4cb228e437ef677db8259a</texture>
+</material>

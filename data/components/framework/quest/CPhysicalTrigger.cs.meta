@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>63ca1bbe8a4e1005ed44c1a096b2887f5a497bd2</guid>
+	<type>component</type>
+	<hash>3eb09b49</hash>
+	<runtimes>
+		<runtime id="63ca1bbe8a4e1005ed44c1a096b2887f5a497bd2" name="CPhysicalTrigger.cs" link="0"/>
+		<runtime id="957f398422b3771321d891566fbc98bdf85302f8" name="CPhysicalTrigger.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

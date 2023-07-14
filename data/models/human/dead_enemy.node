@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="NodeDummy" id="914176819" name="dead_enemy">
+		<transform>1.0000002 0 0 0.0 0 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshSkinned" id="1693452151" name="model_physics">
+			<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+			<fps_visible_camera>-1</fps_visible_camera>
+			<fps_visible_shadow>30</fps_visible_shadow>
+			<fps_invisible>0</fps_invisible>
+			<speed>30</speed>
+			<surface name="Char" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+			<body type="BodyRigid" id="855387767" frozen="0">
+				<shape type="ShapeCapsule" id="1881791120" transform="1.00000036 -3.7252903e-08 0 0 0 1 0 0 0 0 1.00000036 0 0.0133972168 -0.05210495 1.5011673 1">
+					<radius>0.266587228</radius>
+					<height>1.42609382</height>
+				</shape>
+			</body>
+			<transform>0.89999992 -4.3213367e-07 0 0.0 4.2468309e-07 0.89999992 0 0.0 0 0 0.90000015 0.0 0 0 -0.49497414 1.0</transform>
+		</node>
+	</node>
+</nodes>

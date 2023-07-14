@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bit_mask_names>
+	<intersection>
+		<name index="0">default</name>
+		<name index="2">interactable</name>
+		<name index="1">characters</name>
+	</intersection>
+	<collision>
+		<name index="0">default</name>
+		<name index="2">Collision Mask 2</name>
+		<name index="1">Collision Mask 1</name>
+	</collision>
+	<physical>
+		<name index="0">default</name>
+		<name index="2">enemy</name>
+		<name index="1">player</name>
+	</physical>
+</bit_mask_names>

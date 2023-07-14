@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="1095241372" name="key">
+		<mesh_name>guid://7584cdeb3a2c0a4ebe648d55c526feb0a814024f</mesh_name>
+		<surface name="surface_0" material="5ad7873dee381f78c48a5c775fec0f6aaae9f7c1"/>
+		<transform>-0.00048842788 -0.99999899 -0.00026315232 0.0 0.99999851 -0.00048851711 2.8210442e-07 0.0 -2.8217005e-07 -0.00026324161 0.99999905 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

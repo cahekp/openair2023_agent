@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>ebdbdce562f96900e3ef485f37b27a321c1113e9</guid>
+	<type>material</type>
+	<hash>4dd1e1ae</hash>
+	<runtimes>
+		<runtime id="ebdbdce562f96900e3ef485f37b27a321c1113e9" name="wall_rusty" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

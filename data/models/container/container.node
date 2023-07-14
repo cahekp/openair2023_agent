@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="239339242" name="container">
+		<mesh_name>guid://3cb23170251e160f43370c22c4621d19247363a4</mesh_name>
+		<surface name="None__container_png" material="3853de823e0b0bf9f514c50432608c93fdb3a8d6"/>
+		<body type="BodyDummy" id="519421876" frozen="0">
+			<shape type="ShapeBox" id="1107991092" transform="1 0 0 0 0 1 0 0 0 0 1 0 -1.1920929e-07 1.25 5.96046448e-08 1">
+				<size>6.25 2.50000048 2.5</size>
+			</shape>
+		</body>
+		<transform>0.99999994 8.7422791e-08 -8.7422784e-08 0.0 8.7422784e-08 -1.6291841e-07 1 0.0 8.7422762e-08 -0.99999994 -1.6291843e-07 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

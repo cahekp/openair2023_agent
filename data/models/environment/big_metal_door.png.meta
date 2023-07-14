@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>c29afc157ccb1e7079d01f0f60d78122a1260e19</guid>
+	<type>texture</type>
+	<hash>dfb6592a</hash>
+	<runtimes>
+		<runtime id="c29afc157ccb1e7079d01f0f60d78122a1260e19" name="big_metal_door.png" link="0" type="6"/>
+		<runtime id="f56ca0a4aaf873b335a12576d310de5d63f84c18" name="big_metal_door.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">RGBA16</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

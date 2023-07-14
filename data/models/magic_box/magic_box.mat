@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="6848db22f5c3a0194b990aa41775d5b33f0b1f76" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options transparent="2" blend_src="5" blend_dest="6"/>
+	<state name="emission">1</state>
+	<texture name="albedo">guid://1944c277e8073d6ae69f4dc10359cc2c1fa3d99b</texture>
+	<texture name="emission">guid://1944c277e8073d6ae69f4dc10359cc2c1fa3d99b</texture>
+	<parameter name="albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="metalness" expression="0">0.134450004</parameter>
+	<parameter name="roughness" expression="0">0.147060007</parameter>
+	<parameter name="specular" expression="0">0.521009982</parameter>
+	<parameter name="translucent" expression="0">1</parameter>
+	<parameter name="transparent" expression="0">1.8908</parameter>
+	<parameter name="emission_scale" expression="0">2.50419998</parameter>
+</material>

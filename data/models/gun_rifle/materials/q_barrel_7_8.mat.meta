@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>58ed1b68e68cc7a78870a0dabf87fa719928b11c</guid>
+	<type>material</type>
+	<hash>5243964e</hash>
+	<runtimes>
+		<runtime id="58ed1b68e68cc7a78870a0dabf87fa719928b11c" name="q_barrel_7_8" link="0" type="5"/>
+	</runtimes>
+</asset>

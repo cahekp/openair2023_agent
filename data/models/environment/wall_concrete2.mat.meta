@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>f13bf86ca40198db20cdf87e3c34c5c5a2267c60</guid>
+	<type>material</type>
+	<hash>b2f7eb5</hash>
+	<runtimes>
+		<runtime id="f13bf86ca40198db20cdf87e3c34c5c5a2267c60" name="wall_concrete2" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

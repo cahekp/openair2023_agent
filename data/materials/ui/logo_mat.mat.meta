@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>a61cfea717ad6bda11804971693eb41c271d40cb</guid>
+	<type>material</type>
+	<hash>90a2902</hash>
+	<runtimes>
+		<runtime id="a61cfea717ad6bda11804971693eb41c271d40cb" name="logo_mat" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

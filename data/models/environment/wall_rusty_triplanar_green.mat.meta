@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>7788cc3ec1d00685999546205c1442ff870ef452</guid>
+	<type>material</type>
+	<hash>9a697b8b</hash>
+	<runtimes>
+		<runtime id="7788cc3ec1d00685999546205c1442ff870ef452" name="wall_rusty_triplanar_green" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

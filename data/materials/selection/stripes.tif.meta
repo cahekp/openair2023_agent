@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>1464cb30463264cfb95f8be2611719d9e518b964</guid>
+	<type>texture</type>
+	<hash>758e8c28</hash>
+	<runtimes>
+		<runtime id="1464cb30463264cfb95f8be2611719d9e518b964" name="stripes.tif" link="0" type="6"/>
+		<runtime id="d3523573f1227c3659f2c61de18790d8d91f5e57" name="stripes.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">R8</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

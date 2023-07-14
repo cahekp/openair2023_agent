@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>ecf761985db978179ef2368a23f0b46194ffc24c</guid>
+	<type>node</type>
+	<hash>5b8d9987</hash>
+	<runtimes>
+		<runtime id="ecf761985db978179ef2368a23f0b46194ffc24c" name="bullet_pistol.node" link="0" type="3"/>
+	</runtimes>
+</asset>

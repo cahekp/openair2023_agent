@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="bd3e1647c2655efac5d66211470db43ce7cd026b" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
+	<options blend_src="2" blend_dest="2"/>
+	<state name="emission">1</state>
+	<texture name="albedo">guid://a05d089048a1c2af634e9042ab5892b98e751cc4</texture>
+	<texture name="emission">guid://a05d089048a1c2af634e9042ab5892b98e751cc4</texture>
+	<parameter name="albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="emission_scale" expression="0">3</parameter>
+	<parameter name="emission_color" expression="0">1 0.764705956 0.474509835 1</parameter>
+</material>

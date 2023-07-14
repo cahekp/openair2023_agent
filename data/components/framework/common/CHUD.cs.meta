@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>6af56491431fd4bc1a2ba8eb74e7294e4f3f2055</guid>
+	<type>component</type>
+	<hash>b5ed7637</hash>
+	<runtimes>
+		<runtime id="6af56491431fd4bc1a2ba8eb74e7294e4f3f2055" name="CHUD.cs" link="0"/>
+		<runtime id="b8860d3f4fabb992d3598bc94c4e22949ea1ace3" name="CHUD.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

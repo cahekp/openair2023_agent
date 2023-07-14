@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>461394f1244e899ccf7c184b96bd112ee65f26b5</guid>
+	<type>texture</type>
+	<hash>a2a6d922</hash>
+	<runtimes>
+		<runtime id="461394f1244e899ccf7c184b96bd112ee65f26b5" name="library_spark1_d.tiff" link="0" type="6"/>
+		<runtime id="a05d089048a1c2af634e9042ab5892b98e751cc4" name="library_spark1_d.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">albedo (rgba)</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

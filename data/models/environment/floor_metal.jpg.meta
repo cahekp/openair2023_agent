@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>1d9f7143543365c6edee026d632180e83526ef27</guid>
+	<type>texture</type>
+	<hash>0dd82ee4</hash>
+	<runtimes>
+		<runtime id="1d9f7143543365c6edee026d632180e83526ef27" name="floor_metal.jpg" link="0" type="6"/>
+		<runtime id="0cd7e1c4f37d825355d6a396172905fd579c0f38" name="floor_metal.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

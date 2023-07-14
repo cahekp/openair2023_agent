@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>69a296d61cafe03daaaaa478f4591d770751dc6a</guid>
+	<type>material</type>
+	<hash>e5ab0849</hash>
+	<runtimes>
+		<runtime id="69a296d61cafe03daaaaa478f4591d770751dc6a" name="vent" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

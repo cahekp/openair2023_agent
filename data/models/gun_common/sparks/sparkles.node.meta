@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>89f958843c410a13319b08565706a3bd4a7791f8</guid>
+	<type>node</type>
+	<hash>e0b32d6c</hash>
+	<runtimes>
+		<runtime id="89f958843c410a13319b08565706a3bd4a7791f8" name="sparkles.node" link="0" type="3"/>
+	</runtimes>
+</asset>

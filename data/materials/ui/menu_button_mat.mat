@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="7f2b6d5ead64f52534d92440fa274a9fe1b01772" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options transparent="2" blend_src="2" blend_dest="2" cast_shadow="0" cast_world_shadow="0"/>
+	<state name="emission">1</state>
+	<state name="emission_bake_gi">0</state>
+	<state name="cast_gi">0</state>
+	<state name="material_ssao">0</state>
+	<state name="material_ssr">0</state>
+	<state name="material_dof">0</state>
+	<state name="material_motion_blur">0</state>
+	<state name="material_screen_space_shadows">0</state>
+	<state name="material_shoreline_wetness">0</state>
+	<texture name="albedo">guid://2ae2f7cb0b836aae999ab23513781e100512da2f</texture>
+	<texture name="emission">guid://2ae2f7cb0b836aae999ab23513781e100512da2f</texture>
+	<parameter name="albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="emission_scale" expression="0">0.084040001</parameter>
+</material>

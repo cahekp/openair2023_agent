@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>1b590e137b6b3c561f5147bd3799e5f8d61870f7</guid>
+	<type>material</type>
+	<hash>431069da</hash>
+	<runtimes>
+		<runtime id="1b590e137b6b3c561f5147bd3799e5f8d61870f7" name="tank2" link="0" type="5"/>
+	</runtimes>
+</asset>

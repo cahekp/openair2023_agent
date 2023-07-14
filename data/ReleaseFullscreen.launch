@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<launch>
+		<video_api>0</video_api>
+		<resolution>1920 1080</resolution>
+		<fullscreen>1</fullscreen>
+		<vr_mode>0</vr_mode>
+		<verbosity>0</verbosity>
+		<run_world>1</run_world>
+		<config>Release</config>
+		<args/>
+		<mat_mode>1</mat_mode>
+	</launch>
+</settings>

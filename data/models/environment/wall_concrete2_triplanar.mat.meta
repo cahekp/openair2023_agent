@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>978993371f72572ae7121c81f84ecbec27bb565b</guid>
+	<type>material</type>
+	<hash>c250ee14</hash>
+	<runtimes>
+		<runtime id="978993371f72572ae7121c81f84ecbec27bb565b" name="wall_concrete2_triplanar" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

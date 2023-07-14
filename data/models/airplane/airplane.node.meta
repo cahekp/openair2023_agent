@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>df33f527368ef05a6e3f03f153bd2c9c380c5f4b</guid>
+	<type>node</type>
+	<hash>b10979fc</hash>
+	<runtimes>
+		<runtime id="df33f527368ef05a6e3f03f153bd2c9c380c5f4b" name="airplane.node" link="0" type="3"/>
+	</runtimes>
+</asset>

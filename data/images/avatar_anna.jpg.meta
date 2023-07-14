@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.16.1.0">
+	<guid>6aa06717a0e6598aee487b6143bedd4c55b8783b</guid>
+	<type>texture</type>
+	<hash>47858d5</hash>
+	<runtimes>
+		<runtime id="6aa06717a0e6598aee487b6143bedd4c55b8783b" name="avatar_anna.jpg" link="0" type="6"/>
+		<runtime id="d477905ec334bc2588b03f4093d5a99f7064ea72" name="avatar_anna.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>
