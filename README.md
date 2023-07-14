@@ -4,6 +4,9 @@
 ![](data/images/logo.jpg)<br>
 <br><br><br>
 
+Видео тизер: https://youtu.be/WFsqbSRuhwI
+Видео геймплея: https://youtu.be/_Itraj5hwNg
+
 # Инструкция по запуску
 1. Скачиваем и устанавливаем Unigine SDK Browser 2 [вот отсюда](https://unigine.com/get-unigine/)
 2. Устанавливаем Unigine SDK Community (2.16.1)
