@@ -1,6 +1,9 @@
 # Agent X: Unigine OpenAir 2023 Project
 # Приложение к докладу на [Unigine OpenAir 2023](https://openair-2023.unigine.com/)
 
+![](data/images/logo.jpg)<br>
+<br><br><br>
+
 # Инструкция по запуску
 1. Скачиваем и устанавливаем Unigine SDK Browser 2 [вот отсюда](https://unigine.com/get-unigine/)
 2. Устанавливаем Unigine SDK Community (2.16.1)
