@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unigine;
@@ -73,6 +72,37 @@ public class CWeaponMelee : AWeapon
 
 	void Hit()
 	{
+		List<Node> nodes = new List<Node>();
+		if (World.GetIntersection(new BoundSphere(node.WorldPosition, attack_distance), nodes))
+		{
+			foreach (Node n in nodes)
+			{
+				if (!n.IsObject)
+					continue;
 
+				// exclude by intersection masks
+				Object o = n as Object;
+				if (o.NumSurfaces > 0 && (o.GetIntersectionMask(0) & intersection_mask) == 0)
+					continue;
+
+				// exclude non-dynamic objects
+				CHealth damage_receiver = GetComponentInParent<CHealth>(n);
+				if (damage_receiver == null)
+					continue;
+
+				// exclude owner
+				if (damage_receiver.node == owner.node)
+					continue;
+
+				// is it in front of us?
+				vec3 offset = damage_receiver.node.WorldBoundSphere.Center - node.WorldPosition;
+				vec3 hand_dir = node.Parent.GetWorldDirection(MathLib.AXIS.Y);
+				if (MathLib.Dot(hand_dir, offset) > 0)
+				{
+					// apply damage!
+					damage_receiver.TakeDamage(owner, damage);
+				}
+			}
+		}
 	}
 }

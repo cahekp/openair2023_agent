@@ -725,7 +725,9 @@
 						<parameter name="nearClipping">0.100000001</parameter>
 						<parameter name="farClipping">100000</parameter>
 					</property>
-					<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="0063568d49bb8688d5d6f847fe34d8fa63fb9411"/>
+					<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="0063568d49bb8688d5d6f847fe34d8fa63fb9411">
+						<parameter name="health">20</parameter>
+					</property>
 				</properties>
 				<transform>0.052305505 0.9986285 0 0.0 -0.9986285 0.052305505 0 0.0 0 0 0.99999964 0.0 120.77517 -24.769903 32.876751 1.0</transform>
 				<node type="PlayerDummy" id="650353146" name="camera">
@@ -3894,7 +3896,7 @@
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="270414943" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.982414 -0.09936627 2.5465815 0.0 -0.20051467 -61.985592 2.4617686 0.0 2.5406189 -2.4679213 -61.933487 0.0 0.40643749 -0.055629529 1.2529181 1.0</transform>
+											<transform>61.976841 -0.12968495 2.6771433 0.0 -0.26379308 -61.956402 3.1056368 0.0 2.6672697 -3.1141202 -61.899021 0.0 0.40770262 -0.062078632 1.2534524 1.0</transform>
 											<node type="NodeDummy" id="263216838" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="417955962" name="gun_rifle">
@@ -4062,7 +4064,7 @@
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="151429969" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.982414 -0.09936627 2.5465815 0.0 -0.20051467 -61.985592 2.4617686 0.0 2.5406189 -2.4679213 -61.933487 0.0 0.40643749 -0.055629529 1.2529181 1.0</transform>
+											<transform>61.99131 -0.13057671 2.3184423 0.0 -0.23865694 -61.966923 2.8912585 0.0 2.3098187 -2.8981507 -61.923897 0.0 0.40413433 -0.059922937 1.251097 1.0</transform>
 											<node type="NodeDummy" id="1232271906" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="873537149" name="gun_rifle">
@@ -4224,7 +4226,7 @@
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="1654680585" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.976639 -0.10313996 2.682935 0.0 -0.21530084 -61.980274 2.5908082 0.0 2.6762705 -2.597692 -61.922474 0.0 0.4077917 -0.056924708 1.2532262 1.0</transform>
+											<transform>61.994255 -0.12957872 2.2383792 0.0 -0.23192687 -61.969498 2.8360682 0.0 2.2300992 -2.8425825 -61.929398 0.0 0.40333852 -0.059368316 1.2510451 1.0</transform>
 											<node type="NodeDummy" id="914851723" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="1038714852" name="gun_rifle">
@@ -4395,7 +4397,7 @@
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="238797127" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.988434 -0.095463447 2.3957052 0.0 -0.18499419 -61.991241 2.3164759 0.0 2.3904586 -2.3218882 -61.94511 0.0 0.4049384 -0.05417205 1.2514472 1.0</transform>
+											<transform>61.98558 -0.13046496 2.4664016 0.0 -0.24898395 -61.962643 2.9798272 0.0 2.4572675 -2.9873631 -61.913963 0.0 0.40560621 -0.060813405 1.2523894 1.0</transform>
 											<node type="NodeDummy" id="605897467" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="1157741612" name="gun_rifle">
@@ -4555,7 +4557,7 @@
 								<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 								<node type="WorldTransformBone" id="933511930" name="hand_bone">
 									<bone>Arm:Right:Lower_end</bone>
-									<transform>61.986649 -0.096671648 2.4409702 0.0 -0.18961343 -61.989594 2.3600705 0.0 2.4355135 -2.3657 -61.94173 0.0 0.40538815 -0.05460931 1.2518874 1.0</transform>
+									<transform>61.962425 -0.1280113 2.9927192 0.0 -0.28753424 -61.946091 3.3035181 0.0 2.9816232 -3.313535 -61.874329 0.0 0.4108409 -0.06406913 1.2557093 1.0</transform>
 									<node type="NodeDummy" id="210679947" name="hand_pivot">
 										<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 										<node type="ObjectMeshStatic" id="1117904361" name="gun_rifle">
@@ -4706,7 +4708,7 @@
 								<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 								<node type="WorldTransformBone" id="1947174549" name="hand_bone">
 									<bone>Arm:Right:Lower_end</bone>
-									<transform>61.982792 -0.099127352 2.5369346 0.0 -0.19951174 -61.985958 2.4524808 0.0 2.5310197 -2.4585843 -61.934269 0.0 0.40634158 -0.055536341 1.2528235 1.0</transform>
+									<transform>61.992325 -0.13025168 2.2917233 0.0 -0.23640306 -61.967793 2.8728409 0.0 2.2832146 -2.8796055 -61.925735 0.0 0.40386879 -0.059737839 1.2510794 1.0</transform>
 									<node type="NodeDummy" id="1967590444" name="hand_pivot">
 										<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 										<node type="ObjectMeshStatic" id="807741712" name="gun_rifle">
@@ -5302,6 +5304,769 @@
 						<property parent="60f410ec0e9dd75be62424feefd008451c07dce0" guid="fadfd79c37f10e4b84b18f2eb3fd8cb5240c3690"/>
 					</properties>
 					<transform>0.012798606 0.99991798 0 0.0 -0.99991739 0.012798599 0 0.0 0 0 0.99999911 0.0 11.552795 -5.1283264 1.846096 1.0</transform>
+				</node>
+				<node type="NodeDummy" id="1359598585" name="enemies">
+					<transform>0.99999994 0 0 0.0 0 1 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+					<node type="ObjectDummy" id="678117200" trigger_interaction_enabled="1" name="enemy_3">
+						<body type="BodyRigid" id="1274783333" frozen="0">
+							<angular_scale>0 0 1</angular_scale>
+							<physical_mask>0x4</physical_mask>
+							<shape type="ShapeCapsule" id="1163309104" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+								<radius>0.400000006</radius>
+								<height>1.14999998</height>
+							</shape>
+						</body>
+						<properties>
+							<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="c830edc81e30b68700d1023ac5992c51a0c7797c">
+								<parameter name="eyes_node">1386029460</parameter>
+								<parameter name="fov">80</parameter>
+								<parameter name="hand">1029686866</parameter>
+								<parameter name="weapon">f3d4a922ddf11619b8ec08a483e0bbb3ce1ccd76</parameter>
+								<parameter name="animated_model">869631935</parameter>
+								<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+								<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+								<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+								<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+							</property>
+							<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="be1386abd1c7ec0e99018415823006709c5fe70f"/>
+						</properties>
+						<transform>0.1518236 -0.98840761 0 0.0 0.98840743 0.15182354 0 0.0 0 0 0.99999994 0.0 -3.390789 -4.8258324 0.3243866 1.0</transform>
+						<node type="ObjectMeshSkinned" id="869631935" name="model">
+							<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+							<fps_visible_camera>-1</fps_visible_camera>
+							<fps_visible_shadow>30</fps_visible_shadow>
+							<fps_invisible>0</fps_invisible>
+							<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+							<loop>1</loop>
+							<speed>30</speed>
+							<playing>1</playing>
+							<surface name="Char" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+							<node type="WorldTransformBone" id="867357498" name="hand_bone">
+								<bone>Arm:Right:Lower_end</bone>
+								<transform>61.964012 -0.12821969 2.9600837 0.0 -0.28500208 -61.947273 3.2826805 0.0 2.9491181 -3.2925324 -61.877052 0.0 0.41051647 -0.063859493 1.2553575 1.0</transform>
+								<node type="NodeDummy" id="1029686866" name="hand_pivot">
+									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+									<node type="ObjectMeshStatic" id="1627333304" name="gun_rifle">
+										<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+										<surface name="Stock_Q_Honey_Badger" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+										<properties>
+											<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="f3d4a922ddf11619b8ec08a483e0bbb3ce1ccd76">
+												<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+												<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+												<parameter name="muzzle_flash">1992895883</parameter>
+												<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+												<parameter name="bullet_spawn_point">1061696946</parameter>
+												<parameter name="recoil_force">0</parameter>
+											</property>
+										</properties>
+										<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+										<node type="ObjectMeshStatic" id="890560833" name="rifle_gray_part">
+											<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+											<surface name="Charge_Handle_ar15_Qraptor" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+											<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+										</node>
+										<node type="NodeDummy" id="1061696946" name="bullet_spawn">
+											<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+											<node type="NodeDummy" id="1992895883" enabled="0" name="muzzle_flash">
+												<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+												<node type="ObjectMeshStatic" id="1601569805" name="plane">
+													<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+													<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+													<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+												</node>
+												<node type="LightOmni" id="4288677" name="light_omni">
+													<attenuation_distance>2.5</attenuation_distance>
+													<shape>2 1 0.200000003</shape>
+													<shape_type>0</shape_type>
+													<color>1 0.615686297 0 1</color>
+													<intensity>2</intensity>
+													<shadow_resolution>2</shadow_resolution>
+													<shadow_bias>1</shadow_bias>
+													<shadow_distance>40</shadow_distance>
+													<fade_distance>10</fade_distance>
+													<mode>0</mode>
+													<shadow_filter_mode>-1</shadow_filter_mode>
+													<shadow_filter>1</shadow_filter>
+													<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+													<shadow_penumbra>0</shadow_penumbra>
+													<shadow_screen_space>0</shadow_screen_space>
+													<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+													<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+													<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+													<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+													<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+													<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+													<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+													<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+													<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+													<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+													<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+													<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+													<shadow_color_texture_mode>0</shadow_color_texture_mode>
+													<shadow_screen_space_softness>0</shadow_screen_space_softness>
+													<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+													<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+													<lens_flare_enabled>0</lens_flare_enabled>
+													<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+													<lens_flare_intensity>1</lens_flare_intensity>
+													<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+													<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+													<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+													<lens_flare_use_light_color>1</lens_flare_use_light_color>
+													<lens_flare_billboards num="31">
+														<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+														<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+														<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+														<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+														<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+														<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+														<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+														<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+														<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+														<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+														<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+														<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+														<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+														<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+														<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+													</lens_flare_billboards>
+													<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="1386029460" name="eyes">
+							<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="2006651183" trigger_interaction_enabled="1" name="enemy_4">
+						<body type="BodyRigid" id="1205274190" frozen="0">
+							<angular_scale>0 0 1</angular_scale>
+							<physical_mask>0x4</physical_mask>
+							<shape type="ShapeCapsule" id="1572512955" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+								<radius>0.400000006</radius>
+								<height>1.14999998</height>
+							</shape>
+						</body>
+						<properties>
+							<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="08fcaa5e00530e25b9e66940c251cb9f943ea472">
+								<parameter name="eyes_node">511334975</parameter>
+								<parameter name="fov">80</parameter>
+								<parameter name="hand">885506401</parameter>
+								<parameter name="weapon">6dccf0e8fe7b9f27f4ee925a05a63df1cf171e9c</parameter>
+								<parameter name="animated_model">1165762059</parameter>
+								<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+								<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+								<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+								<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+							</property>
+							<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="c844b929deb3b0745f312143e4b955c6125b326d"/>
+						</properties>
+						<transform>-0.10916747 -0.99402338 0 0.0 0.99402332 -0.10916745 0 0.0 0 0 0.99999982 0.0 -1.8635178 -0.67388535 0.3243866 1.0</transform>
+						<node type="ObjectMeshSkinned" id="1165762059" name="model">
+							<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+							<fps_visible_camera>-1</fps_visible_camera>
+							<fps_visible_shadow>30</fps_visible_shadow>
+							<fps_invisible>0</fps_invisible>
+							<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+							<loop>1</loop>
+							<speed>30</speed>
+							<playing>1</playing>
+							<surface name="Char" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+							<node type="WorldTransformBone" id="646296998" name="hand_bone">
+								<bone>Arm:Right:Lower_end</bone>
+								<transform>61.962296 -0.12799387 2.9953766 0.0 -0.28774086 -61.945995 3.3052144 0.0 2.9842694 -3.3152447 -61.874107 0.0 0.41086733 -0.064086199 1.255738 1.0</transform>
+								<node type="NodeDummy" id="885506401" name="hand_pivot">
+									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+									<node type="ObjectMeshStatic" id="1675928192" name="gun_rifle">
+										<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+										<surface name="Stock_Q_Honey_Badger" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+										<properties>
+											<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="6dccf0e8fe7b9f27f4ee925a05a63df1cf171e9c">
+												<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+												<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+												<parameter name="muzzle_flash">396594572</parameter>
+												<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+												<parameter name="bullet_spawn_point">391315718</parameter>
+												<parameter name="recoil_force">0</parameter>
+											</property>
+										</properties>
+										<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+										<node type="ObjectMeshStatic" id="1177151331" name="rifle_gray_part">
+											<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+											<surface name="Charge_Handle_ar15_Qraptor" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+											<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+										</node>
+										<node type="NodeDummy" id="391315718" name="bullet_spawn">
+											<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+											<node type="NodeDummy" id="396594572" enabled="0" name="muzzle_flash">
+												<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+												<node type="ObjectMeshStatic" id="1825507161" name="plane">
+													<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+													<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+													<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+												</node>
+												<node type="LightOmni" id="2002197199" name="light_omni">
+													<attenuation_distance>2.5</attenuation_distance>
+													<shape>2 1 0.200000003</shape>
+													<shape_type>0</shape_type>
+													<color>1 0.615686297 0 1</color>
+													<intensity>2</intensity>
+													<shadow_resolution>2</shadow_resolution>
+													<shadow_bias>1</shadow_bias>
+													<shadow_distance>40</shadow_distance>
+													<fade_distance>10</fade_distance>
+													<mode>0</mode>
+													<shadow_filter_mode>-1</shadow_filter_mode>
+													<shadow_filter>1</shadow_filter>
+													<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+													<shadow_penumbra>0</shadow_penumbra>
+													<shadow_screen_space>0</shadow_screen_space>
+													<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+													<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+													<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+													<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+													<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+													<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+													<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+													<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+													<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+													<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+													<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+													<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+													<shadow_color_texture_mode>0</shadow_color_texture_mode>
+													<shadow_screen_space_softness>0</shadow_screen_space_softness>
+													<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+													<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+													<lens_flare_enabled>0</lens_flare_enabled>
+													<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+													<lens_flare_intensity>1</lens_flare_intensity>
+													<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+													<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+													<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+													<lens_flare_use_light_color>1</lens_flare_use_light_color>
+													<lens_flare_billboards num="31">
+														<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+														<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+														<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+														<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+														<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+														<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+														<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+														<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+														<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+														<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+														<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+														<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+														<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+														<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+														<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+													</lens_flare_billboards>
+													<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="511334975" name="eyes">
+							<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="1485956028" trigger_interaction_enabled="1" name="enemy_5">
+						<body type="BodyRigid" id="1675954504" frozen="0">
+							<angular_scale>0 0 1</angular_scale>
+							<physical_mask>0x4</physical_mask>
+							<shape type="ShapeCapsule" id="1042175987" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+								<radius>0.400000006</radius>
+								<height>1.14999998</height>
+							</shape>
+						</body>
+						<properties>
+							<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="81f472306207dfcf3538cae261394cd982275064">
+								<parameter name="eyes_node">1518374777</parameter>
+								<parameter name="fov">80</parameter>
+								<parameter name="hand">21137217</parameter>
+								<parameter name="weapon">a71d86caa65d47a1d86ebc8cc2da4e7bc6ccf19e</parameter>
+								<parameter name="animated_model">435817219</parameter>
+								<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+								<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+								<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+								<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+							</property>
+							<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="5c39e073e6082b366456a91d600c17d842a43957"/>
+						</properties>
+						<transform>-0.59155363 -0.80626535 0 0.0 0.80626535 -0.59155351 0 0.0 0 0 0.99999976 0.0 2.8709068 5.1233826 2.1827488 1.0</transform>
+						<node type="ObjectMeshSkinned" id="435817219" name="model">
+							<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+							<fps_visible_camera>-1</fps_visible_camera>
+							<fps_visible_shadow>30</fps_visible_shadow>
+							<fps_invisible>0</fps_invisible>
+							<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+							<loop>1</loop>
+							<speed>30</speed>
+							<playing>1</playing>
+							<surface name="Char" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+							<node type="WorldTransformBone" id="1101512310" name="hand_bone">
+								<bone>Arm:Right:Lower_end</bone>
+								<transform>61.961704 -0.12794177 3.0075672 0.0 -0.2886816 -61.945637 3.3122311 0.0 2.996413 -3.3223238 -61.873165 0.0 0.4109886 -0.06415686 1.2558182 1.0</transform>
+								<node type="NodeDummy" id="21137217" name="hand_pivot">
+									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+									<node type="ObjectMeshStatic" id="66416440" name="gun_rifle">
+										<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+										<surface name="Stock_Q_Honey_Badger" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+										<properties>
+											<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="a71d86caa65d47a1d86ebc8cc2da4e7bc6ccf19e">
+												<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+												<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+												<parameter name="muzzle_flash">1849396091</parameter>
+												<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+												<parameter name="bullet_spawn_point">1816912103</parameter>
+												<parameter name="recoil_force">0</parameter>
+											</property>
+										</properties>
+										<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+										<node type="ObjectMeshStatic" id="374763975" name="rifle_gray_part">
+											<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+											<surface name="Charge_Handle_ar15_Qraptor" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+											<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+										</node>
+										<node type="NodeDummy" id="1816912103" name="bullet_spawn">
+											<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+											<node type="NodeDummy" id="1849396091" enabled="0" name="muzzle_flash">
+												<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+												<node type="ObjectMeshStatic" id="771863250" name="plane">
+													<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+													<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+													<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+												</node>
+												<node type="LightOmni" id="906853096" name="light_omni">
+													<attenuation_distance>2.5</attenuation_distance>
+													<shape>2 1 0.200000003</shape>
+													<shape_type>0</shape_type>
+													<color>1 0.615686297 0 1</color>
+													<intensity>2</intensity>
+													<shadow_resolution>2</shadow_resolution>
+													<shadow_bias>1</shadow_bias>
+													<shadow_distance>40</shadow_distance>
+													<fade_distance>10</fade_distance>
+													<mode>0</mode>
+													<shadow_filter_mode>-1</shadow_filter_mode>
+													<shadow_filter>1</shadow_filter>
+													<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+													<shadow_penumbra>0</shadow_penumbra>
+													<shadow_screen_space>0</shadow_screen_space>
+													<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+													<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+													<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+													<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+													<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+													<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+													<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+													<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+													<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+													<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+													<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+													<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+													<shadow_color_texture_mode>0</shadow_color_texture_mode>
+													<shadow_screen_space_softness>0</shadow_screen_space_softness>
+													<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+													<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+													<lens_flare_enabled>0</lens_flare_enabled>
+													<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+													<lens_flare_intensity>1</lens_flare_intensity>
+													<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+													<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+													<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+													<lens_flare_use_light_color>1</lens_flare_use_light_color>
+													<lens_flare_billboards num="31">
+														<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+														<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+														<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+														<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+														<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+														<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+														<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+														<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+														<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+														<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+														<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+														<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+														<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+														<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+														<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+													</lens_flare_billboards>
+													<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="1518374777" name="eyes">
+							<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="254543457" trigger_interaction_enabled="1" name="enemy_7">
+						<body type="BodyRigid" id="633699047" frozen="0">
+							<angular_scale>0 0 1</angular_scale>
+							<physical_mask>0x4</physical_mask>
+							<shape type="ShapeCapsule" id="36706499" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+								<radius>0.400000006</radius>
+								<height>1.14999998</height>
+							</shape>
+						</body>
+						<properties>
+							<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="42a6159de7cf9a58cc10d9d79614ad4a04c13c21">
+								<parameter name="eyes_node">762724938</parameter>
+								<parameter name="fov">80</parameter>
+								<parameter name="hand">2094748862</parameter>
+								<parameter name="weapon">0c14745f5d1db632986b1fe9c65768344f77f603</parameter>
+								<parameter name="animated_model">730644158</parameter>
+								<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+								<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+								<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+								<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+							</property>
+							<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="576d270cfab4b6fbd707401e4e4728e58eb44500"/>
+						</properties>
+						<transform>0.80626571 -0.59155363 0 0.0 0.59155351 0.80626547 0 0.0 0 0 0.99999946 0.0 7.9045792 -13.901796 -0.052976608 1.0</transform>
+						<node type="ObjectMeshSkinned" id="730644158" name="model">
+							<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+							<fps_visible_camera>-1</fps_visible_camera>
+							<fps_visible_shadow>30</fps_visible_shadow>
+							<fps_invisible>0</fps_invisible>
+							<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+							<loop>1</loop>
+							<speed>30</speed>
+							<playing>1</playing>
+							<surface name="Char" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+							<node type="WorldTransformBone" id="652526559" name="hand_bone">
+								<bone>Arm:Right:Lower_end</bone>
+								<transform>61.918533 -0.11533017 3.7942731 0.0 -0.338635 -61.926765 3.6438441 0.0 3.78089 -3.6577272 -61.811253 0.0 0.41882014 -0.067505039 1.2605231 1.0</transform>
+								<node type="NodeDummy" id="2094748862" name="hand_pivot">
+									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+									<node type="ObjectMeshStatic" id="1035545815" name="gun_rifle">
+										<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+										<surface name="Stock_Q_Honey_Badger" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+										<properties>
+											<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="0c14745f5d1db632986b1fe9c65768344f77f603">
+												<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+												<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+												<parameter name="muzzle_flash">1638782</parameter>
+												<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+												<parameter name="bullet_spawn_point">76745141</parameter>
+												<parameter name="recoil_force">0</parameter>
+											</property>
+										</properties>
+										<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+										<node type="ObjectMeshStatic" id="127795051" name="rifle_gray_part">
+											<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+											<surface name="Charge_Handle_ar15_Qraptor" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+											<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+										</node>
+										<node type="NodeDummy" id="76745141" name="bullet_spawn">
+											<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+											<node type="NodeDummy" id="1638782" enabled="0" name="muzzle_flash">
+												<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+												<node type="ObjectMeshStatic" id="1500970587" name="plane">
+													<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+													<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+													<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+												</node>
+												<node type="LightOmni" id="126154396" name="light_omni">
+													<attenuation_distance>2.5</attenuation_distance>
+													<shape>2 1 0.200000003</shape>
+													<shape_type>0</shape_type>
+													<color>1 0.615686297 0 1</color>
+													<intensity>2</intensity>
+													<shadow_resolution>2</shadow_resolution>
+													<shadow_bias>1</shadow_bias>
+													<shadow_distance>40</shadow_distance>
+													<fade_distance>10</fade_distance>
+													<mode>0</mode>
+													<shadow_filter_mode>-1</shadow_filter_mode>
+													<shadow_filter>1</shadow_filter>
+													<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+													<shadow_penumbra>0</shadow_penumbra>
+													<shadow_screen_space>0</shadow_screen_space>
+													<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+													<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+													<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+													<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+													<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+													<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+													<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+													<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+													<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+													<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+													<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+													<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+													<shadow_color_texture_mode>0</shadow_color_texture_mode>
+													<shadow_screen_space_softness>0</shadow_screen_space_softness>
+													<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+													<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+													<lens_flare_enabled>0</lens_flare_enabled>
+													<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+													<lens_flare_intensity>1</lens_flare_intensity>
+													<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+													<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+													<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+													<lens_flare_use_light_color>1</lens_flare_use_light_color>
+													<lens_flare_billboards num="31">
+														<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+														<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+														<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+														<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+														<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+														<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+														<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+														<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+														<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+														<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+														<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+														<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+														<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+														<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+														<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+													</lens_flare_billboards>
+													<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="762724938" name="eyes">
+							<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="584269717" trigger_interaction_enabled="1" name="enemy_8">
+						<body type="BodyRigid" id="1318246979" frozen="0">
+							<angular_scale>0 0 1</angular_scale>
+							<physical_mask>0x4</physical_mask>
+							<shape type="ShapeCapsule" id="925656224" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+								<radius>0.400000006</radius>
+								<height>1.14999998</height>
+							</shape>
+						</body>
+						<properties>
+							<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="2ee6b807842815ba0a4a29d1644558fca604e02b">
+								<parameter name="eyes_node">811072534</parameter>
+								<parameter name="fov">80</parameter>
+								<parameter name="hand">815906410</parameter>
+								<parameter name="weapon">6241c39987a5d8244f7d4533f158c8f67e092bdd</parameter>
+								<parameter name="animated_model">1642437458</parameter>
+								<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+								<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+								<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+								<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+							</property>
+							<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="8032778e877f9995f4a81df09156188f518e2ca2"/>
+						</properties>
+						<transform>0.6256876 -0.78007382 0 0.0 0.78007364 0.62568724 0 0.0 0 0 0.99999946 0.0 -1.2181549 -16.098017 0.42316818 1.0</transform>
+						<node type="ObjectMeshSkinned" id="1642437458" name="model">
+							<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+							<fps_visible_camera>-1</fps_visible_camera>
+							<fps_visible_shadow>30</fps_visible_shadow>
+							<fps_invisible>0</fps_invisible>
+							<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+							<loop>1</loop>
+							<speed>30</speed>
+							<playing>1</playing>
+							<surface name="Char" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+							<node type="WorldTransformBone" id="1540102482" name="hand_bone">
+								<bone>Arm:Right:Lower_end</bone>
+								<transform>61.908497 -0.11306902 3.9544375 0.0 -0.35599163 -61.91708 3.8028123 0.0 3.9400039 -3.817764 -61.791622 0.0 0.42040867 -0.069102518 1.2608393 1.0</transform>
+								<node type="NodeDummy" id="815906410" name="hand_pivot">
+									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+									<node type="ObjectMeshStatic" id="1051707454" name="gun_rifle">
+										<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+										<surface name="Stock_Q_Honey_Badger" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+										<properties>
+											<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="6241c39987a5d8244f7d4533f158c8f67e092bdd">
+												<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+												<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+												<parameter name="muzzle_flash">2072085162</parameter>
+												<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+												<parameter name="bullet_spawn_point">1136738456</parameter>
+												<parameter name="recoil_force">0</parameter>
+											</property>
+										</properties>
+										<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+										<node type="ObjectMeshStatic" id="49469513" name="rifle_gray_part">
+											<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+											<surface name="Charge_Handle_ar15_Qraptor" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+											<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+										</node>
+										<node type="NodeDummy" id="1136738456" name="bullet_spawn">
+											<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+											<node type="NodeDummy" id="2072085162" enabled="0" name="muzzle_flash">
+												<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+												<node type="ObjectMeshStatic" id="1585593812" name="plane">
+													<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+													<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+													<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+												</node>
+												<node type="LightOmni" id="2000099596" name="light_omni">
+													<attenuation_distance>2.5</attenuation_distance>
+													<shape>2 1 0.200000003</shape>
+													<shape_type>0</shape_type>
+													<color>1 0.615686297 0 1</color>
+													<intensity>2</intensity>
+													<shadow_resolution>2</shadow_resolution>
+													<shadow_bias>1</shadow_bias>
+													<shadow_distance>40</shadow_distance>
+													<fade_distance>10</fade_distance>
+													<mode>0</mode>
+													<shadow_filter_mode>-1</shadow_filter_mode>
+													<shadow_filter>1</shadow_filter>
+													<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+													<shadow_penumbra>0</shadow_penumbra>
+													<shadow_screen_space>0</shadow_screen_space>
+													<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+													<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+													<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+													<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+													<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+													<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+													<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+													<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+													<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+													<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+													<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+													<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+													<shadow_color_texture_mode>0</shadow_color_texture_mode>
+													<shadow_screen_space_softness>0</shadow_screen_space_softness>
+													<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+													<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+													<lens_flare_enabled>0</lens_flare_enabled>
+													<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+													<lens_flare_intensity>1</lens_flare_intensity>
+													<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+													<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+													<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+													<lens_flare_use_light_color>1</lens_flare_use_light_color>
+													<lens_flare_billboards num="31">
+														<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+														<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+														<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+														<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+														<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+														<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+														<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+														<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+														<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+														<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+														<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+														<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+														<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+														<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+														<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+													</lens_flare_billboards>
+													<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="811072534" name="eyes">
+							<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+						</node>
+					</node>
 				</node>
 			</node>
 			<node type="NodeDummy" id="1605793989" name="lights">
