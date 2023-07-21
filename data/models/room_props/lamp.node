@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="ObjectMeshStatic" id="791982614" name="lamp">
 		<mesh_name>guid://e7bb7f5f25fb453209a562e947fecf34a7023103</mesh_name>
-		<surface name="unnamed" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+		<surface name="unnamed" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01" intersection="1"/>
 		<body type="BodyDummy" id="1905003262" frozen="0">
 			<shape type="ShapeBox" id="957284183" transform="1 0 0 0 0 1 0 0 0 0 1 0 2.98023224e-08 0.134911329 -1.49011612e-08 1">
 				<size>0.573908389 1.00494385 0.573908448</size>
@@ -11,7 +11,7 @@
 		<transform>1 8.7422798e-08 -8.7422784e-08 0.0 8.7422791e-08 -1.6291843e-07 1 0.0 8.7422777e-08 -1 -1.6291843e-07 0.0 0 0 -3.9177849e-08 1.0</transform>
 		<node type="ObjectMeshStatic" id="1908829329" name="light_plane">
 			<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-			<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="2c9b8ca3364909a6093294cd634f2fc87f061087"/>
+			<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="2c9b8ca3364909a6093294cd634f2fc87f061087"/>
 			<transform>0.33314255 2.9124257e-08 2.9124253e-08 0.0 -2.9124219e-08 -3.4286182e-07 0.33314255 0.0 8.742289e-08 -0.99999994 -1.0291744e-06 0.0 0 -0.37363127 0 1.0</transform>
 		</node>
 	</node>

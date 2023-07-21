@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>42649168e0a1c5a766b586daf2aba871674c871c</guid>
 	<type>texture</type>
-	<hash>820e9f38</hash>
+	<hash>293031b4</hash>
 	<runtimes>
 		<runtime id="42649168e0a1c5a766b586daf2aba871674c871c" name="menu_button.png" link="0" type="6"/>
 		<runtime id="2ae2f7cb0b836aae999ab23513781e100512da2f" name="menu_button.texture" link="1" type="6"/>

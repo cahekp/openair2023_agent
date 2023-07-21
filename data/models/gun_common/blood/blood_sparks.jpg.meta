@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>4e9b636bd962a1ce60073ed522a3023028452fcf</guid>
 	<type>texture</type>
-	<hash>4a8a7263</hash>
+	<hash>45708117</hash>
 	<runtimes>
 		<runtime id="4e9b636bd962a1ce60073ed522a3023028452fcf" name="blood_sparks.jpg" link="0" type="6"/>
 		<runtime id="59304c8c7c0e9e7bd655019e25d2fc65de930280" name="blood_sparks.texture" link="1" type="6"/>

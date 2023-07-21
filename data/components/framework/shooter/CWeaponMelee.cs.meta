@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>51657d1a05f8a9b12ff5175c9b2bcb0b64a1a4ee</guid>
 	<type>component</type>
-	<hash>f1d88202</hash>
+	<hash>586e2422</hash>
 	<runtimes>
 		<runtime id="51657d1a05f8a9b12ff5175c9b2bcb0b64a1a4ee" name="CWeaponMelee.cs" link="0"/>
 		<runtime id="5cc55e00c3e8b95f036337325458ace9bc959134" name="CWeaponMelee.prop" link="1" type="4"/>

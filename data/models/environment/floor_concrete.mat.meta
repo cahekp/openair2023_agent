@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>87de919007cbb7afbd0e01428a174fb95272b5c4</guid>
 	<type>material</type>
-	<hash>1483102f</hash>
+	<hash>1e631f63</hash>
 	<runtimes>
 		<runtime id="87de919007cbb7afbd0e01428a174fb95272b5c4" name="floor_concrete" link="0" type="5"/>
 	</runtimes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>9d5158cb4ec457ae0754bb35a6809310481ecb2f</guid>
 	<type>material</type>
-	<hash>d9f9ba8a</hash>
+	<hash>47beca58</hash>
 	<runtimes>
 		<runtime id="9d5158cb4ec457ae0754bb35a6809310481ecb2f" name="big_metal_door" link="0" type="5"/>
 	</runtimes>

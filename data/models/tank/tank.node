@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="ObjectMeshStatic" id="1055798869" name="tank">
 		<mesh_name>guid://46e8c29994bacb240d5f9c33438133f637b89add</mesh_name>
-		<surface name="Tank2" material="d250bca681e8abcd50b85ac8a77f3f87a563f73a"/>
+		<surface name="Tank2" material="d250bca681e8abcd50b85ac8a77f3f87a563f73a" intersection="1"/>
 		<body type="BodyDummy" id="1747849591" frozen="0">
 			<shape type="ShapeBox" id="343384483" transform="1.00000072 -1.39266376e-12 -5.96045986e-08 0 -5.68434189e-14 1 0 0 2.98024077e-08 9.9475983e-14 1.00000072 0 0 1.12573183 -0.0544281006 1">
 				<size>3.12296152 2.19304919 6.13155365</size>

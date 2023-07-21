@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>397eec04c64e8793d5cb67d647087d3d74b89d78</guid>
 	<type>texture</type>
-	<hash>fee08a34</hash>
+	<hash>be61eb23</hash>
 	<runtimes>
 		<runtime id="397eec04c64e8793d5cb67d647087d3d74b89d78" name="magic_box.png" link="0" type="6"/>
 		<runtime id="1944c277e8073d6ae69f4dc10359cc2c1fa3d99b" name="magic_box.texture" link="1" type="6"/>

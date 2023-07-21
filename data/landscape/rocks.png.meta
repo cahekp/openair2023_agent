@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>ae52e36c52cd87db99631b7e32b98cc57d2e9760</guid>
 	<type>texture</type>
-	<hash>687aba12</hash>
+	<hash>8c567b8d</hash>
 	<runtimes>
 		<runtime id="ae52e36c52cd87db99631b7e32b98cc57d2e9760" name="rocks.png" link="0" type="6"/>
 		<runtime id="f07ce33f667897924a34d1c98954b094328ae2e3" name="rocks.texture" link="1" type="6"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>a4f1cec025d6f31f8b3ea5f2795dcca9c23eadf4</guid>
 	<type>node</type>
-	<hash>0d063928</hash>
+	<hash>208a2888</hash>
 	<runtimes>
 		<runtime id="a4f1cec025d6f31f8b3ea5f2795dcca9c23eadf4" name="toolbox.node" link="0" type="3"/>
 	</runtimes>

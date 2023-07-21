@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>b8134f5005d3da6f4610450203f34079a74a6f84</guid>
 	<type>sound</type>
-	<hash>d033aa0b</hash>
+	<hash>32c2d6f7</hash>
 	<runtimes>
 		<runtime id="b8134f5005d3da6f4610450203f34079a74a6f84" name="button_hover.wav" link="0" type="7"/>
 	</runtimes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>3ddcafb57752fd901fbd33af47b94d4241122bb9</guid>
 	<type>texture</type>
-	<hash>36e7883</hash>
+	<hash>bc019bba</hash>
 	<runtimes>
 		<runtime id="3ddcafb57752fd901fbd33af47b94d4241122bb9" name="wall_concrete.jpg" link="0" type="6"/>
 		<runtime id="59e409378f0e552a87320281459179eca3722c5b" name="wall_concrete.texture" link="1" type="6"/>

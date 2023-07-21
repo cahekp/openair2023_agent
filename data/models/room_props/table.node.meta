@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>42a6bf95c4c90bf07fd62e8f9cd34aa2acb84999</guid>
 	<type>node</type>
-	<hash>97bb4868</hash>
+	<hash>12706dfb</hash>
 	<runtimes>
 		<runtime id="42a6bf95c4c90bf07fd62e8f9cd34aa2acb84999" name="table.node" link="0" type="3"/>
 	</runtimes>

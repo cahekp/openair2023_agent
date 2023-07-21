@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>d3448a34c50eb003489a15866aeb6f2d541486a8</guid>
 	<type>node</type>
-	<hash>af805f6c</hash>
+	<hash>cc8e7163</hash>
 	<runtimes>
 		<runtime id="d3448a34c50eb003489a15866aeb6f2d541486a8" name="bullet_riffle.node" link="0" type="3"/>
 	</runtimes>

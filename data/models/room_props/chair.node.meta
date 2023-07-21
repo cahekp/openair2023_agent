@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>341cd26fea94dd020b3ef8792972c7848ea5ad13</guid>
 	<type>node</type>
-	<hash>aff12013</hash>
+	<hash>e632ca6</hash>
 	<runtimes>
 		<runtime id="341cd26fea94dd020b3ef8792972c7848ea5ad13" name="chair.node" link="0" type="3"/>
 	</runtimes>

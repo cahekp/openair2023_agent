@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>741cf8abf5aeb60e1a35c615562360701f97790f</guid>
 	<type>fbx</type>
-	<hash>12971e89</hash>
+	<hash>4ff8253f</hash>
 	<runtimes>
 		<runtime id="741cf8abf5aeb60e1a35c615562360701f97790f" name="door.fbx" link="0"/>
 		<runtime id="5e29d5107e03252f84ff90c2f4089939047c7144" name="door.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">8da6c465</parameter>
+				<parameter type="string" name="id">b4b421b4</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7" name="cube.mesh" link="2" type="1">
@@ -23,13 +23,13 @@
 		<parameter type="float" name="bound_size">10000</parameter>
 		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
 		<parameter type="float" name="fps">30</parameter>
-		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="string" name="front_axis">default</parameter>
 		<parameter type="bool" name="import_animations">1</parameter>
 		<parameter type="bool" name="import_bones_without_skin">1</parameter>
 		<parameter type="bool" name="import_cameras">1</parameter>
 		<parameter type="bool" name="import_lights">1</parameter>
 		<parameter type="bool" name="import_materials">1</parameter>
-		<parameter type="int" name="import_materials_mode">0</parameter>
+		<parameter type="string" name="import_materials_mode">take_by_name_or_create</parameter>
 		<parameter type="bool" name="import_meshes">1</parameter>
 		<parameter type="bool" name="import_morph_targets">0</parameter>
 		<parameter type="bool" name="import_tangent_space">0</parameter>
@@ -48,16 +48,16 @@
 		<parameter type="bool" name="need_triagulate">1</parameter>
 		<parameter type="int" name="num_lods">3</parameter>
 		<parameter type="string" name="prefix_materials"/>
-		<parameter type="int" name="resolution">3</parameter>
+		<parameter type="string" name="resolution">256</parameter>
 		<parameter type="float" name="scale">50</parameter>
 		<parameter type="bool" name="skip_empty_nodes">0</parameter>
 		<parameter type="int" name="smooth_animation_size">0</parameter>
 		<parameter type="bool" name="unwrap_uv_ch_0">0</parameter>
 		<parameter type="bool" name="unwrap_uv_ch_1">0</parameter>
-		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="string" name="up_axis">default</parameter>
 		<parameter type="bool" name="use_instances">1</parameter>
 		<parameter type="int" name="uv_ch">1</parameter>
 		<parameter type="bool" name="vertex_cache">1</parameter>
-		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="string" name="workflow">metalness</parameter>
 	</parameters>
 </asset>

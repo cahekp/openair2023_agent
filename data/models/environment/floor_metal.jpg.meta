@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>1d9f7143543365c6edee026d632180e83526ef27</guid>
 	<type>texture</type>
-	<hash>0dd82ee4</hash>
+	<hash>9f983646</hash>
 	<runtimes>
 		<runtime id="1d9f7143543365c6edee026d632180e83526ef27" name="floor_metal.jpg" link="0" type="6"/>
 		<runtime id="0cd7e1c4f37d825355d6a396172905fd579c0f38" name="floor_metal.texture" link="1" type="6"/>

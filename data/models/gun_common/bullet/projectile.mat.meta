@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>6499f0be30b9e105bf045ea0eafb817f063420d2</guid>
 	<type>material</type>
-	<hash>4da86e4d</hash>
+	<hash>5e29187a</hash>
 	<runtimes>
 		<runtime id="6499f0be30b9e105bf045ea0eafb817f063420d2" name="projectile" link="0" type="5"/>
 	</runtimes>

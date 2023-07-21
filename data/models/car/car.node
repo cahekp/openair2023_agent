@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="NodeDummy" id="226687682" name="car">
 		<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 0 0 1.0</transform>
 		<node type="ObjectMeshStatic" id="624588199" name="Offroad_Body">
 			<mesh_name>guid://fbeebb2d6d8762a86005e5e7e9e4aa1ad55bf2b1</mesh_name>
-			<surface name="Body_007" material="0bb88b35f47223108cc31b2fc6c30ec27d29ff39"/>
+			<surface name="Body_007" material="0bb88b35f47223108cc31b2fc6c30ec27d29ff39" intersection="1"/>
 			<transform>0.99999005 0.0044872151 -7.3733936e-08 0.0 7.1246141e-08 6.5662067e-07 0.99999958 0.0 0.0044872155 -0.99998993 6.5629581e-07 0.0 -0.08151865 0.53186035 -1.3819802e-06 1.0</transform>
 			<node type="ObjectMeshStatic" id="415073292" name="Wheel_G002">
 				<mesh_name>guid://58613858f669dfd7cafdfb4a47ae32212d79a50c</mesh_name>
-				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01" intersection="1"/>
 				<transform>1.0000001 1.4210855e-14 2.9802314e-08 0.0 0 1 3.5527137e-15 0.0 -2.9802333e-08 0 1.0000001 0.0 0.8270607 0.40243089 1.3139896 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="1704422128" name="Wheel_G">
 				<mesh_name>guid://218b1cfb328e6e1e4e787ee59f79a300b78e3a5f</mesh_name>
-				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01" intersection="1"/>
 				<transform>1.0000001 1.4210855e-14 2.9802314e-08 0.0 0 1 3.5527137e-15 0.0 -2.9802333e-08 0 1.0000001 0.0 -0.82706451 0.40243071 -1.2974663 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="720706129" name="Wheel_G001_001">
 				<mesh_name>guid://ed30c432def6d5e9cbf3a634e71b1c0382439186</mesh_name>
-				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01" intersection="1"/>
 				<transform>1.0000001 1.4210855e-14 2.9802314e-08 0.0 0 1 3.5527137e-15 0.0 -2.9802333e-08 0 1.0000001 0.0 -0.82706451 0.40243071 1.3139925 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="1749096803" name="Wheel_G001">
 				<mesh_name>guid://6815cc5c29f2fc0bcb4521ee6ab480751e351750</mesh_name>
-				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+				<surface name="Body_007" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01" intersection="1"/>
 				<transform>1.0000001 1.4210855e-14 2.9802314e-08 0.0 0 1 3.5527137e-15 0.0 -2.9802333e-08 0 1.0000001 0.0 0.8270607 0.40243092 -1.2974672 1.0</transform>
 			</node>
 		</node>

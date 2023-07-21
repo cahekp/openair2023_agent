@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>e613660b9d2683ee72327a751b36c9501b3d0c6f</guid>
 	<type>texture</type>
-	<hash>d4f27dd3</hash>
+	<hash>6c7b26c5</hash>
 	<runtimes>
 		<runtime id="e613660b9d2683ee72327a751b36c9501b3d0c6f" name="door.jpg" link="0" type="6"/>
 		<runtime id="2853cf02e45d42797b788984f63c87130c2e6156" name="door.texture" link="1" type="6"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>1b1d781b156bcebe77d627057557eca055cdb77f</guid>
 	<type>texture</type>
-	<hash>e4b88dfa</hash>
+	<hash>2943639a</hash>
 	<runtimes>
 		<runtime id="1b1d781b156bcebe77d627057557eca055cdb77f" name="asphalt.jpg" link="0" type="6"/>
 		<runtime id="7a64ded266d7f009efeab9d41718db23b66d0626" name="asphalt.texture" link="1" type="6"/>

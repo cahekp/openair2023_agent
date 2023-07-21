@@ -8,10 +8,10 @@
 
 # Инструкция по запуску
 1. Скачиваем и устанавливаем Unigine SDK Browser 2 [вот отсюда](https://unigine.com/get-unigine/)
-2. Устанавливаем Unigine SDK Community (2.16.1)
+2. Устанавливаем Unigine SDK Community (2.17.0.1)
 3. Создаем новый C# проект со следующими параметрами:
 - Project Name: openair2023_agent
-- SDK: UNIGINE 2 Community (2.16.1)
+- SDK: UNIGINE 2 Community (2.17.0.1)
 - Engine: Development
 - Template: Empty
 - API + IDE: C# (.NET)

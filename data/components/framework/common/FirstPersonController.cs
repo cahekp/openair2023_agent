@@ -82,15 +82,15 @@ public class FirstPersonController : Component
 
 	[ShowInEditor]
 	[Parameter(Group = "Gamepad Input", Tooltip = "Run mode activation button")]
-	private InputGamePad.BUTTON runButton = InputGamePad.BUTTON.SHOULDER_RIGHT;
+	private Input.GAMEPAD_BUTTON runButton = Input.GAMEPAD_BUTTON.SHOULDER_RIGHT;
 
 	[ShowInEditor]
 	[Parameter(Group = "Gamepad Input", Tooltip = "Jump button")]
-	private InputGamePad.BUTTON jumpButton = InputGamePad.BUTTON.A;
+	private Input.GAMEPAD_BUTTON jumpButton = Input.GAMEPAD_BUTTON.A;
 
 	[ShowInEditor]
 	[Parameter(Group = "Gamepad Input", Tooltip = "Crouch mode activation button")]
-	private InputGamePad.BUTTON crouchButton = InputGamePad.BUTTON.SHOULDER_LEFT;
+	private Input.GAMEPAD_BUTTON crouchButton = Input.GAMEPAD_BUTTON.SHOULDER_LEFT;
 
 	[ShowInEditor]
 	[Parameter(Group = "Body", Tooltip = "You can use current node to customize the body.\nIt should have a dummy body and a capsule shape assigned.\n" +
@@ -732,8 +732,8 @@ public class FirstPersonController : Component
 
 		worldTransform = obj.WorldTransform;
 
-		if (Input.CountActiveGamePads != 0)
-			gamePad = Input.GetActiveGamePad(0);
+		if (Input.NumGamePads != 0)
+			gamePad = Input.GetGamePad(0);
 
 		IsInitialized = true;
 	}

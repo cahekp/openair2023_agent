@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>2ef87da0e5bb147f718097d20ff655097fb3dad4</guid>
 	<type>texture</type>
-	<hash>663cf192</hash>
+	<hash>a9319ce5</hash>
 	<runtimes>
 		<runtime id="2ef87da0e5bb147f718097d20ff655097fb3dad4" name="soldier_skin.png" link="0" type="6"/>
 		<runtime id="c0758823220fcf267e7b9c4d2c8191484eee0407" name="soldier_skin.texture" link="1" type="6"/>

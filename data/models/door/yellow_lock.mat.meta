@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>5150d9f4dd353cc39d63bb4640f359ed46c3f268</guid>
 	<type>material</type>
-	<hash>351bc386</hash>
+	<hash>04a36e36</hash>
 	<runtimes>
 		<runtime id="5150d9f4dd353cc39d63bb4640f359ed46c3f268" name="yellow_lock" link="0" type="5"/>
 	</runtimes>

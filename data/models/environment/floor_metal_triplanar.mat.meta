@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>90590b25220242405531d09fc89ce57257f40629</guid>
 	<type>material</type>
-	<hash>d05c0361</hash>
+	<hash>757e19f6</hash>
 	<runtimes>
 		<runtime id="90590b25220242405531d09fc89ce57257f40629" name="floor_metal_triplanar" link="0" type="5"/>
 	</runtimes>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>22737f476ef1b3fabfd4b311363dd13c0dcc7b6b</guid>
 	<type>fbx</type>
-	<hash>9e2c83da</hash>
+	<hash>5a0c778d</hash>
 	<runtimes>
 		<runtime id="22737f476ef1b3fabfd4b311363dd13c0dcc7b6b" name="gun_riffle.fbx" link="0"/>
 		<runtime id="9676ac55fd6c91b0972e794f46d796626adea259" name="gun_riffle.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">82527e18</parameter>
+				<parameter type="string" name="id">34dab98</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="391da7e4591951f3da19eeb6f4a2969d26082758" name="stock-1_017.mesh" link="2" type="1">
@@ -28,13 +28,13 @@
 		<parameter type="float" name="bound_size">10000</parameter>
 		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
 		<parameter type="float" name="fps">30</parameter>
-		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="string" name="front_axis">default</parameter>
 		<parameter type="bool" name="import_animations">1</parameter>
 		<parameter type="bool" name="import_bones_without_skin">1</parameter>
 		<parameter type="bool" name="import_cameras">1</parameter>
 		<parameter type="bool" name="import_lights">1</parameter>
 		<parameter type="bool" name="import_materials">1</parameter>
-		<parameter type="int" name="import_materials_mode">1</parameter>
+		<parameter type="string" name="import_materials_mode">overwrite</parameter>
 		<parameter type="bool" name="import_meshes">1</parameter>
 		<parameter type="bool" name="import_morph_targets">0</parameter>
 		<parameter type="bool" name="import_tangent_space">0</parameter>
@@ -44,7 +44,7 @@
 		<parameter type="float" name="linear_deflection">0.200000003</parameter>
 		<parameter type="string" name="lods">_lod_0,-1e+09,3,0,0,100,0,0,60;_lod_1,3,9,0,0,60,0,1,60;_lod_2,9,1e+09,0,0,30,0,1,60</parameter>
 		<parameter type="string" name="lods_mode">off</parameter>
-		<parameter type="string" name="material_guids">material_012,78a1dff9bb358904742280936fc50cd6ad73de3d,barrel_nut,396e9fd8d6d5215752094ecace066fa129f5c48c,base_001,052687b219d6c3693373b5b4b248e583bf5fcd06,charge_handle_ar15_qraptor,0b17cbdc3059f58b8368cd6eba5935f583634ed0,handguard_short,1039dad67b76543de0f68878370bb177055b606a,lower_1,5bd8f7207b0a3fffd15acd5218dc0c8965fb2c54,lower_2,756fd73ac787fd514a2e167c8fd77fabdef1910e,mag_ar15_pmag_gen2_30,942645a4cf23d4b3cd7b1276828fe75dcc01c118,material_012,78a1dff9bb358904742280936fc50cd6ad73de3d,pistol_grip_ar15_magpul_001,dddcc0de4b2b32a535eb43c0541fe41f7df8e2f2,q_barrel_7_8,58ed1b68e68cc7a78870a0dabf87fa719928b11c,q_gas_block,93081bc2a4d9a839c21434443eecb2d3344f1a16,q_muzzle_honey_badger_001,c8d81c6c51476cdb73d1bc7e177db9c5aa12e060,stock_q_honey_badger,9d50abe6277b520d63a84c08c70dffc7e67d3a7a,td_checker_001,7cd32cb01426584f2947e962c6a4d9593b1872e4,td_checker_002,6f90754ae9ba642126042f0c6d901efb3f9b881e,upper,afcf7034c5c05e031af3eb86cabf4d2d4a4acca8</parameter>
+		<parameter type="string" name="material_guids">barrel_nut,396e9fd8d6d5215752094ecace066fa129f5c48c,base_001,052687b219d6c3693373b5b4b248e583bf5fcd06,charge_handle_ar15_qraptor,0b17cbdc3059f58b8368cd6eba5935f583634ed0,handguard_short,1039dad67b76543de0f68878370bb177055b606a,lower_1,5bd8f7207b0a3fffd15acd5218dc0c8965fb2c54,lower_2,756fd73ac787fd514a2e167c8fd77fabdef1910e,mag_ar15_pmag_gen2_30,942645a4cf23d4b3cd7b1276828fe75dcc01c118,material_012,78a1dff9bb358904742280936fc50cd6ad73de3d,pistol_grip_ar15_magpul_001,dddcc0de4b2b32a535eb43c0541fe41f7df8e2f2,q_barrel_7_8,58ed1b68e68cc7a78870a0dabf87fa719928b11c,q_gas_block,93081bc2a4d9a839c21434443eecb2d3344f1a16,q_muzzle_honey_badger_001,c8d81c6c51476cdb73d1bc7e177db9c5aa12e060,stock_q_honey_badger,9d50abe6277b520d63a84c08c70dffc7e67d3a7a,td_checker_001,7cd32cb01426584f2947e962c6a4d9593b1872e4,td_checker_002,6f90754ae9ba642126042f0c6d901efb3f9b881e,upper,afcf7034c5c05e031af3eb86cabf4d2d4a4acca8</parameter>
 		<parameter type="bool" name="merge_similar_materials">0</parameter>
 		<parameter type="bool" name="merge_static_meshes">0</parameter>
 		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
@@ -53,16 +53,16 @@
 		<parameter type="bool" name="need_triagulate">1</parameter>
 		<parameter type="int" name="num_lods">3</parameter>
 		<parameter type="string" name="prefix_materials"/>
-		<parameter type="int" name="resolution">3</parameter>
+		<parameter type="string" name="resolution">256</parameter>
 		<parameter type="float" name="scale">1</parameter>
 		<parameter type="bool" name="skip_empty_nodes">0</parameter>
 		<parameter type="int" name="smooth_animation_size">0</parameter>
 		<parameter type="bool" name="unwrap_uv_ch_0">0</parameter>
 		<parameter type="bool" name="unwrap_uv_ch_1">0</parameter>
-		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="string" name="up_axis">default</parameter>
 		<parameter type="bool" name="use_instances">1</parameter>
 		<parameter type="int" name="uv_ch">1</parameter>
 		<parameter type="bool" name="vertex_cache">1</parameter>
-		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="string" name="workflow">metalness</parameter>
 	</parameters>
 </asset>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="ObjectMeshStatic" id="764047527" name="lock">
 		<mesh_name>guid://935598d4bf602e23c81e3d266b0b324d0b902f48</mesh_name>
-		<surface name="None__lock_jpg" material="5150d9f4dd353cc39d63bb4640f359ed46c3f268"/>
+		<surface name="None__lock_jpg" material="5150d9f4dd353cc39d63bb4640f359ed46c3f268" intersection="1"/>
 		<transform>0.99999988 8.7422677e-08 -1.1394849e-06 0.0 1.139485e-06 -1.629182e-07 1 0.0 8.7422563e-08 -0.99999988 -2.2252291e-07 0.0 0 0 0 1.0</transform>
 	</node>
 </nodes>

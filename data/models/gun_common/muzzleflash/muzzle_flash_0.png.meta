@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>607b4b389b221537c3fcf12a8577ee81172675ec</guid>
 	<type>texture</type>
-	<hash>b9af4e6e</hash>
+	<hash>bdd9369</hash>
 	<runtimes>
 		<runtime id="607b4b389b221537c3fcf12a8577ee81172675ec" name="muzzle_flash_0.png" link="0" type="6"/>
 		<runtime id="406af85b61b4d1fec016d14584b611e043ad1bbf" name="muzzle_flash_0.texture" link="1" type="6"/>

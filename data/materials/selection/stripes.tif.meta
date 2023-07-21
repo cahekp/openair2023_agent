@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>1464cb30463264cfb95f8be2611719d9e518b964</guid>
 	<type>texture</type>
-	<hash>758e8c28</hash>
+	<hash>cca81ebf</hash>
 	<runtimes>
 		<runtime id="1464cb30463264cfb95f8be2611719d9e518b964" name="stripes.tif" link="0" type="6"/>
 		<runtime id="d3523573f1227c3659f2c61de18790d8d91f5e57" name="stripes.texture" link="1" type="6"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>5c1474fd7ccab238bd345037856bf02a78b4e181</guid>
 	<type>node</type>
-	<hash>adbe6619</hash>
+	<hash>97feaa17</hash>
 	<runtimes>
 		<runtime id="5c1474fd7ccab238bd345037856bf02a78b4e181" name="jerrycan.node" link="0" type="3"/>
 	</runtimes>

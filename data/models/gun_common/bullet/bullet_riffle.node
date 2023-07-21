@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="NodeDummy" id="536086027" name="bullet">
 		<properties>
 			<property parent="8f3797296b7cf6748d4daf437ac08bc6d63cf06d" guid="f9251691de77debc0ba02aebd59dc34e03e0f255">
@@ -10,7 +10,7 @@
 		<transform>0.99999988 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
 		<node type="ObjectMeshStatic" id="756385653" name="mesh">
 			<mesh_name>guid://ac38bf033eb6d8866b13562dcb2541a8cee438e7</mesh_name>
-			<surface name="capsule" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" material="6499f0be30b9e105bf045ea0eafb817f063420d2"/>
+			<surface name="capsule" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="6499f0be30b9e105bf045ea0eafb817f063420d2"/>
 			<transform>1.0000001 0 0 0.0 0 5.9604652e-08 -1 0.0 0 1 5.9604645e-08 0.0 0 -5.174897e-08 0 1.0</transform>
 		</node>
 	</node>

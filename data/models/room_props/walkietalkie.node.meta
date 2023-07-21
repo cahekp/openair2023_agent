@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>d27db708e3866ec72bd4dd7ae766ce911f1e36bc</guid>
 	<type>node</type>
-	<hash>c9811778</hash>
+	<hash>ff09af71</hash>
 	<runtimes>
 		<runtime id="d27db708e3866ec72bd4dd7ae766ce911f1e36bc" name="walkietalkie.node" link="0" type="3"/>
 	</runtimes>

@@ -94,7 +94,7 @@ public class CEnemy : Component
 
 		// segment from the eyes to the player's body
 		vec3 p0 = eyes_node.WorldPosition;
-		vec3 p1 = player.node.HierarchyWorldBoundBox.Center;
+		vec3 p1 = player.node.GetHierarchyWorldBoundBox().Center;
 		
 		// player is far
 		if (MathLib.Length(p1 - p0) > max_distance)
@@ -257,7 +257,7 @@ public class CEnemy : Component
 		body.LinearVelocity = velocity;
 
 		// turn hand (weapon) to target and shoot
-		vec3 target_point = target_enemy_node.HierarchyWorldBoundBox.Center;
+		vec3 target_point = target_enemy_node.GetHierarchyWorldBoundBox().Center;
 		vec3 hand_dir_to_target = MathLib.Normalize(target_point - hand.WorldPosition);
 		hand.SetWorldRotation(MathLib.Slerp(hand.GetWorldRotation(), MathLib.RotationFromDir(hand_dir_to_target), k));
 		if (MathLib.Angle(hand.GetWorldDirection(MathLib.AXIS.Y), hand_dir_to_target) <= angle_to_attack)
@@ -270,7 +270,7 @@ public class CEnemy : Component
 			return false;
 
 		vec3 p0 = weapon.bullet_spawn_point.WorldPosition;
-		vec3 p1 = target_enemy_node.HierarchyWorldBoundBox.Center;
+		vec3 p1 = target_enemy_node.GetHierarchyWorldBoundBox().Center;
 		if (World.GetIntersection(p0, p1, obstacle_mask))
 			return false;
 
@@ -324,7 +324,7 @@ public class CEnemy : Component
 		animated_model.SetAnimation((int)AnimationType.Idle, anim_idle.Path);
 		animated_model.SetAnimation((int)AnimationType.Walk, anim_walk.Path);
 		animated_model.SetAnimation((int)AnimationType.Attack, anim_attack.Path);
-		animated_model.Loop = 1;
+		animated_model.Loop = true;
 		
 		anim_weights[0] = 1; // idle is default animation
 	}

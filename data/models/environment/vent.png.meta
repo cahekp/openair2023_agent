@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>7e4e827aac522f9160b823bc0161abeb02d7504e</guid>
 	<type>texture</type>
-	<hash>6e6c619d</hash>
+	<hash>4e596c83</hash>
 	<runtimes>
 		<runtime id="7e4e827aac522f9160b823bc0161abeb02d7504e" name="vent.png" link="0" type="6"/>
 		<runtime id="02fb1b551b6034b01a7fc04f43423162d90a8159" name="vent.texture" link="1" type="6"/>

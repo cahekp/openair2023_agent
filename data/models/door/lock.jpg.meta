@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>baffc3e1c4708bccb4c554bb5079c2deddf04ca5</guid>
 	<type>texture</type>
-	<hash>d7f3e05b</hash>
+	<hash>dc08306b</hash>
 	<runtimes>
 		<runtime id="baffc3e1c4708bccb4c554bb5079c2deddf04ca5" name="lock.jpg" link="0" type="6"/>
 		<runtime id="bc4995c0bd960e1f07b504f23c3a9fa93e8764f4" name="lock.texture" link="1" type="6"/>

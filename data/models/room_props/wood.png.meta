@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>b9eec3ddf02df39887aae2174a70988ac667ae61</guid>
 	<type>texture</type>
-	<hash>5f1e4b58</hash>
+	<hash>c84ea12</hash>
 	<runtimes>
 		<runtime id="b9eec3ddf02df39887aae2174a70988ac667ae61" name="wood.png" link="0" type="6"/>
 		<runtime id="a6a6744c60a5233b619e3f5e6ee59f25e61dc640" name="wood.texture" link="1" type="6"/>

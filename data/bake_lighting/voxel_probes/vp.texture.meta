@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>ef22c5ac89c1851b55ee77be4ecebc05f8557da0</guid>
 	<type>texture</type>
-	<hash>fa114997</hash>
+	<hash>0caf7aa6</hash>
 	<runtimes>
 		<runtime id="ef22c5ac89c1851b55ee77be4ecebc05f8557da0" name="vp.texture" link="0" type="6"/>
 	</runtimes>

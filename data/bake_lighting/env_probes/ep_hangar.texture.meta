@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>8c944ce0f8781abf51d769127afe75495236fe14</guid>
 	<type>texture</type>
-	<hash>94585978</hash>
+	<hash>b81ae85</hash>
 	<runtimes>
 		<runtime id="8c944ce0f8781abf51d769127afe75495236fe14" name="ep_hangar.texture" link="0" type="6"/>
 	</runtimes>

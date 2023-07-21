@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>40abcf4036fbf99fcd36fa7205251729898c7674</guid>
 	<type>material</type>
-	<hash>588a474b</hash>
+	<hash>d59fbbff</hash>
 	<runtimes>
 		<runtime id="40abcf4036fbf99fcd36fa7205251729898c7674" name="orange" link="0" type="5"/>
 	</runtimes>

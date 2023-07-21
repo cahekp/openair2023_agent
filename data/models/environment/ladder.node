@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="ObjectMeshStatic" id="1625721360" name="ladder">
 		<mesh_name>guid://d90730cae2f6e9a1f4c7f68c6a7e407b3e8c3b9e</mesh_name>
-		<surface name="None__floor_metal_jpg" material="1be423ec0f60ce5bbd74affe894917459a279fe0"/>
+		<surface name="None__floor_metal_jpg" material="1be423ec0f60ce5bbd74affe894917459a279fe0" intersection="1"/>
 		<body type="BodyDummy" id="1789728572" frozen="0">
 			<shape type="ShapeBox" id="1960768490" transform="0.999988973 1.27897692e-13 1.17386417e-12 0 -5.25801624e-12 1 -5.25801624e-12 0 -1.18082649e-12 -1.05160325e-12 0.999988973 0 -0.400882721 0.449545264 -1.52587891e-05 1">
 				<size>0.198169649 0.0957038701 1</size>

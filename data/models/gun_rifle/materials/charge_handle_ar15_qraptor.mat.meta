@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>0b17cbdc3059f58b8368cd6eba5935f583634ed0</guid>
 	<type>material</type>
-	<hash>4400dda1</hash>
+	<hash>fc3ce043</hash>
 	<runtimes>
 		<runtime id="0b17cbdc3059f58b8368cd6eba5935f583634ed0" name="charge_handle_ar15_qraptor" link="0" type="5"/>
 	</runtimes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202</guid>
 	<type>texture</type>
-	<hash>0fc3adb1</hash>
+	<hash>2428f9ec</hash>
 	<runtimes>
 		<runtime id="efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202" name="wall_rusty.png" link="0" type="6"/>
 		<runtime id="a22ccdf86ffe38f7c72941ea39a48841066cc4ac" name="wall_rusty.texture" link="1" type="6"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>eff28da1e4e74a8c4b8d847b656aaf9e0b40d265</guid>
 	<type>node</type>
-	<hash>3f22c25e</hash>
+	<hash>b69a1a57</hash>
 	<runtimes>
 		<runtime id="eff28da1e4e74a8c4b8d847b656aaf9e0b40d265" name="tank.node" link="0" type="3"/>
 	</runtimes>

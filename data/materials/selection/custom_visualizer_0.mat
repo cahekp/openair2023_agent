@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.16.1.0" guid="77abbe565463e1bd5ce7b7f83eb81af768a5bbea" base_material="353cadda1812a371d889461cc612aacb694181ae">
+<material version="2.17.0.1" guid="77abbe565463e1bd5ce7b7f83eb81af768a5bbea" base_material="353cadda1812a371d889461cc612aacb694181ae">
 	<texture name="mask_texture">guid://d3523573f1227c3659f2c61de18790d8d91f5e57</texture>
 	<parameter name="outline_radius" expression="0">4</parameter>
 	<parameter name="filling_opacity" expression="0">0.25</parameter>

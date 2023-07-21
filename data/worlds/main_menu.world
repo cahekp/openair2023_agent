@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<world version="2.16.1.0">
+<world version="2.17.0.1">
 	<sound>
 		<enabled>1</enabled>
 		<sound_manager_load_samples>0</sound_manager_load_samples>
@@ -180,18 +180,9 @@
 		<render_animation_wind>0 0 0</render_animation_wind>
 		<render_auxiliary>1</render_auxiliary>
 		<render_background_color>0 0 0 0</render_background_color>
-		<render_bent_normal_color_clamping_intensity>1</render_bent_normal_color_clamping_intensity>
-		<render_bent_normal_color_clamping_velocity_threshold>0</render_bent_normal_color_clamping_velocity_threshold>
-		<render_bent_normal_denoise_gaussian_sigma>10</render_bent_normal_denoise_gaussian_sigma>
-		<render_bent_normal_denoise_intensity>0.200000003</render_bent_normal_denoise_intensity>
-		<render_bent_normal_denoise_quality>1</render_bent_normal_denoise_quality>
-		<render_bent_normal_denoise_radius>1</render_bent_normal_denoise_radius>
-		<render_bent_normal_denoise_threshold>0.100000001</render_bent_normal_denoise_threshold>
+		<render_bent_normal>0</render_bent_normal>
 		<render_bent_normal_fix_overlit_areas>0</render_bent_normal_fix_overlit_areas>
-		<render_bent_normal_preset>raytracing low</render_bent_normal_preset>
-		<render_bent_normal_ray_tracing>1</render_bent_normal_ray_tracing>
-		<render_bent_normal_ray_tracing_denoise>0</render_bent_normal_ray_tracing_denoise>
-		<render_bent_normal_ray_tracing_threshold>1</render_bent_normal_ray_tracing_threshold>
+		<render_bent_normal_threshold>1</render_bent_normal_threshold>
 		<render_bloom>0</render_bloom>
 		<render_bloom_passes>6</render_bloom_passes>
 		<render_bloom_power>1</render_bloom_power>
@@ -249,6 +240,10 @@
 		<render_debug>1</render_debug>
 		<render_decal_distance>1e+09</render_decal_distance>
 		<render_decals>1</render_decals>
+		<render_denoise_denoise_by_velocity_threshold>1</render_denoise_denoise_by_velocity_threshold>
+		<render_denoise_num_blur_iterations>5</render_denoise_num_blur_iterations>
+		<render_denoise_preset>sharpest_low</render_denoise_preset>
+		<render_denoise_radius>1</render_denoise_radius>
 		<render_depth_pre_pass>0</render_depth_pre_pass>
 		<render_dirt_scale>0.5</render_dirt_scale>
 		<render_distance_offset>0</render_distance_offset>
@@ -268,8 +263,8 @@
 		<render_dof_quality>1</render_dof_quality>
 		<render_dof_resolution>2</render_dof_resolution>
 		<render_environment>0</render_environment>
-		<render_environment_correct_roughness>2</render_environment_correct_roughness>
 		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
+		<render_environment_ggx_mipmaps_quality>1</render_environment_ggx_mipmaps_quality>
 		<render_environment_haze>2</render_environment_haze>
 		<render_environment_haze_colorization_intensity>0.949999988</render_environment_haze_colorization_intensity>
 		<render_environment_haze_colorization_threshold>0.5</render_environment_haze_colorization_threshold>
@@ -298,8 +293,22 @@
 		<render_fxaa>0</render_fxaa>
 		<render_fxaa_intensity>0</render_fxaa_intensity>
 		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
-		<render_gi_preset>custom</render_gi_preset>
+		<render_indirect_diffuse_denoise_enabled>1</render_indirect_diffuse_denoise_enabled>
+		<render_indirect_diffuse_denoise_mask_enabled>1</render_indirect_diffuse_denoise_mask_enabled>
+		<render_indirect_diffuse_denoise_threshold>1</render_indirect_diffuse_denoise_threshold>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_diffuse_temporal_filtering_enabled>1</render_indirect_diffuse_temporal_filtering_enabled>
+		<render_indirect_diffuse_temporal_filtering_frame_count>50</render_indirect_diffuse_temporal_filtering_frame_count>
+		<render_indirect_specular_denoise_enabled>1</render_indirect_specular_denoise_enabled>
+		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
+		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
+		<render_indirect_specular_temporal_filtering_color_clamping_intensity>1</render_indirect_specular_temporal_filtering_color_clamping_intensity>
+		<render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_specular_temporal_filtering_enabled>1</render_indirect_specular_temporal_filtering_enabled>
+		<render_indirect_specular_temporal_filtering_frame_count>50</render_indirect_specular_temporal_filtering_frame_count>
 		<render_iso>100</render_iso>
+		<render_landscape_cache_cpu_prefetch_radius>0</render_landscape_cache_cpu_prefetch_radius>
 		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
 		<render_landscape_cache_gpu_life_time>4</render_landscape_cache_gpu_life_time>
 		<render_landscape_cache_gpu_size>5</render_landscape_cache_gpu_size>
@@ -419,6 +428,9 @@
 		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
 		<render_sharpen>1</render_sharpen>
 		<render_sharpen_intensity>0.5</render_sharpen_intensity>
+		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
+		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
+		<render_show_visualizer_distance>500</render_show_visualizer_distance>
 		<render_show_voxel_probe_visualizer_grid_size>15</render_show_voxel_probe_visualizer_grid_size>
 		<render_show_voxel_probe_visualizer_sphere_scale>0.25</render_show_voxel_probe_visualizer_sphere_scale>
 		<render_shutter_speed>250</render_shutter_speed>
@@ -431,24 +443,8 @@
 		<render_ssao_cavity>1</render_ssao_cavity>
 		<render_ssao_cavity_intensity>0.200000003</render_ssao_cavity_intensity>
 		<render_ssao_cavity_radius>2</render_ssao_cavity_radius>
-		<render_ssao_color_clamping_intensity>1</render_ssao_color_clamping_intensity>
-		<render_ssao_color_clamping_velocity_threshold>0</render_ssao_color_clamping_velocity_threshold>
-		<render_ssao_denoise_gaussian_sigma>10</render_ssao_denoise_gaussian_sigma>
-		<render_ssao_denoise_intensity>0.200000003</render_ssao_denoise_intensity>
-		<render_ssao_denoise_quality>1</render_ssao_denoise_quality>
-		<render_ssao_denoise_radius>1</render_ssao_denoise_radius>
-		<render_ssao_denoise_threshold>0.100000001</render_ssao_denoise_threshold>
 		<render_ssao_intensity>1</render_ssao_intensity>
-		<render_ssao_intensity_lighted_side>0</render_ssao_intensity_lighted_side>
 		<render_ssao_intensity_reflection>1</render_ssao_intensity_reflection>
-		<render_ssao_noise>1</render_ssao_noise>
-		<render_ssao_preset>raytracing + denoise</render_ssao_preset>
-		<render_ssao_quality>1</render_ssao_quality>
-		<render_ssao_radius>1</render_ssao_radius>
-		<render_ssao_ray_tracing>1</render_ssao_ray_tracing>
-		<render_ssao_ray_tracing_denoise>1</render_ssao_ray_tracing_denoise>
-		<render_ssao_ray_tracing_threshold>0.349999994</render_ssao_ray_tracing_threshold>
-		<render_ssao_resolution>1</render_ssao_resolution>
 		<render_ssao_threshold>0.300000012</render_ssao_threshold>
 		<render_ssbevel>0</render_ssbevel>
 		<render_ssbevel_noise>0</render_ssbevel_noise>
@@ -475,30 +471,11 @@
 		<render_ssdirt_resolution>1</render_ssdirt_resolution>
 		<render_ssdirt_threshold>1</render_ssdirt_threshold>
 		<render_ssgi>0</render_ssgi>
-		<render_ssgi_color_clamping_intensity>0.100000001</render_ssgi_color_clamping_intensity>
-		<render_ssgi_color_clamping_velocity_threshold>100</render_ssgi_color_clamping_velocity_threshold>
-		<render_ssgi_denoise>1</render_ssgi_denoise>
-		<render_ssgi_denoise_gaussian_sigma>10</render_ssgi_denoise_gaussian_sigma>
-		<render_ssgi_denoise_intensity>0.200000003</render_ssgi_denoise_intensity>
-		<render_ssgi_denoise_quality>1</render_ssgi_denoise_quality>
-		<render_ssgi_denoise_radius>1</render_ssgi_denoise_radius>
-		<render_ssgi_denoise_threshold>0.100000001</render_ssgi_denoise_threshold>
 		<render_ssgi_intensity>1</render_ssgi_intensity>
 		<render_ssgi_intensity_boost>1</render_ssgi_intensity_boost>
-		<render_ssgi_preset>raytracing</render_ssgi_preset>
-		<render_ssgi_radius>1</render_ssgi_radius>
-		<render_ssgi_resolution_color>1</render_ssgi_resolution_color>
 		<render_ssgi_threshold>1</render_ssgi_threshold>
 		<render_ssr>1</render_ssr>
 		<render_ssr_alpha_accumulation_mode>0</render_ssr_alpha_accumulation_mode>
-		<render_ssr_color_clamping_intensity>0.100000001</render_ssr_color_clamping_intensity>
-		<render_ssr_color_clamping_velocity_threshold>100</render_ssr_color_clamping_velocity_threshold>
-		<render_ssr_denoise>1</render_ssr_denoise>
-		<render_ssr_denoise_gaussian_sigma>10</render_ssr_denoise_gaussian_sigma>
-		<render_ssr_denoise_intensity>1</render_ssr_denoise_intensity>
-		<render_ssr_denoise_quality>1</render_ssr_denoise_quality>
-		<render_ssr_denoise_radius>1</render_ssr_denoise_radius>
-		<render_ssr_denoise_threshold>0.100000001</render_ssr_denoise_threshold>
 		<render_ssr_increased_accuracy>0</render_ssr_increased_accuracy>
 		<render_ssr_non_linear_step_size>1</render_ssr_non_linear_step_size>
 		<render_ssr_normal_bias>1</render_ssr_normal_bias>
@@ -517,10 +494,8 @@
 		<render_ssr_view_bias>1</render_ssr_view_bias>
 		<render_ssr_visibility_roughness_max>0.449999988</render_ssr_visibility_roughness_max>
 		<render_ssr_visibility_roughness_min>0.349999994</render_ssr_visibility_roughness_min>
-		<render_ssrtgi>1</render_ssrtgi>
 		<render_ssrtgi_fast_tracing>1</render_ssrtgi_fast_tracing>
 		<render_ssrtgi_increased_accuracy>1</render_ssrtgi_increased_accuracy>
-		<render_ssrtgi_noise_ray>0.300000012</render_ssrtgi_noise_ray>
 		<render_ssrtgi_noise_step>0.300000012</render_ssrtgi_noise_step>
 		<render_ssrtgi_num_rays>12</render_ssrtgi_num_rays>
 		<render_ssrtgi_num_steps>3</render_ssrtgi_num_steps>
@@ -561,20 +536,32 @@
 		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
 		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
 		<render_stereo_planar_reflections_per_eye>0</render_stereo_planar_reflections_per_eye>
-		<render_streaming_destroy_duration>30</render_streaming_destroy_duration>
+		<render_streaming_budget_destroy_meshes>0.100000001</render_streaming_budget_destroy_meshes>
+		<render_streaming_budget_destroy_textures>0.100000001</render_streaming_budget_destroy_textures>
+		<render_streaming_budget_loading>1</render_streaming_budget_loading>
+		<render_streaming_first_frames_force>60</render_streaming_first_frames_force>
 		<render_streaming_max_threads>1</render_streaming_max_threads>
-		<render_streaming_meshes_memory_limit>15</render_streaming_meshes_memory_limit>
-		<render_streaming_mode>0</render_streaming_mode>
+		<render_streaming_meshes_life_time_ram>20</render_streaming_meshes_life_time_ram>
+		<render_streaming_meshes_life_time_vram>4</render_streaming_meshes_life_time_vram>
+		<render_streaming_meshes_limit_ram>5</render_streaming_meshes_limit_ram>
+		<render_streaming_meshes_limit_vram>15</render_streaming_meshes_limit_vram>
+		<render_streaming_meshes_mode_ram>1</render_streaming_meshes_mode_ram>
+		<render_streaming_meshes_mode_vram>0</render_streaming_meshes_mode_vram>
+		<render_streaming_meshes_prefetch_collision>0</render_streaming_meshes_prefetch_collision>
+		<render_streaming_meshes_prefetch_intersection>0</render_streaming_meshes_prefetch_intersection>
+		<render_streaming_meshes_prefetch_radius>0</render_streaming_meshes_prefetch_radius>
 		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
 		<render_streaming_textures_cache_resolution>1</render_streaming_textures_cache_resolution>
+		<render_streaming_textures_life_time>4</render_streaming_textures_life_time>
 		<render_streaming_textures_memory_limit>65</render_streaming_textures_memory_limit>
-		<render_streaming_update_limit>1.5</render_streaming_update_limit>
-		<render_streaming_use_memory_limit>1</render_streaming_use_memory_limit>
+		<render_streaming_textures_mode>0</render_streaming_textures_mode>
 		<render_supersampling>1</render_supersampling>
 		<render_taa>1</render_taa>
 		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
 		<render_taa_catmull_resampling>1</render_taa_catmull_resampling>
+		<render_taa_catmull_resampling_sharpness>0.699999988</render_taa_catmull_resampling_sharpness>
 		<render_taa_diagonal_neighbors>0</render_taa_diagonal_neighbors>
+		<render_taa_edges_frame_count_multiplier>1</render_taa_edges_frame_count_multiplier>
 		<render_taa_fix_flicker>1</render_taa_fix_flicker>
 		<render_taa_frame_count>30</render_taa_frame_count>
 		<render_taa_frames_by_color>1</render_taa_frames_by_color>
@@ -596,7 +583,7 @@
 		<render_tessellation_shadow_density_multiplier>1</render_tessellation_shadow_density_multiplier>
 		<render_textures_anisotropy>4</render_textures_anisotropy>
 		<render_textures_filter>1</render_textures_filter>
-		<render_textures_max_resolution>6</render_textures_max_resolution>
+		<render_textures_max_resolution>7</render_textures_max_resolution>
 		<render_textures_min_resolution>0</render_textures_min_resolution>
 		<render_textures_quality>2</render_textures_quality>
 		<render_tonemapper>0</render_tonemapper>
@@ -675,13 +662,17 @@
 			<controlled>1</controlled>
 			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 0 0 1.5 1.0</transform>
 			<node type="ObjectMeshStatic" id="599516964" name="background">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" intersection="0" material="a61cfea717ad6bda11804971693eb41c271d40cb"/>
+				<surface name="plane" material="a61cfea717ad6bda11804971693eb41c271d40cb"/>
 				<transform>2.0599997 7.3671299e-07 0 0.0 -4.1484816e-07 1.16 0 0.0 0 0 0.99999917 0.0 0 0 -1 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="579210885" name="button_start">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
+				<surface name="plane" intersection="1" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
 				<properties>
 					<property parent="13643e263aff3f4d1d22d848b8689f07d0cad0ba" guid="1203cae77a074b1aac441fb138ce155c5164b10b">
 						<parameter name="sound_hover">guid://b8134f5005d3da6f4610450203f34079a74a6f84</parameter>
@@ -700,13 +691,15 @@
 					<text>Начать игру</text>
 					<font_size>16</font_size>
 					<text_wrap_width>0</text_wrap_width>
-					<surface name="text" intersection="0" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
+					<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
 					<transform>1.7212843 -2.7284841e-12 -4.2632361e-14 0.0 1.7053026e-13 19.835011 2.8421709e-14 0.0 1.0646148e-13 -4.5474735e-13 1.0000014 0.0 -0.22935882 0.57014734 0.0099998713 1.0</transform>
 				</node>
 			</node>
 			<node type="ObjectMeshStatic" id="1497531410" name="button_authors">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
+				<surface name="plane" intersection="1" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
 				<properties>
 					<property parent="13643e263aff3f4d1d22d848b8689f07d0cad0ba" guid="745e0ebb0f5734deec9b16a54171d7c0fced681f">
 						<parameter name="sound_hover">guid://b8134f5005d3da6f4610450203f34079a74a6f84</parameter>
@@ -725,13 +718,15 @@
 					<text>Авторы</text>
 					<font_size>16</font_size>
 					<text_wrap_width>0</text_wrap_width>
-					<surface name="text" intersection="0" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
+					<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
 					<transform>1.7212844 -4.0927262e-12 1.4211072e-14 0.0 2.8421709e-13 19.835011 2.8421709e-14 0.0 -6.4068718e-14 -4.5474735e-13 1.0000014 0.0 -0.1389851 0.60118139 0.0099996328 1.0</transform>
 				</node>
 			</node>
 			<node type="ObjectMeshStatic" id="723160933" name="button_exit">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
+				<surface name="plane" intersection="1" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
 				<properties>
 					<property parent="13643e263aff3f4d1d22d848b8689f07d0cad0ba" guid="681afca1f22eed8c6e22cb7b90494a9e0d50b165">
 						<parameter name="sound_hover">guid://b8134f5005d3da6f4610450203f34079a74a6f84</parameter>
@@ -750,7 +745,7 @@
 					<text>Выход</text>
 					<font_size>16</font_size>
 					<text_wrap_width>0</text_wrap_width>
-					<surface name="text" intersection="0" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
+					<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
 					<transform>1.7212847 -7.730705e-12 4.2632781e-14 0.0 5.6843419e-13 19.835009 0 0.0 -6.4068651e-14 -4.5474735e-13 1.0000014 0.0 -0.11512786 0.64733726 0.0099996328 1.0</transform>
 				</node>
 			</node>
@@ -774,13 +769,17 @@
 			<controlled>1</controlled>
 			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 0 0 -0.13203411 1.0</transform>
 			<node type="ObjectMeshStatic" id="565730714" name="background">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" intersection="0" material="a61cfea717ad6bda11804971693eb41c271d40cb"/>
+				<surface name="plane" material="a61cfea717ad6bda11804971693eb41c271d40cb"/>
 				<transform>2.0599997 7.3671299e-07 0 0.0 -4.1484816e-07 1.16 0 0.0 0 0 0.99999917 0.0 0 0 -1 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="1707835299" name="button_back">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
+				<surface name="plane" intersection="1" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
 				<properties>
 					<property parent="13643e263aff3f4d1d22d848b8689f07d0cad0ba" guid="813fde95fbe99ef0a20fa58fde2855a2f36bd899">
 						<parameter name="sound_hover">guid://b8134f5005d3da6f4610450203f34079a74a6f84</parameter>
@@ -799,7 +798,7 @@
 					<text>Назад</text>
 					<font_size>16</font_size>
 					<text_wrap_width>0</text_wrap_width>
-					<surface name="text" intersection="0" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
+					<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
 					<transform>1.7212847 -7.730705e-12 4.2632781e-14 0.0 5.6843419e-13 19.835009 0 0.0 -6.4068651e-14 -4.5474735e-13 1.0000014 0.0 -0.11512786 0.64733726 0.0099996328 1.0</transform>
 				</node>
 			</node>
@@ -816,7 +815,7 @@
 (2012-2018 Sergey Beatoff a.k.a. Sam_T, S&amp;M(T&amp;D)Soft)</text>
 				<font_size>12</font_size>
 				<text_wrap_width>0</text_wrap_width>
-				<surface name="text" intersection="0" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
+				<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
 				<transform>0.99999988 3.5762795e-07 -4.5474735e-13 0.0 -3.5762793e-07 0.99999988 -3.576277e-07 0.0 3.126388e-13 3.5762767e-07 0.99999976 0.0 -0.096779585 0.048037283 -0.89000005 1.0</transform>
 			</node>
 		</node>
@@ -852,5 +851,6 @@
 		<bake_lightmap_quality>3</bake_lightmap_quality>
 		<bake_lightmap_viewport_mask>-1</bake_lightmap_viewport_mask>
 		<bake_lightmap_zfar>1000</bake_lightmap_zfar>
+		<world_moving_immovable_node_mode>1</world_moving_immovable_node_mode>
 	</console>
 </world>

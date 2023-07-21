@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>068f7ec81fc41387e15abb3a1d4d9151d22e9a7c</guid>
 	<type>material</type>
-	<hash>1b6486</hash>
+	<hash>f64ce9fb</hash>
 	<runtimes>
 		<runtime id="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c" name="muzzle_flash_0" link="0" type="5"/>
 	</runtimes>

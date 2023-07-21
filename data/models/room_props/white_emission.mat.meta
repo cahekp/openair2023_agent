@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>2c9b8ca3364909a6093294cd634f2fc87f061087</guid>
 	<type>material</type>
-	<hash>9475d20d</hash>
+	<hash>fb043df7</hash>
 	<runtimes>
 		<runtime id="2c9b8ca3364909a6093294cd634f2fc87f061087" name="white_emission" link="0" type="5"/>
 	</runtimes>

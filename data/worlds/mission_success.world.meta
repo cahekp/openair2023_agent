@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>6c5aa29cbb0f5d4bf7b5922e6f63b3b52ac63190</guid>
 	<type>world</type>
-	<hash>c3997e59</hash>
+	<hash>1bfc9922</hash>
 	<runtimes>
 		<runtime id="6c5aa29cbb0f5d4bf7b5922e6f63b3b52ac63190" name="mission_success.world" link="0"/>
 	</runtimes>
@@ -11,82 +11,6 @@
 		<parameter type="string" name="render_settings_path"/>
 		<parameter type="string" name="script_name"/>
 		<parameter type="string" name="sound_settings_path"/>
-		<parameter type="string" name="viewports">&lt;viewport_list&gt;
-&lt;1&gt;
-&lt;flashlight&gt;
-&lt;enabled&gt;0&lt;/enabled&gt;
-&lt;color&gt;1 1 1 1&lt;/color&gt;
-&lt;intensity&gt;1&lt;/intensity&gt;
-&lt;attenuation&gt;1&lt;/attenuation&gt;
-&lt;radius&gt;300&lt;/radius&gt;
-&lt;fov&gt;160&lt;/fov&gt;
-&lt;/flashlight&gt;
-&lt;speed_presets&gt;
-&lt;speed_0&gt;5&lt;/speed_0&gt;
-&lt;speed_1&gt;50&lt;/speed_1&gt;
-&lt;speed_2&gt;500&lt;/speed_2&gt;
-&lt;current_preset&gt;0&lt;/current_preset&gt;
-&lt;/speed_presets&gt;
-&lt;scene_camera&gt;
-&lt;transform&gt;0.87632977962493896 -0.48171150684356689 3.1292435664909135e-07 0 0.18513494729995728 0.33679810166358948 0.92319667339324951 0 -0.44471454620361328 -0.80902481079101563 0.38432788848876953 0 -1.3761686086654663 -1.6045072078704834 2.0459082126617432 1&lt;/transform&gt;
-&lt;fov_mode&gt;0&lt;/fov_mode&gt;
-&lt;fov&gt;60&lt;/fov&gt;
-&lt;focal_length&gt;30&lt;/focal_length&gt;
-&lt;film_gate&gt;35&lt;/film_gate&gt;
-&lt;znear&gt;0.100000001&lt;/znear&gt;
-&lt;zfar&gt;100000&lt;/zfar&gt;
-&lt;viewport_mask&gt;-1&lt;/viewport_mask&gt;
-&lt;reflection_mask&gt;-1&lt;/reflection_mask&gt;
-&lt;source_mask&gt;-1&lt;/source_mask&gt;
-&lt;reverb_mask&gt;-1&lt;/reverb_mask&gt;
-&lt;ortho_enabled&gt;0&lt;/ortho_enabled&gt;
-&lt;ortho_height&gt;16&lt;/ortho_height&gt;
-&lt;projection&gt;1.7320509 0 0 0 0 1.7320509 0 0 0 0 -1.00000203 -1 0 0 -0.200000197 0&lt;/projection&gt;
-&lt;/scene_camera&gt;
-&lt;render_debug&gt;
-&lt;mode&gt;-1&lt;/mode&gt;
-&lt;ligth_meter_max_intensity&gt;500&lt;/ligth_meter_max_intensity&gt;
-&lt;/render_debug&gt;
-&lt;selected_camera_id&gt;620479819&lt;/selected_camera_id&gt;
-&lt;/1&gt;
-&lt;2&gt;
-&lt;flashlight&gt;
-&lt;enabled&gt;0&lt;/enabled&gt;
-&lt;color&gt;1 1 1 1&lt;/color&gt;
-&lt;intensity&gt;1&lt;/intensity&gt;
-&lt;attenuation&gt;1&lt;/attenuation&gt;
-&lt;radius&gt;300&lt;/radius&gt;
-&lt;fov&gt;160&lt;/fov&gt;
-&lt;/flashlight&gt;
-&lt;speed_presets&gt;
-&lt;speed_0&gt;5&lt;/speed_0&gt;
-&lt;speed_1&gt;50&lt;/speed_1&gt;
-&lt;speed_2&gt;500&lt;/speed_2&gt;
-&lt;current_preset&gt;0&lt;/current_preset&gt;
-&lt;/speed_presets&gt;
-&lt;scene_camera&gt;
-&lt;transform&gt;1 -3.5762786865234375e-07 0 0 0 0 1 0 -3.5762786865234375e-07 -1 0 0 0 0 1.5 1&lt;/transform&gt;
-&lt;fov_mode&gt;0&lt;/fov_mode&gt;
-&lt;fov&gt;60&lt;/fov&gt;
-&lt;focal_length&gt;30&lt;/focal_length&gt;
-&lt;film_gate&gt;35&lt;/film_gate&gt;
-&lt;znear&gt;0.100000001&lt;/znear&gt;
-&lt;zfar&gt;100000&lt;/zfar&gt;
-&lt;viewport_mask&gt;-1&lt;/viewport_mask&gt;
-&lt;reflection_mask&gt;-1&lt;/reflection_mask&gt;
-&lt;source_mask&gt;-1&lt;/source_mask&gt;
-&lt;reverb_mask&gt;-1&lt;/reverb_mask&gt;
-&lt;ortho_enabled&gt;0&lt;/ortho_enabled&gt;
-&lt;ortho_height&gt;16&lt;/ortho_height&gt;
-&lt;projection&gt;1.7320509 0 0 0 0 1.7320509 0 0 0 0 -1.00000203 -1 0 0 -0.200000197 0&lt;/projection&gt;
-&lt;/scene_camera&gt;
-&lt;render_debug&gt;
-&lt;mode&gt;-1&lt;/mode&gt;
-&lt;ligth_meter_max_intensity&gt;500&lt;/ligth_meter_max_intensity&gt;
-&lt;/render_debug&gt;
-&lt;selected_camera_id&gt;-1&lt;/selected_camera_id&gt;
-&lt;/2&gt;
-&lt;/viewport_list&gt;
-</parameter>
+		<parameter type="string" name="viewports_settings"/>
 	</parameters>
 </asset>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>2008e76b028a55cedcc362d5f288d630fd68f3cf</guid>
 	<type>material</type>
-	<hash>89b244c5</hash>
+	<hash>b83d18fe</hash>
 	<runtimes>
 		<runtime id="2008e76b028a55cedcc362d5f288d630fd68f3cf" name="rocks" link="0" type="5"/>
 	</runtimes>

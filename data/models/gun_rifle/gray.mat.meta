@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>3d59113885492337958ca72a32482c81e46d9bec</guid>
 	<type>material</type>
-	<hash>d1f31218</hash>
+	<hash>d82d2519</hash>
 	<runtimes>
 		<runtime id="3d59113885492337958ca72a32482c81e46d9bec" name="gray" link="0" type="5"/>
 	</runtimes>

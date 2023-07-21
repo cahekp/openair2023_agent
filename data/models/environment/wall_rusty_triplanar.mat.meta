@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>944a6ef2420d01a9ef425ef41a76fdc3c5a08846</guid>
 	<type>material</type>
-	<hash>f4e74b12</hash>
+	<hash>7310fe66</hash>
 	<runtimes>
 		<runtime id="944a6ef2420d01a9ef425ef41a76fdc3c5a08846" name="wall_rusty_triplanar" link="0" type="5"/>
 	</runtimes>

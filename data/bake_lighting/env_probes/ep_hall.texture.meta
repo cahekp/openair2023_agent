@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>69be4751626bd87c584659ab816ea30ed062cf15</guid>
 	<type>texture</type>
-	<hash>75cbbda</hash>
+	<hash>6b9d123f</hash>
 	<runtimes>
 		<runtime id="69be4751626bd87c584659ab816ea30ed062cf15" name="ep_hall.texture" link="0" type="6"/>
 	</runtimes>

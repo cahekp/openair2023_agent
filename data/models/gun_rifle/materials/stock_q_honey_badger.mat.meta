@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>9d50abe6277b520d63a84c08c70dffc7e67d3a7a</guid>
 	<type>material</type>
-	<hash>d302e65c</hash>
+	<hash>1e7c78ea</hash>
 	<runtimes>
 		<runtime id="9d50abe6277b520d63a84c08c70dffc7e67d3a7a" name="stock_q_honey_badger" link="0" type="5"/>
 	</runtimes>

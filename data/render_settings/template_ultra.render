@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<settings version="2.16.1.0">
+<settings version="2.17.0.1">
 	<render>
 		<data/>
 		<shader_defines/>
@@ -170,18 +170,7 @@
 		<render_animation_wind>0 0 0</render_animation_wind>
 		<render_auxiliary>1</render_auxiliary>
 		<render_background_color>0 0 0 0</render_background_color>
-		<render_bent_normal_color_clamping_intensity>1</render_bent_normal_color_clamping_intensity>
-		<render_bent_normal_color_clamping_velocity_threshold>0</render_bent_normal_color_clamping_velocity_threshold>
-		<render_bent_normal_denoise_gaussian_sigma>10</render_bent_normal_denoise_gaussian_sigma>
-		<render_bent_normal_denoise_intensity>0.200000003</render_bent_normal_denoise_intensity>
-		<render_bent_normal_denoise_quality>1</render_bent_normal_denoise_quality>
-		<render_bent_normal_denoise_radius>1</render_bent_normal_denoise_radius>
-		<render_bent_normal_denoise_threshold>0.100000001</render_bent_normal_denoise_threshold>
 		<render_bent_normal_fix_overlit_areas>1</render_bent_normal_fix_overlit_areas>
-		<render_bent_normal_preset>raytracing medium</render_bent_normal_preset>
-		<render_bent_normal_ray_tracing>1</render_bent_normal_ray_tracing>
-		<render_bent_normal_ray_tracing_denoise>0</render_bent_normal_ray_tracing_denoise>
-		<render_bent_normal_ray_tracing_threshold>1</render_bent_normal_ray_tracing_threshold>
 		<render_bloom>1</render_bloom>
 		<render_bloom_passes>6</render_bloom_passes>
 		<render_bloom_power>1</render_bloom_power>
@@ -258,7 +247,7 @@
 		<render_dof_quality>1</render_dof_quality>
 		<render_dof_resolution>2</render_dof_resolution>
 		<render_environment>1</render_environment>
-		<render_environment_correct_roughness>3</render_environment_correct_roughness>
+		<render_environment_ggx_mipmaps_quality>2</render_environment_ggx_mipmaps_quality>
 		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
 		<render_environment_haze>2</render_environment_haze>
 		<render_environment_haze_colorization_intensity>0.949999988</render_environment_haze_colorization_intensity>
@@ -288,7 +277,6 @@
 		<render_fxaa>1</render_fxaa>
 		<render_fxaa_intensity>0</render_fxaa_intensity>
 		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
-		<render_gi_preset>custom</render_gi_preset>
 		<render_iso>100</render_iso>
 		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
 		<render_landscape_cache_gpu_life_time>4</render_landscape_cache_gpu_life_time>
@@ -421,24 +409,8 @@
 		<render_ssao_cavity>1</render_ssao_cavity>
 		<render_ssao_cavity_intensity>0.200000003</render_ssao_cavity_intensity>
 		<render_ssao_cavity_radius>2</render_ssao_cavity_radius>
-		<render_ssao_color_clamping_intensity>1</render_ssao_color_clamping_intensity>
-		<render_ssao_color_clamping_velocity_threshold>0</render_ssao_color_clamping_velocity_threshold>
-		<render_ssao_denoise_gaussian_sigma>10</render_ssao_denoise_gaussian_sigma>
-		<render_ssao_denoise_intensity>0.200000003</render_ssao_denoise_intensity>
-		<render_ssao_denoise_quality>1</render_ssao_denoise_quality>
-		<render_ssao_denoise_radius>1</render_ssao_denoise_radius>
-		<render_ssao_denoise_threshold>0.100000001</render_ssao_denoise_threshold>
 		<render_ssao_intensity>1</render_ssao_intensity>
-		<render_ssao_intensity_lighted_side>0</render_ssao_intensity_lighted_side>
 		<render_ssao_intensity_reflection>1</render_ssao_intensity_reflection>
-		<render_ssao_noise>1</render_ssao_noise>
-		<render_ssao_preset>raytracing + denoise</render_ssao_preset>
-		<render_ssao_quality>1</render_ssao_quality>
-		<render_ssao_radius>1</render_ssao_radius>
-		<render_ssao_ray_tracing>1</render_ssao_ray_tracing>
-		<render_ssao_ray_tracing_denoise>1</render_ssao_ray_tracing_denoise>
-		<render_ssao_ray_tracing_threshold>0.349999994</render_ssao_ray_tracing_threshold>
-		<render_ssao_resolution>1</render_ssao_resolution>
 		<render_ssao_threshold>0.300000012</render_ssao_threshold>
 		<render_ssbevel>0</render_ssbevel>
 		<render_ssbevel_noise>0</render_ssbevel_noise>
@@ -465,30 +437,11 @@
 		<render_ssdirt_resolution>1</render_ssdirt_resolution>
 		<render_ssdirt_threshold>1</render_ssdirt_threshold>
 		<render_ssgi>0</render_ssgi>
-		<render_ssgi_color_clamping_intensity>0.100000001</render_ssgi_color_clamping_intensity>
-		<render_ssgi_color_clamping_velocity_threshold>100</render_ssgi_color_clamping_velocity_threshold>
-		<render_ssgi_denoise>1</render_ssgi_denoise>
-		<render_ssgi_denoise_gaussian_sigma>10</render_ssgi_denoise_gaussian_sigma>
-		<render_ssgi_denoise_intensity>0.200000003</render_ssgi_denoise_intensity>
-		<render_ssgi_denoise_quality>1</render_ssgi_denoise_quality>
-		<render_ssgi_denoise_radius>1</render_ssgi_denoise_radius>
-		<render_ssgi_denoise_threshold>0.100000001</render_ssgi_denoise_threshold>
 		<render_ssgi_intensity>1</render_ssgi_intensity>
 		<render_ssgi_intensity_boost>1</render_ssgi_intensity_boost>
-		<render_ssgi_preset>raytracing + denoise</render_ssgi_preset>
-		<render_ssgi_radius>1</render_ssgi_radius>
-		<render_ssgi_resolution_color>1</render_ssgi_resolution_color>
 		<render_ssgi_threshold>1</render_ssgi_threshold>
 		<render_ssr>1</render_ssr>
 		<render_ssr_alpha_accumulation_mode>0</render_ssr_alpha_accumulation_mode>
-		<render_ssr_color_clamping_intensity>0.100000001</render_ssr_color_clamping_intensity>
-		<render_ssr_color_clamping_velocity_threshold>100</render_ssr_color_clamping_velocity_threshold>
-		<render_ssr_denoise>1</render_ssr_denoise>
-		<render_ssr_denoise_gaussian_sigma>10</render_ssr_denoise_gaussian_sigma>
-		<render_ssr_denoise_intensity>1</render_ssr_denoise_intensity>
-		<render_ssr_denoise_quality>1</render_ssr_denoise_quality>
-		<render_ssr_denoise_radius>1</render_ssr_denoise_radius>
-		<render_ssr_denoise_threshold>0.100000001</render_ssr_denoise_threshold>
 		<render_ssr_increased_accuracy>0</render_ssr_increased_accuracy>
 		<render_ssr_non_linear_step_size>1</render_ssr_non_linear_step_size>
 		<render_ssr_normal_bias>1</render_ssr_normal_bias>
@@ -507,10 +460,8 @@
 		<render_ssr_view_bias>1</render_ssr_view_bias>
 		<render_ssr_visibility_roughness_max>0.449999988</render_ssr_visibility_roughness_max>
 		<render_ssr_visibility_roughness_min>0.349999994</render_ssr_visibility_roughness_min>
-		<render_ssrtgi>1</render_ssrtgi>
 		<render_ssrtgi_fast_tracing>1</render_ssrtgi_fast_tracing>
 		<render_ssrtgi_increased_accuracy>1</render_ssrtgi_increased_accuracy>
-		<render_ssrtgi_noise_ray>0.300000012</render_ssrtgi_noise_ray>
 		<render_ssrtgi_noise_step>0.300000012</render_ssrtgi_noise_step>
 		<render_ssrtgi_num_rays>16</render_ssrtgi_num_rays>
 		<render_ssrtgi_num_steps>5</render_ssrtgi_num_steps>
@@ -551,15 +502,12 @@
 		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
 		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
 		<render_stereo_planar_reflections_per_eye>0</render_stereo_planar_reflections_per_eye>
-		<render_streaming_destroy_duration>30</render_streaming_destroy_duration>
 		<render_streaming_max_threads>1</render_streaming_max_threads>
-		<render_streaming_meshes_memory_limit>15</render_streaming_meshes_memory_limit>
-		<render_streaming_mode>0</render_streaming_mode>
+		<render_streaming_meshes_limit_vram>15</render_streaming_meshes_limit_vram>
+		<render_streaming_textures_mode>0</render_streaming_textures_mode>
 		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
 		<render_streaming_textures_cache_resolution>1</render_streaming_textures_cache_resolution>
 		<render_streaming_textures_memory_limit>65</render_streaming_textures_memory_limit>
-		<render_streaming_update_limit>1.5</render_streaming_update_limit>
-		<render_streaming_use_memory_limit>1</render_streaming_use_memory_limit>
 		<render_supersampling>1</render_supersampling>
 		<render_taa>1</render_taa>
 		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
@@ -586,7 +534,7 @@
 		<render_tessellation_shadow_density_multiplier>1</render_tessellation_shadow_density_multiplier>
 		<render_textures_anisotropy>4</render_textures_anisotropy>
 		<render_textures_filter>1</render_textures_filter>
-		<render_textures_max_resolution>6</render_textures_max_resolution>
+		<render_textures_max_resolution>7</render_textures_max_resolution>
 		<render_textures_min_resolution>0</render_textures_min_resolution>
 		<render_textures_quality>2</render_textures_quality>
 		<render_tonemapper>1</render_tonemapper>
@@ -637,5 +585,44 @@
 		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
 		<debug_materials/>
 		<scriptable_materials/>
+		<render_streaming_meshes_mode_vram>0</render_streaming_meshes_mode_vram>
+		<render_bent_normal>0</render_bent_normal>
+		<render_bent_normal_threshold>1</render_bent_normal_threshold>
+		<render_denoise_denoise_by_velocity_threshold>1</render_denoise_denoise_by_velocity_threshold>
+		<render_denoise_num_blur_iterations>5</render_denoise_num_blur_iterations>
+		<render_denoise_preset>sharpest_low</render_denoise_preset>
+		<render_denoise_radius>1</render_denoise_radius>
+		<render_indirect_diffuse_denoise_enabled>1</render_indirect_diffuse_denoise_enabled>
+		<render_indirect_diffuse_denoise_mask_enabled>1</render_indirect_diffuse_denoise_mask_enabled>
+		<render_indirect_diffuse_denoise_threshold>1</render_indirect_diffuse_denoise_threshold>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_diffuse_temporal_filtering_enabled>1</render_indirect_diffuse_temporal_filtering_enabled>
+		<render_indirect_diffuse_temporal_filtering_frame_count>50</render_indirect_diffuse_temporal_filtering_frame_count>
+		<render_indirect_specular_denoise_enabled>1</render_indirect_specular_denoise_enabled>
+		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
+		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
+		<render_indirect_specular_temporal_filtering_color_clamping_intensity>1</render_indirect_specular_temporal_filtering_color_clamping_intensity>
+		<render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_specular_temporal_filtering_enabled>1</render_indirect_specular_temporal_filtering_enabled>
+		<render_indirect_specular_temporal_filtering_frame_count>50</render_indirect_specular_temporal_filtering_frame_count>
+		<render_landscape_cache_cpu_prefetch_radius>0</render_landscape_cache_cpu_prefetch_radius>
+		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
+		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
+		<render_show_visualizer_distance>500</render_show_visualizer_distance>
+		<render_streaming_budget_destroy_meshes>0.100000001</render_streaming_budget_destroy_meshes>
+		<render_streaming_budget_destroy_textures>0.100000001</render_streaming_budget_destroy_textures>
+		<render_streaming_budget_loading>1</render_streaming_budget_loading>
+		<render_streaming_first_frames_force>60</render_streaming_first_frames_force>
+		<render_streaming_meshes_life_time_ram>20</render_streaming_meshes_life_time_ram>
+		<render_streaming_meshes_life_time_vram>4</render_streaming_meshes_life_time_vram>
+		<render_streaming_meshes_limit_ram>5</render_streaming_meshes_limit_ram>
+		<render_streaming_meshes_mode_ram>1</render_streaming_meshes_mode_ram>
+		<render_streaming_meshes_prefetch_collision>0</render_streaming_meshes_prefetch_collision>
+		<render_streaming_meshes_prefetch_intersection>0</render_streaming_meshes_prefetch_intersection>
+		<render_streaming_meshes_prefetch_radius>0</render_streaming_meshes_prefetch_radius>
+		<render_streaming_textures_life_time>4</render_streaming_textures_life_time>
+		<render_taa_catmull_resampling_sharpness>0.699999988</render_taa_catmull_resampling_sharpness>
+		<render_taa_edges_frame_count_multiplier>1</render_taa_edges_frame_count_multiplier>
 	</render>
 </settings>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>05a6ca6dbf33a8e80602f727dbde0a5ae19f55f1</guid>
 	<type>node</type>
-	<hash>04829f53</hash>
+	<hash>0a4c3bb5</hash>
 	<runtimes>
 		<runtime id="05a6ca6dbf33a8e80602f727dbde0a5ae19f55f1" name="ladder.node" link="0" type="3"/>
 	</runtimes>

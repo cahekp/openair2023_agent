@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.16.1.0">
+<asset version="2.17.0.1">
 	<guid>c8d81c6c51476cdb73d1bc7e177db9c5aa12e060</guid>
 	<type>material</type>
-	<hash>cacf6254</hash>
+	<hash>dd23e2f3</hash>
 	<runtimes>
 		<runtime id="c8d81c6c51476cdb73d1bc7e177db9c5aa12e060" name="q_muzzle_honey_badger_001" link="0" type="5"/>
 	</runtimes>

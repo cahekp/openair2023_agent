@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.16.1.0">
+<nodes version="2.17.0.1">
 	<node type="NodeDummy" id="304215887" name="door">
 		<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 0 0 1.0</transform>
 		<node type="ObjectMeshStatic" id="1463901593" name="mesh">
 			<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
-			<surface name="None__door_jpg" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
+			<surface name="None__door_jpg" material="3804e85dba58ce183566fa977340d70aec61dae1" intersection="1"/>
 			<transform>1 8.7422798e-08 -8.7422784e-08 0.0 8.7422791e-08 -1.6291843e-07 1 0.0 8.7422777e-08 -1 -1.6291843e-07 0.0 0 0 0 1.0</transform>
 		</node>
 	</node>
