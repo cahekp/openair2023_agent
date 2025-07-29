@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>b2534a7ac04057912fc02bbc7ffa13eb5204984e</guid>
 	<type>material</type>
-	<hash>e1c41dca</hash>
+	<hash>9de1a4ef</hash>
 	<runtimes>
 		<runtime id="b2534a7ac04057912fc02bbc7ffa13eb5204984e" name="none__cargo_wood_jpg" link="0" type="5"/>
 	</runtimes>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>b1522c64510f0c739063673640e0b51dbfd6b3d8</guid>
 	<type>fbx</type>
-	<hash>f6314176</hash>
+	<hash>dc5ac58</hash>
 	<runtimes>
 		<runtime id="b1522c64510f0c739063673640e0b51dbfd6b3d8" name="toolbox.fbx" link="0"/>
 		<runtime id="c8a6e769865d89b4c6a0a983e3ecc106fdf324ad" name="toolbox.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">9d3b4baa</parameter>
+				<parameter type="string" name="id">38ed1678</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="9749be28ded98b67d815119a528e34312f3c1fdc" name="toolbox_001.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">d13f04da</parameter>
+				<parameter type="string" name="id">d1579452</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>
@@ -34,6 +34,7 @@
 		<parameter type="bool" name="import_morph_targets">0</parameter>
 		<parameter type="bool" name="import_tangent_space">0</parameter>
 		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="invert_gchannel_for_normal_maps">0</parameter>
 		<parameter type="bool" name="joints_reorientation">1</parameter>
 		<parameter type="string" name="lightmaps">{&quot;guid://9749be28ded98b67d815119a528e34312f3c1fdc&quot;:{&quot;survivalpropsMAT&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}}}</parameter>
 		<parameter type="float" name="linear_deflection">0.200000003</parameter>
@@ -43,6 +44,8 @@
 		<parameter type="bool" name="merge_similar_materials">0</parameter>
 		<parameter type="bool" name="merge_static_meshes">0</parameter>
 		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="float" name="morph_targets_normals_angle">180</parameter>
+		<parameter type="string" name="morph_targets_normals_mode">import</parameter>
 		<parameter type="bool" name="need_repivot">0</parameter>
 		<parameter type="bool" name="need_split">0</parameter>
 		<parameter type="bool" name="need_triagulate">1</parameter>
@@ -57,6 +60,7 @@
 		<parameter type="string" name="up_axis">default</parameter>
 		<parameter type="bool" name="use_instances">1</parameter>
 		<parameter type="int" name="uv_ch">1</parameter>
+		<parameter type="string" name="uv_unwrap_version">xatlas_v0</parameter>
 		<parameter type="bool" name="vertex_cache">1</parameter>
 		<parameter type="string" name="workflow">metalness</parameter>
 	</parameters>

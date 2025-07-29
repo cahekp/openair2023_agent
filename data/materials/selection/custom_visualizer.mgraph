@@ -16,8 +16,7 @@
 		"two_sided": false,
 		"overlap": false,
 		"depth_test": true,
-		"depth_write": true,
-		"gbuffer": true,
+		"scene_depth_write": true,
 		"depth_mode": 0,
 		"decal_tbn_mode": 0,
 		"normal_blend_mode": 0,
@@ -26,7 +25,10 @@
 		"user_mode": "Artist Friendly",
 		"blend_mode": 0,
 		"blend_src": 5,
-		"blend_dest": 6
+		"blend_dest": 6,
+		"opacity_depth_write": true,
+		"velocity_write": true,
+		"material_mask_write": true
 	},
 	"parameters": {
 		"parameter": {
@@ -108,7 +110,7 @@
 			}
 		}
 	},
-	"version": "2.17.0.1",
+	"version": "2.20.0.0",
 	"nodes": {
 		"Material": {
 			"label": "Material",
@@ -1606,7 +1608,7 @@
 					"widget": "Color",
 					"w": 1,
 					"z": 0.36265715956687927,
-					"y": 0.20453968644142176,
+					"y": 0.2045396864414222,
 					"x": 0.5
 				}
 			},
@@ -1664,9 +1666,9 @@
 					"label": "Color",
 					"widget": "Color",
 					"w": 1,
-					"z": 0.31451022624969516,
+					"z": 0.31451022624969588,
 					"y": 0.5,
-					"x": 0.26639857888221763
+					"x": 0.26639857888221813
 				}
 			},
 			"inputs": {
@@ -1695,8 +1697,8 @@
 					"label": "Color",
 					"widget": "Color",
 					"w": 1,
-					"z": 0.043516661971807542,
-					"y": 0.29676550626754783,
+					"z": 0.043516661971807639,
+					"y": 0.29676550626754788,
 					"x": 0.5
 				}
 			},
@@ -1949,9 +1951,9 @@
 					"label": "Color",
 					"widget": "Color",
 					"w": 1,
-					"z": 0.20875309407711046,
+					"z": 0.20875309407711073,
 					"y": 0.5,
-					"x": 0.33501014113426258
+					"x": 0.33501014113426347
 				}
 			},
 			"inputs": {
@@ -2023,7 +2025,7 @@
 				"prop": {
 					"label": "",
 					"widget": "Float",
-					"x": 0.30000001192092918
+					"x": 0.30000001192092962
 				}
 			},
 			"inputs": {

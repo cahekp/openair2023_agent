@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="1464137178" name="chair">
 		<mesh_name>guid://39ecd6cd851089c809b3a2872c7efe3aebd6f851</mesh_name>
 		<surface name="unnamed" material="d9163b53e94e0896037726fdb1b9bc38a553d237" intersection="1"/>

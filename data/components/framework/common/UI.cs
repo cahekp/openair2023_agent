@@ -177,7 +177,7 @@ public class UI_Element
 	string name;
 	float parent_widget_relative_x_offset;
 	float parent_widget_relative_y_offset;
-	Widget parent_widget;
+	Widget parent_widget = null;
 	protected UI_Element parent;
 	protected List<UI_Element> children = new List<UI_Element>();
 
@@ -814,8 +814,6 @@ public class UI_Button : UI_Element
 	WidgetSprite button;
 	WidgetLabel label;
 	int bx, by, bw, bh;
-	float cur_scale = 1.0f;
-	float clicked_timer = 1.0f;
 
 	public enum ALIGN { LEFT, CENTER, RIGHT };
 	ALIGN text_align = ALIGN.LEFT;

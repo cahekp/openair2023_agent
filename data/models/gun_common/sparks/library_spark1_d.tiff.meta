@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>461394f1244e899ccf7c184b96bd112ee65f26b5</guid>
 	<type>texture</type>
-	<hash>9f29eb39</hash>
+	<hash>822055e6</hash>
 	<runtimes>
 		<runtime id="461394f1244e899ccf7c184b96bd112ee65f26b5" name="library_spark1_d.tiff" link="0" type="6"/>
 		<runtime id="a05d089048a1c2af634e9042ab5892b98e751cc4" name="library_spark1_d.texture" link="1" type="6"/>
 	</runtimes>
 	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
 		<parameter type="string" name="height">auto</parameter>
 		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
 		<parameter type="string" name="image_type">2d</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
 		<parameter type="string" name="mipmap_type">box</parameter>
 		<parameter type="string" name="preset_name">albedo (rgba)</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
 		<parameter type="bool" name="unchanged">0</parameter>
 		<parameter type="string" name="width">auto</parameter>

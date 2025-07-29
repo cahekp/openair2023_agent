@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="1972526827" name="cargo_opened">
 		<mesh_name>guid://7cf25ca8321097e7395bb41a466374b1d543665c</mesh_name>
 		<surface name="None__cargo_wood_jpg" material="b2534a7ac04057912fc02bbc7ffa13eb5204984e" intersection="1"/>

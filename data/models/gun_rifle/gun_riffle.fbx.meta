@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>22737f476ef1b3fabfd4b311363dd13c0dcc7b6b</guid>
 	<type>fbx</type>
-	<hash>5a0c778d</hash>
+	<hash>25674e5f</hash>
 	<runtimes>
 		<runtime id="22737f476ef1b3fabfd4b311363dd13c0dcc7b6b" name="gun_riffle.fbx" link="0"/>
 		<runtime id="9676ac55fd6c91b0972e794f46d796626adea259" name="gun_riffle.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">34dab98</parameter>
+				<parameter type="string" name="id">096519fd</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="391da7e4591951f3da19eeb6f4a2969d26082758" name="stock-1_017.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">7aa96e1f</parameter>
+				<parameter type="string" name="id">554becc3</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="421e02d7d415c24aa62d4d2141b0040c1927effb" name="plane_054.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">6024aced</parameter>
+				<parameter type="string" name="id">554becc3</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>
@@ -39,6 +39,7 @@
 		<parameter type="bool" name="import_morph_targets">0</parameter>
 		<parameter type="bool" name="import_tangent_space">0</parameter>
 		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="invert_gchannel_for_normal_maps">0</parameter>
 		<parameter type="bool" name="joints_reorientation">1</parameter>
 		<parameter type="string" name="lightmaps">{&quot;guid://421e02d7d415c24aa62d4d2141b0040c1927effb&quot;:{&quot;Charge_Handle_ar15_Qraptor&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://391da7e4591951f3da19eeb6f4a2969d26082758&quot;:{&quot;Stock_Q_Honey_Badger&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}}}</parameter>
 		<parameter type="float" name="linear_deflection">0.200000003</parameter>
@@ -48,6 +49,8 @@
 		<parameter type="bool" name="merge_similar_materials">0</parameter>
 		<parameter type="bool" name="merge_static_meshes">0</parameter>
 		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="float" name="morph_targets_normals_angle">180</parameter>
+		<parameter type="string" name="morph_targets_normals_mode">import</parameter>
 		<parameter type="bool" name="need_repivot">0</parameter>
 		<parameter type="bool" name="need_split">0</parameter>
 		<parameter type="bool" name="need_triagulate">1</parameter>
@@ -62,6 +65,7 @@
 		<parameter type="string" name="up_axis">default</parameter>
 		<parameter type="bool" name="use_instances">1</parameter>
 		<parameter type="int" name="uv_ch">1</parameter>
+		<parameter type="string" name="uv_unwrap_version">xatlas_v0</parameter>
 		<parameter type="bool" name="vertex_cache">1</parameter>
 		<parameter type="string" name="workflow">metalness</parameter>
 	</parameters>

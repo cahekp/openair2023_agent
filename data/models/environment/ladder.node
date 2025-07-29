@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="1625721360" name="ladder">
 		<mesh_name>guid://d90730cae2f6e9a1f4c7f68c6a7e407b3e8c3b9e</mesh_name>
 		<surface name="None__floor_metal_jpg" material="1be423ec0f60ce5bbd74affe894917459a279fe0" intersection="1"/>

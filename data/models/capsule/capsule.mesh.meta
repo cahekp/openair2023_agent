@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>6dce8b5eb7a17b25ed4ff240cc43c09f6a261572</guid>
 	<type>mesh</type>
-	<hash>d3de7465</hash>
+	<hash>772f929c</hash>
 	<runtimes>
 		<runtime id="6dce8b5eb7a17b25ed4ff240cc43c09f6a261572" name="capsule.mesh" link="0" type="1"/>
 	</runtimes>

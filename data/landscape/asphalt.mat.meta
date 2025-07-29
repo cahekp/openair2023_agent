@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>ee79f7981f1f16175c0f3c8ae4ce02612b50b84c</guid>
 	<type>material</type>
-	<hash>ad2797fd</hash>
+	<hash>eccd6fd</hash>
 	<runtimes>
 		<runtime id="ee79f7981f1f16175c0f3c8ae4ce02612b50b84c" name="asphalt" link="0" type="5"/>
 	</runtimes>

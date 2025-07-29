@@ -321,9 +321,9 @@ public class CEnemy : Component
 			return;
 
 		animated_model.NumLayers = 3;
-		animated_model.SetAnimation((int)AnimationType.Idle, anim_idle.Path);
-		animated_model.SetAnimation((int)AnimationType.Walk, anim_walk.Path);
-		animated_model.SetAnimation((int)AnimationType.Attack, anim_attack.Path);
+		animated_model.SetLayerAnimationFilePath((int)AnimationType.Idle, anim_idle.Path);
+		animated_model.SetLayerAnimationFilePath((int)AnimationType.Walk, anim_walk.Path);
+		animated_model.SetLayerAnimationFilePath((int)AnimationType.Attack, anim_attack.Path);
 		animated_model.Loop = true;
 		
 		anim_weights[0] = 1; // idle is default animation
@@ -350,7 +350,7 @@ public class CEnemy : Component
 		for (int i = 0; i < (int)AnimationType.NUM; i++)
 		{
 			animated_model.SetLayer(i, true, anim_weights[i]);
-			animated_model.SetFrame(i, Game.Time * animated_model.Speed);
+			animated_model.SetLayerFrame(i, Game.Time * animated_model.Speed);
 		}
 	}
 

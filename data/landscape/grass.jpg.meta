@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>8a21674da5cee048fc5507079d3c18ba948050d1</guid>
 	<type>texture</type>
-	<hash>f3e42a14</hash>
+	<hash>594e5676</hash>
 	<runtimes>
 		<runtime id="8a21674da5cee048fc5507079d3c18ba948050d1" name="grass.jpg" link="0" type="6"/>
 		<runtime id="cb8f53fce1c89f2b2e3d2a8e1c5cb095da0c48f0" name="grass.texture" link="1" type="6"/>
 	</runtimes>
 	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
 		<parameter type="string" name="height">auto</parameter>
 		<parameter type="string" name="image_format">DXT1</parameter>
 		<parameter type="string" name="image_type">2d</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
 		<parameter type="string" name="mipmap_type">box</parameter>
 		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
 		<parameter type="bool" name="unchanged">0</parameter>
 		<parameter type="string" name="width">auto</parameter>

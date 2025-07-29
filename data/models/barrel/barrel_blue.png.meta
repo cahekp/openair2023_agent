@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>4e5307fe13a38f45648fb7e08fde89bfa9450c12</guid>
 	<type>texture</type>
-	<hash>4fb8712c</hash>
+	<hash>d7e04385</hash>
 	<runtimes>
 		<runtime id="4e5307fe13a38f45648fb7e08fde89bfa9450c12" name="barrel_blue.png" link="0" type="6"/>
 		<runtime id="8581bc49182b9914c897b1632f7b6766e9dbd78d" name="barrel_blue.texture" link="1" type="6"/>
 	</runtimes>
 	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
 		<parameter type="string" name="height">128</parameter>
 		<parameter type="string" name="image_format">DXT1</parameter>
 		<parameter type="string" name="image_type">2d</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
 		<parameter type="string" name="mipmap_type">box</parameter>
 		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
 		<parameter type="bool" name="unchanged">0</parameter>
 		<parameter type="string" name="width">128</parameter>

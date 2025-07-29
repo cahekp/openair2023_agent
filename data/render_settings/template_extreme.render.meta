@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>588478b44cd4cc83e5848806faf23fadb8001d28</guid>
 	<type>render_settings</type>
-	<hash>79ba0261</hash>
+	<hash>4d59342a</hash>
 	<runtimes>
 		<runtime id="588478b44cd4cc83e5848806faf23fadb8001d28" name="template_extreme.render" link="0"/>
 	</runtimes>

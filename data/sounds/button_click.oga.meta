@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>045ebba5871f38c01461551f5d519ff21df07ea9</guid>
 	<type>sound</type>
-	<hash>636ff913</hash>
+	<hash>51aa84a6</hash>
 	<runtimes>
 		<runtime id="045ebba5871f38c01461551f5d519ff21df07ea9" name="button_click.oga" link="0" type="7"/>
 	</runtimes>

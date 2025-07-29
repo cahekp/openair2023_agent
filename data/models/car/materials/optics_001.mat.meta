@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>d8049a89219e6254a6db69a3729542a608c779cd</guid>
 	<type>material</type>
-	<hash>47951a09</hash>
+	<hash>1059e1c8</hash>
 	<runtimes>
 		<runtime id="d8049a89219e6254a6db69a3729542a608c779cd" name="optics_001" link="0" type="5"/>
 	</runtimes>

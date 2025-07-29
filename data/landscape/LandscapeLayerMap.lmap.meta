@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>b1b6945a7e9a57f1bfd8709c3686d34b5bca902e</guid>
 	<type>lmap</type>
-	<hash>85570508</hash>
+	<hash>5bae908b</hash>
 	<runtimes>
 		<runtime id="b1b6945a7e9a57f1bfd8709c3686d34b5bca902e" name="LandscapeLayerMap.lmap" link="0"/>
 	</runtimes>
@@ -26,6 +26,7 @@
 		<parameter type="float" name="heightmap_attenuation_distance_y">0</parameter>
 		<parameter type="int" name="heightmap_blending">0</parameter>
 		<parameter type="int" name="heightmap_data">1</parameter>
+		<parameter type="bool" name="heightmap_lossy_compression">0</parameter>
 		<parameter type="int" name="heightmap_opacity_channel">0</parameter>
 		<parameter type="bool" name="heightmap_opacity_lossy_compression">0</parameter>
 		<parameter type="string" name="heightmap_opacity_path"/>

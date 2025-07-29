@@ -33,8 +33,8 @@ public class CPhysicalTrigger : Component
 
 	void Init()
 	{
-		physicalTrigger = node as PhysicalTrigger; 
-		physicalTrigger?.AddEnterCallback((Body body) => { Activate(); });
+		physicalTrigger = node as PhysicalTrigger;
+		physicalTrigger?.EventEnter.Connect((Body body) => { Activate(); });
 	}
 
 	void Update()

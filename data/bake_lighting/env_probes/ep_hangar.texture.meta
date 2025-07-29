@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>8c944ce0f8781abf51d769127afe75495236fe14</guid>
 	<type>texture</type>
-	<hash>b81ae85</hash>
+	<hash>f67ebcb6</hash>
 	<runtimes>
 		<runtime id="8c944ce0f8781abf51d769127afe75495236fe14" name="ep_hangar.texture" link="0" type="6"/>
 	</runtimes>
 	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
 		<parameter type="string" name="height">auto</parameter>
 		<parameter type="string" name="image_format">RGBA16F</parameter>
 		<parameter type="string" name="image_type">cube</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
 		<parameter type="string" name="mipmap_type">box</parameter>
 		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
 		<parameter type="bool" name="unchanged">1</parameter>
 		<parameter type="string" name="width">auto</parameter>

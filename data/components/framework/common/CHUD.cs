@@ -67,7 +67,11 @@ public class CHUD : Component
 
 		help.arrange();
 
-		health_fg.SetWidth(MathLib.Lerp(0.0f, health_bg.GetWidth() - 6.0f, player.GetHealthInfo().GetHealthPercent()));
+		CHealth health_info = player.GetHealthInfo();
+		if (health_info != null)
+			health_fg.SetWidth(MathLib.Lerp(0.0f, health_bg.GetWidth() - 6.0f, health_info.GetHealthPercent()));
+		else
+			health_fg.SetWidth(health_bg.GetWidth() - 6.0f);
 
 		CInteractable item = player.GetCurrentSelectedItem();
 		if (item != null)

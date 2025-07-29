@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="791982614" name="lamp">
 		<mesh_name>guid://e7bb7f5f25fb453209a562e947fecf34a7023103</mesh_name>
 		<surface name="unnamed" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01" intersection="1"/>

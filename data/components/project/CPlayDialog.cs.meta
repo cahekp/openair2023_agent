@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>d5f6582cdd5ef59b4c402e3e322c00855ddcf820</guid>
 	<type>component</type>
-	<hash>848dff51</hash>
+	<hash>1edef04e</hash>
 	<runtimes>
 		<runtime id="d5f6582cdd5ef59b4c402e3e322c00855ddcf820" name="CPlayDialog.cs" link="0"/>
 		<runtime id="c274598235b34af9b8b9f804ef162393ac1653d6" name="CPlayDialog.prop" link="1" type="4"/>

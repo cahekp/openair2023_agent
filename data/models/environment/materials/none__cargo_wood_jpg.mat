@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.17.0.1" guid="b2534a7ac04057912fc02bbc7ffa13eb5204984e" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+<material version="2.20.0.0" guid="b2534a7ac04057912fc02bbc7ffa13eb5204984e" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<state name="transparent_opacity_depth">1</state>
+	<state name="transparent_velocity">1</state>
+	<state name="transparent_material_mask">1</state>
 	<texture name="albedo">guid://a9ce3831831453dc2e5cdd8b39fe956e35a45df5</texture>
 	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
 </material>

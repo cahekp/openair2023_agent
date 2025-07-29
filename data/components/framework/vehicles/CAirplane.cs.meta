@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>49f0b619aea728a4ad215bb34624ed76b372065d</guid>
 	<type>component</type>
-	<hash>ecd2a16e</hash>
+	<hash>649208c1</hash>
 	<runtimes>
 		<runtime id="49f0b619aea728a4ad215bb34624ed76b372065d" name="CAirplane.cs" link="0"/>
 		<runtime id="2d0356874d43223a4024cc511b9e997cd1c026ab" name="CAirplane.prop" link="1" type="4"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>ebdbdce562f96900e3ef485f37b27a321c1113e9</guid>
 	<type>material</type>
-	<hash>1ad9b871</hash>
+	<hash>f50d6f0a</hash>
 	<runtimes>
 		<runtime id="ebdbdce562f96900e3ef485f37b27a321c1113e9" name="wall_rusty" link="0" type="5"/>
 	</runtimes>

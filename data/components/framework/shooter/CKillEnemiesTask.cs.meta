@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>ab7144dbcc01b47ee6bd51c55edd986039c5f03f</guid>
 	<type>component</type>
-	<hash>4198df6f</hash>
+	<hash>29a2c0ae</hash>
 	<runtimes>
 		<runtime id="ab7144dbcc01b47ee6bd51c55edd986039c5f03f" name="CKillEnemiesTask.cs" link="0"/>
 		<runtime id="b3e0c039b1006c44f73b8ad31260121636aaa27d" name="CKillEnemiesTask.prop" link="1" type="4"/>

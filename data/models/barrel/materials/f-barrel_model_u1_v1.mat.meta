@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>7d4e644ca0cc533bf0bbaf5e5e044f2574ccb640</guid>
 	<type>material</type>
-	<hash>cdd7a1d</hash>
+	<hash>c973aac</hash>
 	<runtimes>
 		<runtime id="7d4e644ca0cc533bf0bbaf5e5e044f2574ccb640" name="f-barrel_model_u1_v1" link="0" type="5"/>
 	</runtimes>

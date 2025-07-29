@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>bfb357d301237b16736cf77daec852b8018876b7</guid>
 	<type>texture</type>
-	<hash>4337feca</hash>
+	<hash>112780c5</hash>
 	<runtimes>
 		<runtime id="bfb357d301237b16736cf77daec852b8018876b7" name="logo.jpg" link="0" type="6"/>
 		<runtime id="4788e4aabe184c01fe0c356c37e2b1dbc4323d7e" name="logo.texture" link="1" type="6"/>
 	</runtimes>
 	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
 		<parameter type="string" name="height">auto</parameter>
 		<parameter type="string" name="image_format">DXT1</parameter>
 		<parameter type="string" name="image_type">2d</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
 		<parameter type="string" name="mipmap_type">box</parameter>
 		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
 		<parameter type="bool" name="unchanged">0</parameter>
 		<parameter type="string" name="width">auto</parameter>

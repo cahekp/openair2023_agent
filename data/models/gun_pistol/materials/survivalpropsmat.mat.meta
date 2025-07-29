@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>326a424e9bdd65554259f6b08a7a9a4f2fdb4362</guid>
 	<type>material</type>
-	<hash>c99b7392</hash>
+	<hash>d587ae62</hash>
 	<runtimes>
 		<runtime id="326a424e9bdd65554259f6b08a7a9a4f2fdb4362" name="survivalpropsmat" link="0" type="5"/>
 	</runtimes>

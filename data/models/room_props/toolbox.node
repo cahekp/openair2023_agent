@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="1256749358" name="toolbox">
 		<mesh_name>guid://9749be28ded98b67d815119a528e34312f3c1fdc</mesh_name>
 		<surface name="survivalpropsMAT" material="40abcf4036fbf99fcd36fa7205251729898c7674" intersection="1"/>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.17.0.1" guid="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+<material version="2.20.0.0" guid="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
 	<options transparent="2" blend_src="2" blend_dest="2" two_sided="1" cast_shadow="0" cast_world_shadow="0"/>
+	<state name="transparent_opacity_depth">1</state>
+	<state name="transparent_velocity">1</state>
+	<state name="transparent_material_mask">1</state>
 	<state name="emission">1</state>
 	<texture name="albedo">guid://406af85b61b4d1fec016d14584b611e043ad1bbf</texture>
 	<texture name="emission">guid://406af85b61b4d1fec016d14584b611e043ad1bbf</texture>

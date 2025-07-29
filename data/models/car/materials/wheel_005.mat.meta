@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>ac5cfdabcfecf70e56451315009849701d5d4e0f</guid>
 	<type>material</type>
-	<hash>74d0b8b9</hash>
+	<hash>d0218e3d</hash>
 	<runtimes>
 		<runtime id="ac5cfdabcfecf70e56451315009849701d5d4e0f" name="wheel_005" link="0" type="5"/>
 	</runtimes>

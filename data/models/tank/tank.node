@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="1055798869" name="tank">
 		<mesh_name>guid://46e8c29994bacb240d5f9c33438133f637b89add</mesh_name>
 		<surface name="Tank2" material="d250bca681e8abcd50b85ac8a77f3f87a563f73a" intersection="1"/>

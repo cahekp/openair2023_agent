@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>6c5aa29cbb0f5d4bf7b5922e6f63b3b52ac63190</guid>
 	<type>world</type>
-	<hash>1bfc9922</hash>
+	<hash>75661652</hash>
 	<runtimes>
 		<runtime id="6c5aa29cbb0f5d4bf7b5922e6f63b3b52ac63190" name="mission_success.world" link="0"/>
 	</runtimes>

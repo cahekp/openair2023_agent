@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>13bc99625cb1c9597160a2e4678210f3f885a1b6</guid>
 	<type>component</type>
-	<hash>9b7fa279</hash>
+	<hash>6b902c73</hash>
 	<runtimes>
 		<runtime id="13bc99625cb1c9597160a2e4678210f3f885a1b6" name="CHealth.cs" link="0"/>
 		<runtime id="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" name="CHealth.prop" link="1" type="4"/>

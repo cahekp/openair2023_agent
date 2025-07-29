@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>dddcc0de4b2b32a535eb43c0541fe41f7df8e2f2</guid>
 	<type>material</type>
-	<hash>f0c4f77f</hash>
+	<hash>aec1dd39</hash>
 	<runtimes>
 		<runtime id="dddcc0de4b2b32a535eb43c0541fe41f7df8e2f2" name="pistol_grip_ar15_magpul_001" link="0" type="5"/>
 	</runtimes>

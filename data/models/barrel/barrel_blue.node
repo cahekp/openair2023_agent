@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="1123934334" name="barrel_blue">
 		<mesh_name>guid://9c39c4d868e40257a370bbcacab4f8a1ea68b98c</mesh_name>
 		<surface name="f-barrel_Model_u1_v1__barrel_png" material="41f5043a9f3946510244cb7ca21cb0ab26fb0e0e" intersection="1"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>1be423ec0f60ce5bbd74affe894917459a279fe0</guid>
 	<type>material</type>
-	<hash>ab809044</hash>
+	<hash>ef855e81</hash>
 	<runtimes>
 		<runtime id="1be423ec0f60ce5bbd74affe894917459a279fe0" name="none__floor_metal_jpg" link="0" type="5"/>
 	</runtimes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>14c7c5052090f2a05617057f5131d4d2ff446e09</guid>
 	<type>component</type>
-	<hash>027552c</hash>
+	<hash>3b164979</hash>
 	<runtimes>
 		<runtime id="14c7c5052090f2a05617057f5131d4d2ff446e09" name="CDestroyTimer.cs" link="0"/>
 		<runtime id="309204134753ba566a53adbdf15d13f88755c6f7" name="CDestroyTimer.prop" link="1" type="4"/>

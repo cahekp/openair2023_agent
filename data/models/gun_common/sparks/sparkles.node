@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectParticles" id="932475947" name="sparkles">
 		<particles_type>3</particles_type>
 		<collision>1</collision>
@@ -218,7 +218,6 @@
 		<clear_on_enable>1</clear_on_enable>
 		<number_per_spawn>1</number_per_spawn>
 		<spawn_rate>300</spawn_rate>
-		<linear_damping>1.5</linear_damping>
 		<restitution>0.75</restitution>
 		<roughness>0.5</roughness>
 		<emitter_enabled>1</emitter_enabled>
@@ -241,5 +240,6 @@
 		</properties>
 		<transform>0.99999988 0 0 0.0 0 0.99999952 0 0.0 0 0 0.99999923 0.0 0 0 -5.364418e-07 1.0</transform>
 		<physical_mass>0</physical_mass>
+		<linear_damping_modifier value="1.5" value_min="1.5" value_max="1.5" curve_scale="1.5" mode="0"/>
 	</node>
 </nodes>

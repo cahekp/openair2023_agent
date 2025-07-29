@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202</guid>
 	<type>texture</type>
-	<hash>2428f9ec</hash>
+	<hash>e368e456</hash>
 	<runtimes>
 		<runtime id="efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202" name="wall_rusty.png" link="0" type="6"/>
 		<runtime id="a22ccdf86ffe38f7c72941ea39a48841066cc4ac" name="wall_rusty.texture" link="1" type="6"/>
 	</runtimes>
 	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
 		<parameter type="string" name="height">auto</parameter>
 		<parameter type="string" name="image_format">DXT1</parameter>
 		<parameter type="string" name="image_type">2d</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
 		<parameter type="string" name="mipmap_type">box</parameter>
 		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
 		<parameter type="bool" name="srgb_correction">1</parameter>
 		<parameter type="bool" name="unchanged">0</parameter>
 		<parameter type="string" name="width">auto</parameter>

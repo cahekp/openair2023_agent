@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>bc68a7d2e41f2509d8a66ad4fa26d82385f0df26</guid>
 	<type>render_settings</type>
-	<hash>7b6c7254</hash>
+	<hash>5c8ef97a</hash>
 	<runtimes>
 		<runtime id="bc68a7d2e41f2509d8a66ad4fa26d82385f0df26" name="template_low.render" link="0"/>
 	</runtimes>

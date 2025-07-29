@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>7f2b6d5ead64f52534d92440fa274a9fe1b01772</guid>
 	<type>material</type>
-	<hash>1408d1c1</hash>
+	<hash>9aa1dd79</hash>
 	<runtimes>
 		<runtime id="7f2b6d5ead64f52534d92440fa274a9fe1b01772" name="menu_button_mat" link="0" type="5"/>
 	</runtimes>

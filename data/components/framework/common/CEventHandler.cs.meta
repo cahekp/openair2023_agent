@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>467024660c97708d34bcd8884d9422478b8bfafa</guid>
 	<type>component</type>
-	<hash>272de1b8</hash>
+	<hash>cfce1274</hash>
 	<runtimes>
 		<runtime id="467024660c97708d34bcd8884d9422478b8bfafa" name="CEventHandler.cs" link="0"/>
 		<runtime id="60f410ec0e9dd75be62424feefd008451c07dce0" name="CEventHandler.prop" link="1" type="4"/>

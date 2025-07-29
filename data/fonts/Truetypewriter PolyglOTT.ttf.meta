@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>5db53808abbdfbc73dd5067ae2bee39107f547bc</guid>
 	<type>font</type>
-	<hash>46f8b6d</hash>
+	<hash>faf58b6a</hash>
 	<runtimes>
 		<runtime id="5db53808abbdfbc73dd5067ae2bee39107f547bc" name="Truetypewriter PolyglOTT.ttf" link="0"/>
 	</runtimes>

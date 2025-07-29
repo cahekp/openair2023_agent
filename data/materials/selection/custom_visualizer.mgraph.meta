@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>959fd5865eb62f2d3de046a8a36179e746832e1a</guid>
 	<type>material_graph</type>
-	<hash>6305eee5</hash>
+	<hash>5bac2289</hash>
 	<runtimes>
 		<runtime id="959fd5865eb62f2d3de046a8a36179e746832e1a" name="custom_visualizer.mgraph" link="0"/>
 		<runtime id="353cadda1812a371d889461cc612aacb694181ae" name="custom_visualizer" link="1" type="5"/>

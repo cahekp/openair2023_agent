@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>f18cbb8be3e0db6ed405ebf567ac8cd0009cf9ef</guid>
 	<type>fbx</type>
-	<hash>a297ffef</hash>
+	<hash>333fbe8d</hash>
 	<runtimes>
 		<runtime id="f18cbb8be3e0db6ed405ebf567ac8cd0009cf9ef" name="container.fbx" link="0"/>
 		<runtime id="8f855351c84f747c70fd45abb0c09f0e7df49b15" name="container.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">4501a098</parameter>
+				<parameter type="string" name="id">9574c0f2</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="3cb23170251e160f43370c22c4621d19247363a4" name="cube.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">0785adfb</parameter>
+				<parameter type="string" name="id">c163abc1</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>
@@ -34,6 +34,7 @@
 		<parameter type="bool" name="import_morph_targets">0</parameter>
 		<parameter type="bool" name="import_tangent_space">0</parameter>
 		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="invert_gchannel_for_normal_maps">0</parameter>
 		<parameter type="bool" name="joints_reorientation">1</parameter>
 		<parameter type="string" name="lightmaps">{&quot;guid://3cb23170251e160f43370c22c4621d19247363a4&quot;:{&quot;None__container_png&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}}}</parameter>
 		<parameter type="float" name="linear_deflection">0.200000003</parameter>
@@ -43,6 +44,8 @@
 		<parameter type="bool" name="merge_similar_materials">0</parameter>
 		<parameter type="bool" name="merge_static_meshes">0</parameter>
 		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="float" name="morph_targets_normals_angle">180</parameter>
+		<parameter type="string" name="morph_targets_normals_mode">import</parameter>
 		<parameter type="bool" name="need_repivot">0</parameter>
 		<parameter type="bool" name="need_split">0</parameter>
 		<parameter type="bool" name="need_triagulate">1</parameter>
@@ -57,6 +60,7 @@
 		<parameter type="string" name="up_axis">default</parameter>
 		<parameter type="bool" name="use_instances">1</parameter>
 		<parameter type="int" name="uv_ch">1</parameter>
+		<parameter type="string" name="uv_unwrap_version">xatlas_v0</parameter>
 		<parameter type="bool" name="vertex_cache">1</parameter>
 		<parameter type="string" name="workflow">metalness</parameter>
 	</parameters>

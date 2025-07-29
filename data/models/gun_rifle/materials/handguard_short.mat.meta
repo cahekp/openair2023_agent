@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>1039dad67b76543de0f68878370bb177055b606a</guid>
 	<type>material</type>
-	<hash>8fbabf69</hash>
+	<hash>2a656bb1</hash>
 	<runtimes>
 		<runtime id="1039dad67b76543de0f68878370bb177055b606a" name="handguard_short" link="0" type="5"/>
 	</runtimes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>94f0bd973bf1be0a286795e1326235cc2dc6f6bb</guid>
 	<type>material</type>
-	<hash>41357c4</hash>
+	<hash>86be4dc5</hash>
 	<runtimes>
 		<runtime id="94f0bd973bf1be0a286795e1326235cc2dc6f6bb" name="wall_concrete" link="0" type="5"/>
 	</runtimes>

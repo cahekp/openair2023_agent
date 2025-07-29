@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.17.0.1">
+<nodes version="2.20.0.0">
 	<node type="ObjectMeshStatic" id="239339242" name="container">
 		<mesh_name>guid://3cb23170251e160f43370c22c4621d19247363a4</mesh_name>
 		<surface name="None__container_png" material="3853de823e0b0bf9f514c50432608c93fdb3a8d6" intersection="1"/>

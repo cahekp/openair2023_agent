@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>9c46eff8deddf2f7b6a1b3ea822e524155e806ac</guid>
 	<type>material</type>
-	<hash>8e872b4d</hash>
+	<hash>2125f568</hash>
 	<runtimes>
 		<runtime id="9c46eff8deddf2f7b6a1b3ea822e524155e806ac" name="barrel_red" link="0" type="5"/>
 	</runtimes>

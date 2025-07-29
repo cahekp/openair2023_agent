@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>acb32d2fcf1ff8c2c91de139594119442c7253d3</guid>
 	<type>component</type>
-	<hash>72a42b77</hash>
+	<hash>8401458f</hash>
 	<runtimes>
 		<runtime id="acb32d2fcf1ff8c2c91de139594119442c7253d3" name="CDoor.cs" link="0"/>
 		<runtime id="4a64efeda94c90687103b8a77d80ddda9ea91371" name="CDoor.prop" link="1" type="4"/>

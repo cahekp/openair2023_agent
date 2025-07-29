@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.17.0.1" guid="a61cfea717ad6bda11804971693eb41c271d40cb" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+<material version="2.20.0.0" guid="a61cfea717ad6bda11804971693eb41c271d40cb" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
 	<options cast_shadow="0" cast_world_shadow="0"/>
+	<state name="transparent_opacity_depth">1</state>
+	<state name="transparent_velocity">1</state>
+	<state name="transparent_material_mask">1</state>
 	<state name="emission">1</state>
 	<state name="emission_bake_gi">0</state>
 	<state name="cast_gi">0</state>

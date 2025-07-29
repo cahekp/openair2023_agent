@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>85532d8697e1a72d2ee55ea84033b1e77780061a</guid>
 	<type>material</type>
-	<hash>0d4ec122</hash>
+	<hash>72213af6</hash>
 	<runtimes>
 		<runtime id="85532d8697e1a72d2ee55ea84033b1e77780061a" name="none__lock_jpg" link="0" type="5"/>
 	</runtimes>

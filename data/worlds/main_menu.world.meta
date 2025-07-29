@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.17.0.1">
+<asset version="2.20.0.0">
 	<guid>f8b9c4a115ef158cb6d4d37bf883b29ec5b7f965</guid>
 	<type>world</type>
-	<hash>62693048</hash>
+	<hash>a1407a27</hash>
 	<runtimes>
 		<runtime id="f8b9c4a115ef158cb6d4d37bf883b29ec5b7f965" name="main_menu.world" link="0"/>
 	</runtimes>
