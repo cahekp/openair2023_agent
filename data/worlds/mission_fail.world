@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world version="2.20.0.0">
+	<data>
+		<unigine_editor>
+			<body>
+				<node_extensions/>
+			</body>
+		</unigine_editor>
+	</data>
 	<sound>
-		<enabled>1</enabled>
+		<enabled>0</enabled>
 		<sound_manager_load_samples>0</sound_manager_load_samples>
 		<sound_manager_sample_static_memory>64</sound_manager_sample_static_memory>
 		<sound_manager_sample_stream_memory>16</sound_manager_sample_stream_memory>
@@ -17,8 +24,17 @@
 		<stereo_radius>0.0320000015</stereo_radius>
 		<stereo_offset>0</stereo_offset>
 		<dirt_texture_name/>
-		<render_exposure_min_luminance>0.5</render_exposure_min_luminance>
-		<render_exposure_max_luminance>10</render_exposure_max_luminance>
+		<metering_mask_texture_path/>
+		<auto_exposure_ramp>
+			<curve>
+				<keys>
+					<key point="-0.000606913003 0" left_tangent="0 0" right_tangent="0.000554425584 0.0369963646"/>
+					<key point="0.0134488326 0.293675125" left_tangent="-0.0156385377 -0.0640103817" right_tangent="0.0263985451 0.0838990211"/>
+					<key point="0.499393076 0.400000006" left_tangent="-0.50232631 0.00384914875" right_tangent="0.0994265079 0.00384712219"/>
+					<key point="0.999393106 1" left_tangent="-0.107547581 -0.511057377" right_tangent="0 0"/>
+				</keys>
+			</curve>
+		</auto_exposure_ramp>
 		<color_correction>
 			<curve>
 				<keys>
@@ -178,7 +194,9 @@
 		<render_animation_wind>0 0 0</render_animation_wind>
 		<render_auxiliary>1</render_auxiliary>
 		<render_background_color>0 0 0 0</render_background_color>
+		<render_bent_normal>0</render_bent_normal>
 		<render_bent_normal_fix_overlit_areas>0</render_bent_normal_fix_overlit_areas>
+		<render_bent_normal_threshold>1</render_bent_normal_threshold>
 		<render_bloom>0</render_bloom>
 		<render_bloom_passes>6</render_bloom_passes>
 		<render_bloom_power>1</render_bloom_power>
@@ -214,10 +232,13 @@
 		<render_clouds_lighting_quality>1</render_clouds_lighting_quality>
 		<render_clouds_lighting_samples_distribution>1.5</render_clouds_lighting_samples_distribution>
 		<render_clouds_lighting_tracelength>600</render_clouds_lighting_tracelength>
+		<render_clouds_mode>0</render_clouds_mode>
 		<render_clouds_noise_iterations>0.100000001</render_clouds_noise_iterations>
 		<render_clouds_noise_lighting>0.300000012</render_clouds_noise_lighting>
 		<render_clouds_noise_step>0.300000012</render_clouds_noise_step>
 		<render_clouds_noise_step_skip>0.300000012</render_clouds_noise_step_skip>
+		<render_clouds_panorama_resolution>4</render_clouds_panorama_resolution>
+		<render_clouds_panorama_reuse>1</render_clouds_panorama_reuse>
 		<render_clouds_quality_preset>medium</render_clouds_quality_preset>
 		<render_clouds_rounded>1</render_clouds_rounded>
 		<render_clouds_rounded_planet_radius>200000</render_clouds_rounded_planet_radius>
@@ -236,7 +257,30 @@
 		<render_debug>1</render_debug>
 		<render_decal_distance>1e+09</render_decal_distance>
 		<render_decals>1</render_decals>
+		<render_denoise_ao_mask_radius>1</render_denoise_ao_mask_radius>
+		<render_denoise_color_clamping_blur_intensity>0</render_denoise_color_clamping_blur_intensity>
+		<render_denoise_color_clamping_blur_intensity_ao>0</render_denoise_color_clamping_blur_intensity_ao>
+		<render_denoise_color_clamping_blur_radius>12</render_denoise_color_clamping_blur_radius>
+		<render_denoise_color_clamping_blur_resolution>2</render_denoise_color_clamping_blur_resolution>
+		<render_denoise_denoise_mask_bias>0.00100000005</render_denoise_denoise_mask_bias>
+		<render_denoise_denoise_mask_denoise_threshold>0.100000001</render_denoise_denoise_mask_denoise_threshold>
+		<render_denoise_denoise_mask_frame_count>8</render_denoise_denoise_mask_frame_count>
+		<render_denoise_denoise_mask_information_lost_boost>0</render_denoise_denoise_mask_information_lost_boost>
+		<render_denoise_denoise_mask_velocity_threshold>0</render_denoise_denoise_mask_velocity_threshold>
+		<render_denoise_hot_pixels_fix_intensity>0</render_denoise_hot_pixels_fix_intensity>
+		<render_denoise_information_lost_depth_threshold>0.00999999978</render_denoise_information_lost_depth_threshold>
+		<render_denoise_information_lost_fix_flicker>0.75</render_denoise_information_lost_fix_flicker>
+		<render_denoise_interleaved>1</render_denoise_interleaved>
+		<render_denoise_num_blur_iterations>5</render_denoise_num_blur_iterations>
+		<render_denoise_preset>sharpest_low</render_denoise_preset>
+		<render_denoise_radius>1</render_denoise_radius>
+		<render_denoise_wrong_velocity_fix_by_depth_enabled>1</render_denoise_wrong_velocity_fix_by_depth_enabled>
+		<render_denoise_wrong_velocity_fix_by_depth_threshold>0.0299999993</render_denoise_wrong_velocity_fix_by_depth_threshold>
 		<render_depth_pre_pass>0</render_depth_pre_pass>
+		<render_direct_lighting_interleaved>0</render_direct_lighting_interleaved>
+		<render_direct_lighting_interleaved_catmull_resampling>0</render_direct_lighting_interleaved_catmull_resampling>
+		<render_direct_lighting_interleaved_color_clamping>1</render_direct_lighting_interleaved_color_clamping>
+		<render_direct_lighting_interleaved_samples>0</render_direct_lighting_interleaved_samples>
 		<render_dirt_scale>0.5</render_dirt_scale>
 		<render_distance_offset>0</render_distance_offset>
 		<render_distance_scale>1</render_distance_scale>
@@ -255,17 +299,21 @@
 		<render_dof_quality>1</render_dof_quality>
 		<render_dof_resolution>2</render_dof_resolution>
 		<render_environment>0</render_environment>
-		<render_environment_ggx_mipmaps_quality>1</render_environment_ggx_mipmaps_quality>
 		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
+		<render_environment_ggx_mipmaps_quality>1</render_environment_ggx_mipmaps_quality>
 		<render_environment_haze>2</render_environment_haze>
 		<render_environment_haze_colorization_intensity>0.949999988</render_environment_haze_colorization_intensity>
 		<render_environment_haze_colorization_threshold>0.5</render_environment_haze_colorization_threshold>
 		<render_environment_haze_gradient>2</render_environment_haze_gradient>
 		<render_environment_haze_screen_space_global_illumination>1</render_environment_haze_screen_space_global_illumination>
+		<render_environment_haze_screen_space_global_illumination_distance_max>100000</render_environment_haze_screen_space_global_illumination_distance_max>
+		<render_environment_haze_screen_space_global_illumination_distance_min>98000</render_environment_haze_screen_space_global_illumination_distance_min>
 		<render_environment_haze_temporal_filter>1</render_environment_haze_temporal_filter>
 		<render_environment_hemisphere>0</render_environment_hemisphere>
 		<render_exposure>1</render_exposure>
 		<render_exposure_adaptation>1</render_exposure_adaptation>
+		<render_exposure_max_luminance>10</render_exposure_max_luminance>
+		<render_exposure_min_luminance>0.5</render_exposure_min_luminance>
 		<render_exposure_mode>0</render_exposure_mode>
 		<render_f_stop>11</render_f_stop>
 		<render_fade_color>0 0 0 0</render_fade_color>
@@ -285,9 +333,39 @@
 		<render_fxaa>0</render_fxaa>
 		<render_fxaa_intensity>0</render_fxaa_intensity>
 		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
+		<render_indirect_diffuse_denoise_enabled>1</render_indirect_diffuse_denoise_enabled>
+		<render_indirect_diffuse_denoise_mask_enabled>1</render_indirect_diffuse_denoise_mask_enabled>
+		<render_indirect_diffuse_denoise_threshold>1</render_indirect_diffuse_denoise_threshold>
+		<render_indirect_diffuse_denoise_threshold_ao>1</render_indirect_diffuse_denoise_threshold_ao>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity_ao>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_diffuse_temporal_filtering_enabled>1</render_indirect_diffuse_temporal_filtering_enabled>
+		<render_indirect_diffuse_temporal_filtering_frame_count>50</render_indirect_diffuse_temporal_filtering_frame_count>
+		<render_indirect_diffuse_temporal_filtering_frame_count_min>1</render_indirect_diffuse_temporal_filtering_frame_count_min>
+		<render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>
+		<render_indirect_lighting_interleaved>0</render_indirect_lighting_interleaved>
+		<render_indirect_lighting_interleaved_catmull_resampling>0</render_indirect_lighting_interleaved_catmull_resampling>
+		<render_indirect_lighting_interleaved_color_clamping>2</render_indirect_lighting_interleaved_color_clamping>
+		<render_indirect_lighting_interleaved_color_clamping_intensity>0</render_indirect_lighting_interleaved_color_clamping_intensity>
+		<render_indirect_lighting_interleaved_color_clamping_velocity_threshold>100</render_indirect_lighting_interleaved_color_clamping_velocity_threshold>
+		<render_indirect_lighting_interleaved_samples>1</render_indirect_lighting_interleaved_samples>
+		<render_indirect_specular_denoise_enabled>1</render_indirect_specular_denoise_enabled>
+		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
+		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
+		<render_indirect_specular_denoise_threshold_ao>1</render_indirect_specular_denoise_threshold_ao>
+		<render_indirect_specular_normalization>0</render_indirect_specular_normalization>
+		<render_indirect_specular_temporal_filtering_color_clamping_intensity>1</render_indirect_specular_temporal_filtering_color_clamping_intensity>
+		<render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>
+		<render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_specular_temporal_filtering_enabled>1</render_indirect_specular_temporal_filtering_enabled>
+		<render_indirect_specular_temporal_filtering_frame_count>50</render_indirect_specular_temporal_filtering_frame_count>
+		<render_indirect_specular_temporal_filtering_frame_count_min>1</render_indirect_specular_temporal_filtering_frame_count_min>
+		<render_indirect_specular_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_specular_temporal_filtering_frames_clamping_velocity_threshold>
 		<render_iso>100</render_iso>
+		<render_landscape_cache_cpu_prefetch_radius>0</render_landscape_cache_cpu_prefetch_radius>
 		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
-		<render_landscape_cache_gpu_life_time>4</render_landscape_cache_gpu_life_time>
+		<render_landscape_cache_gpu_life_time>6</render_landscape_cache_gpu_life_time>
 		<render_landscape_cache_gpu_size>5</render_landscape_cache_gpu_size>
 		<render_landscape_operations_per_frame>10</render_landscape_operations_per_frame>
 		<render_landscape_terrain_culling_by_depth>1</render_landscape_terrain_culling_by_depth>
@@ -320,7 +398,7 @@
 		<render_landscape_terrain_vt_detail_level_by_angle>0.850000024</render_landscape_terrain_vt_detail_level_by_angle>
 		<render_landscape_terrain_vt_filtering>1</render_landscape_terrain_vt_filtering>
 		<render_landscape_terrain_vt_hash_number_mistakes>2</render_landscape_terrain_vt_hash_number_mistakes>
-		<render_landscape_terrain_vt_hash_size>1000000</render_landscape_terrain_vt_hash_size>
+		<render_landscape_terrain_vt_hash_size>131072</render_landscape_terrain_vt_hash_size>
 		<render_landscape_terrain_vt_memory_size>0.349999994</render_landscape_terrain_vt_memory_size>
 		<render_landscape_terrain_vt_sampler_feedback_buffer_resolution>80 60</render_landscape_terrain_vt_sampler_feedback_buffer_resolution>
 		<render_landscape_terrain_vt_sampler_feedback_screen_resolution>1</render_landscape_terrain_vt_sampler_feedback_screen_resolution>
@@ -345,14 +423,28 @@
 		<render_lights_forward_per_object_proj>4</render_lights_forward_per_object_proj>
 		<render_lights_forward_per_object_voxel>4</render_lights_forward_per_object_voxel>
 		<render_lights_forward_per_object_world>4</render_lights_forward_per_object_world>
-		<render_direct_lighting_interleaved>0</render_direct_lighting_interleaved>
-		<render_direct_lighting_interleaved_catmull_resampling>0</render_direct_lighting_interleaved_catmull_resampling>
-		<render_direct_lighting_interleaved_color_clamping>1</render_direct_lighting_interleaved_color_clamping>
-		<render_direct_lighting_interleaved_samples>0</render_direct_lighting_interleaved_samples>
 		<render_lights_lens_flares>1</render_lights_lens_flares>
 		<render_lights_max_per_batch>1024</render_lights_max_per_batch>
 		<render_lights_tile_grid_size>8</render_lights_tile_grid_size>
+		<render_linear_depth_precision>0</render_linear_depth_precision>
+		<render_local_tonemapper>1</render_local_tonemapper>
+		<render_local_tonemapper_blur_resolution>1</render_local_tonemapper_blur_resolution>
+		<render_local_tonemapper_blur_upscale>1</render_local_tonemapper_blur_upscale>
+		<render_local_tonemapper_blur_upscale_kernel_size>0</render_local_tonemapper_blur_upscale_kernel_size>
+		<render_local_tonemapper_color_difference_enabled>1</render_local_tonemapper_color_difference_enabled>
+		<render_local_tonemapper_color_difference_threshold>0.150000006</render_local_tonemapper_color_difference_threshold>
+		<render_local_tonemapper_debug>0</render_local_tonemapper_debug>
+		<render_local_tonemapper_depth_difference_enabled>0</render_local_tonemapper_depth_difference_enabled>
+		<render_local_tonemapper_depth_threshold>0.899999976</render_local_tonemapper_depth_threshold>
+		<render_local_tonemapper_effect_on_dark_areas>0.0500000007</render_local_tonemapper_effect_on_dark_areas>
+		<render_local_tonemapper_effect_on_dark_areas_gamma>5</render_local_tonemapper_effect_on_dark_areas_gamma>
+		<render_local_tonemapper_luma_blurred_intensity>1</render_local_tonemapper_luma_blurred_intensity>
+		<render_local_tonemapper_num_blur_iterations>5</render_local_tonemapper_num_blur_iterations>
+		<render_local_tonemapper_target_middle_gray>0.600000024</render_local_tonemapper_target_middle_gray>
+		<render_local_tonemapper_tonemapping_intensity>0.400000006</render_local_tonemapper_tonemapping_intensity>
+		<render_materials_quality>2</render_materials_quality>
 		<render_max_fps>150</render_max_fps>
+		<render_metering_mask_enabled>0</render_metering_mask_enabled>
 		<render_motion_blur>0</render_motion_blur>
 		<render_motion_blur_camera_velocity>1</render_motion_blur_camera_velocity>
 		<render_motion_blur_depth_threshold_far>0.5</render_motion_blur_depth_threshold_far>
@@ -364,6 +456,7 @@
 		<render_motion_blur_velocity_blur_radius>0.200000003</render_motion_blur_velocity_blur_radius>
 		<render_motion_blur_velocity_blur_samples>8</render_motion_blur_velocity_blur_samples>
 		<render_motion_blur_velocity_scale>0.75</render_motion_blur_velocity_scale>
+		<render_multithreaded>1</render_multithreaded>
 		<render_noise>0</render_noise>
 		<render_noise_intensity>0.0299999993</render_noise_intensity>
 		<render_object_distance>1e+09</render_object_distance>
@@ -377,6 +470,7 @@
 		<render_pre_post_materials_enabled>1</render_pre_post_materials_enabled>
 		<render_reflection_distance>1e+09</render_reflection_distance>
 		<render_reflection_dynamic>1</render_reflection_dynamic>
+		<render_reflection_dynamic_alpha_fade>0</render_reflection_dynamic_alpha_fade>
 		<render_reflection_dynamic_roughness_offset>0</render_reflection_dynamic_roughness_offset>
 		<render_reflection_lods>1</render_reflection_lods>
 		<render_refraction>1</render_refraction>
@@ -390,6 +484,7 @@
 		<render_screen_space_shadow_shafts_mode>1</render_screen_space_shadow_shafts_mode>
 		<render_screen_space_shadow_shafts_quality>2</render_screen_space_shadow_shafts_quality>
 		<render_screen_space_shadow_shafts_resolution>1</render_screen_space_shadow_shafts_resolution>
+		<render_shaders_compile_mode>0</render_shaders_compile_mode>
 		<render_shadow_distance>100</render_shadow_distance>
 		<render_shadow_distance_scale>1</render_shadow_distance_scale>
 		<render_shadows>1</render_shadows>
@@ -398,12 +493,23 @@
 		<render_shadows_filter_noise>0</render_shadows_filter_noise>
 		<render_shadows_penumbra_mode>0</render_shadows_penumbra_mode>
 		<render_shadows_penumbra_noise>1</render_shadows_penumbra_noise>
+		<render_shadows_reuse>0</render_shadows_reuse>
 		<render_shadows_screen_space>0</render_shadows_screen_space>
+		<render_shadows_simplified>0</render_shadows_simplified>
 		<render_shadows_translucent_depth>0.25</render_shadows_translucent_depth>
 		<render_shadows_world_cascades_culling_clusters>1</render_shadows_world_cascades_culling_clusters>
 		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
 		<render_sharpen>1</render_sharpen>
+		<render_sharpen_blur_color_threshold>0.200000003</render_sharpen_blur_color_threshold>
+		<render_sharpen_blur_dark_color_threshold_bias>0.0500000007</render_sharpen_blur_dark_color_threshold_bias>
+		<render_sharpen_blur_radius>1</render_sharpen_blur_radius>
+		<render_sharpen_blur_sigma>1</render_sharpen_blur_sigma>
+		<render_sharpen_diagonal_samples>1</render_sharpen_diagonal_samples>
 		<render_sharpen_intensity>2</render_sharpen_intensity>
+		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
+		<render_show_texture_resolution_streaming_accounting_mode>0</render_show_texture_resolution_streaming_accounting_mode>
+		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
+		<render_show_visualizer_distance>500</render_show_visualizer_distance>
 		<render_show_voxel_probe_visualizer_grid_size>15</render_show_voxel_probe_visualizer_grid_size>
 		<render_show_voxel_probe_visualizer_sphere_scale>0.25</render_show_voxel_probe_visualizer_sphere_scale>
 		<render_shutter_speed>250</render_shutter_speed>
@@ -444,12 +550,14 @@
 		<render_ssdirt_resolution>1</render_ssdirt_resolution>
 		<render_ssdirt_threshold>1</render_ssdirt_threshold>
 		<render_ssgi>0</render_ssgi>
+		<render_ssgi_information_lost_fix>0</render_ssgi_information_lost_fix>
 		<render_ssgi_intensity>1</render_ssgi_intensity>
 		<render_ssgi_intensity_boost>1</render_ssgi_intensity_boost>
 		<render_ssgi_threshold>1</render_ssgi_threshold>
 		<render_ssr>1</render_ssr>
 		<render_ssr_alpha_accumulation_mode>0</render_ssr_alpha_accumulation_mode>
 		<render_ssr_increased_accuracy>0</render_ssr_increased_accuracy>
+		<render_ssr_information_lost_fix>0</render_ssr_information_lost_fix>
 		<render_ssr_non_linear_step_size>1</render_ssr_non_linear_step_size>
 		<render_ssr_normal_bias>1</render_ssr_normal_bias>
 		<render_ssr_num_rays>4</render_ssr_num_rays>
@@ -491,6 +599,7 @@
 		<render_sssss_quality>1</render_sssss_quality>
 		<render_sssss_radius>0.0199999996</render_sssss_radius>
 		<render_sssss_resolution>1</render_sssss_resolution>
+		<render_sssss_taa>1</render_sssss_taa>
 		<render_sssss_taa_antialiasing_in_motion>0</render_sssss_taa_antialiasing_in_motion>
 		<render_sssss_taa_catmull_resampling>1</render_sssss_taa_catmull_resampling>
 		<render_sssss_taa_fix_flicker>1</render_sssss_taa_fix_flicker>
@@ -508,18 +617,40 @@
 		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
 		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
 		<render_stereo_planar_reflections_per_eye>0</render_stereo_planar_reflections_per_eye>
-		<render_streaming_textures_mode>0</render_streaming_textures_mode>
+		<render_streaming_animations_life_time>-1</render_streaming_animations_life_time>
+		<render_streaming_budget_loading>1</render_streaming_budget_loading>
+		<render_streaming_cache_ram>-1</render_streaming_cache_ram>
+		<render_streaming_cache_vram>-1</render_streaming_cache_vram>
+		<render_streaming_committed_memory_overcommit>1</render_streaming_committed_memory_overcommit>
+		<render_streaming_free_space_ram>1024</render_streaming_free_space_ram>
+		<render_streaming_free_space_vram>512</render_streaming_free_space_vram>
+		<render_streaming_meshes_mode_ram>1</render_streaming_meshes_mode_ram>
+		<render_streaming_meshes_mode_vram>0</render_streaming_meshes_mode_vram>
+		<render_streaming_meshes_prefetch_collision>0</render_streaming_meshes_prefetch_collision>
+		<render_streaming_meshes_prefetch_intersection>0</render_streaming_meshes_prefetch_intersection>
+		<render_streaming_meshes_prefetch_radius>0</render_streaming_meshes_prefetch_radius>
 		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
+		<render_streaming_textures_mipmaps>0</render_streaming_textures_mipmaps>
+		<render_streaming_textures_mipmaps_density>2</render_streaming_textures_mipmaps_density>
+		<render_streaming_textures_mode>0</render_streaming_textures_mode>
+		<render_streaming_usage_limit_ram>80</render_streaming_usage_limit_ram>
+		<render_streaming_usage_limit_vram>80</render_streaming_usage_limit_vram>
+		<render_streaming_vram_budget>1</render_streaming_vram_budget>
+		<render_streaming_vram_overcommit>0</render_streaming_vram_overcommit>
 		<render_supersampling>1</render_supersampling>
 		<render_taa>1</render_taa>
 		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
 		<render_taa_catmull_resampling>1</render_taa_catmull_resampling>
+		<render_taa_catmull_resampling_sharpness>0.699999988</render_taa_catmull_resampling_sharpness>
 		<render_taa_diagonal_neighbors>0</render_taa_diagonal_neighbors>
+		<render_taa_edges_frame_count_multiplier>1</render_taa_edges_frame_count_multiplier>
 		<render_taa_fix_flicker>1</render_taa_fix_flicker>
 		<render_taa_frame_count>30</render_taa_frame_count>
 		<render_taa_frames_by_color>1</render_taa_frames_by_color>
 		<render_taa_frames_by_velocity>1</render_taa_frames_by_velocity>
 		<render_taa_frames_velocity_threshold>1</render_taa_frames_velocity_threshold>
+		<render_taa_information_lost_depth_threshold>0.100000001</render_taa_information_lost_depth_threshold>
+		<render_taa_information_lost_frame_count>1</render_taa_information_lost_frame_count>
 		<render_taa_max_frames_by_velocity>60</render_taa_max_frames_by_velocity>
 		<render_taa_min_frames_by_velocity>4</render_taa_min_frames_by_velocity>
 		<render_taa_pixel_offset>1</render_taa_pixel_offset>
@@ -548,6 +679,19 @@
 		<render_transparent_enabled>1</render_transparent_enabled>
 		<render_transparent_light>1</render_transparent_light>
 		<render_transparent_multiple_env_probes>1</render_transparent_multiple_env_probes>
+		<render_upscale_dlss_mode>3</render_upscale_dlss_mode>
+		<render_upscale_dlss_preset>0</render_upscale_dlss_preset>
+		<render_upscale_fsr_auto_reactive_enabled>0</render_upscale_fsr_auto_reactive_enabled>
+		<render_upscale_fsr_auto_reactive_max>0.899999976</render_upscale_fsr_auto_reactive_max>
+		<render_upscale_fsr_auto_reactive_scale>5</render_upscale_fsr_auto_reactive_scale>
+		<render_upscale_fsr_auto_tc_scale>1</render_upscale_fsr_auto_tc_scale>
+		<render_upscale_fsr_auto_tc_threshold>0.0500000007</render_upscale_fsr_auto_tc_threshold>
+		<render_upscale_fsr_enable_sharpness>0</render_upscale_fsr_enable_sharpness>
+		<render_upscale_fsr_mode>3</render_upscale_fsr_mode>
+		<render_upscale_fsr_pre_exposure>1</render_upscale_fsr_pre_exposure>
+		<render_upscale_fsr_sharpness>0.5</render_upscale_fsr_sharpness>
+		<render_upscale_mode>0</render_upscale_mode>
+		<render_upscale_post>0</render_upscale_post>
 		<render_viewport_mode>0</render_viewport_mode>
 		<render_vignette_mask>0</render_vignette_mask>
 		<render_vignette_mask_intensity>1</render_vignette_mask_intensity>
@@ -587,141 +731,6 @@
 		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
 		<debug_materials/>
 		<scriptable_materials/>
-		<render_streaming_meshes_mode_vram>0</render_streaming_meshes_mode_vram>
-		<render_bent_normal>0</render_bent_normal>
-		<render_bent_normal_threshold>1</render_bent_normal_threshold>
-		<render_denoise_num_blur_iterations>5</render_denoise_num_blur_iterations>
-		<render_denoise_preset>sharpest_low</render_denoise_preset>
-		<render_denoise_radius>1</render_denoise_radius>
-		<render_indirect_diffuse_denoise_enabled>1</render_indirect_diffuse_denoise_enabled>
-		<render_indirect_diffuse_denoise_mask_enabled>1</render_indirect_diffuse_denoise_mask_enabled>
-		<render_indirect_diffuse_denoise_threshold>1</render_indirect_diffuse_denoise_threshold>
-		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity>
-		<render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>
-		<render_indirect_diffuse_temporal_filtering_enabled>1</render_indirect_diffuse_temporal_filtering_enabled>
-		<render_indirect_diffuse_temporal_filtering_frame_count>50</render_indirect_diffuse_temporal_filtering_frame_count>
-		<render_indirect_specular_denoise_enabled>1</render_indirect_specular_denoise_enabled>
-		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
-		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
-		<render_indirect_specular_temporal_filtering_color_clamping_intensity>1</render_indirect_specular_temporal_filtering_color_clamping_intensity>
-		<render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>
-		<render_indirect_specular_temporal_filtering_enabled>1</render_indirect_specular_temporal_filtering_enabled>
-		<render_indirect_specular_temporal_filtering_frame_count>50</render_indirect_specular_temporal_filtering_frame_count>
-		<render_landscape_cache_cpu_prefetch_radius>0</render_landscape_cache_cpu_prefetch_radius>
-		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
-		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
-		<render_show_visualizer_distance>500</render_show_visualizer_distance>
-		<render_streaming_budget_loading>1</render_streaming_budget_loading>
-		<render_streaming_meshes_mode_ram>1</render_streaming_meshes_mode_ram>
-		<render_streaming_meshes_prefetch_collision>0</render_streaming_meshes_prefetch_collision>
-		<render_streaming_meshes_prefetch_intersection>0</render_streaming_meshes_prefetch_intersection>
-		<render_streaming_meshes_prefetch_radius>0</render_streaming_meshes_prefetch_radius>
-		<render_taa_catmull_resampling_sharpness>0.699999988</render_taa_catmull_resampling_sharpness>
-		<render_taa_edges_frame_count_multiplier>1</render_taa_edges_frame_count_multiplier>
-		<render_indirect_lighting_interleaved>0</render_indirect_lighting_interleaved>
-		<metering_mask_texture_path/>
-		<auto_exposure_ramp>
-			<curve>
-				<keys>
-					<key point="-0.000606913003 0" left_tangent="0 0" right_tangent="0.000554425584 0.0369963646"/>
-					<key point="0.0134488326 0.293675125" left_tangent="-0.0156385377 -0.0640103817" right_tangent="0.0263985451 0.0838990211"/>
-					<key point="0.499393076 0.400000006" left_tangent="-0.50232631 0.00384914875" right_tangent="0.0994265079 0.00384712219"/>
-					<key point="0.999393106 1" left_tangent="-0.107547581 -0.511057377" right_tangent="0 0"/>
-				</keys>
-			</curve>
-		</auto_exposure_ramp>
-		<render_clouds_mode>0</render_clouds_mode>
-		<render_clouds_panorama_resolution>4</render_clouds_panorama_resolution>
-		<render_clouds_panorama_reuse>1</render_clouds_panorama_reuse>
-		<render_denoise_ao_mask_radius>1</render_denoise_ao_mask_radius>
-		<render_denoise_color_clamping_blur_intensity>0</render_denoise_color_clamping_blur_intensity>
-		<render_denoise_color_clamping_blur_intensity_ao>0</render_denoise_color_clamping_blur_intensity_ao>
-		<render_denoise_color_clamping_blur_radius>12</render_denoise_color_clamping_blur_radius>
-		<render_denoise_denoise_mask_bias>0.00100000005</render_denoise_denoise_mask_bias>
-		<render_denoise_denoise_mask_denoise_threshold>0.100000001</render_denoise_denoise_mask_denoise_threshold>
-		<render_denoise_denoise_mask_frame_count>8</render_denoise_denoise_mask_frame_count>
-		<render_denoise_denoise_mask_information_lost_boost>0</render_denoise_denoise_mask_information_lost_boost>
-		<render_denoise_denoise_mask_velocity_threshold>0</render_denoise_denoise_mask_velocity_threshold>
-		<render_denoise_hot_pixels_fix_intensity>0</render_denoise_hot_pixels_fix_intensity>
-		<render_denoise_information_lost_depth_threshold>0.00999999978</render_denoise_information_lost_depth_threshold>
-		<render_denoise_information_lost_fix_flicker>0.75</render_denoise_information_lost_fix_flicker>
-		<render_denoise_interleaved>1</render_denoise_interleaved>
-		<render_indirect_diffuse_denoise_threshold_ao>1</render_indirect_diffuse_denoise_threshold_ao>
-		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity_ao>
-		<render_indirect_diffuse_temporal_filtering_frame_count_min>1</render_indirect_diffuse_temporal_filtering_frame_count_min>
-		<render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>
-		<render_indirect_specular_denoise_threshold_ao>1</render_indirect_specular_denoise_threshold_ao>
-		<render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>
-		<render_indirect_specular_temporal_filtering_frame_count_min>1</render_indirect_specular_temporal_filtering_frame_count_min>
-		<render_indirect_specular_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_specular_temporal_filtering_frames_clamping_velocity_threshold>
-		<render_linear_depth_precision>0</render_linear_depth_precision>
-		<render_local_tonemapper>1</render_local_tonemapper>
-		<render_local_tonemapper_depth_threshold>0.899999976</render_local_tonemapper_depth_threshold>
-		<render_local_tonemapper_effect_on_dark_areas>0.0500000007</render_local_tonemapper_effect_on_dark_areas>
-		<render_local_tonemapper_luma_blurred_intensity>1</render_local_tonemapper_luma_blurred_intensity>
-		<render_local_tonemapper_num_blur_iterations>5</render_local_tonemapper_num_blur_iterations>
-		<render_local_tonemapper_target_middle_gray>0.600000024</render_local_tonemapper_target_middle_gray>
-		<render_local_tonemapper_tonemapping_intensity>0.400000006</render_local_tonemapper_tonemapping_intensity>
-		<render_metering_mask_enabled>0</render_metering_mask_enabled>
-		<render_shaders_compile_mode>0</render_shaders_compile_mode>
-		<render_shadows_reuse>0</render_shadows_reuse>
-		<render_shadows_simplified>0</render_shadows_simplified>
-		<render_ssgi_information_lost_fix>0</render_ssgi_information_lost_fix>
-		<render_ssr_information_lost_fix>0</render_ssr_information_lost_fix>
-		<render_denoise_color_clamping_blur_resolution>2</render_denoise_color_clamping_blur_resolution>
-		<render_denoise_wrong_velocity_fix_by_depth_enabled>1</render_denoise_wrong_velocity_fix_by_depth_enabled>
-		<render_denoise_wrong_velocity_fix_by_depth_threshold>0.0299999993</render_denoise_wrong_velocity_fix_by_depth_threshold>
-		<render_indirect_lighting_interleaved_catmull_resampling>0</render_indirect_lighting_interleaved_catmull_resampling>
-		<render_indirect_lighting_interleaved_color_clamping>2</render_indirect_lighting_interleaved_color_clamping>
-		<render_indirect_lighting_interleaved_samples>1</render_indirect_lighting_interleaved_samples>
-		<render_materials_quality>2</render_materials_quality>
-		<render_multithreaded>1</render_multithreaded>
-		<render_streaming_free_space_ram>1024</render_streaming_free_space_ram>
-		<render_streaming_free_space_vram>512</render_streaming_free_space_vram>
-		<render_streaming_textures_mipmaps>0</render_streaming_textures_mipmaps>
-		<render_streaming_textures_mipmaps_density>2</render_streaming_textures_mipmaps_density>
-		<render_streaming_vram_budget>1</render_streaming_vram_budget>
-		<render_streaming_vram_overcommit>0</render_streaming_vram_overcommit>
-		<render_streaming_usage_limit_vram>80</render_streaming_usage_limit_vram>
-		<render_taa_information_lost_depth_threshold>0.100000001</render_taa_information_lost_depth_threshold>
-		<render_taa_information_lost_frame_count>1</render_taa_information_lost_frame_count>
-		<render_environment_haze_screen_space_global_illumination_distance_max>100000</render_environment_haze_screen_space_global_illumination_distance_max>
-		<render_environment_haze_screen_space_global_illumination_distance_min>98000</render_environment_haze_screen_space_global_illumination_distance_min>
-		<render_local_tonemapper_blur_resolution>1</render_local_tonemapper_blur_resolution>
-		<render_local_tonemapper_blur_upscale>1</render_local_tonemapper_blur_upscale>
-		<render_local_tonemapper_blur_upscale_kernel_size>0</render_local_tonemapper_blur_upscale_kernel_size>
-		<render_local_tonemapper_color_difference_enabled>1</render_local_tonemapper_color_difference_enabled>
-		<render_local_tonemapper_color_difference_threshold>0.150000000</render_local_tonemapper_color_difference_threshold>
-		<render_local_tonemapper_debug>0</render_local_tonemapper_debug>
-		<render_local_tonemapper_depth_difference_enabled>0</render_local_tonemapper_depth_difference_enabled>
-		<render_show_texture_resolution_streaming_accounting_mode>0</render_show_texture_resolution_streaming_accounting_mode>
-		<render_upscale_dlss_mode>3</render_upscale_dlss_mode>
-		<render_upscale_dlss_preset>0</render_upscale_dlss_preset>
-		<render_upscale_fsr_auto_reactive_max>0.899999976</render_upscale_fsr_auto_reactive_max>
-		<render_upscale_fsr_auto_reactive_scale>5</render_upscale_fsr_auto_reactive_scale>
-		<render_upscale_fsr_auto_tc_scale>1</render_upscale_fsr_auto_tc_scale>
-		<render_upscale_fsr_auto_tc_threshold>0.0500000007</render_upscale_fsr_auto_tc_threshold>
-		<render_upscale_fsr_enable_sharpness>0</render_upscale_fsr_enable_sharpness>
-		<render_upscale_fsr_mode>3</render_upscale_fsr_mode>
-		<render_upscale_fsr_pre_exposure>1</render_upscale_fsr_pre_exposure>
-		<render_upscale_fsr_sharpness>0.5</render_upscale_fsr_sharpness>
-		<render_upscale_mode>0</render_upscale_mode>
-		<render_upscale_post>0</render_upscale_post>
-		<render_indirect_lighting_interleaved_color_clamping_intensity>0</render_indirect_lighting_interleaved_color_clamping_intensity>
-		<render_indirect_lighting_interleaved_color_clamping_velocity_threshold>100</render_indirect_lighting_interleaved_color_clamping_velocity_threshold>
-		<render_local_tonemapper_effect_on_dark_areas_gamma>5</render_local_tonemapper_effect_on_dark_areas_gamma>
-		<render_streaming_animations_life_time>-1</render_streaming_animations_life_time>
-		<render_streaming_usage_limit_ram>80</render_streaming_usage_limit_ram>
-		<render_sssss_taa>1</render_sssss_taa>
-		<render_indirect_specular_normalization>0</render_indirect_specular_normalization>
-		<render_reflection_dynamic_alpha_fade>0</render_reflection_dynamic_alpha_fade>
-		<render_sharpen_blur_color_threshold>0.200000003</render_sharpen_blur_color_threshold>
-		<render_sharpen_blur_dark_color_threshold_bias>0.0500000007</render_sharpen_blur_dark_color_threshold_bias>
-		<render_sharpen_blur_radius>1</render_sharpen_blur_radius>
-		<render_sharpen_blur_sigma>1</render_sharpen_blur_sigma>
-		<render_sharpen_diagonal_samples>1</render_sharpen_diagonal_samples>
-		<render_streaming_committed_memory_overcommit>1</render_streaming_committed_memory_overcommit>
-		<render_upscale_fsr_auto_reactive_enabled>0</render_upscale_fsr_auto_reactive_enabled>
 	</render>
 	<physics>
 		<frozen_linear_velocity>0.0199999996</frozen_linear_velocity>
@@ -751,16 +760,16 @@
 			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 0 0 1.5 1.0</transform>
 			<node type="ObjectText" id="508284373" name="text">
 				<font_name>guid://5db53808abbdfbc73dd5067ae2bee39107f547bc</font_name>
-				<text>МИССИЯ ПРОВАЛЕНА</text>
+				<text>MISSION FAILED</text>
 				<font_size>34</font_size>
 				<text_color>0.588235319 0.0588235334 0.0588235334 1</text_color>
 				<text_wrap_width>0</text_wrap_width>
 				<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
-				<transform>0.99999988 3.576279e-07 -3.9790393e-13 0.0 -3.5762787e-07 0.99999988 -3.576277e-07 0.0 2.5579538e-13 3.576277e-07 0.99999982 0.0 -0.40647599 0.22249985 -0.89000034 1.0</transform>
+				<transform>0.99999988 3.576279e-07 -3.9790393e-13 0.0 -3.5762787e-07 0.99999988 -3.576277e-07 0.0 2.5579538e-13 3.576277e-07 0.99999982 0.0 -0.35528806 0.22249985 -0.89000034 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="579210885" name="button_retry">
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772" intersection="1"/>
+				<surface name="plane" intersection="1" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
 				<properties>
 					<property parent="13643e263aff3f4d1d22d848b8689f07d0cad0ba" guid="1203cae77a074b1aac441fb138ce155c5164b10b">
 						<parameter name="sound_hover">guid://b8134f5005d3da6f4610450203f34079a74a6f84</parameter>
@@ -776,16 +785,16 @@
 				<transform>0.58096159 2.077682e-07 -2.2737368e-13 0.0 -1.8030141e-08 0.0504159 -1.8030121e-08 0.0 2.2737368e-13 3.5762716e-07 0.99999839 0.0 0 -0.17470098 -0.89999998 1.0</transform>
 				<node type="ObjectText" id="1026096303" name="text">
 					<font_name>guid://5db53808abbdfbc73dd5067ae2bee39107f547bc</font_name>
-					<text>Еще раз!</text>
+					<text>Try Again!</text>
 					<font_size>16</font_size>
 					<text_wrap_width>0</text_wrap_width>
 					<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
-					<transform>1.721284 -2.7284841e-12 -4.2632374e-14 0.0 1.7053026e-13 19.835011 -2.8421709e-14 0.0 1.6330488e-13 4.5474735e-13 1.0000014 0.0 -0.16393469 0.57014781 0.0099998713 1.0</transform>
+					<transform>1.721284 -3.6379788e-12 1.4211017e-14 0.0 2.8421709e-13 19.835011 -2.8421709e-14 0.0 4.9618065e-14 4.5474735e-13 1.0000014 0.0 -0.19850373 0.57014656 0.0099998601 1.0</transform>
 				</node>
 			</node>
 			<node type="ObjectMeshStatic" id="723160933" name="button_exit">
 				<mesh_name>guid://36f0e2af241330426d14b2b979c2bcc471aca153</mesh_name>
-				<surface name="plane" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772" intersection="1"/>
+				<surface name="plane" intersection="1" material="7f2b6d5ead64f52534d92440fa274a9fe1b01772"/>
 				<properties>
 					<property parent="13643e263aff3f4d1d22d848b8689f07d0cad0ba" guid="681afca1f22eed8c6e22cb7b90494a9e0d50b165">
 						<parameter name="sound_hover">guid://b8134f5005d3da6f4610450203f34079a74a6f84</parameter>
@@ -801,11 +810,11 @@
 				<transform>0.58096153 2.0776828e-07 -3.5527137e-13 0.0 -1.8030152e-08 0.0504159 -1.8030123e-08 0.0 4.2632564e-13 3.5762719e-07 0.99999839 0.0 0 -0.29287982 -0.89999992 1.0</transform>
 				<node type="ObjectText" id="435563973" name="text">
 					<font_name>guid://5db53808abbdfbc73dd5067ae2bee39107f547bc</font_name>
-					<text>Выход</text>
+					<text>Exit</text>
 					<font_size>16</font_size>
 					<text_wrap_width>0</text_wrap_width>
 					<surface name="text" material="196c349704185e581025cee22b1fe0d75cb85e73"/>
-					<transform>1.7212847 -7.730705e-12 4.2632781e-14 0.0 5.6843419e-13 19.835009 0 0.0 -6.4068651e-14 -4.5474735e-13 1.0000014 0.0 -0.11512786 0.64733726 0.0099996328 1.0</transform>
+					<transform>1.7212845 -7.730705e-12 7.1054463e-14 0.0 6.2527761e-13 19.835007 0 0.0 -6.4068651e-14 -4.5474735e-13 1.0000014 0.0 -0.10369089 0.64733696 0.0099996207 1.0</transform>
 				</node>
 			</node>
 		</node>
@@ -831,7 +840,7 @@
 			<cone_outer_angle>180</cone_outer_angle>
 			<cone_outer_gain>0</cone_outer_gain>
 			<cone_outer_gain_hf>1</cone_outer_gain_hf>
-			<playing>0</playing>
+			<playing>1</playing>
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
 		</node>
 	</editor>
@@ -841,5 +850,7 @@
 		<bake_lightmap_quality>3</bake_lightmap_quality>
 		<bake_lightmap_viewport_mask>-1</bake_lightmap_viewport_mask>
 		<bake_lightmap_zfar>1000</bake_lightmap_zfar>
+		<world_async_load_node_references>0</world_async_load_node_references>
+		<world_moving_immovable_node_mode>1</world_moving_immovable_node_mode>
 	</console>
 </world>

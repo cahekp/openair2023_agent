@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>bfb357d301237b16736cf77daec852b8018876b7</guid>
 	<type>texture</type>
-	<hash>112780c5</hash>
+	<hash>153954ea</hash>
 	<runtimes>
 		<runtime id="bfb357d301237b16736cf77daec852b8018876b7" name="logo.jpg" link="0" type="6"/>
 		<runtime id="4788e4aabe184c01fe0c356c37e2b1dbc4323d7e" name="logo.texture" link="1" type="6"/>

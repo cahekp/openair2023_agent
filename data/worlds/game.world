@@ -829,68 +829,6 @@
 		</node>
 		<node type="NodeDummy" id="410803149" name="room">
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 120.85335 -29.562965 31.760471 1.0</transform>
-			<node type="NodeDummy" id="275545127" name="colliders">
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				<node type="ObjectDummy" id="752693851" name="collider_floor">
-					<body type="BodyDummy" id="164088293" frozen="0">
-						<shape type="ShapeBox" id="1772139435" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.97490358 3.06192398 0 1">
-							<size>9.07161427 7.33824921 1</size>
-						</shape>
-					</body>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				</node>
-				<node type="ObjectDummy" id="1793391866" name="collider_walls">
-					<body type="BodyDummy" id="1694063877" frozen="0">
-						<shape type="ShapeBox" id="1261331304" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.4563005 -0.982772827 1.9779197 1">
-							<size>8.03441429 0.977481365 3.06358337</size>
-						</shape>
-						<shape type="ShapeBox" id="656394277" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.45629859 7.02895355 1.97792017 1">
-							<size>8.03441429 1.07306623 3.06358337</size>
-						</shape>
-						<shape type="ShapeBox" id="295110254" transform="1 0 0 0 0 1 0 0 0 0 1 0 0.99845314 2.99651337 1.97792137 1">
-							<size>1.04285026 7.02904129 3.06358337</size>
-						</shape>
-						<shape type="ShapeBox" id="1880965450" transform="1 0 0 0 0 1 0 0 0 0 1 0 -8.00811386 4.51078796 1.97792304 1">
-							<size>1.02950025 4.00059509 3.06358337</size>
-						</shape>
-						<shape type="ShapeBox" id="2010738522" transform="1 0 0 0 0 1 0 0 0 0 1 0 -8.00811386 0.498935699 1.9779228 1">
-							<size>1.02950025 2.0337944 3.06358337</size>
-						</shape>
-						<shape type="ShapeBox" id="948717009" transform="1 0 0 0 0 1 0 0 0 0 1 0 -8.00811386 2.01202011 3.00710487 1">
-							<size>1.02950025 1.01798987 1.00522089</size>
-						</shape>
-					</body>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				</node>
-				<node type="ObjectDummy" id="1673841696" name="collider_ceiling">
-					<body type="BodyDummy" id="926099075" frozen="0">
-						<shape type="ShapeBox" id="1145908606" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.45630145 2.96840286 3.99794197 1">
-							<size>8.03441429 7.15117264 0.979615927</size>
-						</shape>
-					</body>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				</node>
-				<node type="ObjectDummy" id="1592407888" name="collider_objects">
-					<body type="BodyDummy" id="618454321" frozen="0">
-						<shape type="ShapeBox" id="1652878476" transform="1 0 0 0 0 1 0 0 0 0 1 0 -1.11503506 3.60050201 1.32532835 1">
-							<size>3.30172992 1.18874717 2.32787728</size>
-						</shape>
-						<shape type="ShapeBox" id="428382959" transform="1 0 0 0 0 1 0 0 0 0 1 0 -1.20413876 0.719978333 1.32532835 1">
-							<size>0.962371588 2.47192001 2.32787728</size>
-						</shape>
-						<shape type="ShapeBox" id="1414475381" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.49857473 -0.00113677979 0.803119004 1">
-							<size>3.77690935 1.02960575 1.28345799</size>
-						</shape>
-						<shape type="ShapeBox" id="892530925" transform="1 0 0 0 0 1 0 0 0 0 1 0 -6.7804985 0.168495178 0.88222909 1">
-							<size>0.856569767 0.801017642 1.44167674</size>
-						</shape>
-						<shape type="ShapeBox" id="1804663852" transform="1 0 0 0 0 1 0 0 0 0 1 0 -6.70538616 5.63507462 1.30233121 1">
-							<size>1.58159363 1.85599136 2.28188014</size>
-						</shape>
-					</body>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				</node>
-			</node>
 			<node type="NodeDummy" id="847400311" name="static">
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 				<node type="NodeReference" id="640829051" name="chair">
@@ -2005,96 +1943,75 @@
 					<reference>guid://5c1474fd7ccab238bd345037856bf02a78b4e181</reference>
 					<transform>0.70710653 -0.70710665 -8.2718038e-24 0.0 0.70710623 0.70710611 5.5511151e-17 0.0 -3.9252291e-17 -3.9252298e-17 0.99999881 0.0 -6.1200256 0.2147789 0.69961953 1.0</transform>
 				</node>
-			</node>
-			<node type="NodeDummy" id="941926123" name="dynamic">
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				<node type="PhysicalTrigger" id="124547232" name="tutorial_trigger">
-					<type>3</type>
-					<size>1 1 2.43712378</size>
-					<exclusion_mask>0x0</exclusion_mask>
-					<physical_mask>0x2</physical_mask>
-					<properties>
-						<property parent="957f398422b3771321d891566fbc98bdf85302f8" guid="31bd925895f671d7294d654a0ff2942129fe9f0c">
-							<parameter name="onEnter">
-								<value index="0">cfe8012c58fa8a9b1d84bf3e4d6d5d85e03cb120</value>
-							</parameter>
-						</property>
-						<property parent="c274598235b34af9b8b9f804ef162393ac1653d6" guid="cfe8012c58fa8a9b1d84bf3e4d6d5d85e03cb120">
-							<parameter name="image_1">guid://b560796fbe8e580238ec3779a958fa84c0a84413</parameter>
-							<parameter name="name_1">Agent X</parameter>
-							<parameter name="image_2">guid://d477905ec334bc2588b03f4093d5a99f7064ea72</parameter>
-							<parameter name="name_2">Anna</parameter>
-							<parameter name="text">X: Anna, I&apos;m on site.\n
-Anna: I hear you, Agent X. Copy that. Let me remind you of the mission objectives.\n
-Anna: We’ve received intel that terrorists have stolen a secret weapon and hidden it in a hangar on the island. You need to locate and retrieve the weapon.\n
-X: Understood. What are the mission details?\n
-Anna: The hangar is guarded. According to our data, the next room contains an armory. Arm yourself.\n
-Anna: Then find the secret weapon in the large hangar. It should be glowing blue.\n
-X: &quot;Glowing&quot;?\n
-Anna: Affirmative. After that, get out of there. There’s a car outside — take it and drive to the airfield. From there, board a plane and fly off the island.\n
-X: Copy that. I’ll move quickly and quietly. I’ll keep you updated.\n
-Anna: Excellent, Agent X. Good luck on your mission. Our success depends on you. Be careful and come back to us safe and sound.\n
-X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
-							<parameter name="chars_per_second">25</parameter>
-							<parameter name="font">guid://5db53808abbdfbc73dd5067ae2bee39107f547bc</parameter>
-						</property>
-					</properties>
-					<transform>0.012798606 0.99991798 2.1684046e-19 0.0 -0.99991739 0.012798599 0 0.0 -2.7752663e-21 -2.1682253e-19 0.99999917 0.0 -0.4808197 4.853611 1.7177086 1.0</transform>
-				</node>
-				<node type="ObjectMeshStatic" id="1809940105" name="door">
-					<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
-					<surface name="None__door_jpg" intersection="1" intersection_mask="0x4" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
-					<body type="BodyDummy" id="1245932444" frozen="0">
-						<shape type="ShapeBox" id="1877174690" transform="0.999997556 1.42108547e-14 3.2031341e-13 0 -2.91322522e-13 1 -1.16529009e-12 0 -3.33385907e-13 2.84217094e-14 0.999997556 0 0.499992371 1.00001442 -0.0122528076 1">
-							<size>1.00000012 2 0.196433291</size>
-						</shape>
-					</body>
-					<properties>
-						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="a7baac5cf6925c0b0f9d01eec66ae075d0b7f750">
-							<parameter name="interact_type">2</parameter>
-							<parameter name="name">Дверь с замком</parameter>
-							<parameter name="item">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
-							<parameter name="onInteract">
-								<value index="0">230684148257a0636e748a66cb749e8d844c2e88</value>
-								<value index="1">f69ee23b2866f25ef968b62568eff140b9fdb39f</value>
-							</parameter>
-						</property>
-						<property parent="4a64efeda94c90687103b8a77d80ddda9ea91371" guid="230684148257a0636e748a66cb749e8d844c2e88">
-							<parameter name="rotation_axis">1</parameter>
-						</property>
-						<property parent="60f410ec0e9dd75be62424feefd008451c07dce0" guid="f69ee23b2866f25ef968b62568eff140b9fdb39f"/>
-					</properties>
-					<transform>-2.066319e-07 0.99999899 -8.7422777e-08 0.0 2.5034095e-07 8.7422734e-08 1 0.0 0.99999899 2.0663187e-07 -2.503412e-07 0.0 -7.7232208 1.5027771 0.49848938 1.0</transform>
-					<node type="ObjectMeshStatic" id="36918924" name="lock">
-						<mesh_name>guid://935598d4bf602e23c81e3d266b0b324d0b902f48</mesh_name>
-						<surface name="None__lock_jpg" intersection="1" material="5150d9f4dd353cc39d63bb4640f359ed46c3f268"/>
-						<transform>-0.99999952 -2.0821917e-06 -1.3461165e-06 0.0 -1.3461171e-06 4.1325688e-07 1 0.0 -2.0821929e-06 0.99999863 -4.7286423e-07 0.0 0.83600616 1.0266488 0.056564331 1.0</transform>
-					</node>
-				</node>
-				<node type="ObjectMeshStatic" id="894825415" name="key">
-					<mesh_name>guid://7584cdeb3a2c0a4ebe648d55c526feb0a814024f</mesh_name>
-					<surface name="surface_0" intersection="1" intersection_mask="0x4" material="5ad7873dee381f78c48a5c775fec0f6aaae9f7c1"/>
-					<properties>
-						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="5a704a7fd83855d20afefb09e74848d4e4d31e23">
-							<parameter name="interact_type">0</parameter>
-							<parameter name="name">Желтый ключ</parameter>
-						</property>
-						<property parent="5cc55e00c3e8b95f036337325458ace9bc959134" guid="674eae49d9ffe3146fdb73639f3841661f4ee98d">
-							<parameter name="attach_position">0 0.0625699982 0.0591499992</parameter>
-							<parameter name="attach_rotation">59.9999008 0 270</parameter>
-							<parameter name="hit_position">0 0.114859998 -0.0245500002</parameter>
-							<parameter name="hit_rotation">0 0 270</parameter>
-						</property>
-					</properties>
-					<transform>0.70691949 0.70729107 -0.00048923207 0.0 0.00034599061 0.0003459788 0.9999975 0.0 0.70729202 -0.70692033 -2.9062054e-08 0.0 -0.12563324 0.22668457 0.51824188 1.0</transform>
-				</node>
 				<node type="NodeReference" id="874236287" name="notebook">
 					<reference>guid://64fa3378145d6077e53b436a12a79bc12cd9c22c</reference>
-					<transform>-1 -1.0410971e-06 7.9551478e-14 0.0 1.0410971e-06 -1 8.7422769e-08 0.0 -1.1464121e-14 8.7422769e-08 1 0.0 -3.0147746 0.35458755 1.4481758 1.0</transform>
+					<transform>-1 -1.0410971e-06 7.9551478e-14 0.0 1.0410971e-06 -1 8.7422769e-08 0.0 -1.1464121e-14 8.7422769e-08 1 0.0 -3.0147705 0.35458755 1.4481773 1.0</transform>
 				</node>
 				<node type="NodeReference" id="1097890913" name="walkietalkie">
 					<reference>guid://d27db708e3866ec72bd4dd7ae766ce911f1e36bc</reference>
-					<transform>-0.86602533 -0.50000072 0 0.0 0.50000066 -0.86602521 0 0.0 0 0 0.99999994 0.0 -3.7066338 0.2298851 1.4481759 1.0</transform>
+					<transform>-0.86602533 -0.50000072 0 0.0 0.50000066 -0.86602521 0 0.0 0 0 1 0.0 -3.7066345 0.2298851 1.4481773 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="275545127" name="colliders">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<node type="ObjectDummy" id="752693851" name="collider_floor">
+					<body type="BodyDummy" id="164088293" frozen="0">
+						<shape type="ShapeBox" id="1772139435" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.97490358 3.06192398 0 1">
+							<size>9.07161427 7.33824921 1</size>
+						</shape>
+					</body>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				</node>
+				<node type="ObjectDummy" id="1793391866" name="collider_walls">
+					<body type="BodyDummy" id="1694063877" frozen="0">
+						<shape type="ShapeBox" id="1261331304" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.4563005 -0.982772827 1.9779197 1">
+							<size>8.03441429 0.977481365 3.06358337</size>
+						</shape>
+						<shape type="ShapeBox" id="656394277" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.45629859 7.02895355 1.97792017 1">
+							<size>8.03441429 1.07306623 3.06358337</size>
+						</shape>
+						<shape type="ShapeBox" id="295110254" transform="1 0 0 0 0 1 0 0 0 0 1 0 0.99845314 2.99651337 1.97792137 1">
+							<size>1.04285026 7.02904129 3.06358337</size>
+						</shape>
+						<shape type="ShapeBox" id="1880965450" transform="1 0 0 0 0 1 0 0 0 0 1 0 -8.00811386 4.51078796 1.97792304 1">
+							<size>1.02950025 4.00059509 3.06358337</size>
+						</shape>
+						<shape type="ShapeBox" id="2010738522" transform="1 0 0 0 0 1 0 0 0 0 1 0 -8.00811386 0.498935699 1.9779228 1">
+							<size>1.02950025 2.0337944 3.06358337</size>
+						</shape>
+						<shape type="ShapeBox" id="948717009" transform="1 0 0 0 0 1 0 0 0 0 1 0 -8.00811386 2.01202011 3.00710487 1">
+							<size>1.02950025 1.01798987 1.00522089</size>
+						</shape>
+					</body>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				</node>
+				<node type="ObjectDummy" id="1673841696" name="collider_ceiling">
+					<body type="BodyDummy" id="926099075" frozen="0">
+						<shape type="ShapeBox" id="1145908606" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.45630145 2.96840286 3.99794197 1">
+							<size>8.03441429 7.15117264 0.979615927</size>
+						</shape>
+					</body>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				</node>
+				<node type="ObjectDummy" id="1592407888" name="collider_objects">
+					<body type="BodyDummy" id="618454321" frozen="0">
+						<shape type="ShapeBox" id="1652878476" transform="1 0 0 0 0 1 0 0 0 0 1 0 -1.11503506 3.60050201 1.32532835 1">
+							<size>3.30172992 1.18874717 2.32787728</size>
+						</shape>
+						<shape type="ShapeBox" id="428382959" transform="1 0 0 0 0 1 0 0 0 0 1 0 -1.20413876 0.719978333 1.32532835 1">
+							<size>0.962371588 2.47192001 2.32787728</size>
+						</shape>
+						<shape type="ShapeBox" id="1414475381" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.49857473 -0.00113677979 0.803119004 1">
+							<size>3.77690935 1.02960575 1.28345799</size>
+						</shape>
+						<shape type="ShapeBox" id="892530925" transform="1 0 0 0 0 1 0 0 0 0 1 0 -6.7804985 0.168495178 0.88222909 1">
+							<size>0.856569767 0.801017642 1.44167674</size>
+						</shape>
+						<shape type="ShapeBox" id="1804663852" transform="1 0 0 0 0 1 0 0 0 0 1 0 -6.70538616 5.63507462 1.30233121 1">
+							<size>1.58159363 1.85599136 2.28188014</size>
+						</shape>
+					</body>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 				</node>
 			</node>
 			<node type="NodeDummy" id="2107624625" name="lights">
@@ -2418,6 +2335,89 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210851e-14 0.0 -3.5873241e-43 1.4210852e-14 1 0.0 -3.5264006 3.0160751 1.9677306 1.0</transform>
 				</node>
 			</node>
+			<node type="NodeDummy" id="941926123" name="dynamic">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<node type="PhysicalTrigger" id="124547232" name="tutorial_trigger">
+					<type>3</type>
+					<size>1 1 2.43712378</size>
+					<exclusion_mask>0x0</exclusion_mask>
+					<physical_mask>0x2</physical_mask>
+					<properties>
+						<property parent="957f398422b3771321d891566fbc98bdf85302f8" guid="31bd925895f671d7294d654a0ff2942129fe9f0c">
+							<parameter name="onEnter">
+								<value index="0">cfe8012c58fa8a9b1d84bf3e4d6d5d85e03cb120</value>
+							</parameter>
+						</property>
+						<property parent="c274598235b34af9b8b9f804ef162393ac1653d6" guid="cfe8012c58fa8a9b1d84bf3e4d6d5d85e03cb120">
+							<parameter name="image_1">guid://b560796fbe8e580238ec3779a958fa84c0a84413</parameter>
+							<parameter name="name_1">Agent X</parameter>
+							<parameter name="image_2">guid://d477905ec334bc2588b03f4093d5a99f7064ea72</parameter>
+							<parameter name="name_2">Anna</parameter>
+							<parameter name="text">X: Anna, I&apos;m on site.\n
+Anna: I hear you, Agent X. Copy that. Let me remind you of the mission objectives.\n
+Anna: We’ve received intel that terrorists have stolen a secret weapon and hidden it in a hangar on the island. You need to locate and retrieve the weapon.\n
+X: Understood. What are the mission details?\n
+Anna: The hangar is guarded. According to our data, the next room contains an armory. Arm yourself.\n
+Anna: Then find the secret weapon in the large hangar. It should be glowing blue.\n
+X: &quot;Glowing&quot;?\n
+Anna: Affirmative. After that, get out of there. There’s a car outside — take it and drive to the airfield. From there, board a plane and fly off the island.\n
+X: Copy that. I’ll move quickly and quietly. I’ll keep you updated.\n
+Anna: Excellent, Agent X. Good luck on your mission. Our success depends on you. Be careful and come back to us safe and sound.\n
+X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
+							<parameter name="chars_per_second">25</parameter>
+							<parameter name="font">guid://5db53808abbdfbc73dd5067ae2bee39107f547bc</parameter>
+						</property>
+					</properties>
+					<transform>0.012798606 0.99991798 2.1684046e-19 0.0 -0.99991739 0.012798599 0 0.0 -2.7752663e-21 -2.1682253e-19 0.99999917 0.0 -0.4808197 4.853611 1.7177086 1.0</transform>
+				</node>
+				<node type="ObjectMeshStatic" id="1809940105" name="door">
+					<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
+					<surface name="None__door_jpg" intersection="1" intersection_mask="0x4" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
+					<body type="BodyDummy" id="1245932444" frozen="0">
+						<shape type="ShapeBox" id="1877174690" transform="0.999997556 1.42108547e-14 3.2031341e-13 0 -2.91322522e-13 1 -1.16529009e-12 0 -3.33385907e-13 2.84217094e-14 0.999997556 0 0.499992371 1.00001442 -0.0122528076 1">
+							<size>1.00000012 2 0.196433291</size>
+						</shape>
+					</body>
+					<properties>
+						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="a7baac5cf6925c0b0f9d01eec66ae075d0b7f750">
+							<parameter name="interact_type">2</parameter>
+							<parameter name="name">Locked door (need key)</parameter>
+							<parameter name="item">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
+							<parameter name="onInteract">
+								<value index="0">230684148257a0636e748a66cb749e8d844c2e88</value>
+								<value index="1">f69ee23b2866f25ef968b62568eff140b9fdb39f</value>
+							</parameter>
+						</property>
+						<property parent="4a64efeda94c90687103b8a77d80ddda9ea91371" guid="230684148257a0636e748a66cb749e8d844c2e88">
+							<parameter name="rotation_axis">1</parameter>
+						</property>
+						<property parent="60f410ec0e9dd75be62424feefd008451c07dce0" guid="f69ee23b2866f25ef968b62568eff140b9fdb39f"/>
+					</properties>
+					<transform>-2.066319e-07 0.99999899 -8.7422777e-08 0.0 2.5034095e-07 8.7422734e-08 1 0.0 0.99999899 2.0663187e-07 -2.503412e-07 0.0 -7.7232208 1.5027771 0.49848938 1.0</transform>
+					<node type="ObjectMeshStatic" id="36918924" name="lock">
+						<mesh_name>guid://935598d4bf602e23c81e3d266b0b324d0b902f48</mesh_name>
+						<surface name="None__lock_jpg" intersection="1" material="5150d9f4dd353cc39d63bb4640f359ed46c3f268"/>
+						<transform>-0.99999952 -2.0821917e-06 -1.3461165e-06 0.0 -1.3461171e-06 4.1325688e-07 1 0.0 -2.0821929e-06 0.99999863 -4.7286423e-07 0.0 0.83600616 1.0266488 0.056564331 1.0</transform>
+					</node>
+				</node>
+				<node type="ObjectMeshStatic" id="894825415" name="key">
+					<mesh_name>guid://7584cdeb3a2c0a4ebe648d55c526feb0a814024f</mesh_name>
+					<surface name="surface_0" intersection="1" intersection_mask="0x4" material="5ad7873dee381f78c48a5c775fec0f6aaae9f7c1"/>
+					<properties>
+						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="5a704a7fd83855d20afefb09e74848d4e4d31e23">
+							<parameter name="interact_type">0</parameter>
+							<parameter name="name">Key</parameter>
+						</property>
+						<property parent="5cc55e00c3e8b95f036337325458ace9bc959134" guid="674eae49d9ffe3146fdb73639f3841661f4ee98d">
+							<parameter name="attach_position">0 0.0625699982 0.0591499992</parameter>
+							<parameter name="attach_rotation">59.9999008 0 270</parameter>
+							<parameter name="hit_position">0 0.114859998 -0.0245500002</parameter>
+							<parameter name="hit_rotation">0 0 270</parameter>
+						</property>
+					</properties>
+					<transform>0.70691949 0.70729107 -0.00048923207 0.0 0.00034599061 0.0003459788 0.9999975 0.0 0.70729202 -0.70692033 -2.9062054e-08 0.0 -0.12563324 0.22668457 0.51824188 1.0</transform>
+				</node>
+			</node>
 		</node>
 		<node type="NodeDummy" id="2115978779" name="hall">
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 108.6288 -26.667675 31.760471 1.0</transform>
@@ -2543,6 +2543,18 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					<reference>guid://2706eb18eecc73971c9dfc0a3fdabbe1fa5f23cc</reference>
 					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -6.8166814 -1.8721008 0.97545743 1.0</transform>
 				</node>
+				<node type="NodeReference" id="415517545" name="barrel_red_2">
+					<reference>guid://4b08341666c05c7d214273b8b3e223b7f604adaa</reference>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -6.5605545 0.86655807 0.96269226 1.0</transform>
+				</node>
+				<node type="NodeReference" id="340946604" name="barrel_red_3">
+					<reference>guid://4b08341666c05c7d214273b8b3e223b7f604adaa</reference>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 3.2932739 -1.8712807 0.96269226 1.0</transform>
+				</node>
+				<node type="NodeReference" id="1840671187" name="barrel_red_4">
+					<reference>guid://4b08341666c05c7d214273b8b3e223b7f604adaa</reference>
+					<transform>0.70710671 0.70710683 0 0.0 -0.70710683 0.70710671 0 0.0 0 0 1 0.0 -6.8497162 -1.9020844 2.0371971 1.0</transform>
+				</node>
 			</node>
 			<node type="NodeDummy" id="67818124" name="colliders">
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
@@ -2580,184 +2592,6 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 						</shape>
 					</body>
 					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				</node>
-			</node>
-			<node type="NodeDummy" id="1345107813" name="dynamic">
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				<node type="ObjectMeshStatic" id="1119662690" name="door_1">
-					<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
-					<surface name="None__door_jpg" intersection="1" intersection_mask="0x4" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
-					<body type="BodyDummy" id="166141760" frozen="0">
-						<shape type="ShapeBox" id="59071336" transform="0.999997556 1.42108547e-14 3.2031341e-13 0 -2.91322522e-13 1 -1.16529009e-12 0 -3.33385907e-13 2.84217094e-14 0.999997556 0 0.499992371 1.00001442 -0.0122528076 1">
-							<size>1.00000012 2 0.196433291</size>
-						</shape>
-					</body>
-					<properties>
-						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="3ab3e102dc6a2c79135c6b848adb0113a6d69356">
-							<parameter name="interact_type">1</parameter>
-							<parameter name="name">Дверь</parameter>
-							<parameter name="item">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
-							<parameter name="onInteract">
-								<value index="0">976eb2bd7cba54f81bf813f7731b60ea744a1b41</value>
-							</parameter>
-						</property>
-						<property parent="4a64efeda94c90687103b8a77d80ddda9ea91371" guid="976eb2bd7cba54f81bf813f7731b60ea744a1b41">
-							<parameter name="rotation_axis">1</parameter>
-						</property>
-					</properties>
-					<transform>-2.0663191e-07 0.99999899 -8.7422777e-08 0.0 2.5034097e-07 8.7422741e-08 1 0.0 0.99999899 2.0663188e-07 -2.503412e-07 0.0 -7.4386063 -1.3925133 0.49848938 1.0</transform>
-				</node>
-				<node type="NodeReference" id="415517545" name="barrel_red_2">
-					<reference>guid://4b08341666c05c7d214273b8b3e223b7f604adaa</reference>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -6.560555 0.86655807 0.96269262 1.0</transform>
-				</node>
-				<node type="NodeReference" id="340946604" name="barrel_red_3">
-					<reference>guid://4b08341666c05c7d214273b8b3e223b7f604adaa</reference>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 3.2932723 -1.8712807 0.96269268 1.0</transform>
-				</node>
-				<node type="NodeReference" id="1840671187" name="barrel_red_4">
-					<reference>guid://4b08341666c05c7d214273b8b3e223b7f604adaa</reference>
-					<transform>0.70710671 0.70710683 0 0.0 -0.70710683 0.70710671 0 0.0 0 0 1 0.0 -6.8497195 -1.9020844 2.0371988 1.0</transform>
-				</node>
-				<node type="ObjectMeshStatic" id="454395249" name="gun_rifle">
-					<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
-					<surface name="Stock_Q_Honey_Badger" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
-					<properties>
-						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="0167b685746936205a7772ffa7386452fe46b789">
-							<parameter name="name">Винтовка</parameter>
-						</property>
-						<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="b6ee63973bf72c0a10822be1397fd3ccc53bfcbb">
-							<parameter name="attach_position">0 -0.0500000007 0.0329999998</parameter>
-							<parameter name="attach_rotation">90 270 0</parameter>
-							<parameter name="muzzle_flash">1795780975</parameter>
-							<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
-							<parameter name="bullet_spawn_point">574856473</parameter>
-						</property>
-					</properties>
-					<transform>-0.00054648321 -0.99999994 1.5094808e-07 0.0 0.9999997 -0.0005464534 0.00054602226 0.0 -0.00054596283 4.4910817e-07 1.0000001 0.0 -1.7879715 0.65978622 1.4753189 1.0</transform>
-					<node type="ObjectMeshStatic" id="934387008" name="rifle_gray_part">
-						<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
-						<surface name="Charge_Handle_ar15_Qraptor" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
-						<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
-					</node>
-					<node type="NodeDummy" id="574856473" name="bullet_spawn">
-						<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
-						<node type="NodeDummy" id="1795780975" enabled="0" name="muzzle_flash">
-							<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
-							<node type="ObjectMeshStatic" id="583095899" name="plane">
-								<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
-								<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
-								<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
-							</node>
-							<node type="LightOmni" id="683290770" name="light_omni">
-								<attenuation_distance>2.5</attenuation_distance>
-								<near_attenuation_distance>0</near_attenuation_distance>
-								<near_attenuation_gradient_length>0</near_attenuation_gradient_length>
-								<shadow_near_clipping_distance>0.00999999978</shadow_near_clipping_distance>
-								<shape>2 1 0.200000003</shape>
-								<shape_type>0</shape_type>
-								<texture replace="3fad1aa3f8b2585260359beb60483024f29b18b1"/>
-								<color>1 0.615686297 0 1</color>
-								<intensity>2</intensity>
-								<shadow_resolution>2</shadow_resolution>
-								<shadow_bias>1</shadow_bias>
-								<fade_distance>10</fade_distance>
-								<shadow_distance>30</shadow_distance>
-								<shadow_fade_distance>10</shadow_fade_distance>
-								<mode>0</mode>
-								<shadow_filter_mode>-1</shadow_filter_mode>
-								<shadow_filter>1</shadow_filter>
-								<shadow_penumbra_mode>-1</shadow_penumbra_mode>
-								<shadow_penumbra>0</shadow_penumbra>
-								<shadow_screen_space>0</shadow_screen_space>
-								<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
-								<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
-								<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
-								<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
-								<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
-								<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
-								<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
-								<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
-								<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
-								<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
-								<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
-								<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
-								<shadow_color_texture_mode>0</shadow_color_texture_mode>
-								<shadow_screen_space_softness>0</shadow_screen_space_softness>
-								<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
-								<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
-								<baked_depth_texture replace="a547868cc152e3a78d63cb240adfccb6608ce81a"/>
-								<lens_flare_enabled>0</lens_flare_enabled>
-								<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
-								<lens_flare_intensity>1</lens_flare_intensity>
-								<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
-								<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
-								<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
-								<lens_flare_use_light_color>1</lens_flare_use_light_color>
-								<lens_flare_billboards num="31">
-									<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
-									<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
-									<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
-									<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
-									<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
-									<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
-									<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
-									<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
-									<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
-									<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
-									<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
-									<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
-									<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
-									<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
-									<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
-									<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
-									<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
-									<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-									<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-									<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
-									<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
-									<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
-									<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
-									<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-									<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
-									<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
-									<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
-									<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-									<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-									<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-									<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
-								</lens_flare_billboards>
-								<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
-							</node>
-						</node>
-					</node>
-				</node>
-				<node type="ObjectMeshStatic" id="382908642" name="gun_pistol">
-					<mesh_name>guid://0914e66f8725e1022a342c79829e6b847d350113</mesh_name>
-					<surface name="survivalpropsMAT" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
-					<properties>
-						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="e0a79895524a10f094616f8f7ccb97a280023299">
-							<parameter name="name">Пистолет</parameter>
-						</property>
-						<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="a4fa2f13e4bfe9561a8c10bd06ac1af8c82321f7">
-							<parameter name="attach_position">0 0 0.0299999993</parameter>
-							<parameter name="attach_rotation">180 0 90</parameter>
-							<parameter name="bullet_file">guid://ecf761985db978179ef2368a23f0b46194ffc24c</parameter>
-							<parameter name="bullet_spawn_point">2131516137</parameter>
-							<parameter name="shots_per_minute">180</parameter>
-							<parameter name="bullet_spread">0.100000001</parameter>
-							<parameter name="recoil_force">0.100000001</parameter>
-						</property>
-					</properties>
-					<transform>1.4702732e-07 -0.99999958 -8.7422762e-08 0.0 2.6623655e-07 -8.7422706e-08 0.99999982 0.0 -0.99999946 -1.4702734e-07 2.6623647e-07 0.0 -1.3746109 0.6133461 1.466198 1.0</transform>
-					<node type="ObjectMeshStatic" id="177957483" name="muffler">
-						<mesh_name>guid://8869005c08e4a00b68e275ee4f29c47515418b50</mesh_name>
-						<surface name="survivalpropsMAT" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
-						<transform>1 0 5.1465536e-15 0.0 0 1 0 0.0 5.1465688e-15 -2.8421709e-14 1 0.0 0 3.1516538e-07 0 1.0</transform>
-					</node>
-					<node type="NodeDummy" id="2131516137" name="bullet_spawn">
-						<transform>-7.5076582e-07 -0.99999738 -5.5966029e-07 0.0 -0.99862832 7.7412625e-07 -0.052313574 0.0 0.052313671 5.0886371e-07 -0.9986304 0.0 -0.29154968 2.979541e-07 -0.031112671 1.0</transform>
-					</node>
 				</node>
 			</node>
 			<node type="NodeDummy" id="143254780" name="lights">
@@ -2998,6 +2832,172 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
 					<baked_depth_texture replace="3fb2463298c5abf2b987f20a3577a82f9855e550"/>
 					<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210852e-14 0.0 -3.5873241e-43 1.4210853e-14 1 0.0 -1.7621675 -0.35524368 1.9677322 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1345107813" name="dynamic">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="1119662690" name="door_1">
+					<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
+					<surface name="None__door_jpg" intersection="1" intersection_mask="0x4" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
+					<body type="BodyDummy" id="166141760" frozen="0">
+						<shape type="ShapeBox" id="59071336" transform="0.999997556 1.42108547e-14 3.2031341e-13 0 -2.91322522e-13 1 -1.16529009e-12 0 -3.33385907e-13 2.84217094e-14 0.999997556 0 0.499992371 1.00001442 -0.0122528076 1">
+							<size>1.00000012 2 0.196433291</size>
+						</shape>
+					</body>
+					<properties>
+						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="3ab3e102dc6a2c79135c6b848adb0113a6d69356">
+							<parameter name="interact_type">1</parameter>
+							<parameter name="name">Door</parameter>
+							<parameter name="item">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
+							<parameter name="onInteract">
+								<value index="0">976eb2bd7cba54f81bf813f7731b60ea744a1b41</value>
+							</parameter>
+						</property>
+						<property parent="4a64efeda94c90687103b8a77d80ddda9ea91371" guid="976eb2bd7cba54f81bf813f7731b60ea744a1b41">
+							<parameter name="rotation_axis">1</parameter>
+						</property>
+					</properties>
+					<transform>-2.0663191e-07 0.99999899 -8.7422777e-08 0.0 2.5034097e-07 8.7422741e-08 1 0.0 0.99999899 2.0663188e-07 -2.503412e-07 0.0 -7.4386063 -1.3925133 0.49848938 1.0</transform>
+				</node>
+				<node type="ObjectMeshStatic" id="454395249" name="gun_rifle">
+					<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+					<surface name="Stock_Q_Honey_Badger" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+					<properties>
+						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="0167b685746936205a7772ffa7386452fe46b789">
+							<parameter name="name">Rifle</parameter>
+						</property>
+						<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="b6ee63973bf72c0a10822be1397fd3ccc53bfcbb">
+							<parameter name="attach_position">0 -0.0500000007 0.0329999998</parameter>
+							<parameter name="attach_rotation">90 270 0</parameter>
+							<parameter name="muzzle_flash">1795780975</parameter>
+							<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+							<parameter name="bullet_spawn_point">574856473</parameter>
+						</property>
+					</properties>
+					<transform>-0.00054648321 -0.99999994 1.5094808e-07 0.0 0.9999997 -0.0005464534 0.00054602226 0.0 -0.00054596283 4.4910817e-07 1.0000001 0.0 -1.7879715 0.65978622 1.4753189 1.0</transform>
+					<node type="ObjectMeshStatic" id="934387008" name="rifle_gray_part">
+						<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+						<surface name="Charge_Handle_ar15_Qraptor" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+						<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+					</node>
+					<node type="NodeDummy" id="574856473" name="bullet_spawn">
+						<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+						<node type="NodeDummy" id="1795780975" enabled="0" name="muzzle_flash">
+							<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+							<node type="ObjectMeshStatic" id="583095899" name="plane">
+								<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+								<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+								<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+							</node>
+							<node type="LightOmni" id="683290770" name="light_omni">
+								<attenuation_distance>2.5</attenuation_distance>
+								<near_attenuation_distance>0</near_attenuation_distance>
+								<near_attenuation_gradient_length>0</near_attenuation_gradient_length>
+								<shadow_near_clipping_distance>0.00999999978</shadow_near_clipping_distance>
+								<shape>2 1 0.200000003</shape>
+								<shape_type>0</shape_type>
+								<texture replace="3fad1aa3f8b2585260359beb60483024f29b18b1"/>
+								<color>1 0.615686297 0 1</color>
+								<intensity>2</intensity>
+								<shadow_resolution>2</shadow_resolution>
+								<shadow_bias>1</shadow_bias>
+								<fade_distance>10</fade_distance>
+								<shadow_distance>30</shadow_distance>
+								<shadow_fade_distance>10</shadow_fade_distance>
+								<mode>0</mode>
+								<shadow_filter_mode>-1</shadow_filter_mode>
+								<shadow_filter>1</shadow_filter>
+								<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+								<shadow_penumbra>0</shadow_penumbra>
+								<shadow_screen_space>0</shadow_screen_space>
+								<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+								<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+								<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+								<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+								<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+								<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+								<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+								<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+								<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+								<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+								<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+								<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+								<shadow_color_texture_mode>0</shadow_color_texture_mode>
+								<shadow_screen_space_softness>0</shadow_screen_space_softness>
+								<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+								<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+								<baked_depth_texture replace="a547868cc152e3a78d63cb240adfccb6608ce81a"/>
+								<lens_flare_enabled>0</lens_flare_enabled>
+								<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+								<lens_flare_intensity>1</lens_flare_intensity>
+								<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+								<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+								<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+								<lens_flare_use_light_color>1</lens_flare_use_light_color>
+								<lens_flare_billboards num="31">
+									<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+									<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+									<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+									<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+									<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+									<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+									<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+									<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+									<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+									<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+									<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+									<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+									<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+									<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+									<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+									<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+									<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+									<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+									<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+									<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+									<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+									<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+									<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+									<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+									<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+									<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+									<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+									<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+									<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+									<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+									<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+								</lens_flare_billboards>
+								<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+				<node type="ObjectMeshStatic" id="382908642" name="gun_pistol">
+					<mesh_name>guid://0914e66f8725e1022a342c79829e6b847d350113</mesh_name>
+					<surface name="survivalpropsMAT" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+					<properties>
+						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="e0a79895524a10f094616f8f7ccb97a280023299">
+							<parameter name="name">Pistol</parameter>
+						</property>
+						<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="a4fa2f13e4bfe9561a8c10bd06ac1af8c82321f7">
+							<parameter name="attach_position">0 0 0.0299999993</parameter>
+							<parameter name="attach_rotation">180 0 90</parameter>
+							<parameter name="bullet_file">guid://ecf761985db978179ef2368a23f0b46194ffc24c</parameter>
+							<parameter name="bullet_spawn_point">2131516137</parameter>
+							<parameter name="shots_per_minute">180</parameter>
+							<parameter name="bullet_spread">0.100000001</parameter>
+							<parameter name="recoil_force">0.100000001</parameter>
+						</property>
+					</properties>
+					<transform>1.4702732e-07 -0.99999958 -8.7422762e-08 0.0 2.6623655e-07 -8.7422706e-08 0.99999982 0.0 -0.99999946 -1.4702734e-07 2.6623647e-07 0.0 -1.3746109 0.6133461 1.466198 1.0</transform>
+					<node type="ObjectMeshStatic" id="177957483" name="muffler">
+						<mesh_name>guid://8869005c08e4a00b68e275ee4f29c47515418b50</mesh_name>
+						<surface name="survivalpropsMAT" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+						<transform>1 0 5.1465536e-15 0.0 0 1 0 0.0 5.1465688e-15 -2.8421709e-14 1 0.0 0 3.1516538e-07 0 1.0</transform>
+					</node>
+					<node type="NodeDummy" id="2131516137" name="bullet_spawn">
+						<transform>-7.5076582e-07 -0.99999738 -5.5966029e-07 0.0 -0.99862832 7.7412625e-07 -0.052313574 0.0 0.052313671 5.0886371e-07 -0.9986304 0.0 -0.29154968 2.979541e-07 -0.031112671 1.0</transform>
+					</node>
 				</node>
 			</node>
 		</node>
@@ -3977,6 +3977,165 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -13.372452 0 0 1.0</transform>
 				</node>
 			</node>
+			<node type="NodeDummy" id="1702109972" name="lights">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<node type="LightEnvironmentProbe" id="1032013271" enabled="0" name="LightEnvironmentProbe_3">
+					<projection_mode>1</projection_mode>
+					<local_space>1</local_space>
+					<sky_cutout>0</sky_cutout>
+					<cutout_by_shadow>0</cutout_by_shadow>
+					<multiply_by_sky_color>0</multiply_by_sky_color>
+					<additive_blending>0</additive_blending>
+					<render_above_voxel_probes>0</render_above_voxel_probes>
+					<specular_enabled>1</specular_enabled>
+					<ambient_enabled>0</ambient_enabled>
+					<ambient_contrast>1</ambient_contrast>
+					<attenuation_distance>0.5 0.5 0.5</attenuation_distance>
+					<srgb_modified>0</srgb_modified>
+					<reflection_cubic_filtering>0</reflection_cubic_filtering>
+					<grab_mode>0</grab_mode>
+					<grab_viewport_mask>-1</grab_viewport_mask>
+					<grab_ggx_mipmaps_quality>0</grab_ggx_mipmaps_quality>
+					<grab_resolution>3</grab_resolution>
+					<grab_supersampling>1</grab_supersampling>
+					<grab_znear>0.00100000005</grab_znear>
+					<grab_zfar>1000</grab_zfar>
+					<grab_distance_scale>1</grab_distance_scale>
+					<grab_environment_ambient_intensity>1</grab_environment_ambient_intensity>
+					<grab_environment_reflection_intensity>1</grab_environment_reflection_intensity>
+					<grab_by_bake_lighting>1</grab_by_bake_lighting>
+					<grab_dynamic_faces_per_frame>1</grab_dynamic_faces_per_frame>
+					<grab_bake_visibility_emission>1</grab_bake_visibility_emission>
+					<grab_bake_visibility_sky>1</grab_bake_visibility_sky>
+					<grab_bake_visibility_light_world>1</grab_bake_visibility_light_world>
+					<grab_bake_visibility_light_omni>1</grab_bake_visibility_light_omni>
+					<grab_bake_visibility_light_proj>1</grab_bake_visibility_light_proj>
+					<grab_bake_visibility_voxel_probe>1</grab_bake_visibility_voxel_probe>
+					<grab_bake_visibility_environment_probe>1</grab_bake_visibility_environment_probe>
+					<grab_bake_visibility_lightmap>1</grab_bake_visibility_lightmap>
+					<grab_bake_visibility_haze>1</grab_bake_visibility_haze>
+					<grab_bake_visibility_clouds>1</grab_bake_visibility_clouds>
+					<box_ambient_parallax>0.5</box_ambient_parallax>
+					<box_gloss_corners>0.300000012</box_gloss_corners>
+					<box_size>31.6595192 24.0955601 14.4808531</box_size>
+					<sphere_reflection_parallax>1</sphere_reflection_parallax>
+					<raymarching_noise_frames_number>0</raymarching_noise_frames_number>
+					<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
+					<raymarching_last_step_mode>0</raymarching_last_step_mode>
+					<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
+					<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
+					<raymarching_diffuse_step_size>0.00499999989</raymarching_diffuse_step_size>
+					<raymarching_diffuse_num_rays>6</raymarching_diffuse_num_rays>
+					<raymarching_diffuse_num_steps>12</raymarching_diffuse_num_steps>
+					<raymarching_diffuse_threshold>1.5</raymarching_diffuse_threshold>
+					<raymarching_diffuse_threshold_binary_search>2.5</raymarching_diffuse_threshold_binary_search>
+					<raymarching_diffuse_threshold_occlusion>2.5</raymarching_diffuse_threshold_occlusion>
+					<raymarching_diffuse_mip_offset>1</raymarching_diffuse_mip_offset>
+					<raymarching_diffuse_information_lost_rays_multiplier>2</raymarching_diffuse_information_lost_rays_multiplier>
+					<raymarching_diffuse_reconstruction_samples>1</raymarching_diffuse_reconstruction_samples>
+					<raymarching_diffuse_perspective_compensation>1</raymarching_diffuse_perspective_compensation>
+					<raymarching_diffuse_non_linear_step_size>1</raymarching_diffuse_non_linear_step_size>
+					<raymarching_diffuse_translucence_anisotropy>0.699999988</raymarching_diffuse_translucence_anisotropy>
+					<raymarching_specular_step_size>0.00499999989</raymarching_specular_step_size>
+					<raymarching_specular_num_rays>6</raymarching_specular_num_rays>
+					<raymarching_specular_num_steps>12</raymarching_specular_num_steps>
+					<raymarching_specular_num_steps_roughness_threshold>0.600000024</raymarching_specular_num_steps_roughness_threshold>
+					<raymarching_specular_threshold>1.5</raymarching_specular_threshold>
+					<raymarching_specular_threshold_binary_search>2.5</raymarching_specular_threshold_binary_search>
+					<raymarching_specular_threshold_occlusion>2.5</raymarching_specular_threshold_occlusion>
+					<raymarching_specular_mip_offset>0.5</raymarching_specular_mip_offset>
+					<raymarching_specular_information_lost_rays_multiplier>2</raymarching_specular_information_lost_rays_multiplier>
+					<raymarching_specular_replace_with_diffuse_roughness_threshold>0.600000024</raymarching_specular_replace_with_diffuse_roughness_threshold>
+					<raymarching_specular_reconstruction_samples>3</raymarching_specular_reconstruction_samples>
+					<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
+					<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
+					<raymarching_specular_brdf>0</raymarching_specular_brdf>
+					<texture replace="f17572bd6f91eb958188484826872bb64d1d3654">guid://8c944ce0f8781abf51d769127afe75495236fe14</texture>
+					<shadow_bias>1</shadow_bias>
+					<mode>1</mode>
+					<shadow_filter_mode>-1</shadow_filter_mode>
+					<shadow_filter>1</shadow_filter>
+					<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+					<shadow_penumbra>0</shadow_penumbra>
+					<shadow_screen_space>0</shadow_screen_space>
+					<shadow_screen_space_num_rays>8</shadow_screen_space_num_rays>
+					<shadow_screen_space_num_steps>8</shadow_screen_space_num_steps>
+					<shadow_screen_space_noise_ray>1</shadow_screen_space_noise_ray>
+					<shadow_screen_space_noise_step>0.5</shadow_screen_space_noise_step>
+					<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+					<shadow_screen_space_step_size_far_distance>3</shadow_screen_space_step_size_far_distance>
+					<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+					<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+					<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+					<shadow_screen_space_threshold_far_distance>3</shadow_screen_space_threshold_far_distance>
+					<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+					<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+					<shadow_color_texture_mode>1</shadow_color_texture_mode>
+					<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
+					<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+					<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+					<baked_depth_texture replace="5d065b50723ec897220aef68d09ffdc66814a7be"/>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -13.701237 -0.60478592 0.16381106 1.0</transform>
+				</node>
+				<node type="LightVoxelProbe" id="2078977200" name="LightVoxelProbe_2">
+					<box_size>32.0291061 24.8424721 14.8058443</box_size>
+					<attenuation_distance>10 10 0.200000003</attenuation_distance>
+					<voxel_size>0.5</voxel_size>
+					<use_sky_color>0</use_sky_color>
+					<blend_mode>0</blend_mode>
+					<diffuse_normal_bias>0.5</diffuse_normal_bias>
+					<diffuse_tangent_bias>0</diffuse_tangent_bias>
+					<diffuse_translucent_indirect>1</diffuse_translucent_indirect>
+					<diffuse_translucent_soft_indirect>1</diffuse_translucent_soft_indirect>
+					<diffuse_cubic_filtering>0</diffuse_cubic_filtering>
+					<specular_enabled>1</specular_enabled>
+					<specular_visibility_roughness_min>0</specular_visibility_roughness_min>
+					<specular_visibility_roughness_max>0.800000012</specular_visibility_roughness_max>
+					<specular_normal_bias>0.5</specular_normal_bias>
+					<specular_tangent_bias>0</specular_tangent_bias>
+					<specular_reflection_bias>2</specular_reflection_bias>
+					<specular_cubic_filtering>0</specular_cubic_filtering>
+					<bake_viewport_mask>-1</bake_viewport_mask>
+					<bake_zfar>1000</bake_zfar>
+					<bake_internal_volume>0</bake_internal_volume>
+					<bake_quality>2</bake_quality>
+					<bake_visibility_emission>1</bake_visibility_emission>
+					<bake_visibility_sky>1</bake_visibility_sky>
+					<bake_visibility_light_world>1</bake_visibility_light_world>
+					<bake_visibility_light_omni>1</bake_visibility_light_omni>
+					<bake_visibility_light_proj>1</bake_visibility_light_proj>
+					<bake_visibility_voxel_probe>1</bake_visibility_voxel_probe>
+					<bake_visibility_environment_probe>1</bake_visibility_environment_probe>
+					<bake_visibility_lightmap>1</bake_visibility_lightmap>
+					<texture replace="ca1ff5f7cec7432590f96f885f4dfe4818c42da3">guid://9064690cd58f10fbbdf9d21ef0c492e5214ea700</texture>
+					<shadow_bias>1</shadow_bias>
+					<fade_distance>4</fade_distance>
+					<mode>1</mode>
+					<shadow_filter_mode>-1</shadow_filter_mode>
+					<shadow_filter>1</shadow_filter>
+					<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+					<shadow_penumbra>0</shadow_penumbra>
+					<shadow_screen_space>0</shadow_screen_space>
+					<shadow_screen_space_num_rays>8</shadow_screen_space_num_rays>
+					<shadow_screen_space_num_steps>8</shadow_screen_space_num_steps>
+					<shadow_screen_space_noise_ray>1</shadow_screen_space_noise_ray>
+					<shadow_screen_space_noise_step>0.5</shadow_screen_space_noise_step>
+					<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+					<shadow_screen_space_step_size_far_distance>3</shadow_screen_space_step_size_far_distance>
+					<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+					<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+					<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+					<shadow_screen_space_threshold_far_distance>3</shadow_screen_space_threshold_far_distance>
+					<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+					<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+					<shadow_color_texture_mode>1</shadow_color_texture_mode>
+					<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
+					<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+					<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+					<baked_depth_texture replace="cce899022d930f3ab3890ada7340dfe72ccb2da0"/>
+					<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210853e-14 0.0 -3.5873241e-43 1.4210854e-14 1 0.0 -14.042358 -0.63805008 0.34917834 1.0</transform>
+				</node>
+			</node>
 			<node type="NodeDummy" id="476573355" name="dynamic">
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 				<node type="ObjectMeshStatic" id="720181223" name="door_2">
@@ -3990,7 +4149,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					<properties>
 						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="47a3e980fc4acedf0e6f4eb200d2de69040314b4">
 							<parameter name="interact_type">1</parameter>
-							<parameter name="name">Дверь</parameter>
+							<parameter name="name">Door</parameter>
 							<parameter name="item">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
 							<parameter name="onInteract">
 								<value index="0">b06ab883bc29840639bb0badd57a7928b4d50a67</value>
@@ -4007,7 +4166,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					<surface name="box" intersection="1" intersection_mask="0x4" material="6848db22f5c3a0194b990aa41775d5b33f0b1f76"/>
 					<properties>
 						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="6528c1667f85698d2d087d882a298347bcc7e7fa">
-							<parameter name="name">Секретное оружие</parameter>
+							<parameter name="name">Secret weapon</parameter>
 							<parameter name="onInteract">
 								<value index="0">d7e5db2a2f87d0812000efecaa1f2a5b6dc75bfe</value>
 							</parameter>
@@ -4090,7 +4249,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="270414943" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.996674 0.19369082 2.1830375 0.0 0.30146703 -61.958939 -3.0641117 0.0 2.1707807 3.0728078 -61.9212 0.0 0.40692031 -0.00027210079 1.2494169 1.0</transform>
+											<transform>61.994816 -0.095021859 2.2415836 0.0 -0.17336884 -61.997307 2.1667123 0.0 2.2368886 -2.1715596 -61.957005 0.0 0.40758139 -0.052715886 1.252146 1.0</transform>
 											<node type="NodeDummy" id="263216838" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="417955962" name="gun_rifle">
@@ -4264,7 +4423,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="151429969" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>62.0145 0.1723078 1.6008857 0.0 0.23874047 -61.981388 -2.5770044 0.0 1.5923346 2.5822971 -61.961166 0.0 0.40113586 -0.0051773172 1.2468106 1.0</transform>
+											<transform>61.994816 -0.095021859 2.2415836 0.0 -0.17336884 -61.997307 2.1667123 0.0 2.2368886 -2.1715596 -61.957005 0.0 0.40758139 -0.052715886 1.252146 1.0</transform>
 											<node type="NodeDummy" id="1232271906" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="873537149" name="gun_rifle">
@@ -4432,7 +4591,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="1654680585" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.941628 0.21621943 3.4027946 0.0 0.42976588 -61.911827 -3.8891072 0.0 3.3824649 3.9068022 -61.819736 0.0 0.41903719 0.0080677336 1.2550589 1.0</transform>
+											<transform>61.939762 -0.11375123 3.4415145 0.0 -0.29810569 -61.945873 3.3177741 0.0 3.4304662 -3.3291969 -61.850918 0.0 0.41951716 -0.06429226 1.259289 1.0</transform>
 											<node type="NodeDummy" id="914851723" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="1038714852" name="gun_rifle">
@@ -4609,7 +4768,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="238797127" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.991158 0.19800438 2.3340437 0.0 0.31750691 -61.953171 -3.1771538 0.0 2.3208096 3.1868343 -61.909996 0.0 0.40842062 0.00086805224 1.2501016 1.0</transform>
+											<transform>61.993084 -0.096195281 2.2888823 0.0 -0.17787467 -61.995689 2.2121294 0.0 2.283987 -2.2171838 -61.953671 0.0 0.40805238 -0.053172208 1.2524191 1.0</transform>
 											<node type="NodeDummy" id="605897467" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="1157741612" name="gun_rifle">
@@ -4775,7 +4934,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 								<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 								<node type="WorldTransformBone" id="933511930" name="hand_bone">
 									<bone>Arm:Right:Lower_end</bone>
-									<transform>61.98571 0.20161247 2.4743478 0.0 0.33246675 -61.947639 -3.2811689 0.0 2.460186 3.2918017 -61.899094 0.0 0.40981439 0.0019178744 1.2507424 1.0</transform>
+									<transform>61.939762 -0.11375123 3.4415145 0.0 -0.29810569 -61.945873 3.3177741 0.0 3.4304662 -3.3291969 -61.850918 0.0 0.41951716 -0.06429226 1.259289 1.0</transform>
 									<node type="NodeDummy" id="210679947" name="hand_pivot">
 										<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 										<node type="ObjectMeshStatic" id="1117904361" name="gun_rifle">
@@ -4932,7 +5091,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 								<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 								<node type="WorldTransformBone" id="1947174549" name="hand_bone">
 									<bone>Arm:Right:Lower_end</bone>
-									<transform>61.951523 0.21444228 3.2176938 0.0 0.41107899 -61.918262 -3.7881367 0.0 3.1985247 3.8043377 -61.835964 0.0 0.41719776 0.0070430897 1.2541937 1.0</transform>
+									<transform>61.939762 -0.11375123 3.4415145 0.0 -0.29810569 -61.945873 3.3177741 0.0 3.4304662 -3.3291969 -61.850918 0.0 0.41951716 -0.06429226 1.259289 1.0</transform>
 									<node type="NodeDummy" id="1967590444" name="hand_pivot">
 										<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 										<node type="ObjectMeshStatic" id="807741712" name="gun_rifle">
@@ -5056,165 +5215,6 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					</node>
 				</node>
 			</node>
-			<node type="NodeDummy" id="1702109972" name="lights">
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-				<node type="LightEnvironmentProbe" id="1032013271" enabled="0" name="LightEnvironmentProbe_3">
-					<projection_mode>1</projection_mode>
-					<local_space>1</local_space>
-					<sky_cutout>0</sky_cutout>
-					<cutout_by_shadow>0</cutout_by_shadow>
-					<multiply_by_sky_color>0</multiply_by_sky_color>
-					<additive_blending>0</additive_blending>
-					<render_above_voxel_probes>0</render_above_voxel_probes>
-					<specular_enabled>1</specular_enabled>
-					<ambient_enabled>0</ambient_enabled>
-					<ambient_contrast>1</ambient_contrast>
-					<attenuation_distance>0.5 0.5 0.5</attenuation_distance>
-					<srgb_modified>0</srgb_modified>
-					<reflection_cubic_filtering>0</reflection_cubic_filtering>
-					<grab_mode>0</grab_mode>
-					<grab_viewport_mask>-1</grab_viewport_mask>
-					<grab_ggx_mipmaps_quality>0</grab_ggx_mipmaps_quality>
-					<grab_resolution>3</grab_resolution>
-					<grab_supersampling>1</grab_supersampling>
-					<grab_znear>0.00100000005</grab_znear>
-					<grab_zfar>1000</grab_zfar>
-					<grab_distance_scale>1</grab_distance_scale>
-					<grab_environment_ambient_intensity>1</grab_environment_ambient_intensity>
-					<grab_environment_reflection_intensity>1</grab_environment_reflection_intensity>
-					<grab_by_bake_lighting>1</grab_by_bake_lighting>
-					<grab_dynamic_faces_per_frame>1</grab_dynamic_faces_per_frame>
-					<grab_bake_visibility_emission>1</grab_bake_visibility_emission>
-					<grab_bake_visibility_sky>1</grab_bake_visibility_sky>
-					<grab_bake_visibility_light_world>1</grab_bake_visibility_light_world>
-					<grab_bake_visibility_light_omni>1</grab_bake_visibility_light_omni>
-					<grab_bake_visibility_light_proj>1</grab_bake_visibility_light_proj>
-					<grab_bake_visibility_voxel_probe>1</grab_bake_visibility_voxel_probe>
-					<grab_bake_visibility_environment_probe>1</grab_bake_visibility_environment_probe>
-					<grab_bake_visibility_lightmap>1</grab_bake_visibility_lightmap>
-					<grab_bake_visibility_haze>1</grab_bake_visibility_haze>
-					<grab_bake_visibility_clouds>1</grab_bake_visibility_clouds>
-					<box_ambient_parallax>0.5</box_ambient_parallax>
-					<box_gloss_corners>0.300000012</box_gloss_corners>
-					<box_size>31.6595192 24.0955601 14.4808531</box_size>
-					<sphere_reflection_parallax>1</sphere_reflection_parallax>
-					<raymarching_noise_frames_number>0</raymarching_noise_frames_number>
-					<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
-					<raymarching_last_step_mode>0</raymarching_last_step_mode>
-					<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
-					<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
-					<raymarching_diffuse_step_size>0.00499999989</raymarching_diffuse_step_size>
-					<raymarching_diffuse_num_rays>6</raymarching_diffuse_num_rays>
-					<raymarching_diffuse_num_steps>12</raymarching_diffuse_num_steps>
-					<raymarching_diffuse_threshold>1.5</raymarching_diffuse_threshold>
-					<raymarching_diffuse_threshold_binary_search>2.5</raymarching_diffuse_threshold_binary_search>
-					<raymarching_diffuse_threshold_occlusion>2.5</raymarching_diffuse_threshold_occlusion>
-					<raymarching_diffuse_mip_offset>1</raymarching_diffuse_mip_offset>
-					<raymarching_diffuse_information_lost_rays_multiplier>2</raymarching_diffuse_information_lost_rays_multiplier>
-					<raymarching_diffuse_reconstruction_samples>1</raymarching_diffuse_reconstruction_samples>
-					<raymarching_diffuse_perspective_compensation>1</raymarching_diffuse_perspective_compensation>
-					<raymarching_diffuse_non_linear_step_size>1</raymarching_diffuse_non_linear_step_size>
-					<raymarching_diffuse_translucence_anisotropy>0.699999988</raymarching_diffuse_translucence_anisotropy>
-					<raymarching_specular_step_size>0.00499999989</raymarching_specular_step_size>
-					<raymarching_specular_num_rays>6</raymarching_specular_num_rays>
-					<raymarching_specular_num_steps>12</raymarching_specular_num_steps>
-					<raymarching_specular_num_steps_roughness_threshold>0.600000024</raymarching_specular_num_steps_roughness_threshold>
-					<raymarching_specular_threshold>1.5</raymarching_specular_threshold>
-					<raymarching_specular_threshold_binary_search>2.5</raymarching_specular_threshold_binary_search>
-					<raymarching_specular_threshold_occlusion>2.5</raymarching_specular_threshold_occlusion>
-					<raymarching_specular_mip_offset>0.5</raymarching_specular_mip_offset>
-					<raymarching_specular_information_lost_rays_multiplier>2</raymarching_specular_information_lost_rays_multiplier>
-					<raymarching_specular_replace_with_diffuse_roughness_threshold>0.600000024</raymarching_specular_replace_with_diffuse_roughness_threshold>
-					<raymarching_specular_reconstruction_samples>3</raymarching_specular_reconstruction_samples>
-					<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
-					<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
-					<raymarching_specular_brdf>0</raymarching_specular_brdf>
-					<texture replace="f17572bd6f91eb958188484826872bb64d1d3654">guid://8c944ce0f8781abf51d769127afe75495236fe14</texture>
-					<shadow_bias>1</shadow_bias>
-					<mode>1</mode>
-					<shadow_filter_mode>-1</shadow_filter_mode>
-					<shadow_filter>1</shadow_filter>
-					<shadow_penumbra_mode>-1</shadow_penumbra_mode>
-					<shadow_penumbra>0</shadow_penumbra>
-					<shadow_screen_space>0</shadow_screen_space>
-					<shadow_screen_space_num_rays>8</shadow_screen_space_num_rays>
-					<shadow_screen_space_num_steps>8</shadow_screen_space_num_steps>
-					<shadow_screen_space_noise_ray>1</shadow_screen_space_noise_ray>
-					<shadow_screen_space_noise_step>0.5</shadow_screen_space_noise_step>
-					<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
-					<shadow_screen_space_step_size_far_distance>3</shadow_screen_space_step_size_far_distance>
-					<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
-					<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
-					<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
-					<shadow_screen_space_threshold_far_distance>3</shadow_screen_space_threshold_far_distance>
-					<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
-					<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
-					<shadow_color_texture_mode>1</shadow_color_texture_mode>
-					<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
-					<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
-					<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
-					<baked_depth_texture replace="5d065b50723ec897220aef68d09ffdc66814a7be"/>
-					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -13.701237 -0.60478592 0.16381106 1.0</transform>
-				</node>
-				<node type="LightVoxelProbe" id="2078977200" name="LightVoxelProbe_2">
-					<box_size>32.0291061 24.8424721 14.8058443</box_size>
-					<attenuation_distance>10 10 0.200000003</attenuation_distance>
-					<voxel_size>0.5</voxel_size>
-					<use_sky_color>0</use_sky_color>
-					<blend_mode>0</blend_mode>
-					<diffuse_normal_bias>0.5</diffuse_normal_bias>
-					<diffuse_tangent_bias>0</diffuse_tangent_bias>
-					<diffuse_translucent_indirect>1</diffuse_translucent_indirect>
-					<diffuse_translucent_soft_indirect>1</diffuse_translucent_soft_indirect>
-					<diffuse_cubic_filtering>0</diffuse_cubic_filtering>
-					<specular_enabled>1</specular_enabled>
-					<specular_visibility_roughness_min>0</specular_visibility_roughness_min>
-					<specular_visibility_roughness_max>0.800000012</specular_visibility_roughness_max>
-					<specular_normal_bias>0.5</specular_normal_bias>
-					<specular_tangent_bias>0</specular_tangent_bias>
-					<specular_reflection_bias>2</specular_reflection_bias>
-					<specular_cubic_filtering>0</specular_cubic_filtering>
-					<bake_viewport_mask>-1</bake_viewport_mask>
-					<bake_zfar>1000</bake_zfar>
-					<bake_internal_volume>0</bake_internal_volume>
-					<bake_quality>2</bake_quality>
-					<bake_visibility_emission>1</bake_visibility_emission>
-					<bake_visibility_sky>1</bake_visibility_sky>
-					<bake_visibility_light_world>1</bake_visibility_light_world>
-					<bake_visibility_light_omni>1</bake_visibility_light_omni>
-					<bake_visibility_light_proj>1</bake_visibility_light_proj>
-					<bake_visibility_voxel_probe>1</bake_visibility_voxel_probe>
-					<bake_visibility_environment_probe>1</bake_visibility_environment_probe>
-					<bake_visibility_lightmap>1</bake_visibility_lightmap>
-					<texture replace="ca1ff5f7cec7432590f96f885f4dfe4818c42da3">guid://9064690cd58f10fbbdf9d21ef0c492e5214ea700</texture>
-					<shadow_bias>1</shadow_bias>
-					<fade_distance>4</fade_distance>
-					<mode>1</mode>
-					<shadow_filter_mode>-1</shadow_filter_mode>
-					<shadow_filter>1</shadow_filter>
-					<shadow_penumbra_mode>-1</shadow_penumbra_mode>
-					<shadow_penumbra>0</shadow_penumbra>
-					<shadow_screen_space>0</shadow_screen_space>
-					<shadow_screen_space_num_rays>8</shadow_screen_space_num_rays>
-					<shadow_screen_space_num_steps>8</shadow_screen_space_num_steps>
-					<shadow_screen_space_noise_ray>1</shadow_screen_space_noise_ray>
-					<shadow_screen_space_noise_step>0.5</shadow_screen_space_noise_step>
-					<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
-					<shadow_screen_space_step_size_far_distance>3</shadow_screen_space_step_size_far_distance>
-					<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
-					<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
-					<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
-					<shadow_screen_space_threshold_far_distance>3</shadow_screen_space_threshold_far_distance>
-					<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
-					<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
-					<shadow_color_texture_mode>1</shadow_color_texture_mode>
-					<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
-					<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
-					<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
-					<baked_depth_texture replace="cce899022d930f3ab3890ada7340dfe72ccb2da0"/>
-					<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210853e-14 0.0 -3.5873241e-43 1.4210854e-14 1 0.0 -14.042358 -0.63805008 0.34917834 1.0</transform>
-				</node>
-			</node>
 		</node>
 		<node type="NodeDummy" id="1937331173" name="hangar_outside">
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 54.833084 -22.511166 24.459993 1.0</transform>
@@ -5306,6 +5306,9 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 				</node>
 			</node>
 			<node type="NodeDummy" id="1697431692" name="colliders">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="NodeDummy" id="1605793989" name="lights">
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 			<node type="NodeDummy" id="32189327" name="dynamic">
@@ -5529,7 +5532,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 						<properties>
 							<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="3cc79c7e233a19c5b0e3c060c005f83f9bcca892">
 								<parameter name="interact_type">1</parameter>
-								<parameter name="name">Машина</parameter>
+								<parameter name="name">Car</parameter>
 								<parameter name="onInteract">
 									<value index="0">85d8e135705a81109b03e12fa4f11cc27d14b539</value>
 								</parameter>
@@ -5626,7 +5629,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 							<node type="WorldTransformBone" id="867357498" name="hand_bone">
 								<bone>Arm:Right:Lower_end</bone>
-								<transform>61.98518 -0.1009031 2.4936752 0.0 -0.19790608 -61.988224 2.4110751 0.0 2.4878571 -2.4170785 -61.938362 0.0 0.4100911 -0.055171076 1.2536099 1.0</transform>
+								<transform>61.991261 -0.097368576 2.3376608 0.0 -0.18255831 -61.993999 2.2589898 0.0 2.3325551 -2.2642617 -61.950172 0.0 0.40853804 -0.053642906 1.2527013 1.0</transform>
 								<node type="NodeDummy" id="1029686866" name="hand_pivot">
 									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 									<node type="ObjectMeshStatic" id="1627333304" name="gun_rifle">
@@ -5784,7 +5787,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 							<node type="WorldTransformBone" id="646296998" name="hand_bone">
 								<bone>Arm:Right:Lower_end</bone>
-								<transform>61.929871 0.21439332 3.6105332 0.0 0.42502293 -61.928623 -3.612906 0.0 3.5918348 3.6314971 -61.824741 0.0 0.42113087 0.0053147934 1.255613 1.0</transform>
+								<transform>61.996502 -0.093821019 2.1945617 0.0 -0.16892362 -61.998867 2.1215496 0.0 2.1900618 -2.1261954 -61.960239 0.0 0.40711313 -0.052262243 1.2518754 1.0</transform>
 								<node type="NodeDummy" id="885506401" name="hand_pivot">
 									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 									<node type="ObjectMeshStatic" id="1675928192" name="gun_rifle">
@@ -5907,9 +5910,6 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					</node>
 				</node>
 			</node>
-			<node type="NodeDummy" id="1605793989" name="lights">
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-			</node>
 		</node>
 		<node type="NodeDummy" id="587132248" name="aerodrome">
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 -269.92645 -12.993176 26.504065 1.0</transform>
@@ -5945,6 +5945,9 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 				</node>
 			</node>
 			<node type="NodeDummy" id="1758712739" name="colliders">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="NodeDummy" id="215736638" name="lights">
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 			<node type="NodeDummy" id="544810973" name="dynamic">
@@ -6071,7 +6074,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 						<properties>
 							<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="e8f7fa6652c14e8d21511e883affb047529630fa">
 								<parameter name="interact_type">1</parameter>
-								<parameter name="name">Самолет</parameter>
+								<parameter name="name">Airplane</parameter>
 								<parameter name="onInteract">
 									<value index="0">5c262d348a75f7036422b086619d4e2d80f6d9a8</value>
 								</parameter>
@@ -6139,9 +6142,6 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 					</properties>
 					<transform>0.012798605 0.99991786 -2.0861621e-07 0.0 -0.86595404 0.011083833 -0.49999946 0.0 -0.49995846 0.0063994923 0.86602479 0.0 -183.63748 -28.987144 116.52377 1.0</transform>
 				</node>
-			</node>
-			<node type="NodeDummy" id="215736638" name="lights">
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
 		<node type="NodeDummy" id="1371290647" name="island">
