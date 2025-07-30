@@ -3,5 +3,4 @@
 	<state name="transparent_opacity_depth">1</state>
 	<state name="transparent_velocity">1</state>
 	<state name="transparent_material_mask">1</state>
-	<texture name="albedo">guid://d003bd48c6124007d18dfdba3ae6f1d1dbeb80fc</texture>
 </material>

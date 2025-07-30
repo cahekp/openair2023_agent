@@ -84,7 +84,7 @@ public class CPlayer : Component
 				if (cur_item.Interact(this))
 				{
 					// take the item to the inventory
-					if (cur_item.interact_type == CInteractable.Type.Take)
+					if (cur_item && cur_item.interact_type == CInteractable.Type.Take)
 					{
 						Node item_node = cur_item.node;
 

@@ -4249,7 +4249,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="270414943" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.994816 -0.095021859 2.2415836 0.0 -0.17336884 -61.997307 2.1667123 0.0 2.2368886 -2.1715596 -61.957005 0.0 0.40758139 -0.052715886 1.252146 1.0</transform>
+											<transform>61.993092 -0.09619084 2.288727 0.0 -0.17785983 -61.995743 2.2119992 0.0 2.2838328 -2.2170525 -61.953739 0.0 0.40805084 -0.053170703 1.2524178 1.0</transform>
 											<node type="NodeDummy" id="263216838" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="417955962" name="gun_rifle">
@@ -4423,7 +4423,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="151429969" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.994816 -0.095021859 2.2415836 0.0 -0.17336884 -61.997307 2.1667123 0.0 2.2368886 -2.1715596 -61.957005 0.0 0.40758139 -0.052715886 1.252146 1.0</transform>
+											<transform>61.993092 -0.09619084 2.288727 0.0 -0.17785983 -61.995743 2.2119992 0.0 2.2838328 -2.2170525 -61.953739 0.0 0.40805084 -0.053170703 1.2524178 1.0</transform>
 											<node type="NodeDummy" id="1232271906" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="873537149" name="gun_rifle">
@@ -4591,7 +4591,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="1654680585" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.939762 -0.11375123 3.4415145 0.0 -0.29810569 -61.945873 3.3177741 0.0 3.4304662 -3.3291969 -61.850918 0.0 0.41951716 -0.06429226 1.259289 1.0</transform>
+											<transform>61.962837 -0.10939114 2.9975533 0.0 -0.24940981 -61.96735 2.8941793 0.0 2.9891624 -2.9028459 -61.895306 0.0 0.41510415 -0.06002875 1.2565942 1.0</transform>
 											<node type="NodeDummy" id="914851723" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="1038714852" name="gun_rifle">
@@ -4768,7 +4768,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 										<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 										<node type="WorldTransformBone" id="238797127" name="hand_bone">
 											<bone>Arm:Right:Lower_end</bone>
-											<transform>61.993084 -0.096195281 2.2888823 0.0 -0.17787467 -61.995689 2.2121294 0.0 2.283987 -2.2171838 -61.953671 0.0 0.40805238 -0.053172208 1.2524191 1.0</transform>
+											<transform>62.005951 -0.085843086 1.9093035 0.0 -0.14276177 -62.007706 1.8483937 0.0 1.9058934 -1.8519101 -61.978466 0.0 0.40427145 -0.049519468 1.2502478 1.0</transform>
 											<node type="NodeDummy" id="605897467" name="hand_pivot">
 												<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 												<node type="ObjectMeshStatic" id="1157741612" name="gun_rifle">
@@ -4934,7 +4934,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 								<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 								<node type="WorldTransformBone" id="933511930" name="hand_bone">
 									<bone>Arm:Right:Lower_end</bone>
-									<transform>61.939762 -0.11375123 3.4415145 0.0 -0.29810569 -61.945873 3.3177741 0.0 3.4304662 -3.3291969 -61.850918 0.0 0.41951716 -0.06429226 1.259289 1.0</transform>
+									<transform>61.962837 -0.10939114 2.9975533 0.0 -0.24940981 -61.96735 2.8941793 0.0 2.9891624 -2.9028459 -61.895306 0.0 0.41510415 -0.06002875 1.2565942 1.0</transform>
 									<node type="NodeDummy" id="210679947" name="hand_pivot">
 										<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 										<node type="ObjectMeshStatic" id="1117904361" name="gun_rifle">
@@ -5091,7 +5091,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 								<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 								<node type="WorldTransformBone" id="1947174549" name="hand_bone">
 									<bone>Arm:Right:Lower_end</bone>
-									<transform>61.939762 -0.11375123 3.4415145 0.0 -0.29810569 -61.945873 3.3177741 0.0 3.4304662 -3.3291969 -61.850918 0.0 0.41951716 -0.06429226 1.259289 1.0</transform>
+									<transform>61.962837 -0.10939114 2.9975533 0.0 -0.24940981 -61.96735 2.8941793 0.0 2.9891624 -2.9028459 -61.895306 0.0 0.41510415 -0.06002875 1.2565942 1.0</transform>
 									<node type="NodeDummy" id="1967590444" name="hand_pivot">
 										<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 										<node type="ObjectMeshStatic" id="807741712" name="gun_rifle">
@@ -5629,7 +5629,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 							<node type="WorldTransformBone" id="867357498" name="hand_bone">
 								<bone>Arm:Right:Lower_end</bone>
-								<transform>61.991261 -0.097368576 2.3376608 0.0 -0.18255831 -61.993999 2.2589898 0.0 2.3325551 -2.2642617 -61.950172 0.0 0.40853804 -0.053642906 1.2527013 1.0</transform>
+								<transform>62.01572 -0.07448379 1.5606676 0.0 -0.11254765 -62.016872 1.5124761 0.0 1.5583855 -1.514828 -61.997326 0.0 0.40079635 -0.04614846 1.2482929 1.0</transform>
 								<node type="NodeDummy" id="1029686866" name="hand_pivot">
 									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 									<node type="ObjectMeshStatic" id="1627333304" name="gun_rifle">
@@ -5787,7 +5787,7 @@ X: Thank you, Anna. I’ll do my best. Over and out.</parameter>
 							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
 							<node type="WorldTransformBone" id="646296998" name="hand_bone">
 								<bone>Arm:Right:Lower_end</bone>
-								<transform>61.996502 -0.093821019 2.1945617 0.0 -0.16892362 -61.998867 2.1215496 0.0 2.1900618 -2.1261954 -61.960239 0.0 0.40711313 -0.052262243 1.2518754 1.0</transform>
+								<transform>62.002937 -0.08864446 2.0047059 0.0 -0.1513599 -62.004883 1.9396195 0.0 2.0009487 -1.943496 -61.972652 0.0 0.405222 -0.050435249 1.2507894 1.0</transform>
 								<node type="NodeDummy" id="885506401" name="hand_pivot">
 									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
 									<node type="ObjectMeshStatic" id="1675928192" name="gun_rifle">
