@@ -2,8 +2,8 @@
 <asset version="2.20.0.0">
 	<guid>d51544c63f40556d6c61b7e8a253ba2704a9f15a</guid>
 	<type>launch_settings</type>
-	<hash>be39321a</hash>
+	<hash>1fbd0795</hash>
 	<runtimes>
-		<runtime id="d51544c63f40556d6c61b7e8a253ba2704a9f15a" name="ReleaseFullscreen.launch" link="0"/>
+		<runtime id="d51544c63f40556d6c61b7e8a253ba2704a9f15a" name="RunDemo.launch" link="0"/>
 	</runtimes>
 </asset>
