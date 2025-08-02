@@ -1,0 +1,1649 @@
+{
+	"version": 1,
+	"include_dependencies": true,
+	"assets": [
+		{
+			"guid": "87de919007cbb7afbd0e01428a174fb95272b5c4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/floor_concrete.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "eff28da1e4e74a8c4b8d847b656aaf9e0b40d265",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/tank/tank.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "75a547740a9fcc43647a04c66bde156d4ae477e8",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/voxel_probes/vp_1.texture",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4b08341666c05c7d214273b8b3e223b7f604adaa",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel_red.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "741cf8abf5aeb60e1a35c615562360701f97790f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/door.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7788cc3ec1d00685999546205c1442ff870ef452",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_rusty_triplanar_green.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "37669091086710bc5cb1b4eb6a7dc54e060d0c55",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/hangar/hangar.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "944a6ef2420d01a9ef425ef41a76fdc3c5a08846",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_rusty_triplanar.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6ef65c530bd5b596b848effd1776f138600d8337",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/human/human.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "461394f1244e899ccf7c184b96bd112ee65f26b5",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/sparks/library_spark1_d.tiff",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "723607734a6026360dd0681d2454cad8aca75057",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/lamp.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "9d50abe6277b520d63a84c08c70dffc7e67d3a7a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/stock_q_honey_badger.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "467024660c97708d34bcd8884d9422478b8bfafa",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common/CEventHandler.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "58ed1b68e68cc7a78870a0dabf87fa719928b11c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/q_barrel_7_8.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3c4d5739a1ae1744152f39d3c679f516d76d297d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/human/dead_enemy.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "b2534a7ac04057912fc02bbc7ffa13eb5204984e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/materials/none__cargo_wood_jpg.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "99cbbaec794d795b1d9b5efeebf9fa45429526e0",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/vehicles/CSwitchPlayer.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3804e85dba58ce183566fa977340d70aec61dae1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/materials/none__door_jpg.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "58886b5f926b4132c5bd2ee93c7c2b340007dd03",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/container/container.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ee79f7981f1f16175c0f3c8ae4ce02612b50b84c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/asphalt.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2706eb18eecc73971c9dfc0a3fdabbe1fa5f23cc",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel_blue.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6f90754ae9ba642126042f0c6d901efb3f9b881e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/td_checker_002.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f18cbb8be3e0db6ed405ebf567ac8cd0009cf9ef",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/container/container.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ecf761985db978179ef2368a23f0b46194ffc24c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/bullet/bullet_pistol.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5fd39a4079e3489f136ffd72983c3e290a437174",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings/template_ultra.render",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "052687b219d6c3693373b5b4b248e583bf5fcd06",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/base_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "89f958843c410a13319b08565706a3bd4a7791f8",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/sparks/sparkles.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "951599b56c72df905867adaffefd7f429d74b5b9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel_red.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3ddcafb57752fd901fbd33af47b94d4241122bb9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_concrete.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "84cf6857cf08e9ca21c34ea17267178c6bb8ed7b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common/CGame.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "b1522c64510f0c739063673640e0b51dbfd6b3d8",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/toolbox.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "942645a4cf23d4b3cd7b1276828fe75dcc01c118",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/mag_ar15_pmag_gen2_30.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "92a0ee7917704584f2b913132a497d56e78094bd",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings/template_high.render",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ae52e36c52cd87db99631b7e32b98cc57d2e9760",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/rocks.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "da93b7fd28f31938a34b8b37391bef2a9f3ed481",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/ladder.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ef22c5ac89c1851b55ee77be4ecebc05f8557da0",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/voxel_probes/vp.texture",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "326a424e9bdd65554259f6b08a7a9a4f2fdb4362",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_pistol/materials/survivalpropsmat.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7f2affcecea804d525b11030478fe5cfa58518e2",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CWeaponRanged.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "173ea00cff8ddbfb37cc211ea2ec95e56988ce00",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/default.bitmasks",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "738dc3ffbaa081524b1e3089d1af0054a4a76fa3",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/walkietalkie.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "b8134f5005d3da6f4610450203f34079a74a6f84",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds/button_hover.wav",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8724e9949dd3c7e326ff8be6b29cb20d209a2c08",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/box.mesh",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "cca2abc5375f2a601a865a3fed5da292793860c9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_pistol/gun_pistol.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1039dad67b76543de0f68878370bb177055b606a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/handguard_short.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "90590b25220242405531d09fc89ce57257f40629",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/floor_metal_triplanar.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "396e9fd8d6d5215752094ecace066fa129f5c48c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/barrel_nut.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "bd3e1647c2655efac5d66211470db43ce7cd026b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/sparks/particles_base_0.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "188735ca9b752aa1fa17438ccd33297b1792109e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/chair.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4e9b636bd962a1ce60073ed522a3023028452fcf",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/blood/blood_sparks.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3d59113885492337958ca72a32482c81e46d9bec",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/gray.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d8049a89219e6254a6db69a3729542a608c779cd",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/materials/optics_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7f2b6d5ead64f52534d92440fa274a9fe1b01772",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials/ui/menu_button_mat.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "36f0e2af241330426d14b2b979c2bcc471aca153",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/plane.mesh",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "acb32d2fcf1ff8c2c91de139594119442c7253d3",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/quest/CDoor.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "711ed100ab45905fbfc4223275e69be95504b434",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/LandscapeLayerMap_1.lmap",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1257a9eab06fd041156f6cac5530001bb28cb6be",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/door.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d9163b53e94e0896037726fdb1b9bc38a553d237",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/brown_wood.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "bfb357d301237b16736cf77daec852b8018876b7",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/images/logo.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "e3b7f74b3fa1642e8e095db554ebd3902bc411af",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CBullet.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "dae60eed7935236805652fa77adde8daa1c4a271",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/window.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "978993371f72572ae7121c81f84ecbec27bb565b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_concrete2_triplanar.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2e602efe80d88a458f4276e09a0c3cbfdde92312",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings/template_virtual_reality.render",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "78a1dff9bb358904742280936fc50cd6ad73de3d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_012.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "0d390b3ebbdd39858992dd20551eedff1fbba352",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/car.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "bc68a7d2e41f2509d8a66ad4fa26d82385f0df26",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings/template_low.render",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7d4e644ca0cc533bf0bbaf5e5e044f2574ccb640",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/materials/f-barrel_model_u1_v1.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f2211973347c1036ea774a1de8da44d8c00a8257",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/env_probes/ep_room.texture",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "28cace86481ad42d4ebaa7a8fa1e66e71989371a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/tank/tank.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "e5df81bfa221a412e5457449e86bf11496ec2963",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_006.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "e979bd100f81ed2ff41fb8c2509aa139af16d944",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/quest/CInteractable.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7158fac6ef34936dba7cdde820d8a827a63e075a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/materials/f-barrel_model_u1_v1__barrel_png.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "93081bc2a4d9a839c21434443eecb2d3344f1a16",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/q_gas_block.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "e7ceed239cd7f026b0cb494d5e7b5a48ffb33907",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2c9b8ca3364909a6093294cd634f2fc87f061087",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/white_emission.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "14c7c5052090f2a05617057f5131d4d2ff446e09",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CDestroyTimer.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "69a296d61cafe03daaaaa478f4591d770751dc6a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/vent.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "18384e568ce731bd5d72c7f83e27eaf73e334bea",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/airplane.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "df33f527368ef05a6e3f03f153bd2c9c380c5f4b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/airplane.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "9af1f9e9ec0c7a3420d5e003fed7858616aa1f2d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/heightmap.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8c712167b48baf9a35883a31ea526ddcb4e02f8b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_011.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "22737f476ef1b3fabfd4b311363dd13c0dcc7b6b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/gun_riffle.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "9c46eff8deddf2f7b6a1b3ea822e524155e806ac",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel_red.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5db53808abbdfbc73dd5067ae2bee39107f547bc",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/fonts/Truetypewriter PolyglOTT.ttf",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6dce8b5eb7a17b25ed4ff240cc43c09f6a261572",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/capsule/capsule.mesh",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3eaf348f5c3c98a2f8253f99e39b2424233a2133",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings/template_medium.render",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f5c9d0807d4189df2c78cdb2b6e8516909ebebb4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/car.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "068f7ec81fc41387e15abb3a1d4d9151d22e9a7c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/muzzleflash/muzzle_flash_0.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4f9bffd26aca9d09b92b82d4c0791023d26db726",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/window.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1b590e137b6b3c561f5147bd3799e5f8d61870f7",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/tank/materials/tank2.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "cd18c2738165a53670b1db1d3899a1d820d03b57",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_009.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8e4135f5b62b4ed07058d3ef07b9f0823365f5f9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/main_menu/CChangeCamera.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d250bca681e8abcd50b85ac8a77f3f87a563f73a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/tank/light_green.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6aa06717a0e6598aee487b6143bedd4c55b8783b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/images/avatar_anna.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d27db708e3866ec72bd4dd7ae766ce911f1e36bc",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/walkietalkie.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "756fd73ac787fd514a2e167c8fd77fabdef1910e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/lower_2.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "41f5043a9f3946510244cb7ca21cb0ab26fb0e0e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel_blue.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7e4e827aac522f9160b823bc0161abeb02d7504e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/vent.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d5f6582cdd5ef59b4c402e3e322c00855ddcf820",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/components/CPlayDialog.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "56c5791d268ca7d8a08b895765bc96ca44d117a1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/cargo_wood.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "efe3a6ee6cbf41755aa6e450a1b06b6f3b09a202",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_rusty.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "99a448ee9e137b751509d6502722b56fc5536402",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_concrete_triplanar.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5ad7873dee381f78c48a5c775fec0f6aaae9f7c1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/yellow.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f732865f0ad0a0328dbd01e9ed8be2341fbe2803",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/lock.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1464cb30463264cfb95f8be2611719d9e518b964",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials/selection/stripes.tif",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8b80b8b0a4be744fd8295562051f555950b8bee4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/light_blue.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "afcf7034c5c05e031af3eb86cabf4d2d4a4acca8",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/upper.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "045ebba5871f38c01461551f5d519ff21df07ea9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds/button_click.oga",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d3448a34c50eb003489a15866aeb6f2d541486a8",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/bullet/bullet_riffle.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "c06255c79009987a43964d912121a9bce82179eb",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common/CPlayer.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "dd4f0a67fba6849a4fc30b3117950adce0d0288b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/materials/unnamed.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "59424b2985c01a74270e8343d2034fc602b8e46d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_003.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "9fc27aaad0c8ea01bdf83b6c9742ffdb992a337e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/grass.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2008e76b028a55cedcc362d5f288d630fd68f3cf",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/rocks.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "0b17cbdc3059f58b8368cd6eba5935f583634ed0",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/charge_handle_ar15_qraptor.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1b1d781b156bcebe77d627057557eca055cdb77f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/asphalt.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1be423ec0f60ce5bbd74affe894917459a279fe0",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/materials/none__floor_metal_jpg.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ee3467fd5e3c0938d79fbb371c825f2aec128481",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_005.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8c944ce0f8781abf51d769127afe75495236fe14",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/env_probes/ep_hangar.texture",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5bd8f7207b0a3fffd15acd5218dc0c8965fb2c54",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/lower_1.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "40abcf4036fbf99fcd36fa7205251729898c7674",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/orange.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5b6513df1742cfb251f66b6911ff3db4df8ecd83",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_concrete2.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ba8409f54a0812d00ca6c7efdae75482c68c09f9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/muzzleflash/plane.mesh",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "959fd5865eb62f2d3de046a8a36179e746832e1a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials/selection/custom_visualizer.mgraph",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "c29afc157ccb1e7079d01f0f60d78122a1260e19",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/big_metal_door.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7ed5c8e879fe9727a1652a5ae03bf5f18801769c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds/soundtracks/Main Menu.mp3",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ac38bf033eb6d8866b13562dcb2541a8cee438e7",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/bullet/capsule.mesh",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "21350463798a9e661b8ba28d250f6288dec12447",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/asphalt_damaged.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7bceb7e3d85dbbe6eb85220d9107dc0838484fc7",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/cargo_opened.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ebdbdce562f96900e3ef485f37b27a321c1113e9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_rusty.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f41d76ebfc429f4e25e81e559b9b5bb0fe0abb4f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/lamp.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6c5aa29cbb0f5d4bf7b5922e6f63b3b52ac63190",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/worlds/mission_success.world",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8f6ac25e097a4625493441402555c39f68423c72",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds/soundtracks/Action.mp3",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6499f0be30b9e105bf045ea0eafb817f063420d2",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/bullet/projectile.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5656c40054eee75f55078d3259f50ae980fa5734",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/cargo.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "bffc32c06d36071f010aa9f2225200a9b75d51f4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/jerrycan.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2ef87da0e5bb147f718097d20ff655097fb3dad4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/human/soldier_skin.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "0bb88b35f47223108cc31b2fc6c30ec27d29ff39",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/green.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d51544c63f40556d6c61b7e8a253ba2704a9f15a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/RunDemo.launch",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "c26a4b17cafeed8a507fff614328914cffce9c3b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_002.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3cc6cf77cbcfe66aec25e2c1778d5d2cbb08369b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/materials/glass_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "49f0b619aea728a4ad215bb34624ed76b372065d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/vehicles/CAirplane.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "b1b6945a7e9a57f1bfd8709c3686d34b5bca902e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/LandscapeLayerMap.lmap",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "04ecc28cd1a49c7bc026e79e1d1faa65f8cbd880",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/white.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1e9ccf107d75d72f92be9ac2beb81b39ef320b44",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/vehicles/CCar.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4fd9e810c6861c2f81101bc2eb41a839c55c3444",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/main_menu/CRunConsoleCommand.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "13bc99625cb1c9597160a2e4678210f3f885a1b6",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CHealth.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6848db22f5c3a0194b990aa41775d5b33f0b1f76",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/magic_box/magic_box.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "80ce5914b15b7163bfec2766ec15978da0aed388",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/human/materials/char.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f8b9c4a115ef158cb6d4d37bf883b29ec5b7f965",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/worlds/main_menu.world",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "0a09fb56447afabd3309fcf882f39bf72e1148ea",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/worlds/mission_fail.world",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7c2affd865ebf8d5e3eeaf912dd92523f14d9cba",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/RunSample.launch",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2a192deae3db84412f9f90ac5bf9d41b29447abe",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/notepad.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "29934b4b633ca82ede03d1b582dbb79059caa5af",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_004.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "dddcc0de4b2b32a535eb43c0541fe41f7df8e2f2",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/pistol_grip_ar15_magpul_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "591fbe7e033fd3c5834a326062a5c23f4265ea92",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/key.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "26de5d11e577733cbc45b56b49b4cbceeaef60d5",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_008.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "397eec04c64e8793d5cb67d647087d3d74b89d78",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/magic_box/magic_box.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "42a6bf95c4c90bf07fd62e8f9cd34aa2acb84999",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/table.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "85532d8697e1a72d2ee55ea84033b1e77780061a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/materials/none__lock_jpg.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "06da63f55c46a4d02a0031ef52adb68278ab03f9",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/materials/body_007.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "42649168e0a1c5a766b586daf2aba871674c871c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/images/menu_button.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "a76a40d967dbb464aa3af4733e0e2f36a63cdd1d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/floor_metal.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "51657d1a05f8a9b12ff5175c9b2bcb0b64a1a4ee",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CWeaponMelee.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ab7144dbcc01b47ee6bd51c55edd986039c5f03f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CKillEnemiesTask.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f13bf86ca40198db20cdf87e3c34c5c5a2267c60",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_concrete2.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5c1474fd7ccab238bd345037856bf02a78b4e181",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/jerrycan.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "284d915761c6feca5ec85fa1396ef48c3e2d267b",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/key.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f31aab70f308480fea079622cdf51f1965b67da4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/vehicles/CKeyPressed.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "baffc3e1c4708bccb4c554bb5079c2deddf04ca5",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/lock.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3853de823e0b0bf9f514c50432608c93fdb3a8d6",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/container/materials/none__container_png.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7cd32cb01426584f2947e962c6a4d9593b1872e4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/td_checker_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "588478b44cd4cc83e5848806faf23fadb8001d28",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings/template_extreme.render",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ef4b9e65fc3f3c80264005df42cd19b2db782d69",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_010.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "626acc36ba7ed61d270460d86b55ee573341b7ca",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/worlds/game.world",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "70b2fe0315060b86d66aed2de3c1eca82dfae7e7",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "77abbe565463e1bd5ce7b7f83eb81af768a5bbea",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials/selection/custom_visualizer_0.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "d30371295fb308744138994310ea6dc638696a6d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds/soundtracks/First Room.mp3",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4ad37314860c5fb26c203bfd4df22208c50ee6d6",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/ground/ground_mat.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "9d5158cb4ec457ae0754bb35a6809310481ecb2f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/big_metal_door.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "e613660b9d2683ee72327a751b36c9501b3d0c6f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/door.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "05a6ca6dbf33a8e80602f727dbde0a5ae19f55f1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/ladder.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4e5307fe13a38f45648fb7e08fde89bfa9450c12",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/barrel_blue.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5bca75fe1688254543ef55e06ead8fbf0c2c5a12",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/asphalt_damaged.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "e83515cd4ed5bcc8d60939876601a93a9a9ba751",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_014.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "ac5cfdabcfecf70e56451315009849701d5d4e0f",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/materials/wheel_005.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1692099280eb9bc9df18f29431ce3ce3e2557ce6",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/sand.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "dd96f63caf115c6b119646ceeb649fd5e406ef30",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/cargo_opened.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "69be4751626bd87c584659ab816ea30ed062cf15",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/env_probes/ep_hall.texture",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "0a42d295f24802f084b2b98f4e6859a28c440c99",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5150d9f4dd353cc39d63bb4640f359ed46c3f268",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/yellow_lock.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "30cd08a8e8f8b168714329335cebd8453706809d",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/worlds/sample.world",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1a9371886b6fe747dd32fbfa63d55b113536593c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/floor_concrete.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5fc06ee29974a0d934a294642d945473e5d80f36",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common/FirstPersonController.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "341cd26fea94dd020b3ef8792972c7848ea5ad13",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/chair.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "c8f6f29b86c6073eb06e058592353920720599ff",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials/material_013.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "c8d81c6c51476cdb73d1bc7e177db9c5aa12e060",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials/q_muzzle_honey_badger_001.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "b9eec3ddf02df39887aae2174a70988ac667ae61",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/wood.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "bcbccd5d19ed6f18011927972e3b200a452d8fe1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/CEnemy.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f3df40f0ea14df8f458847a20fb722996175ab24",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/main_menu/CUIButton.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "dc25e2b0a5dd964fa04a0f6262e4c759e12b88e4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter/AWeapon.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "928d7710ab9e5f2f58fd82c28859e3392a193344",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/hangar/hangar_cylinder.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "1d9f7143543365c6edee026d632180e83526ef27",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/floor_metal.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2bb9dbf6fd8922dd27dec6986ab79917c1ffe38a",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/sand.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "a61cfea717ad6bda11804971693eb41c271d40cb",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials/ui/logo_mat.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "607b4b389b221537c3fcf12a8577ee81172675ec",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/muzzleflash/muzzle_flash_0.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "64fa3378145d6077e53b436a12a79bc12cd9c22c",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/notebook.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "2eb8aa6ad40fd6c149a6c12c482a4a9b09717f3e",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/floor_concrete_triplanar.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "a38daf5c1e7b830bcafdfcee71599f7545f1aa50",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/images/avatar_agent_x.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "8a21674da5cee048fc5507079d3c18ba948050d1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape/grass.jpg",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "7b4c3e6df8d28ce885ec8b27dfb28e5aa40209f1",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/table.fbx",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "63ca1bbe8a4e1005ed44c1a096b2887f5a497bd2",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/quest/CPhysicalTrigger.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "a4f1cec025d6f31f8b3ea5f2795dcca9c23eadf4",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/toolbox.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "6af56491431fd4bc1a2ba8eb74e7294e4f3f2055",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common/CHUD.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "4cb07de0be6c97bffe0fc2125e50fa49bb65bf14",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/lock.node",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "eb0c4213823ce056034e9bbdeeef29f8c284e4f7",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common/UI.cs",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "5efc76643630ce739866413615e1c71dc0109dd8",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/container/container.png",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "94f0bd973bf1be0a286795e1326235cc2dc6f6bb",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_concrete.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "9064690cd58f10fbbdf9d21ef0c492e5214ea700",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/voxel_probes/vp_2.texture",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "f984467d7e7155b82f4f9db7c32fdfaa10950b01",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/black.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "3451bf0e1f133b153f00517083d5b60fdc4a2c22",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/brown.mat",
+			"used": true,
+			"is_dependency": false
+		},
+		{
+			"guid": "a423d47049274eb196a68d091c7d4aa570e15e12",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/ground/plane.mesh",
+			"used": true,
+			"is_dependency": false
+		}
+	],
+	"files": [
+		{
+			"path": "docs/AlexanderPanichev/3DActionTemplate/manual_ru.pdf",
+			"used": true
+		},
+		{
+			"path": "docs/AlexanderPanichev/3DActionTemplate/manual_en.pdf",
+			"used": true
+		}
+	],
+	"dirs": [
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/images",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/magic_box",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_pistol/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/voxel_probes",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "docs",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/sparks",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds/soundtracks",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/tank/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/quest",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/muzzleflash",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/common",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/human",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/container",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/ground",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/main_menu",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "docs/AlexanderPanichev",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_rifle",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/fonts",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/vehicles",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/car/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/environment",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/door/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/capsule",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials/selection",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/worlds",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/render_settings",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/human/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/container/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "docs/AlexanderPanichev/3DActionTemplate",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_pistol",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/env_probes",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/bullet",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/components/shooter",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/materials",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/tank",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials/ui",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/gun_common/blood",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/landscape",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/hangar",
+			"used": true,
+			"expanded": true
+		},
+		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/components",
+			"used": true,
+			"expanded": true
+		}
+	]
+}
