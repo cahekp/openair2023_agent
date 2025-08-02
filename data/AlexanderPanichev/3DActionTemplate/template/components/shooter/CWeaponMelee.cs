@@ -2,6 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using Unigine;
 
+#if UNIGINE_DOUBLE
+using Scalar = System.Double;
+using Vec2 = Unigine.dvec2;
+using Vec3 = Unigine.dvec3;
+using Vec4 = Unigine.dvec4;
+using Mat4 = Unigine.dmat4;
+#else
+using Scalar = System.Single;
+using Vec2 = Unigine.vec2;
+using Vec3 = Unigine.vec3;
+using Vec4 = Unigine.vec4;
+using Mat4 = Unigine.mat4;
+using WorldBoundBox = Unigine.BoundBox;
+using WorldBoundSphere = Unigine.BoundSphere;
+using WorldBoundFrustum = Unigine.BoundFrustum;
+#endif
+
 [Component(PropertyGuid = "5cc55e00c3e8b95f036337325458ace9bc959134")]
 public class CWeaponMelee : AWeapon
 {
@@ -73,7 +90,7 @@ public class CWeaponMelee : AWeapon
 	void Hit()
 	{
 		List<Node> nodes = new List<Node>();
-		if (World.GetIntersection(new BoundSphere(node.WorldPosition, attack_distance), nodes))
+		if (World.GetIntersection(new WorldBoundSphere(node.WorldPosition, attack_distance), nodes))
 		{
 			foreach (Node n in nodes)
 			{
@@ -95,7 +112,7 @@ public class CWeaponMelee : AWeapon
 					continue;
 
 				// is it in front of us?
-				vec3 offset = damage_receiver.node.WorldBoundSphere.Center - node.WorldPosition;
+				vec3 offset = new vec3(damage_receiver.node.WorldBoundSphere.Center - node.WorldPosition);
 				vec3 hand_dir = node.Parent.GetWorldDirection(MathLib.AXIS.Y);
 				if (MathLib.Dot(hand_dir, offset) > 0)
 				{

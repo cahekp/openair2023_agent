@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>bcbccd5d19ed6f18011927972e3b200a452d8fe1</guid>
 	<type>component</type>
-	<hash>a87baf58</hash>
+	<hash>c1ec023f</hash>
 	<runtimes>
 		<runtime id="bcbccd5d19ed6f18011927972e3b200a452d8fe1" name="CEnemy.cs" link="0"/>
 		<runtime id="57e035ab45e6cf0ef8050b15ec27e1702238060f" name="CEnemy.prop" link="1" type="4"/>

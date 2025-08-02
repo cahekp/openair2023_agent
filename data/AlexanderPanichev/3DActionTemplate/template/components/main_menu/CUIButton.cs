@@ -3,6 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using Unigine;
 
+#if UNIGINE_DOUBLE
+using Scalar = System.Double;
+using Vec2 = Unigine.dvec2;
+using Vec3 = Unigine.dvec3;
+using Vec4 = Unigine.dvec4;
+using Mat4 = Unigine.dmat4;
+#else
+using Scalar = System.Single;
+using Vec2 = Unigine.vec2;
+using Vec3 = Unigine.vec3;
+using Vec4 = Unigine.vec4;
+using Mat4 = Unigine.mat4;
+using WorldBoundBox = Unigine.BoundBox;
+using WorldBoundSphere = Unigine.BoundSphere;
+using WorldBoundFrustum = Unigine.BoundFrustum;
+#endif
+
 [Component(PropertyGuid = "13643e263aff3f4d1d22d848b8689f07d0cad0ba")]
 public class CUIButton : Component
 {
@@ -20,7 +37,10 @@ public class CUIButton : Component
 	{
 		// hide background of the button by default
 		button_obj = node as Unigine.Object;
-		button_obj.SetMaterialParameterFloat4("emission_color", new vec4(0), 0);		
+		button_obj.SetMaterialParameterFloat4("emission_color", new vec4(0), 0);
+
+		// always show the mouse cursor, don't hide/grab it
+		Input.MouseHandle = Input.MOUSE_HANDLE.USER;
 	}
 
 	void Update()
@@ -65,8 +85,8 @@ public class CUIButton : Component
 		vec3 dir = Game.Player.GetDirectionFromMainWindow(mouse.x, mouse.y);
 		
 		// get points for intersection
-		vec3 p0 = Game.Player.WorldPosition;
-		vec3 p1 = p0 + dir * Game.Player.ZFar;
+		Vec3 p0 = Game.Player.WorldPosition;
+		Vec3 p1 = p0 + dir * Game.Player.ZFar;
 
 		// find the intersection
 		Unigine.Object obj = World.GetIntersection(p1, p0, 1, intersection);

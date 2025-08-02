@@ -4,6 +4,23 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unigine;
 
+#if UNIGINE_DOUBLE
+using Scalar = System.Double;
+using Vec2 = Unigine.dvec2;
+using Vec3 = Unigine.dvec3;
+using Vec4 = Unigine.dvec4;
+using Mat4 = Unigine.dmat4;
+#else
+using Scalar = System.Single;
+using Vec2 = Unigine.vec2;
+using Vec3 = Unigine.vec3;
+using Vec4 = Unigine.vec4;
+using Mat4 = Unigine.mat4;
+using WorldBoundBox = Unigine.BoundBox;
+using WorldBoundSphere = Unigine.BoundSphere;
+using WorldBoundFrustum = Unigine.BoundFrustum;
+#endif
+
 [Component(PropertyGuid = "8f3797296b7cf6748d4daf437ac08bc6d63cf06d")]
 public class CBullet : Component
 {
@@ -31,8 +48,8 @@ public class CBullet : Component
 
 		if (mode == Mode.Raycast)
 		{
-			vec3 p0 = node.WorldPosition;
-			vec3 p1 = p0 + node.GetWorldDirection(MathLib.AXIS.Y) * raycast_distance;
+			Vec3 p0 = node.WorldPosition;
+			Vec3 p1 = p0 + node.GetWorldDirection(MathLib.AXIS.Y) * raycast_distance;
 			CheckIntersection(p0, p1);
 			node.DeleteLater();
 		}
@@ -69,7 +86,7 @@ public class CBullet : Component
 			return;
 
 		// move the bullet
-		vec3 prev_pos = node.WorldPosition;
+		Vec3 prev_pos = node.WorldPosition;
 		node.WorldPosition = prev_pos + node.GetWorldDirection(MathLib.AXIS.Y) * speed * Game.IFps;
 
 		// check intersection
@@ -81,7 +98,7 @@ public class CBullet : Component
 			node.DeleteLater();
 	}
 
-	void CheckIntersection(vec3 p0, vec3 p1)
+	void CheckIntersection(Vec3 p0, Vec3 p1)
 	{
 		Unigine.Object hit = World.GetIntersection(p0, p1, intersection_mask, intersection);
 		if (!hit)

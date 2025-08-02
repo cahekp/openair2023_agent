@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>51657d1a05f8a9b12ff5175c9b2bcb0b64a1a4ee</guid>
 	<type>component</type>
-	<hash>0dcd74f7</hash>
+	<hash>32cb57be</hash>
 	<runtimes>
 		<runtime id="51657d1a05f8a9b12ff5175c9b2bcb0b64a1a4ee" name="CWeaponMelee.cs" link="0"/>
 		<runtime id="5cc55e00c3e8b95f036337325458ace9bc959134" name="CWeaponMelee.prop" link="1" type="4"/>

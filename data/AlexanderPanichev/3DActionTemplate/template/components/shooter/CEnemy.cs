@@ -2,6 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using Unigine;
 
+#if UNIGINE_DOUBLE
+using Scalar = System.Double;
+using Vec2 = Unigine.dvec2;
+using Vec3 = Unigine.dvec3;
+using Vec4 = Unigine.dvec4;
+using Mat4 = Unigine.dmat4;
+#else
+using Scalar = System.Single;
+using Vec2 = Unigine.vec2;
+using Vec3 = Unigine.vec3;
+using Vec4 = Unigine.vec4;
+using Mat4 = Unigine.mat4;
+using WorldBoundBox = Unigine.BoundBox;
+using WorldBoundSphere = Unigine.BoundSphere;
+using WorldBoundFrustum = Unigine.BoundFrustum;
+#endif
+
 [Component(PropertyGuid = "57e035ab45e6cf0ef8050b15ec27e1702238060f")]
 public class CEnemy : Component
 {
@@ -93,8 +110,8 @@ public class CEnemy : Component
 			return;
 
 		// segment from the eyes to the player's body
-		vec3 p0 = eyes_node.WorldPosition;
-		vec3 p1 = player.node.GetHierarchyWorldBoundBox().Center;
+		Vec3 p0 = eyes_node.WorldPosition;
+		Vec3 p1 = player.node.GetHierarchyWorldBoundBox().Center;
 		
 		// player is far
 		if (MathLib.Length(p1 - p0) > max_distance)
@@ -138,15 +155,15 @@ public class CEnemy : Component
 
 	bool TryToMoveToTarget()
 	{
-		vec3 to_target = path.GetChild(path_index).WorldPosition - node.WorldPosition;
-		float dist_to_target = MathLib.Length(to_target.xy);
+		Vec3 to_target = path.GetChild(path_index).WorldPosition - node.WorldPosition;
+		Scalar dist_to_target = MathLib.Length(to_target.xy);
 		
 		// arrive to target waypoint
 		if (dist_to_target <= 1.0f)
 			return false;
 
 		// move to target waypoint
-		vec2 move_dir = MathLib.Normalize(to_target.xy);
+		Vec2 move_dir = MathLib.Normalize(to_target.xy);
 		vec3 velocity = new vec3(move_dir * walk_speed, body.LinearVelocity.z);
 		body.Rotation = MathLib.Slerp(body.Rotation, MathLib.RotationFromDir(new vec3(move_dir)), 1.0f - MathLib.Exp(-5.0f * Game.IFps));
 		body.LinearVelocity = velocity;
@@ -257,8 +274,8 @@ public class CEnemy : Component
 		body.LinearVelocity = velocity;
 
 		// turn hand (weapon) to target and shoot
-		vec3 target_point = target_enemy_node.GetHierarchyWorldBoundBox().Center;
-		vec3 hand_dir_to_target = MathLib.Normalize(target_point - hand.WorldPosition);
+		Vec3 target_point = target_enemy_node.GetHierarchyWorldBoundBox().Center;
+		vec3 hand_dir_to_target = new vec3(MathLib.Normalize(target_point - hand.WorldPosition));
 		hand.SetWorldRotation(MathLib.Slerp(hand.GetWorldRotation(), MathLib.RotationFromDir(hand_dir_to_target), k));
 		if (MathLib.Angle(hand.GetWorldDirection(MathLib.AXIS.Y), hand_dir_to_target) <= angle_to_attack)
 			weapon.Use();
@@ -269,8 +286,8 @@ public class CEnemy : Component
 		if (target_enemy_node == null)
 			return false;
 
-		vec3 p0 = weapon.bullet_spawn_point.WorldPosition;
-		vec3 p1 = target_enemy_node.GetHierarchyWorldBoundBox().Center;
+		Vec3 p0 = weapon.bullet_spawn_point.WorldPosition;
+		Vec3 p1 = target_enemy_node.GetHierarchyWorldBoundBox().Center;
 		if (World.GetIntersection(p0, p1, obstacle_mask))
 			return false;
 
@@ -386,7 +403,7 @@ public class CEnemy : Component
 			{
 				if (!nn.IsObject || !nn.ObjectBodyRigid)
 					continue;
-				nn.ObjectBodyRigid.AddImpulse(vec3.ZERO, 3.0f * MathLib.Normalize(n.WorldPosition - killer.node.WorldPosition));
+				nn.ObjectBodyRigid.AddImpulse(vec3.ZERO, 3.0f * new vec3(MathLib.Normalize(n.WorldPosition - killer.node.WorldPosition)));
 			}
 		}
 

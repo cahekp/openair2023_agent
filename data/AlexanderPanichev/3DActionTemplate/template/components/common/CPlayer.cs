@@ -2,6 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using Unigine;
 
+#if UNIGINE_DOUBLE
+using Scalar = System.Double;
+using Vec2 = Unigine.dvec2;
+using Vec3 = Unigine.dvec3;
+using Vec4 = Unigine.dvec4;
+using Mat4 = Unigine.dmat4;
+#else
+using Scalar = System.Single;
+using Vec2 = Unigine.vec2;
+using Vec3 = Unigine.vec3;
+using Vec4 = Unigine.vec4;
+using Mat4 = Unigine.mat4;
+using WorldBoundBox = Unigine.BoundBox;
+using WorldBoundSphere = Unigine.BoundSphere;
+using WorldBoundFrustum = Unigine.BoundFrustum;
+#endif
+
 [Component(PropertyGuid = "7daa5fc5da7b4e601d4c2e3f97e16692c60154c9")]
 public class CPlayer : Component
 {
@@ -216,7 +233,7 @@ public class CPlayer : Component
 	void UpdateItemSelection()
 	{
 		List<Node> nodes = new List<Node>();
-		if (World.GetIntersection(new BoundSphere(camera.WorldPosition, item_selection_distance), Node.TYPE.OBJECT_MESH_STATIC, nodes))
+		if (World.GetIntersection(new WorldBoundSphere(camera.WorldPosition, item_selection_distance), Node.TYPE.OBJECT_MESH_STATIC, nodes))
 		{
 			foreach (Node n in nodes)
 			{
@@ -261,7 +278,7 @@ public class CPlayer : Component
 
 	bool IsItemVisible(CInteractable item)
 	{
-		vec3 offset = item.node.WorldBoundSphere.Center - camera.WorldPosition;
+		Vec3 offset = item.node.WorldBoundSphere.Center - camera.WorldPosition;
 		if (MathLib.Length(offset) > item_selection_distance)
 			return false;
 
