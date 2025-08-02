@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world version="2.20.0.0">
+	<render_settings_path>guid://588478b44cd4cc83e5848806faf23fadb8001d28</render_settings_path>
+	<data>
+		<unigine_editor>
+			<body>
+				<node_extensions/>
+			</body>
+		</unigine_editor>
+		<user/>
+	</data>
+	<sound>
+		<enabled>1</enabled>
+		<sound_manager_load_samples>0</sound_manager_load_samples>
+		<sound_manager_sample_static_memory>64</sound_manager_sample_static_memory>
+		<sound_manager_sample_stream_memory>16</sound_manager_sample_stream_memory>
+		<sound_reverb>2</sound_reverb>
+		<sound_occlusion>1</sound_occlusion>
+		<al_sound_skip_errors>0</al_sound_skip_errors>
+		<attenuation>3</attenuation>
+	</sound>
+	<render>
+		<data/>
+		<shader_defines/>
+		<stereo_distance>4</stereo_distance>
+		<stereo_radius>0.0320000015</stereo_radius>
+		<stereo_offset>0</stereo_offset>
+		<dirt_texture_name/>
+		<metering_mask_texture_path/>
+		<auto_exposure_ramp>
+			<curve>
+				<keys>
+					<key point="-0.000606913003 0" left_tangent="0 0" right_tangent="0.000554425584 0.0369963646"/>
+					<key point="0.0134488326 0.293675125" left_tangent="-0.0156385377 -0.0640103817" right_tangent="0.0263985451 0.0838990211"/>
+					<key point="0.499393076 0.400000006" left_tangent="-0.50232631 0.00384914875" right_tangent="0.0994265079 0.00384712219"/>
+					<key point="0.999393106 1" left_tangent="-0.107547581 -0.511057377" right_tangent="0 0"/>
+				</keys>
+			</curve>
+		</auto_exposure_ramp>
+		<color_correction>
+			<curve>
+				<keys>
+					<key point="0 0" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+			<curve>
+				<keys>
+					<key point="0 0" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+			<curve>
+				<keys>
+					<key point="0 0" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+			<curve>
+				<keys>
+					<key point="0 1" left_tangent="0 0" right_tangent="0 0"/>
+					<key point="1 1" left_tangent="0 0" right_tangent="0 0"/>
+				</keys>
+			</curve>
+		</color_correction>
+		<color_correction_lut/>
+		<vignette_mask_texture_path>core/textures/vignette_default.texture</vignette_mask_texture_path>
+		<sky_rotation>0 0 0 1</sky_rotation>
+		<albedo_cavity_texture_name>core/textures/common/white.texture</albedo_cavity_texture_name>
+		<shading_cavity_texture_name>core/textures/common/white.texture</shading_cavity_texture_name>
+		<albedo_convexity_texture_name>core/textures/common/white.texture</albedo_convexity_texture_name>
+		<shading_convexity_texture_name>core/textures/common/white.texture</shading_convexity_texture_name>
+		<environment_preset_0_intensity>1</environment_preset_0_intensity>
+		<environment_preset_0_scattering_base_lut_texture_name>core/textures/scattering_lut/preset_0/base.tif</environment_preset_0_scattering_base_lut_texture_name>
+		<environment_preset_0_scattering_mie_lut_texture_name>core/textures/scattering_lut/preset_0/mie.tif</environment_preset_0_scattering_mie_lut_texture_name>
+		<environment_preset_0_scattering_light_color_lut_texture_name>core/textures/scattering_lut/preset_0/light_color.tif</environment_preset_0_scattering_light_color_lut_texture_name>
+		<environment_preset_0_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_0_sun_texture_name>
+		<environment_preset_0_sun_angular_size>50</environment_preset_0_sun_angular_size>
+		<environment_preset_0_sun_texture_color>1 1 1 1</environment_preset_0_sun_texture_color>
+		<environment_preset_0_sun_texture_intensity>1000</environment_preset_0_sun_texture_intensity>
+		<environment_preset_0_moon_texture_name>core/textures/world_light/celestial_body_moon.png</environment_preset_0_moon_texture_name>
+		<environment_preset_0_moon_angular_size>0.5</environment_preset_0_moon_angular_size>
+		<environment_preset_0_moon_texture_color>1 1 1 1</environment_preset_0_moon_texture_color>
+		<environment_preset_0_moon_texture_intensity>50</environment_preset_0_moon_texture_intensity>
+		<environment_preset_0_texture_name>core/textures/common/environment_default.texture</environment_preset_0_texture_name>
+		<environment_preset_0_texture_color>1 1 1 1</environment_preset_0_texture_color>
+		<environment_preset_0_texture_rotation>0 0 0</environment_preset_0_texture_rotation>
+		<environment_preset_0_texture_blur>0</environment_preset_0_texture_blur>
+		<environment_preset_0_haze_color>1 1 1 1</environment_preset_0_haze_color>
+		<environment_preset_0_haze_max_distance>10000</environment_preset_0_haze_max_distance>
+		<environment_preset_0_haze_density>1</environment_preset_0_haze_density>
+		<environment_preset_0_haze_physical_start_height>0</environment_preset_0_haze_physical_start_height>
+		<environment_preset_0_haze_physical_half_visibility_distance>2000</environment_preset_0_haze_physical_half_visibility_distance>
+		<environment_preset_0_haze_physical_half_falloff_height>225</environment_preset_0_haze_physical_half_falloff_height>
+		<environment_preset_0_haze_physical_ambient_light_intensity>1.35000002</environment_preset_0_haze_physical_ambient_light_intensity>
+		<environment_preset_0_haze_physical_ambient_color_saturation>0.800000012</environment_preset_0_haze_physical_ambient_color_saturation>
+		<environment_preset_0_haze_physical_sun_light_intensity>0.00999999978</environment_preset_0_haze_physical_sun_light_intensity>
+		<environment_preset_0_haze_physical_sun_color_saturation>0</environment_preset_0_haze_physical_sun_color_saturation>
+		<environment_preset_0_haze_scattering_mie_intensity>1</environment_preset_0_haze_scattering_mie_intensity>
+		<environment_preset_0_haze_scattering_mie_front_side_intensity>0</environment_preset_0_haze_scattering_mie_front_side_intensity>
+		<environment_preset_0_haze_scattering_mie_fresnel_power>10</environment_preset_0_haze_scattering_mie_fresnel_power>
+		<environment_preset_0_ambient_intensity>1</environment_preset_0_ambient_intensity>
+		<environment_preset_0_reflection_intensity>1</environment_preset_0_reflection_intensity>
+		<environment_preset_0_sky_intensity>1</environment_preset_0_sky_intensity>
+		<environment_preset_1_intensity>0</environment_preset_1_intensity>
+		<environment_preset_1_scattering_base_lut_texture_name>core/textures/scattering_lut/preset_1/base.tif</environment_preset_1_scattering_base_lut_texture_name>
+		<environment_preset_1_scattering_mie_lut_texture_name>core/textures/scattering_lut/preset_1/mie.tif</environment_preset_1_scattering_mie_lut_texture_name>
+		<environment_preset_1_scattering_light_color_lut_texture_name>core/textures/scattering_lut/preset_1/light_color.tif</environment_preset_1_scattering_light_color_lut_texture_name>
+		<environment_preset_1_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_1_sun_texture_name>
+		<environment_preset_1_sun_angular_size>50</environment_preset_1_sun_angular_size>
+		<environment_preset_1_sun_texture_color>1 1 1 1</environment_preset_1_sun_texture_color>
+		<environment_preset_1_sun_texture_intensity>1000</environment_preset_1_sun_texture_intensity>
+		<environment_preset_1_moon_texture_name>core/textures/world_light/celestial_body_moon.png</environment_preset_1_moon_texture_name>
+		<environment_preset_1_moon_angular_size>0.5</environment_preset_1_moon_angular_size>
+		<environment_preset_1_moon_texture_color>1 1 1 1</environment_preset_1_moon_texture_color>
+		<environment_preset_1_moon_texture_intensity>50</environment_preset_1_moon_texture_intensity>
+		<environment_preset_1_texture_name>core/textures/common/environment_default.texture</environment_preset_1_texture_name>
+		<environment_preset_1_texture_color>1 1 1 1</environment_preset_1_texture_color>
+		<environment_preset_1_texture_rotation>0 0 0</environment_preset_1_texture_rotation>
+		<environment_preset_1_texture_blur>0</environment_preset_1_texture_blur>
+		<environment_preset_1_haze_color>1 1 1 1</environment_preset_1_haze_color>
+		<environment_preset_1_haze_max_distance>10000</environment_preset_1_haze_max_distance>
+		<environment_preset_1_haze_density>5</environment_preset_1_haze_density>
+		<environment_preset_1_haze_physical_start_height>-2000</environment_preset_1_haze_physical_start_height>
+		<environment_preset_1_haze_physical_half_visibility_distance>0.5</environment_preset_1_haze_physical_half_visibility_distance>
+		<environment_preset_1_haze_physical_half_falloff_height>225</environment_preset_1_haze_physical_half_falloff_height>
+		<environment_preset_1_haze_physical_ambient_light_intensity>0.800000012</environment_preset_1_haze_physical_ambient_light_intensity>
+		<environment_preset_1_haze_physical_ambient_color_saturation>0.800000012</environment_preset_1_haze_physical_ambient_color_saturation>
+		<environment_preset_1_haze_physical_sun_light_intensity>0.00999999978</environment_preset_1_haze_physical_sun_light_intensity>
+		<environment_preset_1_haze_physical_sun_color_saturation>0</environment_preset_1_haze_physical_sun_color_saturation>
+		<environment_preset_1_haze_scattering_mie_intensity>1</environment_preset_1_haze_scattering_mie_intensity>
+		<environment_preset_1_haze_scattering_mie_front_side_intensity>0</environment_preset_1_haze_scattering_mie_front_side_intensity>
+		<environment_preset_1_haze_scattering_mie_fresnel_power>10</environment_preset_1_haze_scattering_mie_fresnel_power>
+		<environment_preset_1_ambient_intensity>1</environment_preset_1_ambient_intensity>
+		<environment_preset_1_reflection_intensity>1</environment_preset_1_reflection_intensity>
+		<environment_preset_1_sky_intensity>1</environment_preset_1_sky_intensity>
+		<environment_preset_2_intensity>0</environment_preset_2_intensity>
+		<environment_preset_2_scattering_base_lut_texture_name>core/textures/scattering_lut/preset_2/base.tif</environment_preset_2_scattering_base_lut_texture_name>
+		<environment_preset_2_scattering_mie_lut_texture_name>core/textures/scattering_lut/preset_2/mie.tif</environment_preset_2_scattering_mie_lut_texture_name>
+		<environment_preset_2_scattering_light_color_lut_texture_name>core/textures/scattering_lut/preset_2/light_color.tif</environment_preset_2_scattering_light_color_lut_texture_name>
+		<environment_preset_2_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_2_sun_texture_name>
+		<environment_preset_2_sun_angular_size>50</environment_preset_2_sun_angular_size>
+		<environment_preset_2_sun_texture_color>1 1 1 1</environment_preset_2_sun_texture_color>
+		<environment_preset_2_sun_texture_intensity>1</environment_preset_2_sun_texture_intensity>
+		<environment_preset_2_moon_texture_name>core/textures/world_light/celestial_body_moon.png</environment_preset_2_moon_texture_name>
+		<environment_preset_2_moon_angular_size>0.5</environment_preset_2_moon_angular_size>
+		<environment_preset_2_moon_texture_color>1 1 1 1</environment_preset_2_moon_texture_color>
+		<environment_preset_2_moon_texture_intensity>1</environment_preset_2_moon_texture_intensity>
+		<environment_preset_2_texture_name>core/textures/common/environment_default.texture</environment_preset_2_texture_name>
+		<environment_preset_2_texture_color>1 1 1 1</environment_preset_2_texture_color>
+		<environment_preset_2_texture_rotation>0 0 0</environment_preset_2_texture_rotation>
+		<environment_preset_2_texture_blur>0</environment_preset_2_texture_blur>
+		<environment_preset_2_haze_color>1 1 1 1</environment_preset_2_haze_color>
+		<environment_preset_2_haze_max_distance>10000</environment_preset_2_haze_max_distance>
+		<environment_preset_2_haze_density>5</environment_preset_2_haze_density>
+		<environment_preset_2_haze_physical_start_height>0</environment_preset_2_haze_physical_start_height>
+		<environment_preset_2_haze_physical_half_visibility_distance>10000</environment_preset_2_haze_physical_half_visibility_distance>
+		<environment_preset_2_haze_physical_half_falloff_height>100</environment_preset_2_haze_physical_half_falloff_height>
+		<environment_preset_2_haze_physical_ambient_light_intensity>1</environment_preset_2_haze_physical_ambient_light_intensity>
+		<environment_preset_2_haze_physical_ambient_color_saturation>1</environment_preset_2_haze_physical_ambient_color_saturation>
+		<environment_preset_2_haze_physical_sun_light_intensity>1</environment_preset_2_haze_physical_sun_light_intensity>
+		<environment_preset_2_haze_physical_sun_color_saturation>1</environment_preset_2_haze_physical_sun_color_saturation>
+		<environment_preset_2_haze_scattering_mie_intensity>1</environment_preset_2_haze_scattering_mie_intensity>
+		<environment_preset_2_haze_scattering_mie_front_side_intensity>0</environment_preset_2_haze_scattering_mie_front_side_intensity>
+		<environment_preset_2_haze_scattering_mie_fresnel_power>10</environment_preset_2_haze_scattering_mie_fresnel_power>
+		<environment_preset_2_ambient_intensity>1</environment_preset_2_ambient_intensity>
+		<environment_preset_2_reflection_intensity>1</environment_preset_2_reflection_intensity>
+		<environment_preset_2_sky_intensity>1</environment_preset_2_sky_intensity>
+		<color_correction_brightness>0</color_correction_brightness>
+		<color_correction_by_curves>0</color_correction_by_curves>
+		<color_correction_contrast>0</color_correction_contrast>
+		<color_correction_gamma>1</color_correction_gamma>
+		<color_correction_hue_per_color>0</color_correction_hue_per_color>
+		<color_correction_hue_shift>0 0 0 0 0 0 0 0 0 0 0 0</color_correction_hue_shift>
+		<color_correction_preserve_saturation>0</color_correction_preserve_saturation>
+		<color_correction_saturation>1 1 1 1 1 1 1 1 1 1 1 1</color_correction_saturation>
+		<color_correction_saturation_per_color>0</color_correction_saturation_per_color>
+		<color_correction_white>1 1 1 1</color_correction_white>
+		<gpu_thread_priority>7</gpu_thread_priority>
+		<render_aa_preset>smooth</render_aa_preset>
+		<render_aces_shoulder_angle>2.43000007</render_aces_shoulder_angle>
+		<render_aces_shoulder_length>0.140000001</render_aces_shoulder_length>
+		<render_aces_shoulder_strength>0.589999974</render_aces_shoulder_strength>
+		<render_aces_toe>0.0299999993</render_aces_toe>
+		<render_aces_white_clip>2.50999999</render_aces_white_clip>
+		<render_aces_with_reinhard_mix>0.5</render_aces_with_reinhard_mix>
+		<render_aces_with_reinhard_shoulder_angle>2.43000007</render_aces_with_reinhard_shoulder_angle>
+		<render_aces_with_reinhard_shoulder_length>0.140000001</render_aces_with_reinhard_shoulder_length>
+		<render_aces_with_reinhard_shoulder_strength>0.589999974</render_aces_with_reinhard_shoulder_strength>
+		<render_aces_with_reinhard_toe>0.0299999993</render_aces_with_reinhard_toe>
+		<render_aces_with_reinhard_white_clip>2.50999999</render_aces_with_reinhard_white_clip>
+		<render_alpha_fade>1</render_alpha_fade>
+		<render_animation_leaf>1</render_animation_leaf>
+		<render_animation_scale>1</render_animation_scale>
+		<render_animation_stem>1</render_animation_stem>
+		<render_animation_wind>0 0 0</render_animation_wind>
+		<render_auxiliary>1</render_auxiliary>
+		<render_background_color>0 0 0 0</render_background_color>
+		<render_bent_normal>0</render_bent_normal>
+		<render_bent_normal_fix_overlit_areas>1</render_bent_normal_fix_overlit_areas>
+		<render_bent_normal_threshold>1</render_bent_normal_threshold>
+		<render_bloom>1</render_bloom>
+		<render_bloom_passes>6</render_bloom_passes>
+		<render_bloom_power>1</render_bloom_power>
+		<render_bloom_resolution>2</render_bloom_resolution>
+		<render_bloom_scale>0.100000001</render_bloom_scale>
+		<render_border>0 0</render_border>
+		<render_budget>0.0160000008</render_budget>
+		<render_camera_effects_temporal_filtering>0</render_camera_effects_temporal_filtering>
+		<render_camera_effects_temporal_filtering_color_clamping_intensity>3</render_camera_effects_temporal_filtering_color_clamping_intensity>
+		<render_camera_effects_temporal_filtering_max_velocity_clamping>0.100000001</render_camera_effects_temporal_filtering_max_velocity_clamping>
+		<render_camera_effects_temporal_filtering_min_velocity_clamping>0.0500000007</render_camera_effects_temporal_filtering_min_velocity_clamping>
+		<render_camera_effects_threshold>0</render_camera_effects_threshold>
+		<render_camera_mode>0</render_camera_mode>
+		<render_chromatic_aberration>0</render_chromatic_aberration>
+		<render_chromatic_aberration_intensity>0.5</render_chromatic_aberration_intensity>
+		<render_chromatic_aberration_noise_intensity>0.300000012</render_chromatic_aberration_noise_intensity>
+		<render_chromatic_aberration_samples>1</render_chromatic_aberration_samples>
+		<render_clouds_3d_texture_horizontal_resolution>2</render_clouds_3d_texture_horizontal_resolution>
+		<render_clouds_3d_texture_vertical_resolution>3</render_clouds_3d_texture_vertical_resolution>
+		<render_clouds_accurate_layers_sorting>0</render_clouds_accurate_layers_sorting>
+		<render_clouds_depth_based_reconstruction>1</render_clouds_depth_based_reconstruction>
+		<render_clouds_depth_based_reconstruction_threshold>25</render_clouds_depth_based_reconstruction_threshold>
+		<render_clouds_distortion_texture>1</render_clouds_distortion_texture>
+		<render_clouds_downsampling_rendering>1</render_clouds_downsampling_rendering>
+		<render_clouds_dynamic_coverage_area>10000</render_clouds_dynamic_coverage_area>
+		<render_clouds_dynamic_coverage_resolution>256</render_clouds_dynamic_coverage_resolution>
+		<render_clouds_enabled>1</render_clouds_enabled>
+		<render_clouds_far_clipping>0</render_clouds_far_clipping>
+		<render_clouds_ground_shadows>1</render_clouds_ground_shadows>
+		<render_clouds_interleaved_rendering>1</render_clouds_interleaved_rendering>
+		<render_clouds_interleaved_rendering_temporal>1</render_clouds_interleaved_rendering_temporal>
+		<render_clouds_lighting_cone_radius>0.300000012</render_clouds_lighting_cone_radius>
+		<render_clouds_lighting_quality>3</render_clouds_lighting_quality>
+		<render_clouds_lighting_samples_distribution>1.5</render_clouds_lighting_samples_distribution>
+		<render_clouds_lighting_tracelength>600</render_clouds_lighting_tracelength>
+		<render_clouds_mode>0</render_clouds_mode>
+		<render_clouds_noise_iterations>0.100000001</render_clouds_noise_iterations>
+		<render_clouds_noise_lighting>0.300000012</render_clouds_noise_lighting>
+		<render_clouds_noise_step>0.300000012</render_clouds_noise_step>
+		<render_clouds_noise_step_skip>0.300000012</render_clouds_noise_step_skip>
+		<render_clouds_panorama_resolution>4</render_clouds_panorama_resolution>
+		<render_clouds_panorama_reuse>1</render_clouds_panorama_reuse>
+		<render_clouds_quality_preset>extreme+interleaved</render_clouds_quality_preset>
+		<render_clouds_rounded>1</render_clouds_rounded>
+		<render_clouds_rounded_planet_radius>200000</render_clouds_rounded_planet_radius>
+		<render_clouds_samples_count>3</render_clouds_samples_count>
+		<render_clouds_sampling_quality>3</render_clouds_sampling_quality>
+		<render_clouds_soft_intersection>100</render_clouds_soft_intersection>
+		<render_clouds_step_accuracy>1</render_clouds_step_accuracy>
+		<render_clouds_transparent_order>0</render_clouds_transparent_order>
+		<render_cross>0</render_cross>
+		<render_cross_angle>45</render_cross_angle>
+		<render_cross_color>1 1 1 1</render_cross_color>
+		<render_cross_length>0.200000003</render_cross_length>
+		<render_cross_scale>0.400000006</render_cross_scale>
+		<render_cross_shafts>6</render_cross_shafts>
+		<render_cross_threshold>0</render_cross_threshold>
+		<render_debug>1</render_debug>
+		<render_decal_distance>1e+09</render_decal_distance>
+		<render_decals>1</render_decals>
+		<render_denoise_ao_mask_radius>1</render_denoise_ao_mask_radius>
+		<render_denoise_color_clamping_blur_intensity>0</render_denoise_color_clamping_blur_intensity>
+		<render_denoise_color_clamping_blur_intensity_ao>0</render_denoise_color_clamping_blur_intensity_ao>
+		<render_denoise_color_clamping_blur_radius>12</render_denoise_color_clamping_blur_radius>
+		<render_denoise_color_clamping_blur_resolution>2</render_denoise_color_clamping_blur_resolution>
+		<render_denoise_denoise_mask_bias>0.00100000005</render_denoise_denoise_mask_bias>
+		<render_denoise_denoise_mask_denoise_threshold>0.100000001</render_denoise_denoise_mask_denoise_threshold>
+		<render_denoise_denoise_mask_frame_count>8</render_denoise_denoise_mask_frame_count>
+		<render_denoise_denoise_mask_information_lost_boost>0</render_denoise_denoise_mask_information_lost_boost>
+		<render_denoise_denoise_mask_velocity_threshold>0</render_denoise_denoise_mask_velocity_threshold>
+		<render_denoise_hot_pixels_fix_intensity>0</render_denoise_hot_pixels_fix_intensity>
+		<render_denoise_information_lost_depth_threshold>0.00999999978</render_denoise_information_lost_depth_threshold>
+		<render_denoise_information_lost_fix_flicker>0.75</render_denoise_information_lost_fix_flicker>
+		<render_denoise_interleaved>1</render_denoise_interleaved>
+		<render_denoise_num_blur_iterations>5</render_denoise_num_blur_iterations>
+		<render_denoise_preset>sharpest_low</render_denoise_preset>
+		<render_denoise_radius>1</render_denoise_radius>
+		<render_denoise_wrong_velocity_fix_by_depth_enabled>1</render_denoise_wrong_velocity_fix_by_depth_enabled>
+		<render_denoise_wrong_velocity_fix_by_depth_threshold>0.0299999993</render_denoise_wrong_velocity_fix_by_depth_threshold>
+		<render_depth_pre_pass>0</render_depth_pre_pass>
+		<render_direct_lighting_interleaved>0</render_direct_lighting_interleaved>
+		<render_direct_lighting_interleaved_catmull_resampling>0</render_direct_lighting_interleaved_catmull_resampling>
+		<render_direct_lighting_interleaved_color_clamping>1</render_direct_lighting_interleaved_color_clamping>
+		<render_direct_lighting_interleaved_samples>0</render_direct_lighting_interleaved_samples>
+		<render_dirt_scale>0.5</render_dirt_scale>
+		<render_distance_offset>0</render_distance_offset>
+		<render_distance_scale>1</render_distance_scale>
+		<render_dof>0</render_dof>
+		<render_dof_blur>1</render_dof_blur>
+		<render_dof_bokeh_mode>0</render_dof_bokeh_mode>
+		<render_dof_chromatic_aberration>0</render_dof_chromatic_aberration>
+		<render_dof_far_distance>10</render_dof_far_distance>
+		<render_dof_far_focal_offset>9.99999997e-07</render_dof_far_focal_offset>
+		<render_dof_focal_distance>1</render_dof_focal_distance>
+		<render_dof_focus_improvement>0</render_dof_focus_improvement>
+		<render_dof_increased_accuracy>0</render_dof_increased_accuracy>
+		<render_dof_near_distance>10</render_dof_near_distance>
+		<render_dof_near_focal_offset>9.99999997e-07</render_dof_near_focal_offset>
+		<render_dof_preset>ultra</render_dof_preset>
+		<render_dof_quality>1</render_dof_quality>
+		<render_dof_resolution>2</render_dof_resolution>
+		<render_environment>1</render_environment>
+		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
+		<render_environment_ggx_mipmaps_quality>2</render_environment_ggx_mipmaps_quality>
+		<render_environment_haze>2</render_environment_haze>
+		<render_environment_haze_colorization_intensity>0.949999988</render_environment_haze_colorization_intensity>
+		<render_environment_haze_colorization_threshold>0.5</render_environment_haze_colorization_threshold>
+		<render_environment_haze_gradient>2</render_environment_haze_gradient>
+		<render_environment_haze_screen_space_global_illumination>1</render_environment_haze_screen_space_global_illumination>
+		<render_environment_haze_screen_space_global_illumination_distance_max>100000</render_environment_haze_screen_space_global_illumination_distance_max>
+		<render_environment_haze_screen_space_global_illumination_distance_min>98000</render_environment_haze_screen_space_global_illumination_distance_min>
+		<render_environment_haze_temporal_filter>1</render_environment_haze_temporal_filter>
+		<render_environment_hemisphere>0</render_environment_hemisphere>
+		<render_exposure>0.600000024</render_exposure>
+		<render_exposure_adaptation>1</render_exposure_adaptation>
+		<render_exposure_max_luminance>10</render_exposure_max_luminance>
+		<render_exposure_min_luminance>0.5</render_exposure_min_luminance>
+		<render_exposure_mode>2</render_exposure_mode>
+		<render_f_stop>11</render_f_stop>
+		<render_fade_color>0 0 0 0</render_fade_color>
+		<render_ffp_antialiasing_lines>1</render_ffp_antialiasing_lines>
+		<render_field_distance>1e+09</render_field_distance>
+		<render_field_height_resolution>2</render_field_height_resolution>
+		<render_field_precision>0</render_field_precision>
+		<render_field_shoreline_resolution>0</render_field_shoreline_resolution>
+		<render_filmic_linear_angle>0.100000001</render_filmic_linear_angle>
+		<render_filmic_linear_scale>0.300000012</render_filmic_linear_scale>
+		<render_filmic_saturation_recovery>0.600000024</render_filmic_saturation_recovery>
+		<render_filmic_shoulder_scale>1</render_filmic_shoulder_scale>
+		<render_filmic_toe_denominator>0.300000012</render_filmic_toe_denominator>
+		<render_filmic_toe_numerator>0.00999999978</render_filmic_toe_numerator>
+		<render_filmic_toe_scale>0.200000003</render_filmic_toe_scale>
+		<render_filmic_white_level>1.5</render_filmic_white_level>
+		<render_fxaa>1</render_fxaa>
+		<render_fxaa_intensity>0</render_fxaa_intensity>
+		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
+		<render_indirect_diffuse_denoise_enabled>1</render_indirect_diffuse_denoise_enabled>
+		<render_indirect_diffuse_denoise_mask_enabled>1</render_indirect_diffuse_denoise_mask_enabled>
+		<render_indirect_diffuse_denoise_threshold>1</render_indirect_diffuse_denoise_threshold>
+		<render_indirect_diffuse_denoise_threshold_ao>1</render_indirect_diffuse_denoise_threshold_ao>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_diffuse_temporal_filtering_color_clamping_intensity_ao>
+		<render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_diffuse_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_diffuse_temporal_filtering_enabled>1</render_indirect_diffuse_temporal_filtering_enabled>
+		<render_indirect_diffuse_temporal_filtering_frame_count>50</render_indirect_diffuse_temporal_filtering_frame_count>
+		<render_indirect_diffuse_temporal_filtering_frame_count_min>1</render_indirect_diffuse_temporal_filtering_frame_count_min>
+		<render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>
+		<render_indirect_lighting_interleaved>0</render_indirect_lighting_interleaved>
+		<render_indirect_lighting_interleaved_catmull_resampling>0</render_indirect_lighting_interleaved_catmull_resampling>
+		<render_indirect_lighting_interleaved_color_clamping>2</render_indirect_lighting_interleaved_color_clamping>
+		<render_indirect_lighting_interleaved_color_clamping_intensity>0</render_indirect_lighting_interleaved_color_clamping_intensity>
+		<render_indirect_lighting_interleaved_color_clamping_velocity_threshold>100</render_indirect_lighting_interleaved_color_clamping_velocity_threshold>
+		<render_indirect_lighting_interleaved_samples>1</render_indirect_lighting_interleaved_samples>
+		<render_indirect_specular_denoise_enabled>1</render_indirect_specular_denoise_enabled>
+		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
+		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
+		<render_indirect_specular_denoise_threshold_ao>1</render_indirect_specular_denoise_threshold_ao>
+		<render_indirect_specular_normalization>0</render_indirect_specular_normalization>
+		<render_indirect_specular_temporal_filtering_color_clamping_intensity>1</render_indirect_specular_temporal_filtering_color_clamping_intensity>
+		<render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>1</render_indirect_specular_temporal_filtering_color_clamping_intensity_ao>
+		<render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>100</render_indirect_specular_temporal_filtering_color_clamping_velocity_threshold>
+		<render_indirect_specular_temporal_filtering_enabled>1</render_indirect_specular_temporal_filtering_enabled>
+		<render_indirect_specular_temporal_filtering_frame_count>50</render_indirect_specular_temporal_filtering_frame_count>
+		<render_indirect_specular_temporal_filtering_frame_count_min>1</render_indirect_specular_temporal_filtering_frame_count_min>
+		<render_indirect_specular_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_specular_temporal_filtering_frames_clamping_velocity_threshold>
+		<render_iso>100</render_iso>
+		<render_landscape_cache_cpu_prefetch_radius>0</render_landscape_cache_cpu_prefetch_radius>
+		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
+		<render_landscape_cache_gpu_life_time>6</render_landscape_cache_gpu_life_time>
+		<render_landscape_cache_gpu_size>6</render_landscape_cache_gpu_size>
+		<render_landscape_operations_per_frame>10</render_landscape_operations_per_frame>
+		<render_landscape_terrain_culling_by_depth>1</render_landscape_terrain_culling_by_depth>
+		<render_landscape_terrain_culling_depth_resolution>64</render_landscape_terrain_culling_depth_resolution>
+		<render_landscape_terrain_culling_frustum_aggressive>1</render_landscape_terrain_culling_frustum_aggressive>
+		<render_landscape_terrain_culling_map>0.300000012</render_landscape_terrain_culling_map>
+		<render_landscape_terrain_culling_oblique_frustum>0.899999976</render_landscape_terrain_culling_oblique_frustum>
+		<render_landscape_terrain_culling_padding_patch_cpu>1</render_landscape_terrain_culling_padding_patch_cpu>
+		<render_landscape_terrain_culling_padding_patch_gpu>1</render_landscape_terrain_culling_padding_patch_gpu>
+		<render_landscape_terrain_culling_padding_triangles>1</render_landscape_terrain_culling_padding_triangles>
+		<render_landscape_terrain_culling_patch_batching>16</render_landscape_terrain_culling_patch_batching>
+		<render_landscape_terrain_culling_patch_resolution_cpu>2</render_landscape_terrain_culling_patch_resolution_cpu>
+		<render_landscape_terrain_culling_patch_resolution_gpu>32</render_landscape_terrain_culling_patch_resolution_gpu>
+		<render_landscape_terrain_detail_compression>1</render_landscape_terrain_detail_compression>
+		<render_landscape_terrain_detail_resolution_additional_mask>4</render_landscape_terrain_detail_resolution_additional_mask>
+		<render_landscape_terrain_detail_resolution_albedo>5</render_landscape_terrain_detail_resolution_albedo>
+		<render_landscape_terrain_detail_resolution_height>5</render_landscape_terrain_detail_resolution_height>
+		<render_landscape_terrain_geometry_detail_max_height>0.5</render_landscape_terrain_geometry_detail_max_height>
+		<render_landscape_terrain_geometry_holes>1</render_landscape_terrain_geometry_holes>
+		<render_landscape_terrain_geometry_polygon_size>0.00999999978</render_landscape_terrain_geometry_polygon_size>
+		<render_landscape_terrain_geometry_preset>ultra</render_landscape_terrain_geometry_preset>
+		<render_landscape_terrain_geometry_progression>1.5</render_landscape_terrain_geometry_progression>
+		<render_landscape_terrain_geometry_subpixel_reduction>5</render_landscape_terrain_geometry_subpixel_reduction>
+		<render_landscape_terrain_mask_dithering>1</render_landscape_terrain_mask_dithering>
+		<render_landscape_terrain_streaming_per_lods>1</render_landscape_terrain_streaming_per_lods>
+		<render_landscape_terrain_streaming_preset>ultra</render_landscape_terrain_streaming_preset>
+		<render_landscape_terrain_streaming_threads>1</render_landscape_terrain_streaming_threads>
+		<render_landscape_terrain_texel_size>0.00200000009</render_landscape_terrain_texel_size>
+		<render_landscape_terrain_visible_distance>30000</render_landscape_terrain_visible_distance>
+		<render_landscape_terrain_vt_detail_level_by_angle>0.949999988</render_landscape_terrain_vt_detail_level_by_angle>
+		<render_landscape_terrain_vt_filtering>1</render_landscape_terrain_vt_filtering>
+		<render_landscape_terrain_vt_hash_number_mistakes>2</render_landscape_terrain_vt_hash_number_mistakes>
+		<render_landscape_terrain_vt_hash_size>131072</render_landscape_terrain_vt_hash_size>
+		<render_landscape_terrain_vt_memory_size>0.5</render_landscape_terrain_vt_memory_size>
+		<render_landscape_terrain_vt_sampler_feedback_buffer_resolution>80 60</render_landscape_terrain_vt_sampler_feedback_buffer_resolution>
+		<render_landscape_terrain_vt_sampler_feedback_screen_resolution>1</render_landscape_terrain_vt_sampler_feedback_screen_resolution>
+		<render_landscape_terrain_vt_target_resolution>1920 1080</render_landscape_terrain_vt_target_resolution>
+		<render_landscape_terrain_vt_tiles_load_per_frame>16</render_landscape_terrain_vt_tiles_load_per_frame>
+		<render_landscape_terrain_vt_tiles_reload_per_frame>8</render_landscape_terrain_vt_tiles_reload_per_frame>
+		<render_landscape_terrain_vt_tiles_update_per_frame>16</render_landscape_terrain_vt_tiles_update_per_frame>
+		<render_latency>1</render_latency>
+		<render_lens>0</render_lens>
+		<render_lens_color>1 1 1 1</render_lens_color>
+		<render_lens_dispersion>1 1 1</render_lens_dispersion>
+		<render_lens_length>0.153999999</render_lens_length>
+		<render_lens_radius>0.270999998</render_lens_radius>
+		<render_lens_scale>0.0350000001</render_lens_scale>
+		<render_lens_threshold>1</render_lens_threshold>
+		<render_light_distance>1e+09</render_light_distance>
+		<render_lightmap_color>1 1 1 1</render_lightmap_color>
+		<render_lights_enabled>1</render_lights_enabled>
+		<render_lights_forward_per_object_env>4</render_lights_forward_per_object_env>
+		<render_lights_forward_per_object_omni>4</render_lights_forward_per_object_omni>
+		<render_lights_forward_per_object_planar>4</render_lights_forward_per_object_planar>
+		<render_lights_forward_per_object_proj>4</render_lights_forward_per_object_proj>
+		<render_lights_forward_per_object_voxel>4</render_lights_forward_per_object_voxel>
+		<render_lights_forward_per_object_world>4</render_lights_forward_per_object_world>
+		<render_lights_lens_flares>1</render_lights_lens_flares>
+		<render_lights_max_per_batch>1024</render_lights_max_per_batch>
+		<render_lights_tile_grid_size>8</render_lights_tile_grid_size>
+		<render_linear_depth_precision>0</render_linear_depth_precision>
+		<render_local_tonemapper>1</render_local_tonemapper>
+		<render_local_tonemapper_blur_resolution>1</render_local_tonemapper_blur_resolution>
+		<render_local_tonemapper_blur_upscale>1</render_local_tonemapper_blur_upscale>
+		<render_local_tonemapper_blur_upscale_kernel_size>0</render_local_tonemapper_blur_upscale_kernel_size>
+		<render_local_tonemapper_color_difference_enabled>1</render_local_tonemapper_color_difference_enabled>
+		<render_local_tonemapper_color_difference_threshold>0.150000006</render_local_tonemapper_color_difference_threshold>
+		<render_local_tonemapper_debug>0</render_local_tonemapper_debug>
+		<render_local_tonemapper_depth_difference_enabled>0</render_local_tonemapper_depth_difference_enabled>
+		<render_local_tonemapper_depth_threshold>0.899999976</render_local_tonemapper_depth_threshold>
+		<render_local_tonemapper_effect_on_dark_areas>0.0500000007</render_local_tonemapper_effect_on_dark_areas>
+		<render_local_tonemapper_effect_on_dark_areas_gamma>5</render_local_tonemapper_effect_on_dark_areas_gamma>
+		<render_local_tonemapper_luma_blurred_intensity>1</render_local_tonemapper_luma_blurred_intensity>
+		<render_local_tonemapper_num_blur_iterations>5</render_local_tonemapper_num_blur_iterations>
+		<render_local_tonemapper_target_middle_gray>0.600000024</render_local_tonemapper_target_middle_gray>
+		<render_local_tonemapper_tonemapping_intensity>0.400000006</render_local_tonemapper_tonemapping_intensity>
+		<render_materials_quality>2</render_materials_quality>
+		<render_max_fps>150</render_max_fps>
+		<render_metering_mask_enabled>0</render_metering_mask_enabled>
+		<render_motion_blur>0</render_motion_blur>
+		<render_motion_blur_camera_velocity>1</render_motion_blur_camera_velocity>
+		<render_motion_blur_depth_threshold_far>0.5</render_motion_blur_depth_threshold_far>
+		<render_motion_blur_depth_threshold_near>0</render_motion_blur_depth_threshold_near>
+		<render_motion_blur_max_velocity>1</render_motion_blur_max_velocity>
+		<render_motion_blur_noise_intensity>0.5</render_motion_blur_noise_intensity>
+		<render_motion_blur_num_steps>8</render_motion_blur_num_steps>
+		<render_motion_blur_preset>ultra</render_motion_blur_preset>
+		<render_motion_blur_velocity_blur_radius>0.200000003</render_motion_blur_velocity_blur_radius>
+		<render_motion_blur_velocity_blur_samples>8</render_motion_blur_velocity_blur_samples>
+		<render_motion_blur_velocity_scale>0.75</render_motion_blur_velocity_scale>
+		<render_multithreaded>1</render_multithreaded>
+		<render_noise>0</render_noise>
+		<render_noise_intensity>0.0299999993</render_noise_intensity>
+		<render_object_distance>1e+09</render_object_distance>
+		<render_occluders>1</render_occluders>
+		<render_occluders_resolution>128 64</render_occluders_resolution>
+		<render_occluders_shadows>0</render_occluders_shadows>
+		<render_occluders_shadows_resolution>512 512</render_occluders_shadows_resolution>
+		<render_occlusion_queries>1</render_occlusion_queries>
+		<render_occlusion_queries_num_frames>5</render_occlusion_queries_num_frames>
+		<render_panorama_fisheye_fov>180</render_panorama_fisheye_fov>
+		<render_pre_post_materials_enabled>1</render_pre_post_materials_enabled>
+		<render_reflection_distance>1e+09</render_reflection_distance>
+		<render_reflection_dynamic>1</render_reflection_dynamic>
+		<render_reflection_dynamic_alpha_fade>0</render_reflection_dynamic_alpha_fade>
+		<render_reflection_dynamic_roughness_offset>0</render_reflection_dynamic_roughness_offset>
+		<render_reflection_lods>1</render_reflection_lods>
+		<render_refraction>1</render_refraction>
+		<render_refraction_dispersion>1 1 1</render_refraction_dispersion>
+		<render_refraction_warp_background_transparent_surfaces>1</render_refraction_warp_background_transparent_surfaces>
+		<render_reinhard_contribution>1</render_reinhard_contribution>
+		<render_reinhard_luma_based_contribution>1</render_reinhard_luma_based_contribution>
+		<render_screen_precision>1</render_screen_precision>
+		<render_screen_space_effects>1</render_screen_space_effects>
+		<render_screen_space_shadow_shafts_length>1.5</render_screen_space_shadow_shafts_length>
+		<render_screen_space_shadow_shafts_mode>1</render_screen_space_shadow_shafts_mode>
+		<render_screen_space_shadow_shafts_quality>2</render_screen_space_shadow_shafts_quality>
+		<render_screen_space_shadow_shafts_resolution>1</render_screen_space_shadow_shafts_resolution>
+		<render_shaders_compile_mode>0</render_shaders_compile_mode>
+		<render_shadow_distance>100</render_shadow_distance>
+		<render_shadow_distance_scale>1</render_shadow_distance_scale>
+		<render_shadows>1</render_shadows>
+		<render_shadows_alpha_test>1</render_shadows_alpha_test>
+		<render_shadows_filter_mode>4</render_shadows_filter_mode>
+		<render_shadows_filter_noise>1</render_shadows_filter_noise>
+		<render_shadows_penumbra_mode>2</render_shadows_penumbra_mode>
+		<render_shadows_penumbra_noise>1</render_shadows_penumbra_noise>
+		<render_shadows_reuse>0</render_shadows_reuse>
+		<render_shadows_screen_space>1</render_shadows_screen_space>
+		<render_shadows_simplified>0</render_shadows_simplified>
+		<render_shadows_translucent_depth>0.25</render_shadows_translucent_depth>
+		<render_shadows_world_cascades_culling_clusters>1</render_shadows_world_cascades_culling_clusters>
+		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
+		<render_sharpen>1</render_sharpen>
+		<render_sharpen_blur_color_threshold>0.200000003</render_sharpen_blur_color_threshold>
+		<render_sharpen_blur_dark_color_threshold_bias>0.0500000007</render_sharpen_blur_dark_color_threshold_bias>
+		<render_sharpen_blur_radius>1</render_sharpen_blur_radius>
+		<render_sharpen_blur_sigma>1</render_sharpen_blur_sigma>
+		<render_sharpen_diagonal_samples>1</render_sharpen_diagonal_samples>
+		<render_sharpen_intensity>2</render_sharpen_intensity>
+		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
+		<render_show_texture_resolution_streaming_accounting_mode>0</render_show_texture_resolution_streaming_accounting_mode>
+		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
+		<render_show_visualizer_distance>500</render_show_visualizer_distance>
+		<render_show_voxel_probe_visualizer_grid_size>15</render_show_voxel_probe_visualizer_grid_size>
+		<render_show_voxel_probe_visualizer_sphere_scale>0.25</render_show_voxel_probe_visualizer_sphere_scale>
+		<render_shutter_speed>250</render_shutter_speed>
+		<render_sraa>0</render_sraa>
+		<render_sraa_debug>0</render_sraa_debug>
+		<render_sraa_depth_threshold>0.100000001</render_sraa_depth_threshold>
+		<render_sraa_samples>1</render_sraa_samples>
+		<render_sraa_temporal>1</render_sraa_temporal>
+		<render_ssao>1</render_ssao>
+		<render_ssao_cavity>1</render_ssao_cavity>
+		<render_ssao_cavity_intensity>0.200000003</render_ssao_cavity_intensity>
+		<render_ssao_cavity_radius>2</render_ssao_cavity_radius>
+		<render_ssao_intensity>1</render_ssao_intensity>
+		<render_ssao_intensity_reflection>1</render_ssao_intensity_reflection>
+		<render_ssao_threshold>0.300000012</render_ssao_threshold>
+		<render_ssbevel>0</render_ssbevel>
+		<render_ssbevel_noise>0</render_ssbevel_noise>
+		<render_ssbevel_quality>2</render_ssbevel_quality>
+		<render_ssbevel_radius>0.00999999978</render_ssbevel_radius>
+		<render_ssbevel_vertex_normal>0</render_ssbevel_vertex_normal>
+		<render_ssdirt>0</render_ssdirt>
+		<render_ssdirt_angle_bias>0.349999994</render_ssdirt_angle_bias>
+		<render_ssdirt_cavity_color>0.25999999 0.239999995 0.209999993 1</render_ssdirt_cavity_color>
+		<render_ssdirt_cavity_exponent>1</render_ssdirt_cavity_exponent>
+		<render_ssdirt_cavity_metalness>0</render_ssdirt_cavity_metalness>
+		<render_ssdirt_cavity_metalness_visibility>0</render_ssdirt_cavity_metalness_visibility>
+		<render_ssdirt_cavity_texture_size>1</render_ssdirt_cavity_texture_size>
+		<render_ssdirt_convexity_color>0.479999989 0.439999998 0.389999986 1</render_ssdirt_convexity_color>
+		<render_ssdirt_convexity_exponent>1</render_ssdirt_convexity_exponent>
+		<render_ssdirt_convexity_metalness>0</render_ssdirt_convexity_metalness>
+		<render_ssdirt_convexity_metalness_visibility>0</render_ssdirt_convexity_metalness_visibility>
+		<render_ssdirt_convexity_texture_size>1</render_ssdirt_convexity_texture_size>
+		<render_ssdirt_increase_accuracy>0</render_ssdirt_increase_accuracy>
+		<render_ssdirt_intensity>1</render_ssdirt_intensity>
+		<render_ssdirt_perspective>0.0199999996</render_ssdirt_perspective>
+		<render_ssdirt_quality>2</render_ssdirt_quality>
+		<render_ssdirt_radius>1</render_ssdirt_radius>
+		<render_ssdirt_resolution>1</render_ssdirt_resolution>
+		<render_ssdirt_threshold>1</render_ssdirt_threshold>
+		<render_ssgi>0</render_ssgi>
+		<render_ssgi_information_lost_fix>0</render_ssgi_information_lost_fix>
+		<render_ssgi_intensity>1</render_ssgi_intensity>
+		<render_ssgi_intensity_boost>1</render_ssgi_intensity_boost>
+		<render_ssgi_threshold>1</render_ssgi_threshold>
+		<render_ssr>1</render_ssr>
+		<render_ssr_alpha_accumulation_mode>0</render_ssr_alpha_accumulation_mode>
+		<render_ssr_increased_accuracy>0</render_ssr_increased_accuracy>
+		<render_ssr_information_lost_fix>0</render_ssr_information_lost_fix>
+		<render_ssr_non_linear_step_size>1</render_ssr_non_linear_step_size>
+		<render_ssr_normal_bias>1</render_ssr_normal_bias>
+		<render_ssr_num_rays>4</render_ssr_num_rays>
+		<render_ssr_num_steps>8</render_ssr_num_steps>
+		<render_ssr_perspective_compensation>1</render_ssr_perspective_compensation>
+		<render_ssr_preset>ultra</render_ssr_preset>
+		<render_ssr_resolution>2</render_ssr_resolution>
+		<render_ssr_resolution_color>0</render_ssr_resolution_color>
+		<render_ssr_resolution_depth>0</render_ssr_resolution_depth>
+		<render_ssr_roughness_mip_offset>4</render_ssr_roughness_mip_offset>
+		<render_ssr_step_size>0.300000012</render_ssr_step_size>
+		<render_ssr_threshold>1.5</render_ssr_threshold>
+		<render_ssr_threshold_occlusion>1.5</render_ssr_threshold_occlusion>
+		<render_ssr_tonemapping_gamma>2</render_ssr_tonemapping_gamma>
+		<render_ssr_view_bias>1</render_ssr_view_bias>
+		<render_ssr_visibility_roughness_max>0.449999988</render_ssr_visibility_roughness_max>
+		<render_ssr_visibility_roughness_min>0.349999994</render_ssr_visibility_roughness_min>
+		<render_ssrtgi_fast_tracing>1</render_ssrtgi_fast_tracing>
+		<render_ssrtgi_increased_accuracy>1</render_ssrtgi_increased_accuracy>
+		<render_ssrtgi_num_rays>16</render_ssrtgi_num_rays>
+		<render_ssrtgi_num_steps>5</render_ssrtgi_num_steps>
+		<render_ssrtgi_preset>ultra</render_ssrtgi_preset>
+		<render_ssrtgi_resolution>1</render_ssrtgi_resolution>
+		<render_ssrtgi_resolution_depth>0</render_ssrtgi_resolution_depth>
+		<render_ssrtgi_step_size>1</render_ssrtgi_step_size>
+		<render_ssrtgi_upscaling>1</render_ssrtgi_upscaling>
+		<render_sssss>1</render_sssss>
+		<render_sssss_ambient>1</render_sssss_ambient>
+		<render_sssss_color>1 0.400000006 0.200000003 1</render_sssss_color>
+		<render_sssss_diffuse>1</render_sssss_diffuse>
+		<render_sssss_interleaved>1</render_sssss_interleaved>
+		<render_sssss_interleaved_color_clamping>4</render_sssss_interleaved_color_clamping>
+		<render_sssss_interleaved_samples>0</render_sssss_interleaved_samples>
+		<render_sssss_max_threshold>10</render_sssss_max_threshold>
+		<render_sssss_min_threshold>4</render_sssss_min_threshold>
+		<render_sssss_noise_ray>0.5</render_sssss_noise_ray>
+		<render_sssss_noise_step>0.5</render_sssss_noise_step>
+		<render_sssss_preset>ultra</render_sssss_preset>
+		<render_sssss_quality>2</render_sssss_quality>
+		<render_sssss_radius>0.0199999996</render_sssss_radius>
+		<render_sssss_resolution>2</render_sssss_resolution>
+		<render_sssss_taa>1</render_sssss_taa>
+		<render_sssss_taa_antialiasing_in_motion>0</render_sssss_taa_antialiasing_in_motion>
+		<render_sssss_taa_catmull_resampling>1</render_sssss_taa_catmull_resampling>
+		<render_sssss_taa_fix_flicker>1</render_sssss_taa_fix_flicker>
+		<render_sssss_taa_frame_count>30</render_sssss_taa_frame_count>
+		<render_sssss_taa_frames_by_color>1</render_sssss_taa_frames_by_color>
+		<render_sssss_taa_frames_by_velocity>1</render_sssss_taa_frames_by_velocity>
+		<render_sssss_taa_frames_velocity_threshold>1</render_sssss_taa_frames_velocity_threshold>
+		<render_sssss_taa_max_frames_by_velocity>60</render_sssss_taa_max_frames_by_velocity>
+		<render_sssss_taa_min_frames_by_velocity>4</render_sssss_taa_min_frames_by_velocity>
+		<render_sssss_taa_pixel_offset>1</render_sssss_taa_pixel_offset>
+		<render_sssss_taa_preserve_details>2</render_sssss_taa_preserve_details>
+		<render_sssss_taa_samples>1</render_sssss_taa_samples>
+		<render_stereo_focus_supersampling>1</render_stereo_focus_supersampling>
+		<render_stereo_hidden_area>0</render_stereo_hidden_area>
+		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
+		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
+		<render_stereo_planar_reflections_per_eye>0</render_stereo_planar_reflections_per_eye>
+		<render_streaming_animations_life_time>-1</render_streaming_animations_life_time>
+		<render_streaming_budget_loading>1</render_streaming_budget_loading>
+		<render_streaming_cache_ram>-1</render_streaming_cache_ram>
+		<render_streaming_cache_vram>-1</render_streaming_cache_vram>
+		<render_streaming_committed_memory_overcommit>1</render_streaming_committed_memory_overcommit>
+		<render_streaming_free_space_ram>1024</render_streaming_free_space_ram>
+		<render_streaming_free_space_vram>512</render_streaming_free_space_vram>
+		<render_streaming_meshes_mode_ram>1</render_streaming_meshes_mode_ram>
+		<render_streaming_meshes_mode_vram>0</render_streaming_meshes_mode_vram>
+		<render_streaming_meshes_prefetch_collision>0</render_streaming_meshes_prefetch_collision>
+		<render_streaming_meshes_prefetch_intersection>0</render_streaming_meshes_prefetch_intersection>
+		<render_streaming_meshes_prefetch_radius>0</render_streaming_meshes_prefetch_radius>
+		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
+		<render_streaming_textures_mipmaps>0</render_streaming_textures_mipmaps>
+		<render_streaming_textures_mipmaps_density>2</render_streaming_textures_mipmaps_density>
+		<render_streaming_textures_mode>0</render_streaming_textures_mode>
+		<render_streaming_usage_limit_ram>80</render_streaming_usage_limit_ram>
+		<render_streaming_usage_limit_vram>80</render_streaming_usage_limit_vram>
+		<render_streaming_vram_budget>1</render_streaming_vram_budget>
+		<render_streaming_vram_overcommit>0</render_streaming_vram_overcommit>
+		<render_supersampling>1</render_supersampling>
+		<render_taa>1</render_taa>
+		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
+		<render_taa_catmull_resampling>1</render_taa_catmull_resampling>
+		<render_taa_catmull_resampling_sharpness>0.699999988</render_taa_catmull_resampling_sharpness>
+		<render_taa_diagonal_neighbors>0</render_taa_diagonal_neighbors>
+		<render_taa_edges_frame_count_multiplier>1</render_taa_edges_frame_count_multiplier>
+		<render_taa_fix_flicker>1</render_taa_fix_flicker>
+		<render_taa_frame_count>30</render_taa_frame_count>
+		<render_taa_frames_by_color>1</render_taa_frames_by_color>
+		<render_taa_frames_by_velocity>1</render_taa_frames_by_velocity>
+		<render_taa_frames_velocity_threshold>1</render_taa_frames_velocity_threshold>
+		<render_taa_information_lost_depth_threshold>0.100000001</render_taa_information_lost_depth_threshold>
+		<render_taa_information_lost_frame_count>1</render_taa_information_lost_frame_count>
+		<render_taa_max_frames_by_velocity>60</render_taa_max_frames_by_velocity>
+		<render_taa_min_frames_by_velocity>4</render_taa_min_frames_by_velocity>
+		<render_taa_pixel_offset>1</render_taa_pixel_offset>
+		<render_taa_preserve_details>1</render_taa_preserve_details>
+		<render_taa_preset>taa_smooth</render_taa_preset>
+		<render_taa_samples>3</render_taa_samples>
+		<render_terrain_global_anisotropy>2</render_terrain_global_anisotropy>
+		<render_terrain_global_displacement>0</render_terrain_global_displacement>
+		<render_terrain_global_displacement_normal>0</render_terrain_global_displacement_normal>
+		<render_terrain_global_holes>1</render_terrain_global_holes>
+		<render_terrain_global_triplanar>1</render_terrain_global_triplanar>
+		<render_tessellation_density_multiplier>1</render_tessellation_density_multiplier>
+		<render_tessellation_distance_multiplier>1</render_tessellation_distance_multiplier>
+		<render_tessellation_shadow_density_multiplier>1</render_tessellation_shadow_density_multiplier>
+		<render_textures_anisotropy>4</render_textures_anisotropy>
+		<render_textures_filter>1</render_textures_filter>
+		<render_textures_max_resolution>7</render_textures_max_resolution>
+		<render_textures_min_resolution>0</render_textures_min_resolution>
+		<render_textures_quality>2</render_textures_quality>
+		<render_tonemapper>1</render_tonemapper>
+		<render_tonemapper_mode>2</render_tonemapper_mode>
+		<render_translucent_color>1 1 1 1</render_translucent_color>
+		<render_transparent_ambient>1</render_transparent_ambient>
+		<render_transparent_blur>1</render_transparent_blur>
+		<render_transparent_deferred>1</render_transparent_deferred>
+		<render_transparent_enabled>1</render_transparent_enabled>
+		<render_transparent_light>1</render_transparent_light>
+		<render_transparent_multiple_env_probes>1</render_transparent_multiple_env_probes>
+		<render_upscale_dlss_mode>3</render_upscale_dlss_mode>
+		<render_upscale_dlss_preset>0</render_upscale_dlss_preset>
+		<render_upscale_fsr_auto_reactive_enabled>0</render_upscale_fsr_auto_reactive_enabled>
+		<render_upscale_fsr_auto_reactive_max>0.899999976</render_upscale_fsr_auto_reactive_max>
+		<render_upscale_fsr_auto_reactive_scale>5</render_upscale_fsr_auto_reactive_scale>
+		<render_upscale_fsr_auto_tc_scale>1</render_upscale_fsr_auto_tc_scale>
+		<render_upscale_fsr_auto_tc_threshold>0.0500000007</render_upscale_fsr_auto_tc_threshold>
+		<render_upscale_fsr_enable_sharpness>0</render_upscale_fsr_enable_sharpness>
+		<render_upscale_fsr_mode>3</render_upscale_fsr_mode>
+		<render_upscale_fsr_pre_exposure>1</render_upscale_fsr_pre_exposure>
+		<render_upscale_fsr_sharpness>0.5</render_upscale_fsr_sharpness>
+		<render_upscale_mode>0</render_upscale_mode>
+		<render_upscale_post>0</render_upscale_post>
+		<render_viewport_mode>0</render_viewport_mode>
+		<render_vignette_mask>0</render_vignette_mask>
+		<render_vignette_mask_intensity>1</render_vignette_mask_intensity>
+		<render_vignette_mask_power>1</render_vignette_mask_power>
+		<render_virtual_resolution>-1 -1</render_virtual_resolution>
+		<render_vr_emulation>0</render_vr_emulation>
+		<render_vsync>0</render_vsync>
+		<render_water_anisotropy>1</render_water_anisotropy>
+		<render_water_culling_aggressive>1</render_water_culling_aggressive>
+		<render_water_culling_frustum_padding>0.100000001</render_water_culling_frustum_padding>
+		<render_water_culling_oblique_frustum>0.899999976</render_water_culling_oblique_frustum>
+		<render_water_enabled>1</render_water_enabled>
+		<render_water_environment_probes>1</render_water_environment_probes>
+		<render_water_geometry_fade_lods>0.5</render_water_geometry_fade_lods>
+		<render_water_geometry_polygon_size>0.100000001</render_water_geometry_polygon_size>
+		<render_water_geometry_preset>low</render_water_geometry_preset>
+		<render_water_geometry_progression>1.5</render_water_geometry_progression>
+		<render_water_geometry_subpixel_reduction>2</render_water_geometry_subpixel_reduction>
+		<render_water_lights>1</render_water_lights>
+		<render_water_opacity_depth>1</render_water_opacity_depth>
+		<render_water_planar_probes>1</render_water_planar_probes>
+		<render_water_refraction_quality>2</render_water_refraction_quality>
+		<render_water_shafts>1</render_water_shafts>
+		<render_water_shoreline_wetness>1</render_water_shoreline_wetness>
+		<render_water_ssr>1</render_water_ssr>
+		<render_water_ssr_increased_accuracy>0</render_water_ssr_increased_accuracy>
+		<render_water_ssr_quality>1</render_water_ssr_quality>
+		<render_water_visible_distance>30000</render_water_visible_distance>
+		<render_water_voxel_probes>1</render_water_voxel_probes>
+		<render_water_waterline_accuracy>0</render_water_waterline_accuracy>
+		<render_white_balance>1</render_white_balance>
+		<render_white_balance_adaptation_time>1</render_white_balance_adaptation_time>
+		<render_white_balance_intensity>0.300000012</render_white_balance_intensity>
+		<render_wireframe_antialiasing>1</render_wireframe_antialiasing>
+		<render_wireframe_color>1 1 1 1</render_wireframe_color>
+		<composite_material_guid>guid://</composite_material_guid>
+		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
+		<debug_materials/>
+		<scriptable_materials>
+			<material guid="77abbe565463e1bd5ce7b7f83eb81af768a5bbea" enabled="0"/>
+		</scriptable_materials>
+	</render>
+	<physics>
+		<frozen_linear_velocity>0.0199999996</frozen_linear_velocity>
+		<frozen_angular_velocity>0.0199999996</frozen_angular_velocity>
+	</physics>
+	<game>
+		<enabled>1</enabled>
+	</game>
+	<editor>
+		<node type="NodeDummy" id="847400311" name="static">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<node type="ObjectMeshStatic" id="972858155" immovable="1" name="ground">
+				<mesh_name>guid://a423d47049274eb196a68d091c7d4aa570e15e12</mesh_name>
+				<surface name="plane" physics_intersection="1" intersection="1" collision="1" material="4ad37314860c5fb26c203bfd4df22208c50ee6d6"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="LightWorld" id="824505625" name="sun">
+				<scattering>1</scattering>
+				<disable_angle>100</disable_angle>
+				<shadow_height>60</shadow_height>
+				<shadow_width>80</shadow_width>
+				<shadow_zfar>100</shadow_zfar>
+				<shadow_cascade_mode>0</shadow_cascade_mode>
+				<num_shadow_cascades>3</num_shadow_cascades>
+				<is_shadow_partial_update>0</is_shadow_partial_update>
+				<shadow_cascade_borders>0.0200000014 0.0800000057 0.200000003</shadow_cascade_borders>
+				<color_mode>1</color_mode>
+				<shadow_resolution>5</shadow_resolution>
+				<shadow_bias>1</shadow_bias>
+				<shadow_normal_bias>0.75</shadow_normal_bias>
+				<mode>1</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0.200000003</shadow_penumbra>
+				<shadow_screen_space>1</shadow_screen_space>
+				<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>1</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0</shadow_screen_space_softness>
+				<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="e1a37e3e307558e806886096fcb45cad635844fc"/>
+				<lens_flare_enabled>1</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>1</lens_flare_use_light_color>
+				<lens_flare_billboards num="31">
+					<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+					<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+					<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+					<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+					<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+					<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+					<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+					<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+					<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+					<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+					<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+					<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+					<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+					<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+					<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+					<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+					<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+					<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+					<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+					<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+				</lens_flare_billboards>
+				<transform>-0.59279764 0.16073197 -0.78914928 0.0 -0.31965044 -0.94635189 0.047366217 0.0 -0.73919779 0.28032979 0.61237192 0.0 5.5310855 -2.9544408 4.204565 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="2083329979" name="game">
+			<properties>
+				<property parent="5d23a5d55d1e3d30fd092ecf50c3cde2757a73d9" guid="057b10091cf359d47048fb238a9ea626b666874d">
+					<parameter name="player">a43b27e20a6605d9fc22b564953c0173dd49d836</parameter>
+				</property>
+				<property parent="c7f8afb1a259655cff57c10b04e122ee99068d75" guid="95d9320344aeaf867753412dd50630a8458a5be7"/>
+				<property parent="b8860d3f4fabb992d3598bc94c4e22949ea1ace3" guid="5c92f23623acc41d092d76d86c300c5714493dca"/>
+			</properties>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<node type="ObjectDummy" id="1447468500" trigger_interaction_enabled="1" name="player">
+				<body type="BodyDummy" id="287078502" frozen="0">
+					<physical_mask>0x2</physical_mask>
+					<shape type="ShapeCapsule" id="787540315" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 -1.90734863e-06 9.53674316e-07 0.899999976 1">
+						<radius>0.300000012</radius>
+						<height>1.14999998</height>
+					</shape>
+				</body>
+				<properties>
+					<property parent="7daa5fc5da7b4e601d4c2e3f97e16692c60154c9" guid="a43b27e20a6605d9fc22b564953c0173dd49d836">
+						<parameter name="camera">650353146</parameter>
+						<parameter name="hand">2089365851</parameter>
+					</property>
+					<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="d8d2bb287c9c6467ae70169af62b75317f1e6cdc">
+						<parameter name="mouseSensitivity">0.200000003</parameter>
+						<parameter name="useObjectBody">1</parameter>
+						<parameter name="cameraMode">2</parameter>
+						<parameter name="camera">650353146</parameter>
+						<parameter name="nearClipping">0.100000001</parameter>
+						<parameter name="farClipping">100000</parameter>
+					</property>
+					<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="0063568d49bb8688d5d6f847fe34d8fa63fb9411">
+						<parameter name="health">20</parameter>
+					</property>
+				</properties>
+				<transform>0.052305505 0.9986285 0 0.0 -0.9986285 0.052305505 0 0.0 0 0 0.9999997 0.0 4.9878306 -0.066149555 0.13682665 1.0</transform>
+				<node type="PlayerDummy" id="650353146" name="camera">
+					<znear>0.150000006</znear>
+					<zfar>3000</zfar>
+					<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+					<is_oblique_frustum>0</is_oblique_frustum>
+					<is_main>1</is_main>
+					<is_listener>1</is_listener>
+					<controlled>1</controlled>
+					<transform>1.0000002 1.1920929e-07 -2.9802317e-07 0.0 3.3717455e-07 3.3717458e-07 0.99999893 0.0 1.1920929e-07 -1.0000005 4.1723257e-07 0.0 0 0 1.6 1.0</transform>
+					<node type="NodeDummy" id="2089365851" name="hand">
+						<transform>0.99999982 2.9802337e-07 8.9406967e-08 0.0 8.9406967e-08 4.1723291e-07 -0.99999982 0.0 -3.3717487e-07 1.0000011 3.3717475e-07 0.0 0.26478505 -0.22751832 -0.36234665 1.0</transform>
+					</node>
+				</node>
+				<node type="ObjectMeshStatic" id="1390683814" name="model">
+					<mesh_name>guid://6dce8b5eb7a17b25ed4ff240cc43c09f6a261572</mesh_name>
+					<surface name="capsule" intersection="1" intersection_mask="0x2" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+					<transform>2.9999998 0 0 0.0 0 3 0 0.0 0 0 1.5999998 0.0 0 0 0.89999998 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="2096598508" name="door">
+				<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
+				<surface name="None__door_jpg" intersection="1" intersection_mask="0x4" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
+				<body type="BodyDummy" id="1355750477" frozen="0">
+					<shape type="ShapeBox" id="736883994" transform="0.999997556 1.42108547e-14 3.2031341e-13 0 -2.91322522e-13 1 -1.16529009e-12 0 -3.33385907e-13 2.84217094e-14 0.999997556 0 0.499992371 1.00001442 -0.0122528076 1">
+						<size>1.00000012 2 0.196433291</size>
+					</shape>
+				</body>
+				<properties>
+					<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="5139aa6273b7910b3ff51ba3cbc18aa60f5e5854">
+						<parameter name="name">Door</parameter>
+						<parameter name="interact_type">1</parameter>
+						<parameter name="item_to_use">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
+						<parameter name="onInteract">
+							<value index="0">481241f69793e9d71d1b12891a7c58273b9ee7a3</value>
+						</parameter>
+					</property>
+					<property parent="4a64efeda94c90687103b8a77d80ddda9ea91371" guid="481241f69793e9d71d1b12891a7c58273b9ee7a3">
+						<parameter name="rotation_axis">1</parameter>
+					</property>
+				</properties>
+				<transform>-0.00031065909 0.99999887 3.2782521e-07 0.0 0.00037673113 -1.1920928e-07 0.99999976 0.0 0.99999863 0.00031080807 -0.00037664134 0.0 3.4008684e-07 -2.0184808 1.4388553e-07 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1809940105" name="door_locked">
+				<mesh_name>guid://1b85cbd3d90b5f16130b8b7d6ccdd6b8be682ab7</mesh_name>
+				<surface name="None__door_jpg" intersection="1" intersection_mask="0x4" material="3804e85dba58ce183566fa977340d70aec61dae1"/>
+				<body type="BodyDummy" id="1245932444" frozen="0">
+					<shape type="ShapeBox" id="1877174690" transform="0.999997556 1.42108547e-14 3.2031341e-13 0 -2.91322522e-13 1 -1.16529009e-12 0 -3.33385907e-13 2.84217094e-14 0.999997556 0 0.499992371 1.00001442 -0.0122528076 1">
+						<size>1.00000012 2 0.196433291</size>
+					</shape>
+				</body>
+				<properties>
+					<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="a7baac5cf6925c0b0f9d01eec66ae075d0b7f750">
+						<parameter name="name">Locked door (need key)</parameter>
+						<parameter name="interact_type">2</parameter>
+						<parameter name="item_to_use">5a704a7fd83855d20afefb09e74848d4e4d31e23</parameter>
+						<parameter name="onInteract">
+							<value index="0">230684148257a0636e748a66cb749e8d844c2e88</value>
+						</parameter>
+					</property>
+					<property parent="4a64efeda94c90687103b8a77d80ddda9ea91371" guid="230684148257a0636e748a66cb749e8d844c2e88">
+						<parameter name="rotation_axis">1</parameter>
+					</property>
+				</properties>
+				<transform>-2.066319e-07 0.99999899 -8.7422777e-08 0.0 2.5034095e-07 8.7422734e-08 1 0.0 0.99999899 2.0663187e-07 -2.503412e-07 0.0 0 0 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="36918924" name="lock">
+					<mesh_name>guid://935598d4bf602e23c81e3d266b0b324d0b902f48</mesh_name>
+					<surface name="None__lock_jpg" intersection="1" material="5150d9f4dd353cc39d63bb4640f359ed46c3f268"/>
+					<transform>-0.99999952 -2.0821917e-06 -1.3461165e-06 0.0 -1.3461171e-06 4.1325688e-07 1 0.0 -2.0821929e-06 0.99999863 -4.7286423e-07 0.0 0.83600616 1.0266488 0.056564331 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="894825415" name="key">
+				<mesh_name>guid://7584cdeb3a2c0a4ebe648d55c526feb0a814024f</mesh_name>
+				<surface name="surface_0" intersection="1" intersection_mask="0x4" material="5ad7873dee381f78c48a5c775fec0f6aaae9f7c1"/>
+				<properties>
+					<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="5a704a7fd83855d20afefb09e74848d4e4d31e23">
+						<parameter name="name">Key</parameter>
+						<parameter name="interact_type">0</parameter>
+					</property>
+					<property parent="5cc55e00c3e8b95f036337325458ace9bc959134" guid="674eae49d9ffe3146fdb73639f3841661f4ee98d">
+						<parameter name="attach_position">0 0.0625699982 0.0591499992</parameter>
+						<parameter name="attach_rotation">59.9999008 0 270</parameter>
+						<parameter name="hit_position">0 0.114859998 -0.0245500002</parameter>
+						<parameter name="hit_rotation">0 0 270</parameter>
+					</property>
+				</properties>
+				<transform>0.0003592959 -0.99999738 0.00034820946 0.0 0.00047796805 0.00034844759 0.99999642 0.0 -0.99999774 -0.00035914706 0.0004781773 0.0 0.7891171 0.48131147 -0.0003627752 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="454395249" name="gun_rifle">
+				<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+				<surface name="Stock_Q_Honey_Badger" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+				<properties>
+					<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="0167b685746936205a7772ffa7386452fe46b789">
+						<parameter name="name">Rifle</parameter>
+					</property>
+					<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="b6ee63973bf72c0a10822be1397fd3ccc53bfcbb">
+						<parameter name="attach_position">0 -0.0500000007 0.0329999998</parameter>
+						<parameter name="attach_rotation">90 270 0</parameter>
+						<parameter name="muzzle_flash">1795780975</parameter>
+						<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+						<parameter name="bullet_spawn_point">574856473</parameter>
+					</property>
+				</properties>
+				<transform>-0.00054633617 -0.9999997 1.5107798e-07 0.0 0.99999958 -0.00054627657 0.00054580381 0.0 -0.00054580369 4.4933415e-07 1.0000001 0.0 0.79660571 1.3448 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="934387008" name="rifle_gray_part">
+					<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+					<surface name="Charge_Handle_ar15_Qraptor" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+					<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+				</node>
+				<node type="NodeDummy" id="574856473" name="bullet_spawn">
+					<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+					<node type="NodeDummy" id="1795780975" enabled="0" name="muzzle_flash">
+						<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+						<node type="ObjectMeshStatic" id="583095899" name="plane">
+							<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+							<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+							<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+						</node>
+						<node type="LightOmni" id="683290770" name="light_omni">
+							<attenuation_distance>2.5</attenuation_distance>
+							<near_attenuation_distance>0</near_attenuation_distance>
+							<near_attenuation_gradient_length>0</near_attenuation_gradient_length>
+							<shadow_near_clipping_distance>0.00999999978</shadow_near_clipping_distance>
+							<shape>2 1 0.200000003</shape>
+							<shape_type>0</shape_type>
+							<texture replace="3fad1aa3f8b2585260359beb60483024f29b18b1"/>
+							<color>1 0.615686297 0 1</color>
+							<intensity>2</intensity>
+							<shadow_resolution>2</shadow_resolution>
+							<shadow_bias>1</shadow_bias>
+							<fade_distance>10</fade_distance>
+							<shadow_distance>30</shadow_distance>
+							<shadow_fade_distance>10</shadow_fade_distance>
+							<mode>0</mode>
+							<shadow_filter_mode>-1</shadow_filter_mode>
+							<shadow_filter>1</shadow_filter>
+							<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+							<shadow_penumbra>0</shadow_penumbra>
+							<shadow_screen_space>0</shadow_screen_space>
+							<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+							<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+							<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+							<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+							<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+							<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+							<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+							<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+							<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+							<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+							<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+							<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+							<shadow_color_texture_mode>0</shadow_color_texture_mode>
+							<shadow_screen_space_softness>0</shadow_screen_space_softness>
+							<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+							<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+							<baked_depth_texture replace="a547868cc152e3a78d63cb240adfccb6608ce81a"/>
+							<lens_flare_enabled>0</lens_flare_enabled>
+							<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+							<lens_flare_intensity>1</lens_flare_intensity>
+							<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+							<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+							<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+							<lens_flare_use_light_color>1</lens_flare_use_light_color>
+							<lens_flare_billboards num="31">
+								<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+								<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+								<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+								<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+								<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+								<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+								<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+								<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+								<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+								<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+								<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+								<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+								<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+								<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+								<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+								<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+								<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+								<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+								<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+								<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+								<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+								<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+								<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+								<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+								<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+								<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+								<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+								<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+								<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+								<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+								<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+							</lens_flare_billboards>
+							<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="382908642" name="gun_pistol">
+				<mesh_name>guid://0914e66f8725e1022a342c79829e6b847d350113</mesh_name>
+				<surface name="survivalpropsMAT" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+				<properties>
+					<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="e0a79895524a10f094616f8f7ccb97a280023299">
+						<parameter name="name">Pistol</parameter>
+					</property>
+					<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="a4fa2f13e4bfe9561a8c10bd06ac1af8c82321f7">
+						<parameter name="attach_position">0 0 0.0299999993</parameter>
+						<parameter name="attach_rotation">180 0 90</parameter>
+						<parameter name="bullet_file">guid://ecf761985db978179ef2368a23f0b46194ffc24c</parameter>
+						<parameter name="bullet_spawn_point">2131516137</parameter>
+						<parameter name="shots_per_minute">180</parameter>
+						<parameter name="bullet_spread">0.100000001</parameter>
+						<parameter name="recoil_force">0.100000001</parameter>
+					</property>
+				</properties>
+				<transform>1.1920923e-07 -0.9999994 0 0.0 0 1.1920928e-07 0.99999976 0.0 -0.99999928 0 1.1920922e-07 0.0 0.81088197 2.2913771 -1.3234891e-23 1.0</transform>
+				<node type="ObjectMeshStatic" id="177957483" name="muffler">
+					<mesh_name>guid://8869005c08e4a00b68e275ee4f29c47515418b50</mesh_name>
+					<surface name="survivalpropsMAT" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+					<transform>1 0 5.1465536e-15 0.0 0 1 0 0.0 5.1465688e-15 -2.8421709e-14 1 0.0 0 3.1516538e-07 0 1.0</transform>
+				</node>
+				<node type="NodeDummy" id="2131516137" name="bullet_spawn">
+					<transform>-7.5076582e-07 -0.99999738 -5.5966029e-07 0.0 -0.99862832 7.7412625e-07 -0.052313574 0.0 0.052313671 5.0886371e-07 -0.9986304 0.0 -0.29154968 2.979541e-07 -0.031112671 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1275255824" name="enemies">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -8.0349951 0 0 1.0</transform>
+				<node type="NodeDummy" id="1816378670" name="patrol">
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+					<node type="WorldExpression" id="855706645" name="visualizer">
+						<expression>{
+	if (!engine.editor.isLoaded())
+		return;
+
+	Node parent_node = getNode().getParent();
+	for (int i = 0; i &lt; parent_node.getNumChildren(); i++)
+	{
+		Node n = parent_node.getChild(i);
+		if (n.getType() != NODE_NODE_DUMMY)
+			continue;
+		
+		// draw waypoints
+		for (int j = 1; j &lt; n.getNumChildren(); j++)
+		{
+			Node n0 = n.getChild(j - 1);
+			Node n1 = n.getChild(j);
+			if (j == 1)
+			{
+				engine.visualizer.renderLine3D(n0.getWorldPosition(), n0.getWorldPosition() + vec3(0,0,2), vec4(0.5f,1,0.5f,0.5f));	
+			}
+			engine.visualizer.renderLine3D(n1.getWorldPosition(), n1.getWorldPosition() + vec3(0,0,2), vec4(0.5f,1,0.5f,0.5f));
+			engine.visualizer.renderLine3D(n0.getWorldPosition() + vec3(0,0,1), n1.getWorldPosition() + vec3(0,0,1), vec4(0.5f,1,0.5f,1));
+		}
+	}
+}</expression>
+						<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -8.4890537 12.616454 1 1.0</transform>
+					</node>
+					<node type="NodeDummy" id="784383973" name="path_0">
+						<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+						<node type="NodeDummy" id="637911208" name="point_0">
+							<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.5057964 2.3182464 0 1.0</transform>
+							<node type="ObjectDummy" id="2013500513" trigger_interaction_enabled="1" name="enemy">
+								<body type="BodyRigid" id="684465957" frozen="0">
+									<angular_scale>0 0 1</angular_scale>
+									<physical_mask>0x4</physical_mask>
+									<shape type="ShapeCapsule" id="1513729243" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+										<radius>0.400000006</radius>
+										<height>1.14999998</height>
+									</shape>
+								</body>
+								<properties>
+									<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="f615524442ef38d37fd3e816d2d0807d906c47b8">
+										<parameter name="eyes_node">664062052</parameter>
+										<parameter name="max_distance">10</parameter>
+										<parameter name="path">784383973</parameter>
+										<parameter name="hand">263216838</parameter>
+										<parameter name="weapon">fb09124e62cdf55545f146b0d309aa4f6f7f1362</parameter>
+										<parameter name="animated_model">776002766</parameter>
+										<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+										<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+										<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+										<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+									</property>
+									<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="c9f8bd6f1961cc0269e11b79fca08e84f442c813"/>
+								</properties>
+								<transform>-0.9940232 0.10916787 0 0.0 -0.10916786 -0.99402314 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+								<node type="ObjectMeshSkinned" id="776002766" name="model">
+									<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+									<fps_visible_camera>-1</fps_visible_camera>
+									<fps_visible_shadow>30</fps_visible_shadow>
+									<fps_invisible>0</fps_invisible>
+									<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+									<loop>1</loop>
+									<speed>30</speed>
+									<playing>1</playing>
+									<surface name="Char" intersection="1" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+									<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+									<node type="WorldTransformBone" id="270414943" name="hand_bone">
+										<bone>Arm:Right:Lower_end</bone>
+										<transform>62.017593 0.16668458 1.4769688 0.0 0.22528392 -61.986046 -2.464133 0.0 1.4691728 2.4687896 -61.968849 0.0 0.39990425 -0.0063123917 1.246264 1.0</transform>
+										<node type="NodeDummy" id="263216838" name="hand_pivot">
+											<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+											<node type="ObjectMeshStatic" id="417955962" name="gun_rifle">
+												<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+												<surface name="Stock_Q_Honey_Badger" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+												<properties>
+													<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="fb09124e62cdf55545f146b0d309aa4f6f7f1362">
+														<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+														<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+														<parameter name="muzzle_flash">962915282</parameter>
+														<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+														<parameter name="bullet_spawn_point">1868694241</parameter>
+														<parameter name="recoil_force">0</parameter>
+													</property>
+												</properties>
+												<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+												<node type="ObjectMeshStatic" id="358059169" name="rifle_gray_part">
+													<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+													<surface name="Charge_Handle_ar15_Qraptor" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+													<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+												</node>
+												<node type="NodeDummy" id="1868694241" name="bullet_spawn">
+													<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+													<node type="NodeDummy" id="962915282" enabled="0" name="muzzle_flash">
+														<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+														<node type="ObjectMeshStatic" id="1673100329" name="plane">
+															<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+															<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+															<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+														</node>
+														<node type="LightOmni" id="1414813484" name="light_omni">
+															<attenuation_distance>2.5</attenuation_distance>
+															<near_attenuation_distance>0</near_attenuation_distance>
+															<near_attenuation_gradient_length>0</near_attenuation_gradient_length>
+															<shadow_near_clipping_distance>0.00999999978</shadow_near_clipping_distance>
+															<shape>2 1 0.200000003</shape>
+															<shape_type>0</shape_type>
+															<texture replace="94396cabeccb586c68417ef346fa7918ea908e79"/>
+															<color>1 0.615686297 0 1</color>
+															<intensity>2</intensity>
+															<shadow_resolution>2</shadow_resolution>
+															<shadow_bias>1</shadow_bias>
+															<fade_distance>10</fade_distance>
+															<shadow_distance>30</shadow_distance>
+															<shadow_fade_distance>10</shadow_fade_distance>
+															<mode>0</mode>
+															<shadow_filter_mode>-1</shadow_filter_mode>
+															<shadow_filter>1</shadow_filter>
+															<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+															<shadow_penumbra>0</shadow_penumbra>
+															<shadow_screen_space>0</shadow_screen_space>
+															<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+															<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+															<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+															<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+															<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+															<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+															<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+															<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+															<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+															<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+															<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+															<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+															<shadow_color_texture_mode>0</shadow_color_texture_mode>
+															<shadow_screen_space_softness>0</shadow_screen_space_softness>
+															<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+															<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+															<baked_depth_texture replace="5f5a1ab43ec285182995ea4c75114bbd0fed4b02"/>
+															<lens_flare_enabled>0</lens_flare_enabled>
+															<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+															<lens_flare_intensity>1</lens_flare_intensity>
+															<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+															<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+															<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+															<lens_flare_use_light_color>1</lens_flare_use_light_color>
+															<lens_flare_billboards num="31">
+																<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+																<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+																<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+																<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+																<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+																<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+																<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+																<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+																<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+																<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+																<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+																<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+																<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+																<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+																<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+																<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+																<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+																<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+																<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+																<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+																<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+																<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+																<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+																<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+																<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+																<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+																<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+																<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+																<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+																<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+																<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+															</lens_flare_billboards>
+															<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+														</node>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+								<node type="NodeDummy" id="664062052" name="eyes">
+									<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="1172308847" name="point_1">
+							<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.5975194 -5.3728275 3.8146973e-06 1.0</transform>
+						</node>
+						<node type="NodeDummy" id="1605287232" name="point_2">
+							<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -12.941098 -5.0974498 0 1.0</transform>
+						</node>
+						<node type="NodeDummy" id="465712727" name="point_3">
+							<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -12.702718 2.7418897 4.7683722e-07 1.0</transform>
+						</node>
+					</node>
+				</node>
+				<node type="NodeDummy" id="847771109" name="standing">
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+					<node type="ObjectDummy" id="1415190644" trigger_interaction_enabled="1" name="enemy_1">
+						<body type="BodyRigid" id="1583254894" frozen="0">
+							<angular_scale>0 0 1</angular_scale>
+							<physical_mask>0x4</physical_mask>
+							<shape type="ShapeCapsule" id="1411906193" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1">
+								<radius>0.400000006</radius>
+								<height>1.14999998</height>
+							</shape>
+						</body>
+						<properties>
+							<property parent="57e035ab45e6cf0ef8050b15ec27e1702238060f" guid="d2da75456ffd65e0d5c45fbfaf34ea1213240249">
+								<parameter name="eyes_node">786873549</parameter>
+								<parameter name="fov">80</parameter>
+								<parameter name="hand">210679947</parameter>
+								<parameter name="weapon">0560b747f14d8bfa0e8eab11867f693c1bb1336b</parameter>
+								<parameter name="animated_model">1306319988</parameter>
+								<parameter name="anim_idle">guid://3c0052ad7c491428a214e967978cd79a1a874231</parameter>
+								<parameter name="anim_walk">guid://b679b4d6a790663d43757278a2b99377d73bda6a</parameter>
+								<parameter name="anim_attack">guid://96aa75ef526b2a824581e7f92dc5f104f6e7c893</parameter>
+								<parameter name="death_node">guid://3c4d5739a1ae1744152f39d3c679f516d76d297d</parameter>
+							</property>
+							<property parent="0f4f7c08cbab6fc7cd1bea7aac307791f7b1cbbc" guid="c74d2714e9dfe763ebaa2566a5ef7d8d58638188"/>
+						</properties>
+						<transform>1.7881391e-07 0.99999982 0 0.0 -0.99999958 1.7881386e-07 0 0.0 0 0 1 0.0 -3.0995169 0.012335198 0 1.0</transform>
+						<node type="ObjectMeshSkinned" id="1306319988" name="model">
+							<mesh_name>guid://4e4941b2d0b63569a6387fb4a8c327836be12706</mesh_name>
+							<fps_visible_camera>-1</fps_visible_camera>
+							<fps_visible_shadow>30</fps_visible_shadow>
+							<fps_invisible>0</fps_invisible>
+							<anim_name>guid://3c0052ad7c491428a214e967978cd79a1a874231</anim_name>
+							<loop>1</loop>
+							<speed>30</speed>
+							<playing>1</playing>
+							<surface name="Char" intersection="1" intersection_mask="0x2" material="80ce5914b15b7163bfec2766ec15978da0aed388"/>
+							<transform>0.89999998 -4.2986557e-07 0 0.0 4.2986557e-07 0.89999998 0 0.0 0 0 0.89999998 0.0 0 0 -0.49497414 1.0</transform>
+							<node type="WorldTransformBone" id="933511930" name="hand_bone">
+								<bone>Arm:Right:Lower_end</bone>
+								<transform>62.029488 -0.10274107 0.85028172 0.0 -0.12591448 -62.01218 1.6926292 0.0 0.8471604 -1.6941938 -62.00647 0.0 0.39368412 -0.047942229 1.2445958 1.0</transform>
+								<node type="NodeDummy" id="210679947" name="hand_pivot">
+									<transform>0.017911091 1.033253e-10 -3.5793551e-17 0.0 0 6.4055241e-09 0.017911142 0.0 1.0332524e-10 -0.017911078 6.4055015e-09 0.0 0 0 0 1.0</transform>
+									<node type="ObjectMeshStatic" id="1117904361" name="gun_rifle">
+										<mesh_name>guid://391da7e4591951f3da19eeb6f4a2969d26082758</mesh_name>
+										<surface name="Stock_Q_Honey_Badger" intersection="1" intersection_mask="0x4" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+										<properties>
+											<property parent="1baa85149411ad63bb15336633f3338dcf17bf88" guid="0560b747f14d8bfa0e8eab11867f693c1bb1336b">
+												<parameter name="attach_position">-0.000479999988 -0.00199000002 0.000220000002</parameter>
+												<parameter name="attach_rotation">137.018433 270.342072 315.957092</parameter>
+												<parameter name="muzzle_flash">334725956</parameter>
+												<parameter name="bullet_file">guid://d3448a34c50eb003489a15866aeb6f2d541486a8</parameter>
+												<parameter name="bullet_spawn_point">1959703485</parameter>
+												<parameter name="recoil_force">0</parameter>
+											</property>
+										</properties>
+										<transform>0.0042881328 -0.99981833 -0.018532369 0.0 0.0041471985 -0.018514615 0.99982119 0.0 -0.99998182 -0.0043640379 0.0040670475 0.0 -0.026596069 0.012335509 0.11128998 1.0</transform>
+										<node type="ObjectMeshStatic" id="1217922241" name="rifle_gray_part">
+											<mesh_name>guid://421e02d7d415c24aa62d4d2141b0040c1927effb</mesh_name>
+											<surface name="Charge_Handle_ar15_Qraptor" intersection="1" intersection_mask="0x4" material="3d59113885492337958ca72a32482c81e46d9bec"/>
+											<transform>1 2.4204382e-11 -1.4210855e-14 0.0 2.4113225e-11 1 0 0.0 -2.8421709e-14 0 1 0.0 -0.13998985 0.024124146 -0.00013855845 1.0</transform>
+										</node>
+										<node type="NodeDummy" id="1959703485" name="bullet_spawn">
+											<transform>-2.3832634e-07 -0.00054592849 -0.99999684 0.0 -0.99865669 0.051763196 -2.8029292e-05 0.0 0.051763337 0.99865872 -0.00054529763 0.0 -0.38186836 0.032081604 -1.6979873e-05 1.0</transform>
+											<node type="NodeDummy" id="334725956" enabled="0" name="muzzle_flash">
+												<transform>1.0000008 7.1054274e-15 -1.7763568e-15 0.0 2.2196329e-16 3.5762787e-07 1.0000026 0.0 1.4210855e-14 -1.0000023 3.5762787e-07 0.0 -1.6764291e-06 0 0 1.0</transform>
+												<node type="ObjectMeshStatic" id="393538131" name="plane">
+													<mesh_name>guid://ba8409f54a0812d00ca6c7efdae75482c68c09f9</mesh_name>
+													<surface name="plane" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" material="068f7ec81fc41387e15abb3a1d4d9151d22e9a7c"/>
+													<transform>0.55000001 -5.2569121e-08 -3.1099695e-08 0.0 5.2569121e-08 0.55000001 3.8308183e-08 0.0 3.1099692e-08 -3.8308183e-08 0.55000001 0.0 -1.6764278e-06 0 0 1.0</transform>
+												</node>
+												<node type="LightOmni" id="1691470371" name="light_omni">
+													<attenuation_distance>2.5</attenuation_distance>
+													<near_attenuation_distance>0</near_attenuation_distance>
+													<near_attenuation_gradient_length>0</near_attenuation_gradient_length>
+													<shadow_near_clipping_distance>0.00999999978</shadow_near_clipping_distance>
+													<shape>2 1 0.200000003</shape>
+													<shape_type>0</shape_type>
+													<texture replace="7de3e7b3f70e0c81abeaaafb66b6bb1eb93cbd41"/>
+													<color>1 0.615686297 0 1</color>
+													<intensity>2</intensity>
+													<shadow_resolution>2</shadow_resolution>
+													<shadow_bias>1</shadow_bias>
+													<fade_distance>10</fade_distance>
+													<shadow_distance>30</shadow_distance>
+													<shadow_fade_distance>10</shadow_fade_distance>
+													<mode>0</mode>
+													<shadow_filter_mode>-1</shadow_filter_mode>
+													<shadow_filter>1</shadow_filter>
+													<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+													<shadow_penumbra>0</shadow_penumbra>
+													<shadow_screen_space>0</shadow_screen_space>
+													<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+													<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+													<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+													<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+													<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+													<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+													<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+													<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+													<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+													<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+													<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+													<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+													<shadow_color_texture_mode>0</shadow_color_texture_mode>
+													<shadow_screen_space_softness>0</shadow_screen_space_softness>
+													<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+													<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+													<baked_depth_texture replace="2734bbdcad888aefe6a07674ac397e31a9820aea"/>
+													<lens_flare_enabled>0</lens_flare_enabled>
+													<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+													<lens_flare_intensity>1</lens_flare_intensity>
+													<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+													<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+													<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+													<lens_flare_use_light_color>1</lens_flare_use_light_color>
+													<lens_flare_billboards num="31">
+														<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+														<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+														<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+														<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+														<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+														<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+														<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+														<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+														<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+														<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+														<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+														<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+														<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+														<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+														<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+														<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+														<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+														<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+														<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+														<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+													</lens_flare_billboards>
+													<transform>0.9999966 -5.0663658e-07 -1.4901141e-07 0.0 5.2683339e-07 0.99999368 7.8231146e-08 0.0 2.0861609e-07 3.7252821e-09 0.99999356 0.0 -1.6708136e-06 0 -0.066980362 1.0</transform>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node type="NodeDummy" id="786873549" name="eyes">
+							<transform>1.0000002 -4.6938658e-07 0 0.0 4.6938658e-07 1.0000004 0 0.0 0 0 0.99999994 0.0 0 0 1.5161053 1.0</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1109862641" name="car">
+				<transform>-0.49999973 0.86602473 -3.5527109e-15 0.0 -0.86602509 -0.49999994 8.7422713e-08 0.0 7.5710318e-08 4.3711381e-08 1 0.0 -0.077322967 5.5673184 2.6469783e-23 1.0</transform>
+				<node type="ObjectMeshStatic" id="1512271562" enabled="0" name="car_player">
+					<mesh_name/>
+					<body type="BodyRigid" id="1319120184" frozen="0">
+						<shape_based>0</shape_based>
+						<mass>200</mass>
+						<inertia>178.501999 0 0 0 0 47.0662727 0 0 0 0 188.265091 0</inertia>
+						<center_of_mass>0 0 -0.5</center_of_mass>
+						<physical_mask>0x2</physical_mask>
+						<shape type="ShapeBox" id="1957203059" transform="1 -8.48880068e-22 -2.6046153e-15 0 -1.24236096e-21 1 0 0 -4.97380254e-14 -4.8316906e-13 0.999994159 0 -0.0280799866 -0.0552349091 -0.0677743852 1">
+							<size>1.92179358 4.38946867 1.28603816</size>
+							<mass>100</mass>
+						</shape>
+					</body>
+					<properties>
+						<property parent="7daa5fc5da7b4e601d4c2e3f97e16692c60154c9" guid="e6da12329fa3cbe984c0243411b182038e8abf86">
+							<parameter name="camera">1074111714</parameter>
+							<parameter name="canInteract">0</parameter>
+						</property>
+						<property parent="438b6b46b11749edba372268051922a7e4d33fda" guid="5b8d980c266073fbf10dd91e3292ede5940b4600">
+							<parameter name="wheel_bl">1449193982</parameter>
+							<parameter name="wheel_br">370002778</parameter>
+							<parameter name="wheel_fl">1556839231</parameter>
+							<parameter name="wheel_fr">146409916</parameter>
+							<parameter name="player">1074111714</parameter>
+						</property>
+						<property parent="8f2594a6fec7a3cdb6daf2c877d0f787c0da4f3a" guid="cf15832f226256c2a2f0a739b9d9274407bf09d3">
+							<parameter name="onPressed">
+								<value index="0">607fed11420bc33c57adc56b345d9bce6861f0d5</value>
+							</parameter>
+						</property>
+						<property parent="0d3a0642a35190b9294e02c4afa32f53cbae6c96" guid="607fed11420bc33c57adc56b345d9bce6861f0d5">
+							<parameter name="player">a43b27e20a6605d9fc22b564953c0173dd49d836</parameter>
+							<parameter name="nodes_to_switch">
+								<value index="0">
+									<parameter name="node_from">1512271562</parameter>
+									<parameter name="node_to">1097854406</parameter>
+								</value>
+								<value index="1">
+									<parameter name="node_from">412392765</parameter>
+									<parameter name="node_to">1447468500</parameter>
+								</value>
+							</parameter>
+						</property>
+					</properties>
+					<transform>0.99999654 -2.9802322e-08 -2.6053421e-15 0.0 2.9802322e-08 0.99999654 -2.8421709e-14 0.0 0 1.4210855e-14 0.99999768 0.0 -0.032573845 -0.080142863 1.2377448 1.0</transform>
+					<node type="ObjectMeshStatic" id="841267932" name="body">
+						<mesh_name>guid://fbeebb2d6d8762a86005e5e7e9e4aa1ad55bf2b1</mesh_name>
+						<surface name="Body_007" intersection="1" material="0bb88b35f47223108cc31b2fc6c30ec27d29ff39"/>
+						<transform>0.99999368 0.0044872463 -7.3734114e-08 0.0 7.1246362e-08 6.5662306e-07 1.0000021 0.0 0.0044872165 -0.99999356 6.5629746e-07 0.0 -0.048942566 0.023256302 -1.2377497 1.0</transform>
+					</node>
+					<node type="NodeDummy" id="412392765" name="exit_position">
+						<transform>0.99999905 -3.1058779e-22 7.1054358e-15 0.0 -1.2423598e-21 0.99999917 0 0.0 -3.5528306e-15 -7.1054274e-15 0.99999994 0.0 -1.6435585 -0.11866951 -0.92784172 1.0</transform>
+					</node>
+					<node type="ObjectDummy" id="1449193982" name="wheel_bl">
+						<body type="BodyRigid" id="14695579" frozen="0">
+							<shape type="ShapeCylinder" id="1415321683" transform="5.96046412e-08 0 -0.999999881 0 0 0.99999994 0 0 0.99999994 0 5.96046448e-08 0 0 0 0 1">
+								<radius>0.400000006</radius>
+								<height>0.25</height>
+								<mass>35</mass>
+							</shape>
+							<joint type="JointWheel" id="331315562" name="wheel_bl">
+								<body>1</body>
+								<body_0>1319120184</body_0>
+								<axis_00>0 0 1</axis_00>
+								<axis_10>1 0 0</axis_10>
+								<axis_11>1 0 0</axis_11>
+								<linear_damping>700</linear_damping>
+								<linear_limit_from>-0.100000001</linear_limit_from>
+								<linear_limit_to>0.100000001</linear_limit_to>
+								<linear_spring>800</linear_spring>
+								<tangent_friction>3</tangent_friction>
+								<binormal_friction>3</binormal_friction>
+								<wheel_mass>35</wheel_mass>
+								<wheel_radius>0.400000006</wheel_radius>
+								<num_iterations>16</num_iterations>
+								<anchor_0>-0.870109558 -1.2944355 -0.835321903</anchor_0>
+								<anchor_1>0 0 0</anchor_1>
+							</joint>
+						</body>
+						<transform>1 5.9604645e-08 7.9346912e-15 0.0 8.9406967e-08 1 -6.3948846e-14 0.0 -2.4868969e-14 -1.4210855e-14 0.99999958 0.0 -0.87010568 -1.2944374 -0.83532017 1.0</transform>
+						<node type="ObjectMeshStatic" id="719330663" name="model_bl">
+							<mesh_name>guid://ed30c432def6d5e9cbf3a634e71b1c0382439186</mesh_name>
+							<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+							<transform>0.9999938 0.0044872761 -7.3734149e-08 0.0 7.1246362e-08 6.5662317e-07 1.0000026 0.0 0.0044872761 -0.99999368 6.5629774e-07 0.0 0 0 -4.5442289e-07 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="370002778" name="wheel_br">
+						<body type="BodyRigid" id="2002415567" frozen="0">
+							<shape type="ShapeCylinder" id="627392302" transform="5.96046412e-08 0 -0.999999881 0 0 0.99999994 0 0 0.99999994 0 5.96046448e-08 0 0 0 0 1">
+								<radius>0.400000006</radius>
+								<height>0.25</height>
+								<mass>35</mass>
+							</shape>
+							<joint type="JointWheel" id="1238835022" name="wheel_br">
+								<body>1</body>
+								<body_0>1319120184</body_0>
+								<axis_00>0 0 1</axis_00>
+								<axis_10>1 0 0</axis_10>
+								<axis_11>1 0 0</axis_11>
+								<linear_damping>700</linear_damping>
+								<linear_limit_from>-0.100000001</linear_limit_from>
+								<linear_limit_to>0.100000001</linear_limit_to>
+								<linear_spring>800</linear_spring>
+								<tangent_friction>3</tangent_friction>
+								<binormal_friction>3</binormal_friction>
+								<wheel_mass>35</wheel_mass>
+								<wheel_radius>0.400000006</wheel_radius>
+								<num_iterations>16</num_iterations>
+								<anchor_0>0.784004211 -1.2870121 -0.835319996</anchor_0>
+								<anchor_1>0 0 0</anchor_1>
+							</joint>
+						</body>
+						<transform>1 5.9604645e-08 7.9346912e-15 0.0 8.9406967e-08 1 -6.3948846e-14 0.0 -2.4868969e-14 -1.4210855e-14 0.99999958 0.0 0.78400874 -1.2870144 -0.83531791 1.0</transform>
+						<node type="ObjectMeshStatic" id="705897066" name="model_br">
+							<mesh_name>guid://58613858f669dfd7cafdfb4a47ae32212d79a50c</mesh_name>
+							<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+							<transform>0.9999938 0.0044872761 -7.3734149e-08 0.0 7.1246362e-08 6.5662317e-07 1.0000026 0.0 0.0044872761 -0.99999368 6.5629774e-07 0.0 0 0 -4.5507159e-07 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="1556839231" name="wheel_fl">
+						<body type="BodyRigid" id="143169207" frozen="0">
+							<shape type="ShapeCylinder" id="268667672" transform="5.96046412e-08 0 -0.999999881 0 0 0.99999994 0 0 0.99999994 0 5.96046448e-08 0 0 0 0 1">
+								<radius>0.400000006</radius>
+								<height>0.25</height>
+								<mass>35</mass>
+							</shape>
+							<joint type="JointWheel" id="364346202" name="wheel_fl">
+								<body>1</body>
+								<body_0>1319120184</body_0>
+								<axis_00>0 0 1</axis_00>
+								<axis_10>1 0 0</axis_10>
+								<axis_11>1 0 0</axis_11>
+								<linear_damping>700</linear_damping>
+								<linear_limit_from>-0.100000001</linear_limit_from>
+								<linear_limit_to>0.100000001</linear_limit_to>
+								<linear_spring>800</linear_spring>
+								<tangent_friction>3</tangent_friction>
+								<binormal_friction>3</binormal_friction>
+								<wheel_mass>35</wheel_mass>
+								<wheel_radius>0.400000006</wheel_radius>
+								<num_iterations>16</num_iterations>
+								<anchor_0>-0.881828308 1.31700706 -0.835322082</anchor_0>
+								<anchor_1>0 0 0</anchor_1>
+							</joint>
+						</body>
+						<transform>1 5.9604645e-08 7.9346912e-15 0.0 8.9406967e-08 1 -6.3948846e-14 0.0 -2.4868969e-14 -1.4210855e-14 0.99999958 0.0 -0.88182437 1.3170059 -0.83532012 1.0</transform>
+						<node type="ObjectMeshStatic" id="1529453541" name="model_fl">
+							<mesh_name>guid://218b1cfb328e6e1e4e787ee59f79a300b78e3a5f</mesh_name>
+							<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+							<transform>0.9999938 0.0044872761 -7.3734149e-08 0.0 7.1246362e-08 6.5662317e-07 1.0000026 0.0 0.0044872761 -0.99999368 6.5629774e-07 0.0 0 0 -6.8272197e-07 1.0</transform>
+						</node>
+					</node>
+					<node type="ObjectDummy" id="146409916" name="wheel_fr">
+						<body type="BodyRigid" id="1995987131" frozen="0">
+							<shape type="ShapeCylinder" id="883077681" transform="5.96046412e-08 0 -0.999999881 0 0 0.99999994 0 0 0.99999994 0 5.96046448e-08 0 0 0 0 1">
+								<radius>0.400000006</radius>
+								<height>0.25</height>
+								<mass>35</mass>
+							</shape>
+							<joint type="JointWheel" id="1798544119" name="wheel_fr">
+								<body>1</body>
+								<body_0>1319120184</body_0>
+								<axis_00>0 0 1</axis_00>
+								<axis_10>1 0 0</axis_10>
+								<axis_11>1 0 0</axis_11>
+								<linear_damping>700</linear_damping>
+								<linear_limit_from>-0.100000001</linear_limit_from>
+								<linear_limit_to>0.100000001</linear_limit_to>
+								<linear_spring>800</linear_spring>
+								<tangent_friction>3</tangent_friction>
+								<binormal_friction>3</binormal_friction>
+								<wheel_mass>35</wheel_mass>
+								<wheel_radius>0.400000006</wheel_radius>
+								<num_iterations>16</num_iterations>
+								<anchor_0>0.772285461 1.32442856 -0.835320175</anchor_0>
+								<anchor_1>0 0 0</anchor_1>
+							</joint>
+						</body>
+						<transform>1 5.9604645e-08 7.9346912e-15 0.0 8.9406967e-08 1 -6.3948846e-14 0.0 -2.4868969e-14 -1.4210855e-14 0.99999958 0.0 0.7722888 1.3244271 -0.83531827 1.0</transform>
+						<node type="ObjectMeshStatic" id="345562103" name="model_fr">
+							<mesh_name>guid://6815cc5c29f2fc0bcb4521ee6ab480751e351750</mesh_name>
+							<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+							<transform>0.9999938 0.0044872761 -7.3734149e-08 0.0 7.1246362e-08 6.5662317e-07 1.0000026 0.0 0.0044872761 -0.99999368 6.5629774e-07 0.0 0 0 -6.8337079e-07 1.0</transform>
+						</node>
+					</node>
+					<node type="PlayerPersecutor" id="1074111714" name="camera">
+						<fixed>1</fixed>
+						<collision>0</collision>
+						<collision_mask>0x1</collision_mask>
+						<collision_radius>0.5</collision_radius>
+						<target>1512271562</target>
+						<anchor>0 0 0</anchor>
+						<min_distance>3</min_distance>
+						<max_distance>8</max_distance>
+						<min_theta_angle>-89.9000015</min_theta_angle>
+						<max_theta_angle>89.9000015</max_theta_angle>
+						<turning>90</turning>
+						<znear>0.300000012</znear>
+						<zfar>100000</zfar>
+						<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+						<is_oblique_frustum>0</is_oblique_frustum>
+						<is_main>1</is_main>
+						<is_listener>1</is_listener>
+						<controlled>1</controlled>
+						<transform>-7.1525574e-07 -1.0000043 8.7423018e-08 0.0 1.1920976e-07 8.7423054e-08 1.0000027 0.0 -1.0000043 7.1525574e-07 1.1920953e-07 0.0 -8.0000267 7.6293945e-06 1.9073486e-06 1.0</transform>
+					</node>
+				</node>
+				<node type="ObjectMeshStatic" id="1097854406" name="car_item">
+					<mesh_name/>
+					<body type="BodyDummy" id="1900351577" frozen="0">
+						<shape type="ShapeBox" id="1551464158" transform="1 -6.21181691e-22 -6.3527471e-20 0 -1.24235308e-21 1 0 0 -6.77626358e-21 -1.42108547e-14 1 0 -0.0404167175 -0.0550317764 -0.0970102251 1">
+							<size>1.83508444 4.38988256 1.32701182</size>
+						</shape>
+					</body>
+					<properties>
+						<property parent="2e87e946881dafed282e506894fa78a761889dda" guid="3cc79c7e233a19c5b0e3c060c005f83f9bcca892">
+							<parameter name="name">Car</parameter>
+							<parameter name="interact_type">1</parameter>
+							<parameter name="onInteract">
+								<value index="0">85d8e135705a81109b03e12fa4f11cc27d14b539</value>
+							</parameter>
+						</property>
+						<property parent="0d3a0642a35190b9294e02c4afa32f53cbae6c96" guid="85d8e135705a81109b03e12fa4f11cc27d14b539">
+							<parameter name="player">e6da12329fa3cbe984c0243411b182038e8abf86</parameter>
+							<parameter name="nodes_to_switch">
+								<value index="0">
+									<parameter name="node_from">1097854406</parameter>
+									<parameter name="node_to">1512271562</parameter>
+								</value>
+							</parameter>
+						</property>
+					</properties>
+					<transform>1.0000005 -9.3176433e-22 -3.552712e-15 0.0 2.9802322e-08 1.0000005 -7.1054274e-15 0.0 3.5527137e-15 2.1316282e-14 1.0000001 0.0 -0.032573845 -0.080142863 1.2377448 1.0</transform>
+					<node type="ObjectMeshStatic" id="808690960" name="body_1">
+						<mesh_name>guid://fbeebb2d6d8762a86005e5e7e9e4aa1ad55bf2b1</mesh_name>
+						<surface name="Body_007" intersection="1" intersection_mask="0x5" material="0bb88b35f47223108cc31b2fc6c30ec27d29ff39"/>
+						<transform>0.99998975 0.0044872463 -7.3733929e-08 0.0 7.1246106e-08 6.566205e-07 0.9999997 0.0 0.0044872463 -0.99998975 6.5629592e-07 0.0 -0.048938751 0.023258209 -1.2377459 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="107011047" name="model_bl_1">
+						<mesh_name>guid://ed30c432def6d5e9cbf3a634e71b1c0382439186</mesh_name>
+						<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+						<transform>0.99998975 0.0044872761 -7.3733929e-08 0.0 7.1246077e-08 6.5662056e-07 0.99999976 0.0 0.0044872463 -0.99998975 6.5629598e-07 0.0 -0.87010193 -1.2944298 -0.83531809 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="543519995" name="model_br_1">
+						<mesh_name>guid://58613858f669dfd7cafdfb4a47ae32212d79a50c</mesh_name>
+						<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+						<transform>0.99998975 0.0044872761 -7.3733929e-08 0.0 7.1246077e-08 6.5662056e-07 0.99999976 0.0 0.0044872463 -0.99998975 6.5629598e-07 0.0 0.78400803 -1.2870102 -0.83531618 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="984800483" name="model_fl_1">
+						<mesh_name>guid://218b1cfb328e6e1e4e787ee59f79a300b78e3a5f</mesh_name>
+						<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+						<transform>0.99998975 0.0044872761 -7.3733929e-08 0.0 7.1246077e-08 6.5662056e-07 0.99999976 0.0 0.0044872463 -0.99998975 6.5629598e-07 0.0 -0.88181686 1.3170033 -0.83531827 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="227580702" name="model_fr_1">
+						<mesh_name>guid://6815cc5c29f2fc0bcb4521ee6ab480751e351750</mesh_name>
+						<surface name="Body_007" intersection="1" material="f984467d7e7155b82f4f9db7c32fdfaa10950b01"/>
+						<transform>0.99998975 0.0044872761 -7.3733929e-08 0.0 7.1246077e-08 6.5662056e-07 0.99999976 0.0 0.0044872463 -0.99998975 6.5629598e-07 0.0 0.77228928 1.3244209 -0.83531636 1.0</transform>
+					</node>
+				</node>
+			</node>
+		</node>
+	</editor>
+	<console>
+		<bake_lighting_bounces>4</bake_lighting_bounces>
+		<bake_lighting_voxel_size_multiplier>1</bake_lighting_voxel_size_multiplier>
+		<bake_lightmap_quality>3</bake_lightmap_quality>
+		<bake_lightmap_viewport_mask>-1</bake_lightmap_viewport_mask>
+		<bake_lightmap_zfar>1000</bake_lightmap_zfar>
+		<world_async_load_node_references>0</world_async_load_node_references>
+		<world_moving_immovable_node_mode>1</world_moving_immovable_node_mode>
+	</console>
+</world>

@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>e3b7f74b3fa1642e8e095db554ebd3902bc411af</guid>
 	<type>component</type>
-	<hash>e9e3a86d</hash>
+	<hash>0a7858b9</hash>
 	<runtimes>
 		<runtime id="e3b7f74b3fa1642e8e095db554ebd3902bc411af" name="CBullet.cs" link="0"/>
 		<runtime id="8f3797296b7cf6748d4daf437ac08bc6d63cf06d" name="CBullet.prop" link="1" type="4"/>

@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unigine;
 
 [Component(PropertyGuid = "8f3797296b7cf6748d4daf437ac08bc6d63cf06d")]
@@ -36,6 +38,31 @@ public class CBullet : Component
 		}
 	}
 
+	void Init()
+	{
+		// disable intersections of all children to prevent self-intersections
+		// in the method CheckIntersection()
+		Action<Node> recusive_disable_intersection = null;
+		recusive_disable_intersection = (n) =>
+		{
+			if (n.IsObject)
+			{
+				Unigine.Object o = n as Unigine.Object;
+				for (int j = 0; j < o.NumSurfaces; j++)
+					o.SetIntersection(false, j);
+			}
+			else if (n is NodeReference)
+			{
+				NodeReference nr = n as NodeReference;
+				recusive_disable_intersection(nr.Reference);
+			}			
+
+			for (int i = 0; i < n.NumChildren; i++)
+				recusive_disable_intersection(n.GetChild(i));
+		};
+		recusive_disable_intersection(node);
+	}
+
 	void Update()
 	{
 		if (mode != Mode.Projectile)
@@ -56,7 +83,7 @@ public class CBullet : Component
 
 	void CheckIntersection(vec3 p0, vec3 p1)
 	{
-		Object hit = World.GetIntersection(p0, p1, intersection_mask, intersection);
+		Unigine.Object hit = World.GetIntersection(p0, p1, intersection_mask, intersection);
 		if (!hit)
 			return;
 

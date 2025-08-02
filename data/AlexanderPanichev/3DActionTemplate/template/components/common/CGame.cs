@@ -46,7 +46,8 @@ public class CGame : Component
 
 	public string GetCurrentMissionTaskName()
 	{
-		if (current_mission_task < 0 ||
+		if (mission_tasks == null ||
+			current_mission_task < 0 ||
 			current_mission_task >= mission_tasks.Length)
 			return string.Empty;
 
@@ -69,7 +70,7 @@ public class CGame : Component
 	
 	bool SubscribeToMissionTaskTrigger()
 	{
-		if (current_mission_task >= mission_tasks.Length)
+		if (mission_tasks == null || current_mission_task >= mission_tasks.Length)
 			return false;
 
 		CEventHandler handler = mission_tasks[current_mission_task].event_handler;
@@ -99,5 +100,7 @@ public class CGame : Component
 		// mission failed!
 		if (world_fail.IsFileExist)
 			World.LoadWorld(world_fail.Path);
+		else
+			World.ReloadWorld();
 	}
 }

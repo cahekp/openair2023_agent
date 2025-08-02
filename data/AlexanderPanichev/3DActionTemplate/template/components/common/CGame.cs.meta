@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>84cf6857cf08e9ca21c34ea17267178c6bb8ed7b</guid>
 	<type>component</type>
-	<hash>e6d77f3a</hash>
+	<hash>9f0a2c3f</hash>
 	<runtimes>
 		<runtime id="84cf6857cf08e9ca21c34ea17267178c6bb8ed7b" name="CGame.cs" link="0"/>
 		<runtime id="5d23a5d55d1e3d30fd092ecf50c3cde2757a73d9" name="CGame.prop" link="1" type="4"/>

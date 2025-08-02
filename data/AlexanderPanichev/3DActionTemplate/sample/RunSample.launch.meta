@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.20.0.0">
+	<guid>7c2affd865ebf8d5e3eeaf912dd92523f14d9cba</guid>
+	<type>launch_settings</type>
+	<hash>34ecd05f</hash>
+	<runtimes>
+		<runtime id="7c2affd865ebf8d5e3eeaf912dd92523f14d9cba" name="RunSample.launch" link="0"/>
+	</runtimes>
+</asset>

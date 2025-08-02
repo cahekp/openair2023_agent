@@ -84,7 +84,7 @@ public class CHUD : Component
 				case CInteractable.Type.Take: t += "Take"; break;
 				case CInteractable.Type.Use: t += "Use"; break;
 				case CInteractable.Type.NeedItemToUse:
-					if (player.HasItem(item.item))
+					if (player.HasItem(item.item_to_use))
 						t += "Use";
 					else
 						t = "Need item to Use";

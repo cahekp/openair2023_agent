@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>6af56491431fd4bc1a2ba8eb74e7294e4f3f2055</guid>
 	<type>component</type>
-	<hash>3a46be3f</hash>
+	<hash>3a23f112</hash>
 	<runtimes>
 		<runtime id="6af56491431fd4bc1a2ba8eb74e7294e4f3f2055" name="CHUD.cs" link="0"/>
 		<runtime id="b8860d3f4fabb992d3598bc94c4e22949ea1ace3" name="CHUD.prop" link="1" type="4"/>
