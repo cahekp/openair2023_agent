@@ -292,7 +292,10 @@ public class CPlayer : Component
 	void SetItemOutline(CInteractable item, bool enabled)
 	{
 		// set outline custom post material effect
-		Render.SetScriptableMaterialEnabled(0, enabled);
+		// (you need to add "post_outliner" material in your
+		//  Windows/Settings/Runtime/Render/Custom Post Materials)
+		if (Render.NumScriptableMaterials > 0)
+			Render.SetScriptableMaterialEnabled(0, enabled);
 
 		List<Node> nodes = new List<Node>();
 		item.node.GetHierarchy(nodes);

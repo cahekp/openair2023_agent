@@ -2,8 +2,8 @@
 <asset version="2.20.0.0">
 	<guid>77abbe565463e1bd5ce7b7f83eb81af768a5bbea</guid>
 	<type>material</type>
-	<hash>58ba3e2a</hash>
+	<hash>b656f528</hash>
 	<runtimes>
-		<runtime id="77abbe565463e1bd5ce7b7f83eb81af768a5bbea" name="custom_visualizer_0" link="0" type="5"/>
+		<runtime id="77abbe565463e1bd5ce7b7f83eb81af768a5bbea" name="post_outliner" link="0" type="5"/>
 	</runtimes>
 </asset>

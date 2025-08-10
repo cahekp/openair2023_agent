@@ -768,7 +768,7 @@
 	"7751c924863e8233ac76e1f66d8670dd62cfbc98": "core/systems/widgets/widget_line_switch.h",
 	"77532a9396f9aed675ac183d25c97c7896fa1577": "core/systems/tracker/editor/images/tracker_time_loop.png",
 	"7788cc3ec1d00685999546205c1442ff870ef452": "AlexanderPanichev/3DActionTemplate/sample/models/environment/wall_rusty_triplanar_green.mat",
-	"77abbe565463e1bd5ce7b7f83eb81af768a5bbea": "AlexanderPanichev/3DActionTemplate/template/materials/selection/custom_visualizer_0.mat",
+	"77abbe565463e1bd5ce7b7f83eb81af768a5bbea": "AlexanderPanichev/3DActionTemplate/template/materials/selection/post_outliner.mat",
 	"77e9af8393060f0695501aad57063c28039ff167": "editor2/materials/editor_decal/paint_brush.basemat",
 	"782744c2b2c4bd392e62454482a98fd379f45316": "editor2/resources/nodes/physical_trigger.node",
 	"78348253fd21a39677f805fdbc1f0f38a68b0937": "editor2/gui/light_proj.png",

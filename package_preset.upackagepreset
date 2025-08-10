@@ -1054,7 +1054,7 @@
 		},
 		{
 			"guid": "77abbe565463e1bd5ce7b7f83eb81af768a5bbea",
-			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials/selection/custom_visualizer_0.mat",
+			"path": "data/AlexanderPanichev/3DActionTemplate/template/materials/selection/post_outliner.mat",
 			"used": true,
 			"is_dependency": false
 		},
@@ -1436,12 +1436,12 @@
 			"expanded": true
 		},
 		{
-			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials",
 			"used": true,
 			"expanded": true
 		},
 		{
-			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/sounds",
 			"used": true,
 			"expanded": true
 		},
@@ -1581,11 +1581,6 @@
 			"expanded": true
 		},
 		{
-			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/env_probes",
-			"used": true,
-			"expanded": true
-		},
-		{
 			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/airplane/materials",
 			"used": true,
 			"expanded": true
@@ -1601,12 +1596,17 @@
 			"expanded": true
 		},
 		{
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials/ui",
+			"used": true,
+			"expanded": true
+		},
+		{
 			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/barrel/materials",
 			"used": true,
 			"expanded": true
 		},
 		{
-			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/materials",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/bake_lighting/env_probes",
 			"used": true,
 			"expanded": true
 		},
@@ -1616,7 +1616,7 @@
 			"expanded": true
 		},
 		{
-			"path": "data/AlexanderPanichev/3DActionTemplate/sample/materials/ui",
+			"path": "data/AlexanderPanichev/3DActionTemplate/sample/models/room_props/materials",
 			"used": true,
 			"expanded": true
 		},

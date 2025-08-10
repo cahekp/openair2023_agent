@@ -2,7 +2,7 @@
 <asset version="2.20.0.0">
 	<guid>c06255c79009987a43964d912121a9bce82179eb</guid>
 	<type>component</type>
-	<hash>eb172318</hash>
+	<hash>1358131</hash>
 	<runtimes>
 		<runtime id="c06255c79009987a43964d912121a9bce82179eb" name="CPlayer.cs" link="0"/>
 		<runtime id="7daa5fc5da7b4e601d4c2e3f97e16692c60154c9" name="CPlayer.prop" link="1" type="4"/>

@@ -2,13 +2,13 @@
 <asset version="2.20.0.0">
 	<guid>626acc36ba7ed61d270460d86b55ee573341b7ca</guid>
 	<type>world</type>
-	<hash>abd475f8</hash>
+	<hash>94faa28b</hash>
 	<runtimes>
 		<runtime id="626acc36ba7ed61d270460d86b55ee573341b7ca" name="game.world" link="0"/>
 	</runtimes>
 	<parameters>
 		<parameter type="string" name="physics_settings_path"/>
-		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://3eaf348f5c3c98a2f8253f99e39b2424233a2133</parameter>
 		<parameter type="string" name="script_name"/>
 		<parameter type="string" name="sound_settings_path"/>
 		<parameter type="string" name="viewports_settings"/>
